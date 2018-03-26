@@ -1,0 +1,30 @@
+algebra#@#A publishing house gained $8100 by printing 4 books . On the first , the gain was $6300 . On the second the loss was $2100 . On the third the gain was $4500 . How much was the gain or loss on the fourth ?
+algebra#@#Divide 47 dollars between A , B , and C so that A may have 10 dollars more than B and B have 8 dollars more than C . Place your answer in (A,B,C) format .
+algebra#@#The sum of two numbers is 42 . Their difference is 12 . What are the numbers ?
+algebra#@#John has three times as many oranges and James , and they together have 32 . How many does each have ? Separate your answer with a comma (ex: x*_x*_2 ).
+algebra#@#Find two numbers whose sum is 2 , if double the first equals the negative of the second . Present both numbers , separated by a comma .
+algebra#@#If 3*x-7 stands for the same number as 14-4*x , what does x stand for ?
+algebra#@#Find 3 consecutive odd integers whose sum is 75 . Present all three integers separated by a comma .
+algebra#@#The sum of two numbers is 22 and the second is 5 less than the first . What are the numbers ?
+algebra#@#A farmer has 5 times as many cows as horses . There are 36 animals counting both cows and horses . How many of each does he have ? Present both numbers separated by commas .
+algebra#@#Three times a certain number equals 51 . What is the number ?
+algebra#@#Three times a certain number is equal to that number increased by 20 . What is that number ?
+algebra#@#The sum of two numbers is 34 . Their difference is 18 . What are the numbers ?
+algebra#@#Divide a line 21 inches long into two parts , such that one may be three -fourths of the other . State the length of the two parts divided by a comma (e.g. 0
+algebra#@#A father is 5 times as old as his son . He was 28 years old when his son was born . How old is the son ?
+algebra#@#James and John together have 24 dollars . James has 8 more dollars than John . How many dollars does each have ? Separate your answer with a comma (ex: x*_x*_2 ).
+algebra#@#Find three consecutive odd numbers whose sum is 3 . Present all three numbers separated by commas .
+algebra#@#What number added to twice itself equals 24 ?
+algebra#@#Mount McKinley is 3 times as high as Mount Mitchell . Mount Everett is 8753 feet higher than Mount McKinley . The total heights of all three mountains is 56,002 feet . Find the height of each . Present all three heights , rounded to the nearest foot , separated by a comma .
+algebra#@#The sum of three consecutive numbers is 18 . Find the numbers . Separate the three numbers with commas .
+algebra#@#At a family reunion there were 48 people . The number of children was 3 times as great as the number of grown people . How many were there of each ? List the two numbers separated by a comma .
+algebra#@#From 64 times a certain number 36 times the same number is subtracted . If the result is 56 what is the number ?
+algebra#@#The sum of two consecutive numbers is 19 . Find the numbers .
+algebra#@#Find two numbers whose sum is 28 and whose difference is 4 . Separate your answer using a comma (e.g. x*_x*_2 ).
+algebra#@#A tank holds 1575 gallons . How long will it take a pipe discharging 3 gallons per minute to fill the tank ?
+algebra#@#Seven times a certain number equals 84 . What is the number ?
+algebra#@#The difference between two numbers is 1 and their sum is 13 . What are the numbers ? Separate your answer with commas .
+algebra#@#The sum of three numbers is 11 . The second is 2 greater than the first , but the third is only 1 greater than the second . Find the numbers . Present all three separated by commas .
+algebra#@#If 4*x-5 stands for 19 , for what number does x stand ?
+algebra#@#The sum of two numbers is 11 . Their difference is -23 . Find the numbers . Present the numbers separated by a comma .
+algebra#@#Find two consecutive even integers whose sum is 30 . Present both in your answer , separated by a comma .

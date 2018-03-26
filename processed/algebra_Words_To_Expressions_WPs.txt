@@ -1,0 +1,30 @@
+algebra#@#A man bought a pounds of meat at a cents a pound , and handed the butcher an x -dollar bill . How many cents in change should be receive ?
+algebra#@#What will a quarts of cherries cost at d cents a quart ?
+algebra#@#A merchant started the year with m dollars ; the first month he gained x dollars , the next month he lost y dollars , the third month he gained b dollars , and the fourth month lost z dollars . How much had he at the end of that month ?
+algebra#@#In how many days can x men earn as much as 8 men in y days ?
+algebra#@#How many books at a dimes each can be bought for x dimes ?
+algebra#@#A grocer , having 25 bags of meal worth a cents a bag , sold x bags . What is the value of the meal left ?
+algebra#@#How many days will a man be required to work for m dollars if he receives y dollars a day ?
+algebra#@#If a stage coach goes b miles an hour , how far will it go in m hours ?
+algebra#@#A farmer bought a cow for b dollars and sold it for c dollars . How much did he gain ?
+algebra#@#A merchant bought a barrels of sugar and p barrels of molasses . How many barrels in all did he buy ?
+algebra#@#John has 4*a horses , James has a times as many as John , and Charles has d less than five times as many as James . How many has Charles ?
+algebra#@#There are c boys at play , and 5 others join them . How many boys are there in all ?
+algebra#@#A boy who earns b dollars each day spends x dollars a week . How much has he at the end of 3 weeks ?
+algebra#@#A man sells a carriage for m dollars and loses x dollars . What was the cost of the carriage when originally purchased ?
+algebra#@#A man sold a house for x dollars and gained $75 . What did the house cost when originally purchased ?
+algebra#@#James has a walnuts , John twice as many less 8 , and Joseph three times as many as James and John less 7 . How many do they have all together ?
+algebra#@#Charles walked x miles and rode 9 miles . How far did he go ?
+algebra#@#A man started at a certain point and traveled east x miles , then west b miles , then east m miles , then east y miles , then west z miles . How far is he from where he started ? (Take east to be the positive direction .)
+algebra#@#A farmer sold a sheep for m dollars and gained y dollars . What did the sheep cost when he first bought it ?
+algebra#@#I paid c cents for a pound of butter , and f cents for a lemon . How much more did the butter cost than the lemon ?
+algebra#@#Two men are 150 miles apart , and approach each other , one at the rate of x miles an hour , the other at the rate of y miles an hour . How far apart will they be at the end of seven hours ?
+algebra#@#A man had x cows and z horses . After exchanging 10 cows with another man for 19 horses , what will represent the number that he has of each ? (List the number of cows , followed by the number of horses .)
+algebra#@#A man has four daughters each of whom is 3 years older than the next younger . If x represent the age of the oldest , what will represent the age of the others ? (Please separate the answers with commas .)
+algebra#@#In a certain school there are c girls , and three times as many boys less 8 . How many boys , and how many boys and girls together ?
+algebra#@#A man pumps x gallons of water into a tank each day , and draws off y gallons each day . How much water will remain in the tank at the end of five days ?
+algebra#@#A lady bought a silk dress for m dollars , a muff for l dollars , a shawl for v dollars , and a pair of gloves for c dollars . What was the entire cost ?
+algebra#@#A money -drawer contains a dollars , b dimes , and c quarters . Express the whole amount in cents .
+algebra#@#A man bought a horse for x dollars , paid 2 dollars a week for his keeping , and received 4 dollars a week for his work . At the expiration of a weeks he sold him for m dollars . How much did he gain ?
+algebra#@#If x represent the number of miles a man can row in an hour in still water , how far can the man row in 5 hours down a stream which flows y miles an hour ?
+algebra#@#A merchant sold a lot of wood for b dollars , and received in payment a barrel of flour worth e dollars . How many dollars remain due ?

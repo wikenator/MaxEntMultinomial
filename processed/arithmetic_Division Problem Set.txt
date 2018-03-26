@@ -1,0 +1,30 @@
+arithmetic#@#If a man travel 45 miles a day , how many days will he require to travel 540 miles ?
+arithmetic#@#At $ 9 .50 per barrel , how many barrels of flour can be bought for $ 2498 .50?
+arithmetic#@#A man bought cows at $ 47 .50 per head ; how many could he buy for $ 3182 .50?
+arithmetic#@#If a field of 640 acres produces 14720 bushels of wheat , how much will 1 acre produce ?
+arithmetic#@#At 29 dollars per barrel , how many barrels of sugar can be bought for 30305 dollars ?
+arithmetic#@#Paid $ 848 .02 for 389 barrels of apples ; what was the price per barrel (in dollars )?
+arithmetic#@#A speculator bought land for 218568 dollars at 42 dollars an acre ; how many acres did he purchase ?
+arithmetic#@#How many bales will 1072512 pounds of cotton make , allowing 294 pounds to the bale ?
+arithmetic#@#John has 324 nuts , and wishes to divide them equally among 6 of his comrades --how many must he give to each one ?
+arithmetic#@#A drover bought 743 cattle for $ 92875 ; what is the average price for each (in dollars )?
+arithmetic#@#There are 12 pence in one shilling --how many shillings are there 960 pence ?
+arithmetic#@#Paid $ 268 .40 for 610 boxes of strawberries ; what was the price per box (in dollars )?
+arithmetic#@#Mr . N bought a house for $ 9513 , and paid for it in yearly installments of $ 1057 ; how many years were required to pay for the house ?
+arithmetic#@#If 200 pounds of pork cost $ 22 , what is the price per pound (in dollars )?
+arithmetic#@#The multiplier is 739 and the product is 671012 ; what is the multiplicand ?
+arithmetic#@#How many times is 216 contained in 1554768 ?
+arithmetic#@#If 1578 barrels of beef are sold for 23670 dollars , what is the price of one barrel (in dollars )?
+arithmetic#@#If 95 barrels of sugar cost $ 1095 .35, what is the price of a barrel (in dollars )?
+arithmetic#@#If 254 cords of wood cost $ 2407 .92, what is the price of a cord (in dollars )?
+arithmetic#@#If a farm of 84 acres costs $ 1233 .96, what is the price of one acre (in dollars )?
+arithmetic#@#If 476 sheep cost $ 3213 , what is the price of one sheep (in dollars )?
+arithmetic#@#A farmer wishes to plant 2368 apple trees in 16 rows --how many must he plant in each row ?
+arithmetic#@#If 76 hogsheads of molasses cost 2888 dollars , what is the price of 1 hogshead (in dollars )?
+arithmetic#@#If 725 acres of land cost $ 18306 .25, what was the cost of one acre (in dollars )?
+arithmetic#@#If a man travels 34 miles a day , how long will it take him to travel 2210 miles (in days )?
+arithmetic#@#How many times is 12 contained in 144 ?
+arithmetic#@#Divide one hundred eighty -four thousand , seven hundred seventy -five dollars among 389 men .
+arithmetic#@#What number multiplied by 5999 and divided by 7644 will give 857 ?
+arithmetic#@#The dividend is 774468 , and the quotient is 852 ; what is the divisor ?
+arithmetic#@#If 237 bags of coffee cost 20145 dollars , what does one bag cost (in dollars )?

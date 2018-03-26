@@ -1,0 +1,30 @@
+arithmetic#@#At 10 minutes past 5 , Dick 's mother told him , ``You must come in in a quarter of an hour .'' At what time must Dick come in ?
+arithmetic#@#When the minute hand of a clock is 13 minute spaces past XII and the hour hand is between V and VI , what time is it ?
+arithmetic#@#Where is the minute hand at a quarter before the hour ? (e.g. ``$2$'' for 10 minutes past the hour .)
+arithmetic#@#When the hour hand is between II and III and minute hand is at V , what is the time ?
+arithmetic#@#When the hour hand is between X and XI and the minute hand is 3 spaces beyond II , what time is it ?
+arithmetic#@#John went to play with Walter for a half hour . He reached Walter 's house at 15 minutes past 4 o ' clock . When was it time for him to leave ?
+arithmetic#@#How long (in minutes ) does it take the minute hand to pass from I to II ?
+arithmetic#@#Another day at quarter to five , Dick 's mother told him , ``You must come in 25 minutes .'' At what time did he have to come ?
+arithmetic#@#At 5 minutes past 4 , Dick 's mother told him , ``You may stay just three quarters of an hour .'' At what time did he have to come in on that day ?
+arithmetic#@#How many minutes does it take the minute hand to go from 2 to 9 ?
+arithmetic#@#When the hour hand is a little before X and the minute hand is at X , what time is it ?
+arithmetic#@#What time is it when the hour hand is between 5 and 6 and the minute hand is at the third dot beyond 1 ?
+arithmetic#@#Nellie reached Carrie 's house at 5 minutes past 10 , for a visit of 20 minutes . When was it time for her to go ?
+arithmetic#@#When the minute hand is 3 spaces beyond IX and the hour hand is between II and III , what time is it ?
+arithmetic#@#Kate played with her dolls from 5 minutes past 3 o 'clock until 25 minutes past 3 . She played \_\_ minutes .
+arithmetic#@#Frank was to play with Robert an hour and a quarter . When was his time up , if he reached Robert 's house at 4 o ' clock ?
+arithmetic#@#It was quarter past 4 . ``You can play till 5 o 'clock'', said Will 's mother . ``How long is that ?'' asked Will . How long was it , in minutes ?
+arithmetic#@#When the hour hand is between XII and I and the minute hand is at VIII , what time is it ?
+arithmetic#@#Place the big hand of a clock face at 12 , and the small hand at 4 . What time is it ?
+arithmetic#@#When the hour hand is a little beyond V and the minute hand is 4 spaces beyond I , what time is it ?
+arithmetic#@#When the hour hand is between VIII and IX and the minute hand is one space beyond V , what time is it ?
+arithmetic#@#When the minute hand is 4 minute spaces beyond VI and the hour hand is between V and VI , what time is it ?
+arithmetic#@#What time is it when the hour -hand points between 6 and 7 and the long hand points to 9 ?
+arithmetic#@#When the minute hand is 7 spaces before XII and the hour hand is between VII and VIII , what time is it ?
+arithmetic#@#When the hour hand is between IX and X and the minute hand is at VI , what time is it ?
+arithmetic#@#How many minutes past the hour is it when the minute hand is at 4 on a numbered clock face ?
+arithmetic#@#When the minute hand is 14 minute spaces beyond VI and the hour hand is between IX and X , what time is it ?
+arithmetic#@#I have been waiting for you for 1/2 hour . It is now 10 minutes to 11 . What time did I come here ?
+arithmetic#@#Fred played ball from 10 minutes past 4 o ' clock until half past 4 o ' clock . How many minutes did Fred play ball ?
+arithmetic#@#When the hour hand is a little beyond VIII and the minute hand is 1 space beyond II , what time is it ?
