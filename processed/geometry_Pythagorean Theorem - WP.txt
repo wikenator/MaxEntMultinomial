@@ -1,30 +1,30 @@
-geometry#@#Find the diagonal of a rectangle which is 18 feet by 12 feet .
-geometry#@#A building is 125 feet high . What must be the length of a ladder which , placed 5 feet away from the building , will reach the lower edge of a window 50 feet from the ground ?
-geometry#@#If each side of a square field is 110 rods long , what is the length of the diagonal of the field ?
-geometry#@#What is the exact length of the diagonal on the floor of a room which is 18 feet wide and 21 feet long ?
-geometry#@#Find the diagonal of a square field , each side of which is 240 feet .
-geometry#@#The sum of the sides about the right angle of a right triangle is 35 inches and the hypotenuse is 25 inches . Find the sides of the triangle . (Enter both sides separated by a comma .)
-geometry#@#The length of the molding around a rectangluar room is 46 feet and the diagonal of the room is 17 feet . Find its dimensions . (Enter both dimensions separated by a comma .)
-geometry#@#Find the exact length of the of the diagonal of a rectangular field , which is 250 feet long and 175 feet wide .
-geometry#@#The longest rod that can be placed flat on the bottom of a certain trunk is 45 inches . The trunk is 9 inches longer than it is wide . What are its dimensions ? (Enter both dimensions separated by a comma .)
-geometry#@#A rectangular field is 240 feet long and 200 feet wide . What is the length of the diagonal of the field ?
-geometry#@#Two trains started from the same station . One train went west 150 miles , the other north 175 miles . When the trains reached their destinations , how far apart were they ?
-geometry#@#What is the perimeter of a right triangle , the base of which is 25 feet and the altitude 20 feet ?
-geometry#@#What is the length of the diagonal of a rectangular field which is 114 rods long and 76 rods wide ?
-geometry#@#How much less is the distance diagonally through a rectangular field 300 feet by 250 feet than the distance along the two adjoining sides of the field ?
-geometry#@#A room is 3 feet longer than it is wide , and the length of the diagonal is 15 feet . Find the dimensions of the room . (Enter both dimensions separated by a comma .)
-geometry#@#The sum of the length and width of a rectangle is 17 rods and the diagonal is 13 rods . Find the dimensions of the rectangle . (Enter both dimensions separated by a comma .)
-geometry#@#A rectangular field is 200 feet by 80 feet . What is the length of the diagonal of the field ?
-geometry#@#What is the length of the hypotenuse of a right triangle , the base of which is 10 rods and the altitude 8 rods ?
-geometry#@#A tree was broken off 8 feet from the ground and fell so that the top struck the ground 25 feet from the foot of the tree . What was the length of the broken part of the tree ?
-geometry#@#What is the perimeter of a right triangle , the base of which is 18 feet and the altitude 15 feet .
-geometry#@#Two strings were tied to the bottom of a stake . One string was stretched in a straight line north 60 feet . The other string , which was 80 feet long , was stretched in a straight line east . How far apart were the ends of the two strings ?
-geometry#@#I wish to place a ladder 6 feet from the foot of a building so that it will touch the lower edge of a window 30 feet above the ground . What length of ladder will be required to reach the window ?
-geometry#@#A tree was broken by the wind in such a way that the top of the tree struck the ground 25 feet from the foot of the tree . If the part of the tree left standing was 45 feet high , what was the original height of the tree ?
-geometry#@#Each side of a square field is 175 feet in length . What is the diagonal of the field ?
-geometry#@#What is the exact length of the diagonal of a square field , each side of which is 80 rods in length ?
-geometry#@#Find the perimeter of a right triangle , the base of which is 24 feet and the altitude 18 feet .
-geometry#@#Find the length in feet of the diagonal of a square field , each side of which is 8 rods .
-geometry#@#A rectangular field is 325 feet long and 200 feet wide . What is the exact length of its diagonal ?
-geometry#@#Find the length of the diagonal of a rectangle , which is 90 feet long and 60 feet wide .
-geometry#@#How many feet of fence will it take to enclose a lot in the form of a right triangle , the base of which is 30 feet and the altitude 120 feet ?
+geometry#@#Find the diagonal of a rectangle which is [M:L:N] feet by [M:L:N] feet .
+geometry#@#A building is [M:L:N] feet high . What must be the length of a ladder which , placed [M:L:N] feet away from the building , will reach the lower edge of a window [M:L:N] feet from the ground ?
+geometry#@#If each side of a square field is [M:L:N] rods long , what is the length of the diagonal of the field ?
+geometry#@#What is the exact length of the diagonal on the floor of a room which is [M:L:N] feet wide and [M:L:N] feet long ?
+geometry#@#Find the diagonal of a square field , each side of which is [M:L:N] feet .
+geometry#@#The sum of the sides about the right angle of a right triangle is [M:L:N] inches and the hypotenuse is [M:L:N] inches . Find the sides of the triangle . (Enter both sides separated by a comma .)
+geometry#@#The length of the molding around a rectangluar room is [M:L:N] feet and the diagonal of the room is [M:L:N] feet . Find its dimensions . (Enter both dimensions separated by a comma .)
+geometry#@#Find the exact length of the of the diagonal of a rectangular field , which is [M:L:N] feet long and [M:L:N] feet wide .
+geometry#@#The longest rod that can be placed flat on the bottom of a certain trunk is [M:L:N] inches . The trunk is [M:L:N] inches longer than it is wide . What are its dimensions ? (Enter both dimensions separated by a comma .)
+geometry#@#A rectangular field is [M:L:N] feet long and [M:L:N] feet wide . What is the length of the diagonal of the field ?
+geometry#@#Two trains started from the same station . One train went west [M:L:N] miles , the other north [M:L:N] miles . When the trains reached their destinations , how far apart were they ?
+geometry#@#What is the perimeter of a right triangle , the base of which is [M:L:N] feet and the altitude [M:L:N] feet ?
+geometry#@#What is the length of the diagonal of a rectangular field which is [M:L:N] rods long and [M:L:N] rods wide ?
+geometry#@#How much less is the distance diagonally through a rectangular field [M:L:N] feet by [M:L:N] feet than the distance along the two adjoining sides of the field ?
+geometry#@#A room is [M:L:N] feet longer than it is wide , and the length of the diagonal is [M:L:N] feet . Find the dimensions of the room . (Enter both dimensions separated by a comma .)
+geometry#@#The sum of the length and width of a rectangle is [M:L:N] rods and the diagonal is [M:L:N] rods . Find the dimensions of the rectangle . (Enter both dimensions separated by a comma .)
+geometry#@#A rectangular field is [M:L:N] feet by [M:L:N] feet . What is the length of the diagonal of the field ?
+geometry#@#What is the length of the hypotenuse of a right triangle , the base of which is [M:L:N] rods and the altitude [M:L:N] rods ?
+geometry#@#A tree was broken off [M:L:N] feet from the ground and fell so that the top struck the ground [M:L:N] feet from the foot of the tree . What was the length of the broken part of the tree ?
+geometry#@#What is the perimeter of a right triangle , the base of which is [M:L:N] feet and the altitude [M:L:N] feet .
+geometry#@#Two strings were tied to the bottom of a stake . One string was stretched in a straight line north [M:L:N] feet . The other string , which was [M:L:N] feet long , was stretched in a straight line east . How far apart were the ends of the two strings ?
+geometry#@#I wish to place a ladder [M:L:N] feet from the foot of a building so that it will touch the lower edge of a window [M:L:N] feet above the ground . What length of ladder will be required to reach the window ?
+geometry#@#A tree was broken by the wind in such a way that the top of the tree struck the ground [M:L:N] feet from the foot of the tree . If the part of the tree left standing was [M:L:N] feet high , what was the original height of the tree ?
+geometry#@#Each side of a square field is [M:L:N] feet in length . What is the diagonal of the field ?
+geometry#@#What is the exact length of the diagonal of a square field , each side of which is [M:L:N] rods in length ?
+geometry#@#Find the perimeter of a right triangle , the base of which is [M:L:N] feet and the altitude [M:L:N] feet .
+geometry#@#Find the length in feet of the diagonal of a square field , each side of which is [M:L:N] rods .
+geometry#@#A rectangular field is [M:L:N] feet long and [M:L:N] feet wide . What is the exact length of its diagonal ?
+geometry#@#Find the length of the diagonal of a rectangle , which is [M:L:N] feet long and [M:L:N] feet wide .
+geometry#@#How many feet of fence will it take to enclose a lot in the form of a right triangle , the base of which is [M:L:N] feet and the altitude [M:L:N] feet ?

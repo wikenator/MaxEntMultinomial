@@ -1,30 +1,30 @@
-algebra#@#If a boy can walk 5 miles in 2 hours , how far can he walk in 6 hours ?
-algebra#@#If an express train runs 80 miles in 2 hours , how many miles would the express train run in 50 hours ?
-algebra#@#What is the ratio of 3 yards to 6 inches ? (Write in simplest form )
-algebra#@#If 5 men can do a piece of work in 13 days , in how many days can 65 men do it ?
-algebra#@#If a boy can ride on a bicycle 24 miles in 3 hours , how far can he ride in 7 hours ?
-algebra#@#If 7 sheep cost $42 , how much will 3 sheep cost ?
-algebra#@#What is the ratio of 3 gal . to 9 gal .? (Write in simplest form )
-algebra#@#A boy measured a stick with a 6 -inch rule and found it to be 2 yd . long . The ratio of 2 yd . to 6 in . is what ? (Write in simplest form )
-algebra#@#A has $12 and B has $9 . What is the ratio of B 's money to A 's? (Write in simplest form )
-algebra#@#If 3 tons of coal cost $16 , how much will 6 tons cost ?
-algebra#@#If a man can row 11 miles in 3 hours , how far can he row in 6 hours ?
-algebra#@#If 1+1/5 yd . of cloth cost $1+3/4 , what will 81 yd . cost ?
-algebra#@#Which is greater , the ratio of 35 to 5 , or the ratio of 40 to 5 ? (Enter your answer as a ratio a/b )
-algebra#@#A man is dipping water from a barrel into a 5 -gallon can , using a 2 -quart dipper . The ratio of 2 qt . to 5 gal . is ---?
-algebra#@#If 24 lb . of butter can be made from 360 qt . of milk , how much milk will be required to produce 100 lb . of butter ?
-algebra#@#When eggs are worth 11 cents a dozen , what is the value of 30 dozen ?
-algebra#@#If 5+1/2 bu . of wheat cost $4.95 , how many bushels can be bought for $121+1/2 ?
-algebra#@#If 6+1/2 cd . of wood cost $28.60 , how much can be bought for $514.80 .
-algebra#@#What is the ratio of 4 bu . to 2 bu .? (Write in simplest form )
-algebra#@#If a freight train moves 12 miles an hour , how many hours will it take to move 144 miles ?
-algebra#@#If 5 dozen eggs cost $0.60 , how much will 10 dozen eggs cost ?
-algebra#@#If 6 men could build a piece of fence in a day , how many men would it take to build it in 2 days ?
-algebra#@#If an express train runs 80 miles in 2 hours , in how many hours will it run 400 miles ?
-algebra#@#There are 45 children in room 9 , and the number of boys is to the number of girls as 5 is to 4 . How many girls are there ?
-algebra#@#What is the ratio of the side of a square 4 inches long to the side of a square 2 inches long ?
-algebra#@#If a quantity of provisions will last 630 men in a garrison 108 days , how long will the same quantity last 210 men ?
-algebra#@#What is the ratio of a bushel to 4 quarts ? (1 bushel = 32 quarts )
-algebra#@#James has 9 marbles and Henry has 6 marbles . What is the ratio of Henry 's marbles to James 's marbles ? (Write in simplest form )
-algebra#@#What is the ratio of 4 feet to 3 inches ?
-algebra#@#What is the ratio of 6 in . to 3 in .? (Write in simplest form )
+algebra#@#If a boy can walk [M:L:N] miles in [M:L:N] hours , how far can he walk in [M:L:N] hours ?
+algebra#@#If an express train runs [M:L:N] miles in [M:L:N] hours , how many miles would the express train run in [M:L:N] hours ?
+algebra#@#What is the ratio of [M:L:N] yards to [M:L:N] inches ? (Write in simplest form )
+algebra#@#If [M:L:N] men can do a piece of work in [M:L:N] days , in how many days can [M:L:N] men do it ?
+algebra#@#If a boy can ride on a bicycle [M:L:N] miles in [M:L:N] hours , how far can he ride in [M:L:N] hours ?
+algebra#@#If [M:L:N] sheep cost [M:L:N] , how much will [M:L:N] sheep cost ?
+algebra#@#What is the ratio of [M:L:N] gal . to [M:L:N] gal .? (Write in simplest form )
+algebra#@#A boy measured a stick with a [M:L:N] -inch rule and found it to be [M:L:N] yd . long . The ratio of [M:L:N] yd . to [M:L:N] in . is what ? (Write in simplest form )
+algebra#@#[M:VAR] has [M:L:N] and [M:VAR] has [M:L:N] . What is the ratio of [M:VAR] 's money to [M:VAR] 's? (Write in simplest form )
+algebra#@#If [M:L:N] tons of coal cost [M:L:N] , how much will [M:L:N] tons cost ?
+algebra#@#If a man can row [M:L:N] miles in [M:L:N] hours , how far can he row in [M:L:N] hours ?
+algebra#@#If [M:L:F:M] yd . of cloth cost [M:L:F:M] , what will [M:L:N] yd . cost ?
+algebra#@#Which is greater , the ratio of [M:L:N] to [M:L:N] , or the ratio of [M:L:N] to [M:L:N] ? (Enter your answer as a ratio [M:EX] )
+algebra#@#A man is dipping water from a barrel into a [M:L:N] -gallon can , using a [M:L:N] -quart dipper . The ratio of [M:L:N] qt . to [M:L:N] gal . is ---?
+algebra#@#If [M:L:N] lb . of butter can be made from [M:L:N] qt . of milk , how much milk will be required to produce [M:L:N] lb . of butter ?
+algebra#@#When eggs are worth [M:L:N] cents a dozen , what is the value of [M:L:N] dozen ?
+algebra#@#If [M:L:F:M] bu . of wheat cost [M:L:N:D] , how many bushels can be bought for [M:L:F:M] ?
+algebra#@#If [M:L:F:M] cd . of wood cost [M:L:N:D] , how much can be bought for [M:L:N:D] .
+algebra#@#What is the ratio of [M:L:N] bu . to [M:L:N] bu .? (Write in simplest form )
+algebra#@#If a freight train moves [M:L:N] miles an hour , how many hours will it take to move [M:L:N] miles ?
+algebra#@#If [M:L:N] dozen eggs cost [M:L:N:D] , how much will [M:L:N] dozen eggs cost ?
+algebra#@#If [M:L:N] men could build a piece of fence in a day , how many men would it take to build it in [M:L:N] days ?
+algebra#@#If an express train runs [M:L:N] miles in [M:L:N] hours , in how many hours will it run [M:L:N] miles ?
+algebra#@#There are [M:L:N] children in room [M:L:N] , and the number of boys is to the number of girls as [M:L:N] is to [M:L:N] . How many girls are there ?
+algebra#@#What is the ratio of the side of a square [M:L:N] inches long to the side of a square [M:L:N] inches long ?
+algebra#@#If a quantity of provisions will last [M:L:N] men in a garrison [M:L:N] days , how long will the same quantity last [M:L:N] men ?
+algebra#@#What is the ratio of a bushel to [M:L:N] quarts ? ([M:L:N] bushel = [M:L:N] quarts )
+algebra#@#James has [M:L:N] marbles and Henry has [M:L:N] marbles . What is the ratio of Henry 's marbles to James 's marbles ? (Write in simplest form )
+algebra#@#What is the ratio of [M:L:N] feet to [M:L:N] inches ?
+algebra#@#What is the ratio of [M:L:N] in . to [M:L:N] in .? (Write in simplest form )

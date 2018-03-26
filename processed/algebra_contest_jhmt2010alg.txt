@@ -1,0 +1,9 @@
+algebra#@#Find the sum [M:EX]
+algebra#@#Let [M:VAR] be any integer in the set [M:L:N] , [M:L:N] , ... , [M:L:N] . For how many [M:VAR] is the number [M:EX] divisible by [M:L:N] and only [M:L:N] ?
+algebra#@#Determine the number of consecutive zeroes at the right end of the decimal expansion of [M:EX] where [M:EQ] .
+algebra#@#Find the real number [M:VAR] such that [M:EQ]
+algebra#@#Let [M:VAR] , [M:VAR] , [M:VAR] , [M:INEQ] be real numbers such that [M:EQ] . Find the minimum value of [M:EX]
+algebra#@#Compute [M:EX]
+algebra#@#Find the sum of all integers [M:INEQ:C] such that [M:EQ:FUNC] is divisble by [M:L:N] .
+algebra#@#What is the largest integer less than or equal to [M:EX] ?
+algebra#@#Let [M:VAR:SET] be a set of real numbers such that there always exists [M:VAR] , [M:VAR] in [M:VAR:SET] with the following property : [M:INEQ:C] . What is the minimum number of elements of [M::VAR:SET] such that this holds for any set [M:VAR:SET] ?

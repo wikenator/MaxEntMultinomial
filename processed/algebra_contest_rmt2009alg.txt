@@ -1,0 +1,9 @@
+algebra#@#No math tournament exam is complete without a self referencing question . What is the product of the smallest prime factor of the number of words in this problem times the largest prime factor of the number of words in this problem ?
+algebra#@#King Midas spent [M:EX] of his gold deposit yesterday . He is set to earn gold today . What percentage of the amount of gold King Midas currently has would he need to earn today to end up with as much gold as he started ?
+algebra#@#Find all integer pairs [M:VAR:COORD] such that [M:EQ] .
+algebra#@#Find all the solutions for which [M:EQ:FUNC] .
+algebra#@#Find the minimum possible value of [M:EX] for real numbers [M:VAR] and [M:VAR] .
+algebra#@#The dollar is now worth [M:L:F] ounce of gold . After the [M:VAR]^(th) [M:L:N] billion ``No Bank Left Behind '' bailout package passed by Congress , the dollar gains [M:EX] of its [M:EX]^(th) value in gold . After four bank bailouts , the dollar is worth [M:EX] in gold , where [M:VAR] , [M:VAR] are positive integers . Find [M:EX] .
+algebra#@#Evaluate [M:EX:SUM]
+algebra#@#All the roots of [M:EX] are positive integers greater than [M:L:N] , and the coefficients satisfy [M:EQ] . Find [M:VAR] .
+algebra#@#Let [M:EX:FUNC] be the number of [M:L:N] [M:VAR] in the binary expansion of [M:VAR] (e.g. [M:EQ:FUNC] , [M:EQ:FUNC] , [M:EQ:FUNC] , [M:EQ:FUNC] ). Evaluate : [M:EX:SUM]

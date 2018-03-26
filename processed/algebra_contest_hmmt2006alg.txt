@@ -1,0 +1,10 @@
+algebra#@#Larry can swim from Harvard to MIT (with the current of the Charles River ) in [M:L:N] minutes , or back (against the current ) in [M:L:N] minutes . How long does it take him to row from Harvard to MIT , if he rows the return trip in [M:L:N] minutes ? (Assume that the speed of the current and Larry 's swimming and rowing speeds relative to the current are all constant .) Express your answer in the format mm :ss.
+algebra#@#Find all real solutions [M:VAR:COORD] of the system [M:EQ] .
+algebra#@#The train schedule in Hummut is hopelessly unreliable . Train [M:VAR] will enter Intersection [M:VAR] from the west at a random time between [M:L:T] am and [M:L:T] pm ; each moment in that interval is equally likely . Train [M:VAR] will enter the same intersection from the north at a random time between [M:L:T] am and [M:L:T] pm , independent of Train [M:VAR] ; again , each moment in the interval is equally likely . If each train take [M:L:N] minutes to clear the intersection , what is the probability of a collision today ?
+algebra#@#Let [M:VAR] , [M:VAR] , ... be a sequence defined by [M:EQ] and [M:EQ] for [M:INEQ] . Find [M:EX:SUM]
+algebra#@#Tim has a working analog [M:L:N] -hour clock with two hands that run continuously (instead of , say , jumping on the minute ). He also has a clock that runs really slow - at half the correct rate , to be exact . At noon one day , both clocks happen to show the exact time . At any given instant , the hands on each clock form an angle between [M:L:N] and [M:L:N] inclusive . At how many times during the day are the angles on the two clocks equal ?
+algebra#@#Let [M:VAR] , [M:VAR] , [M:VAR] be the roots of [M:EQ] , and let [M:EQ] . Find [M:EX] .
+algebra#@#Let [M:EQ:FUNC] . Let the roots of [M:EX:FUNC] be [M:EX] for [M:EQ] , [M:L:N] , [M:L:N] , [M:L:N] . Given that the [M:VAR] , [M:VAR] are all integers , find [M:EX] .
+algebra#@#Solve for all complex numbers [M:VAR] such that [M:EQ] .
+algebra#@#Compute the value of the infinite series [M:EX:SUM]
+algebra#@#Determine the maximum value attained by [M:EX] over real numbers [M:INEQ] .

@@ -1,0 +1,10 @@
+algebra#@#Positive real numbers [M:VAR] , [M:VAR] satisfy the equations [M:EQ] and [M:EQ] . Find [M:EX] .
+algebra#@#Let [M:EX:FUNC] be the number of times you have to hit the [M:EX] key on a calculator to get a number less than [M:L:N] starting from [M:VAR] . For instance , [M:EQ:FUNC] , [M:EQ:FUNC] . For how many [M:EX:INEQ:C] is [M:EX:FUNC] odd ?
+algebra#@#Determine all real numbers a such that the inequality [M:INEQ] has exactly one solution in [M:VAR] .
+algebra#@#The function [M:EX:FUNC] satisfies [M:EQ:FUNC:C] for all real numbers [M:VAR] , [M:VAR] . Determine the value of [M:EX:FUNC] .
+algebra#@#Let [M:EQ:FUNC] . Suppose [M:EX:FUNC] is a cubic polynomial such that [M:EQ:FUNC] , and the roots of [M:EX:FUNC] are the squares of the roots of [M:EX:FUNC] . Find [M:EX:FUNC] .
+algebra#@#A root of unity is a complex number that is a solution to [M:EQ] for some positive integer [M:VAR] . Determine the number of roots of unity that are also roots of [M:EQ] for some integers [M:VAR] and [M:VAR] .
+algebra#@#Compute [M:EX:SUM] .
+algebra#@#Compute [M:EX:TRIG] . (Express your answer in degrees as an angle between [M:L:N] and [M:L:N] .)
+algebra#@#Let [M:VAR:SET] be the set of points [M:VAR:COORD] with [M:INEQ:C] such that the equation [M:EQ] has at least one real root . Determine the area of the graph of [M:VAR:SET] .
+algebra#@#Evaluate the infinite sum [M:EX:SUM]

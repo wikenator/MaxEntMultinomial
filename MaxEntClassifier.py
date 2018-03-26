@@ -84,7 +84,7 @@ class MaxEntClassifier(NBC):
 
 	# abstract for get_features
 	def get_train_features(self, V, use_bigrams=True):
-		sys.stderr.write("Vectorizing training features.\n")
+		sys.stderr.write("\nVectorizing training features.\n")
 
 		train_sets = self.alg_train_set + self.arith_train_set + self.geo_train_set
 
@@ -92,7 +92,7 @@ class MaxEntClassifier(NBC):
 
 	# abstract for get_features
 	def get_test_features(self, V, use_bigrams=True):
-		sys.stderr.write("Vectorizing test features.\n")
+		sys.stderr.write("\nVectorizing test features.\n")
 
 		test_sets = self.alg_test_set + self.arith_test_set + self.geo_test_set
 
@@ -169,7 +169,7 @@ class MaxEntClassifier(NBC):
 
 	# training for maxent classification
 	# returns optimized weights, minimum cost value, and final learning rate
-	def maxent(self, f, w, l, n_steps=1000, learn_rate=5e-5, reg_coeff=0.001, threshold=1e-4):
+	def maxent(self, f, w, l, n_steps=1000, learn_rate=5e-4, reg_coeff=0.001, threshold=1e-4):
 		sys.stderr.write("\nRunning MaxEnt classification.\n")
 
 #		c = self.cost(self.softmax(numpy.dot(w, f)), l)
@@ -188,12 +188,16 @@ class MaxEntClassifier(NBC):
 			predictions = self.softmax(probabilities)
 			new_cost = self.cost(predictions, l)
 
-			# stop gradient descent if new cost is not much better
-			if abs(c-new_cost) < threshold: break
-			# lower learning rate if gradient descent not converging
-			elif abs(c-new_cost) > 0.5: learn_rate /= 2
+			if math.isnan(new_cost):
+				sys.exit("\nGradient descent has diverged. Last learn rate: "+str(learn_rate)+"\n")
 
-			c = new_cost
+			else:
+				# stop gradient descent if new cost is not much better
+				if abs(c-new_cost) < threshold: break
+				# lower learning rate if gradient descent not converging
+				elif abs(c-new_cost) > 0.5: learn_rate /= 2
+
+				c = new_cost
 
 		print
 

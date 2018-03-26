@@ -1,0 +1,10 @@
+algebra#@#If [M:VAR] and [M:VAR] are positive integers such that [M:EQ] , find [M:EX] .
+algebra#@#Let [M:VAR] be the sum of all the real coefficients of the expansion of [M:EX] . What is [M:EX:LOG] ?
+algebra#@#If [M:EQ:TRIG] and [M:EQ:TRIG] , compute [M:EX:TRIG] .
+algebra#@#Suppose [M:VAR] , [M:VAR] , and [M:VAR] are integers such that the greatest common divisor of [M:EX] and [M:EX] is [M:EX] (in the ring of polynomials in [M:VAR] with integer coefficients ), and the least common multiple of [M:EX] and [M:EX] is [M:EX] . Find [M:EX] .
+algebra#@#Let [M:VAR] , [M:VAR] , and [M:VAR] be the [M:L:N] roots of [M:EQ] . Find [M:EX] .
+algebra#@#Let [M:VAR] and [M:VAR] be positive real numbers and [M:VAR] an angle such that [M:INEQ:TRIG] for any integer [M:VAR] . Suppose [M:EQ:TRIG] and [M:EQ:TRIG] . Compute [M:EX] .
+algebra#@#Simplify the product [M:EX:PROD] . Express your answer in terms of [M:VAR] .
+algebra#@#If [M:VAR] , [M:VAR] , [M:VAR] , and [M:VAR] are real numbers such that [M:EQ] , [M:EQ] , [M:EQ] , and [M:EQ] , find [M:EX] .
+algebra#@#Let [M:EQ:FUNC] . Let [M:VAR] , [M:VAR] , [M:VAR] , [M:VAR] be the four roots of [M:EX:FUNC] . Find the smallest possible value of [M:EX] where [M:EQ:COORD] .
+algebra#@#Let [M:EQ:FUNC] . For what positive values of [M:VAR] do there exist distinct [M:VAR] , [M:VAR] , [M:VAR] such that [M:VAR:COORD] , [M:VAR:COORD] , [M:VAR:COORD] , [M:VAR:COORD] is a rectangle ?

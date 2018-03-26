@@ -1,0 +1,1 @@
+algebra#@#Let [M:VAR] , [M:VAR] , [M:VAR] , [M:VAR] be integers with no common divisor such that [M:EQ] . Compute [M:EX] .

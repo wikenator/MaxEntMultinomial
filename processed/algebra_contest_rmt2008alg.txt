@@ -1,0 +1,10 @@
+algebra#@#Reid is twice as old as Gabe . Four years ago , Gabe was twice as old as Dani . In [M:L:N] years , Reid will be twice as old as Dani . How many years old is Reid now ?
+algebra#@#Let [M:EQ:FUNC] . Given that [M:L:N] is a root of [M:EQ:FUNC] and [M:L:N] is not , what is the maximum number of distinct real roots that [M:EX:FUNC] could have ?
+algebra#@#If [M:VAR:SET] and [M:EQ:C] , find [M:VAR] , [M:VAR] , [M:VAR] . (The order in which you write your answer does not matter .)
+algebra#@#Find [M:EX] , given that [M:EQ] , [M:EQ] .
+algebra#@#The product of a [M:L:N] x [M:L:N] matrix and a [M:L:N] x [M:L:N] matrix contains the entry [M:VAR] in exactly two places . If [M:EX:FUNC] is the determinant of the matrix product , [M:EQ:FUNC] , [M:EQ:FUNC] , and [M:EQ:FUNC] . Find [M:EX:FUNC]
+algebra#@#For how many integers [M:VAR] , with [M:INEQ:C] , does [M:EQ] have integer solutions for [M:VAR] ?
+algebra#@#Find all ordered pairs of positive integers [M:VAR:COORD] such that [M:EQ] .
+algebra#@#How many monic polynomials [M:EX:FUNC] are there with [M:EQ:FUNC] for some other polynomial [M:EX:FUNC] , where the coefficients of [M:EX:FUNC] and [M:EX:FUNC] are in [M:VAR:SET] ?
+algebra#@#Find the number of distinct ordered integer pairs [M:VAR:COORD] with [M:EQ] .
+algebra#@#Evaluate [M:EX:SUM]

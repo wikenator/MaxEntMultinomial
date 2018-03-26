@@ -1,30 +1,30 @@
-algebra#@#What is the smallest sum of money with which I can buy horses at \$$50$ each , donkeys at \$$30$ each , or pigs at \$$8$ each , using the same sum in each case ?
-algebra#@#A drayman has two drays and two floats ; on one dray he can haul 9 barrels of flour , and 12 barrels on the other ; on one float he can haul 18 barrels , and on the other 21 barrels ; what is the least number of barrels that will make full loads for his drays and floats ?
-algebra#@#If a cistern is to hold an exact number of barrels of water containing respectively 25 , 30 , or 35 gallons , what is the least number of gallons that it shall contain ?
-algebra#@#Farmer A can hoe a row of corn in a certain field in 30 minutes , farmer B can hoe a row in 20 minutes , and farmer C in 35 minutes . What is the least number of rows that each can hoe , in order that all may finish together ?
-algebra#@#What is the least quantity of starch that can be packed in 150 -pound barrels , 40 -pound boxes , or 24 -pound packages ?
+algebra#@#What is the smallest sum of money with which I can buy horses at [M:L:N] each , donkeys at [M:L:N] each , or pigs at [M:L:N] each , using the same sum in each case ?
+algebra#@#A drayman has two drays and two floats ; on one dray he can haul [M:L:N] barrels of flour , and [M:L:N] barrels on the other ; on one float he can haul [M:L:N] barrels , and on the other [M:L:N] barrels ; what is the least number of barrels that will make full loads for his drays and floats ?
+algebra#@#If a cistern is to hold an exact number of barrels of water containing respectively [M:L:N] , [M:L:N] , or [M:L:N] gallons , what is the least number of gallons that it shall contain ?
+algebra#@#Farmer [M:VAR] can hoe a row of corn in a certain field in [M:L:N] minutes , farmer [M:VAR] can hoe a row in [M:L:N] minutes , and farmer [M:VAR] in [M:L:N] minutes . What is the least number of rows that each can hoe , in order that all may finish together ?
+algebra#@#What is the least quantity of starch that can be packed in [M:L:N] -pound barrels , [M:L:N] -pound boxes , or [M:L:N] -pound packages ?
 algebra#@#What is the least common multiple of the first nine numbers ?
-algebra#@#What is the measurement of the smallest container of milk that can contain even amounts of both 5 quarts and 9 quarts of milk ?
-algebra#@#A trader has enough money to buy an exact amount of the same animal . He can buy either horses at \$$75$, mules at \$$50$, cows at \$$30$, or Suffolk hogs at \$$12$ each . What is the least amount of money he could possibly have ?
-algebra#@#Four agents start from New York at the same time . The first makes his trip and back in 8 weeks , the second in 9 weeks , the third in 15 weeks , and the fourth in 20 weeks . How many weeks will pass by before they will again start out from New York together ?
-algebra#@#I have 4 wine measures ; the first holds 4 quarts , the second 5 quarts , the third 6 quarts , and the fouth 8 quarts ; what is the size of the smallest cask that can be exactly measured by means of each of these measures ?
-algebra#@#What is the smallest number of melons that will exactly fill barrels that will contain either 14 , 18 , or 22 melons ?
-algebra#@#What is the shortest piece of goods that can be cut into pieces of 12 yds ., 18 yds ., and 24 yds . and nothing remain ?
-algebra#@#What is the shortest distance that may be exactly measured by each of the three poles , whose lengths are respectively 3 , 6 , and 8 feet ?
-algebra#@#How many bushels will the smallest bin contain that can be emptied by taking out either 7 bushels , 10 bushels , or 30 bushels at a time ?
-algebra#@#Suppose a surveyor has one chain 3 rods long , another 4 rods , another 5 rods , and another 12 rods ; what is the shortest distance that can be exactly measured by each chain ?
-algebra#@#What is the smallest tract of land that can be exactly laid out in fields of either 8 , 12 , or 16 acres ?
-algebra#@#The driving wheels of three locomotives are respectively 14 , 15 , and 18 ft . in circumference . What is the shortest distance in which all of the wheels will make an exact number of revolutions ?
-algebra#@#What is the smallest sum of money that will buy an exact number of pounds of sugar valued at 7 , 8 , or 14 cents ? (Answer in cents )
-algebra#@#I have a certain number of pennies which I can arrange in either 4 , 6 , 8 , 10 , or 12 equal piles . What is the least number of pennies I can have that will fit this arrangement ?
-algebra#@#If ribbons cost 10 , 15 , and 18 cents per yard , what is the least sum of money that will buy an exact number of yards of each ? (Answer in cents )
-algebra#@#If three trains travel at a rate of a mile in respectively 60 , 75 , and 90 seconds , what is the shortest time in which they will each have traveled an exact number of miles ? (Answer in seconds )
-algebra#@#How long must a box be that no room may be lost in packing in it books 6 inches , 8 inches , or 12 inches long ?
-algebra#@#Three horses can race around a track in respectively 16 , 22 , and 24 seconds . If they start at the same time and place , at what time will they first meet again at the starting point ? (Answer in seconds )
-algebra#@#A carpenter has planks 12 , 15 , and 20 feet long with which to lay a walk . What is the shortest walk that can be made by using each an exact number of times ?
-algebra#@#There is a circular island , around which A can travel in 5 hours , B in 8 hours , and C in 10 hours . Now suppose they all start together , and go the same way round it ; how much time must elapse before they come together again ?
-algebra#@#In a factory are three wheels , which revolve once in 25 , 30 , and 50 seconds respectively . What is the least time in which all of them will make an exact number of revolutions ? (Answer in seconds )
-algebra#@#The circumferences of three wheels are 9 , 12 , and 16 feet . What is the shortest distance over which they can each turn an exact number of times ?
-algebra#@#A lady wishes to buy a piece of cambric , that can be cut into dress patterns of 8 , 10 , or 11 yards . What is the smallest quantity that she can buy ?
-algebra#@#Runner A can walk around a race -track in 12 min ., runner B in 15 , C in 18 , and D in 20 min . If they start from the same place at the same time , and walk in the same direction , when will they all first arrive at the starting point together ? (Answer in minutes )
-algebra#@#A coal -dealer has five bins whose capacities are respectively 102 , 114 , 255 , 285 , and 323 bu . What is the smallest number of bushels that could be measured exactly in each ?
+algebra#@#What is the measurement of the smallest container of milk that can contain even amounts of both [M:L:N] quarts and [M:L:N] quarts of milk ?
+algebra#@#A trader has enough money to buy an exact amount of the same animal . He can buy either horses at [M:L:N] , mules at [M:L:N] , cows at [M:L:N] , or Suffolk hogs at [M:L:N] each . What is the least amount of money he could possibly have ?
+algebra#@#Four agents start from New York at the same time . The first makes his trip and back in [M:L:N] weeks , the second in [M:L:N] weeks , the third in [M:L:N] weeks , and the fourth in [M:L:N] weeks . How many weeks will pass by before they will again start out from New York together ?
+algebra#@#I have [M:L:N] wine measures ; the first holds [M:L:N] quarts , the second [M:L:N] quarts , the third [M:L:N] quarts , and the fouth [M:L:N] quarts ; what is the size of the smallest cask that can be exactly measured by means of each of these measures ?
+algebra#@#What is the smallest number of melons that will exactly fill barrels that will contain either [M:L:N] , [M:L:N] , or [M:L:N] melons ?
+algebra#@#What is the shortest piece of goods that can be cut into pieces of [M:L:N] yds ., [M:L:N] yds ., and [M:L:N] yds . and nothing remain ?
+algebra#@#What is the shortest distance that may be exactly measured by each of the three poles , whose lengths are respectively [M:L:N] , [M:L:N] , and [M:L:N] feet ?
+algebra#@#How many bushels will the smallest bin contain that can be emptied by taking out either [M:L:N] bushels , [M:L:N] bushels , or [M:L:N] bushels at a time ?
+algebra#@#Suppose a surveyor has one chain [M:L:N] rods long , another [M:L:N] rods , another [M:L:N] rods , and another [M:L:N] rods ; what is the shortest distance that can be exactly measured by each chain ?
+algebra#@#What is the smallest tract of land that can be exactly laid out in fields of either [M:L:N] , [M:L:N] , or [M:L:N] acres ?
+algebra#@#The driving wheels of three locomotives are respectively [M:L:N] , [M:L:N] , and [M:L:N] ft . in circumference . What is the shortest distance in which all of the wheels will make an exact number of revolutions ?
+algebra#@#What is the smallest sum of money that will buy an exact number of pounds of sugar valued at [M:L:N] , [M:L:N] , or [M:L:N] cents ? (Answer in cents )
+algebra#@#I have a certain number of pennies which I can arrange in either [M:L:N] , [M:L:N] , [M:L:N] , [M:L:N] , or [M:L:N] equal piles . What is the least number of pennies I can have that will fit this arrangement ?
+algebra#@#If ribbons cost [M:L:N] , [M:L:N] , and [M:L:N] cents per yard , what is the least sum of money that will buy an exact number of yards of each ? (Answer in cents )
+algebra#@#If three trains travel at a rate of a mile in respectively [M:L:N] , [M:L:N] , and [M:L:N] seconds , what is the shortest time in which they will each have traveled an exact number of miles ? (Answer in seconds )
+algebra#@#How long must a box be that no room may be lost in packing in it books [M:L:N] inches , [M:L:N] inches , or [M:L:N] inches long ?
+algebra#@#Three horses can race around a track in respectively [M:L:N] , [M:L:N] , and [M:L:N] seconds . If they start at the same time and place , at what time will they first meet again at the starting point ? (Answer in seconds )
+algebra#@#A carpenter has planks [M:L:N] , [M:L:N] , and [M:L:N] feet long with which to lay a walk . What is the shortest walk that can be made by using each an exact number of times ?
+algebra#@#There is a circular island , around which [M:VAR] can travel in [M:L:N] hours , [M:VAR] in [M:L:N] hours , and [M:VAR] in [M:L:N] hours . Now suppose they all start together , and go the same way round it ; how much time must elapse before they come together again ?
+algebra#@#In a factory are three wheels , which revolve once in [M:L:N] , [M:L:N] , and [M:L:N] seconds respectively . What is the least time in which all of them will make an exact number of revolutions ? (Answer in seconds )
+algebra#@#The circumferences of three wheels are [M:L:N] , [M:L:N] , and [M:L:N] feet . What is the shortest distance over which they can each turn an exact number of times ?
+algebra#@#A lady wishes to buy a piece of cambric , that can be cut into dress patterns of [M:L:N] , [M:L:N] , or [M:L:N] yards . What is the smallest quantity that she can buy ?
+algebra#@#Runner [M:VAR] can walk around a race -track in [M:L:N] min ., runner [M:VAR] in [M:L:N] , [M:VAR] in [M:L:N] , and D in [M:L:N] min . If they start from the same place at the same time , and walk in the same direction , when will they all first arrive at the starting point together ? (Answer in minutes )
+algebra#@#A coal -dealer has five bins whose capacities are respectively [M:L:N] , [M:L:N] , [M:L:N] , [M:L:N] , and [M:L:N] bu . What is the smallest number of bushels that could be measured exactly in each ?

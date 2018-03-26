@@ -1,30 +1,30 @@
-algebra#@#What number is 13% more than $56 ?
-algebra#@#A coal dealer received an order for a ton ($2000$ pounds ) of coal , but by mistake , a long ton ($2240$ pounds ) was delivered ; what was the percent of loss caused by the error ? Present your answer as a decimal .
-algebra#@#A man 's salary is $1350 a year ; if he pays 16% of the amount for board , 8% for clothing , 5% for books , and 7% for incidentals , what are his yearly expenses ?
-algebra#@#What percent of 48 yards is 12 yards ? Present your answer as a decimal or a percentage with the percentage sign included .
-algebra#@#If a piece of (rectangular) cloth 12 yards long and 46 inches wide shrinks 4+1/2 inches in length and 1 inch in width , what percent is it reduced in area ? Round to the nearest percent , include the percentage sign in your answer , or leave the answer in decimal form rounded to the nearest hundredth .
-algebra#@#A speculator lost 15% of his money in a stock speculation , and sustained an additional loss of 20% of the remainder in a mining venture , when he found that he had but $4428.16 remaining . What was the sum total of his losses ?
-algebra#@#A capitalist is worth $62500 , 42% of which is invested in stocks and the remainder in real estate . What is the value of his real estate ?
-algebra#@#A man sold a horse for $92 , which was 15% more than cost . How much was his gain ?
-algebra#@#What is the value of a farm that is worth today 16% more than one year ago , if its value at that time was $4800 ?
-algebra#@#What is the selling price of an invoice of sugar bought for $175 and sold at 5% profit ?
-algebra#@#A man paid $315 for a horse , carriage and harness . The carriage cost 25% more than the horse , and the harness cost 70% less than the carriage . What was the cost of each ? Present all three values separated by commas .
-algebra#@#28% of a man 's wealth is in government bonds , 22% in real estate , 35% in mining stock , and the remainder in money . If his money amounts to $4875 , what is the value of his real estate ?
-algebra#@#A depositor had $4500 in a bank . He drew out 20% of it , then 15% of the remainder , and afterward deposited a sum equal to 5% of the amount withdrawn . How much did he have in the bank in the end ?
-algebra#@#If B can do 20% more work in a given time than A , how long a time will be required for both , working together , to perform a job of work that A can do alone in 9 days ? Round to the nearest tenth of a day .
-algebra#@#A farmer harvested 520 bushels of corn and sold 130 bushels of the same . What percent of the amount harvested did he sell ?
-algebra#@#A man drew 30% of his bank deposits and invested 80% of the sum withdrawn in the purchase of a horse and carriage which cost him $270 . How much had he remaining in the bank ?
-algebra#@#After selling 36% of my land , I had 224 acres left ; how much land had I at first ?
-algebra#@#A clerk 's monthly income was $80 , 15% of which he paid for a coat . What was the cost of the coat ?
-algebra#@#A farmer sold 400 bushels of wheat , which was 32% of his harvest . What was the number of bushels harvested ?
-algebra#@#What percent of 12 yards is 48 yards ? Present your answer as a decimal or a percentage with the percentage sign included .
-algebra#@#What percent of 3/4 is 3/32 ? Present your answer as a decimal or a percentage with the percentage sign included .
-algebra#@#A dealer invested equal sums in the purchase of flour and bacon ; he sold the flour at a profit of 8% and the bacon at a profit of 12% . If his gain on the bacon exceeded the gain on the flour by $32.60 , what sum was invested in the purchase of each ? (Since the sums invested in both were equal , simply provide this number once . That is , let your answer either be the sum invested in bacon or the sum invested in flour .)
-algebra#@#Wolves killed 12% of a flock of 250 sheep . What number of the flock remained ?
-algebra#@#A has $640 , and 12+1/2% of his money equals 16% of B 's money . How much money does B have ?
-algebra#@#The original capacity of a mill was 450 barrels per day , but by the addition of new machinery the capacity has been increased 18% . What is the present capacity of the mill ?
-algebra#@#B 's age exceeds A 's age by 50% , but is less than C 's age by 10% . The sum of their ages is 50 years ; how old is C ?
-algebra#@#A merchant 's sales on Tuesday exceeded his Monday sales by 20% ; his Wednesday sales were 10% more than his Tuesday sales ; his sales on Thursday were 25% greater than on Wednesday ; his sales on Friday were equal to his Thursday sales ; and his sales for Saturday were equal to the sum of his sales for Monday and Tuesday . His sales for the week amounted to $338.25 ; what was the amount of his Monday sales ?
-algebra#@#30% of A 's age equals 12+1/2% of B 's age . The sum of their ages is 68 years ; how old is A ?
-algebra#@#Of the population of a certain city , 76% are native born , and the remainder are of foreign birth ; the foreign born are what percent of the native born ? Round to the nearest percent , include the percentage sign in your answer .
-algebra#@#A speculator lost 37% of his capital in a mining speculation and he has $28350 remaining . How much did he lose ?
+algebra#@#What number is [M:L:N:P] more than [M:L:N] ?
+algebra#@#A coal dealer received an order for a ton ([M:L:N] pounds ) of coal , but by mistake , a long ton ([M:L:N] pounds ) was delivered ; what was the percent of loss caused by the error ? Present your answer as a decimal .
+algebra#@#A man 's salary is [M:L:N] a year ; if he pays [M:L:N:P] of the amount for board , [M:L:N:P] for clothing , [M:L:N:P] for books , and [M:L:N:P] for incidentals , what are his yearly expenses ?
+algebra#@#What percent of [M:L:N] yards is [M:L:N] yards ? Present your answer as a decimal or a percentage with the percentage sign included .
+algebra#@#If a piece of (rectangular) cloth [M:L:N] yards long and [M:L:N] inches wide shrinks [M:L:F:M] inches in length and [M:L:N] inch in width , what percent is it reduced in area ? Round to the nearest percent , include the percentage sign in your answer , or leave the answer in decimal form rounded to the nearest hundredth .
+algebra#@#A speculator lost [M:L:N:P] of his money in a stock speculation , and sustained an additional loss of [M:L:N:P] of the remainder in a mining venture , when he found that he had but [M:L:N:D] remaining . What was the sum total of his losses ?
+algebra#@#A capitalist is worth [M:L:N] , [M:L:N:P] of which is invested in stocks and the remainder in real estate . What is the value of his real estate ?
+algebra#@#A man sold a horse for [M:L:N] , which was [M:L:N:P] more than cost . How much was his gain ?
+algebra#@#What is the value of a farm that is worth today [M:L:N:P] more than one year ago , if its value at that time was [M:L:N] ?
+algebra#@#What is the selling price of an invoice of sugar bought for [M:L:N] and sold at [M:L:N:P] profit ?
+algebra#@#A man paid [M:L:N] for a horse , carriage and harness . The carriage cost [M:L:N:P] more than the horse , and the harness cost [M:L:N:P] less than the carriage . What was the cost of each ? Present all three values separated by commas .
+algebra#@#[M:L:N:P] of a man 's wealth is in government bonds , [M:L:N:P] in real estate , [M:L:N:P] in mining stock , and the remainder in money . If his money amounts to [M:L:N] , what is the value of his real estate ?
+algebra#@#A depositor had [M:L:N] in a bank . He drew out [M:L:N:P] of it , then [M:L:N:P] of the remainder , and afterward deposited a sum equal to [M:L:N:P] of the amount withdrawn . How much did he have in the bank in the end ?
+algebra#@#If [M:VAR] can do [M:L:N:P] more work in a given time than [M:VAR] , how long a time will be required for both , working together , to perform a job of work that [M:VAR] can do alone in [M:L:N] days ? Round to the nearest tenth of a day .
+algebra#@#A farmer harvested [M:L:N] bushels of corn and sold [M:L:N] bushels of the same . What percent of the amount harvested did he sell ?
+algebra#@#A man drew [M:L:N:P] of his bank deposits and invested [M:L:N:P] of the sum withdrawn in the purchase of a horse and carriage which cost him [M:L:N] . How much had he remaining in the bank ?
+algebra#@#After selling [M:L:N:P] of my land , I had [M:L:N] acres left ; how much land had I at first ?
+algebra#@#A clerk 's monthly income was [M:L:N] , [M:L:N:P] of which he paid for a coat . What was the cost of the coat ?
+algebra#@#A farmer sold [M:L:N] bushels of wheat , which was [M:L:N:P] of his harvest . What was the number of bushels harvested ?
+algebra#@#What percent of [M:L:N] yards is [M:L:N] yards ? Present your answer as a decimal or a percentage with the percentage sign included .
+algebra#@#What percent of [M:L:F] is [M:L:F] ? Present your answer as a decimal or a percentage with the percentage sign included .
+algebra#@#A dealer invested equal sums in the purchase of flour and bacon ; he sold the flour at a profit of [M:L:N:P] and the bacon at a profit of [M:L:N:P] . If his gain on the bacon exceeded the gain on the flour by [M:L:N:D] , what sum was invested in the purchase of each ? (Since the sums invested in both were equal , simply provide this number once . That is , let your answer either be the sum invested in bacon or the sum invested in flour .)
+algebra#@#Wolves killed [M:L:N:P] of a flock of [M:L:N] sheep . What number of the flock remained ?
+algebra#@#[M:VAR] has [M:L:N] , and [M:L:F:M:P] of his money equals [M:L:N:P] of [M:VAR] 's money . How much money does [M:VAR] have ?
+algebra#@#The original capacity of a mill was [M:L:N] barrels per day , but by the addition of new machinery the capacity has been increased [M:L:N:P] . What is the present capacity of the mill ?
+algebra#@#[M:VAR] 's age exceeds [M:VAR] 's age by [M:L:N:P] , but is less than [M:VAR] 's age by [M:L:N:P] . The sum of their ages is [M:L:N] years ; how old is [M:VAR] ?
+algebra#@#A merchant 's sales on Tuesday exceeded his Monday sales by [M:L:N:P] ; his Wednesday sales were [M:L:N:P] more than his Tuesday sales ; his sales on Thursday were [M:L:N:P] greater than on Wednesday ; his sales on Friday were equal to his Thursday sales ; and his sales for Saturday were equal to the sum of his sales for Monday and Tuesday . His sales for the week amounted to [M:L:N:D] ; what was the amount of his Monday sales ?
+algebra#@#[M:L:N:P] of [M:VAR] 's age equals [M:L:N:F:M:P] of [M:VAR] 's age . The sum of their ages is [M:L:N] years ; how old is [M:VAR] ?
+algebra#@#Of the population of a certain city , [M:L:N:P] are native born , and the remainder are of foreign birth ; the foreign born are what percent of the native born ? Round to the nearest percent , include the percentage sign in your answer .
+algebra#@#A speculator lost [M:L:N:P] of his capital in a mining speculation and he has [M:L:N] remaining . How much did he lose ?

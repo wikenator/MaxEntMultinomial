@@ -1,0 +1,9 @@
+algebra#@#For each positive integer [M:VAR] let [M:VAR] denote the exponential tower [M:EX] where [M:EQ] ; for example , [M:EQ] , [M:EQ] , and [M:EQ] . Find [M:VAR] .
+algebra#@#Consider the curves [M:EQ] and [M:EQ] . These curves intersect at two points , one of which is [M:L:COORD] . Find the other one .
+algebra#@#Let [M:EX:FUNC] be a real valued function defined for a all real [M:INEQ] such that [M:EQ:FUNC] . Find [M:EX:FUNC] .
+algebra#@#Let [M:VAR] be a monic cubic polynomical such that the sum of the coefficients , the sum of the roots , and the sum of each root squared are all equal to [M:L:N] . Find [M:VAR] . Note : monic means that the leading coefficient of [M:VAR] is [M:L:N] .
+algebra#@#Let [M:EQ:FUNC] . Let [M:EQ] . Compute [M:EX:FUNC] .
+algebra#@#Find all integers [M:VAR] for which [M:EX] is prime .
+algebra#@#Find the final non -zero digit in [M:L:N:FAC] . For example , the final non -zero digit of [M:L:N] is [M:L:N] .
+algebra#@#Let [M:VAR:SET] denote the number of terms in [M:EX] when simplified , i. e. expanded and like terms collected , for non -negative integers [M:INEQ] . Find [M:EX:SUM]
+algebra#@#Define a sequence [M:VAR:SET] by [M:EQ:C] for [M:INEQ] . Find the limit of this sequence .

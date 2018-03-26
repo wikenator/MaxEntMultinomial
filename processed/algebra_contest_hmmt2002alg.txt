@@ -1,0 +1,10 @@
+algebra#@#Nine nonnegative numbers have average [M:L:N] . What is the greatest possible value for their median ?
+algebra#@#[M:VAR] and [M:VAR] are primes such that the numbers [M:EX] and [M:EX] are both squares . Find the value of [M:VAR] .
+algebra#@#Real numbers [M:VAR] , [M:VAR] , [M:VAR] satisfy the equations [M:EQ] , [M:EQ] . Find the value of [M:EX]
+algebra#@#If a positive integer multiple of [M:L:N] is picked randomly , with each multiple having the same probability of being picked , what is the probability that it is divisible by [M:L:N] ?
+algebra#@#Find the greatest common divisor of the numbers [M:EX] , [M:EX] , [M:EX] , ... .
+algebra#@#Find the sum of the even positive divisors of [M:L:N] .
+algebra#@#The real numbers [M:VAR] , [M:VAR] , [M:VAR] , [M:VAR] satisfy [M:EQ] , [M:EQ] , [M:EQ] , [M:EQ] . Find the value of [M:VAR] .
+algebra#@#Determine the value of the sum [M:EX]
+algebra#@#For any positive integer [M:VAR] , let [M:EX:FUNC] denote the number of [M:L:N] 's in the base -[M:L:N] representation of [M:VAR] . For how many values of [M:VAR] with [M:INEQ:C] do we have [M:EQ:FUNC] ?
+algebra#@#Determine the value of [M:EX]

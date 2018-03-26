@@ -1,0 +1,10 @@
+algebra#@#Let [M:VAR] and [M:VAR] be real numbers with [M:INEQ] such that [M:EQ] and [M:EQ] . Find the value of [M:VAR] .
+algebra#@#Let [M:VAR:SET] be an arithmetic sequence and [M:VAR:SET] be a geometric sequence such that the first four terms of [M:EX] are [M:L:N] , [M:L:N] , [M:L:N] , and [M:L:N] , in that order . What is the [M:L:N] th term of [M:EX] ?
+algebra#@#Let [M:VAR:SET] be the set of integers of the form [M:EX] , where [M:VAR] , [M:VAR] , [M:VAR] are pairwise distinct non -negative integers . Determine the [M:L:N] th smallest element of [M:VAR:SET] .
+algebra#@#Determine all real values of [M:VAR] for which there exist distinct complex numbers [M:VAR] , [M:VAR] such that the following three equations hold : [M:EQ] , [M:EQ] , [M:EQ]
+algebra#@#Let [M:VAR] and [M:VAR] be real numbers , and let [M:VAR] , [M:VAR] , and [M:VAR] be the roots of [M:EQ:FUNC] . Also , [M:VAR:EQ] has roots [M:EX] , [M:EX] , and [M:EX] . If [M:EQ:FUNC] , find the maximum possible value of [M:VAR] .
+algebra#@#Find the number of integers [M:VAR] such that [M:EQ]
+algebra#@#Compute [M:EX:SUM]
+algebra#@#Let [M:VAR] , [M:VAR] be complex numbers such that [M:EQ] and [M:EQ] . Find all possible values of [M:EX] .
+algebra#@#Let [M:VAR] be a non -real complex number with [M:EQ] . Compute [M:EX:SUM]
+algebra#@#Let [M:VAR] be a positive integer whose decimal representation contains 11235 as a contiguous substring , and let [M:VAR] be a positive integer such that [M:INEQ] . Find the minimum possible value of [M:EX]

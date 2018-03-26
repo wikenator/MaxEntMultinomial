@@ -1,0 +1,10 @@
+algebra#@#Given that [M:VAR] and [M:VAR] are nonzero real numbers such that [M:EQ] and [M:EQ] , find all possible values of [M:VAR] .
+algebra#@#Find the integer closest to [M:EX]
+algebra#@#Let [M:EQ] . Compute [M:EX] .
+algebra#@#Let [M:VAR] and [M:VAR] be real numbers , and define the polynomial [M:EQ:FUNC] . Suppose that [M:EQ:FUNC:C] , and that [M:INEQ:FUNC] . Find [M:EX:FUNC] .
+algebra#@#Find the sum of all real numbers [M:VAR] such that [M:EQ] .
+algebra#@#Given that [M:VAR] and [M:VAR] are complex numbers such that [M:EQ] and [M:EQ] , find the smallest possible value of [M:EX] . Here , [M:EX] denotes the absolute value of a complex number , given by [M:EQ] whenever [M:VAR] and [M:VAR] are real numbers .
+algebra#@#Find the largest real number [M:VAR] such that [M:INEQ:SUM] whenever [M:VAR] , ... , [M:VAR] are real numbers such that [M:EQ] and [M:VAR] is the median of [M:VAR] , ... , [M:VAR] .
+algebra#@#Find all real numbers [M:VAR] such that [M:EQ] is true for exactly one real number [M:VAR] .
+algebra#@#Given that a , [M:VAR] , and [M:VAR] are complex numbers satisfying [M:EQ] , [M:EQ] , [M:EQ] compute [M:EX] . (Here, [M:EQ] .)
+algebra#@#For an integer [M:VAR] , let [M:EX:FUNC] denote the number of positive integers [M:INEQ] dividing [M:VAR] . Suppose that [M:VAR] is a positive integer and [M:VAR] , [M:VAR] , ... , [M:VAR] are real numbers such that [M:EQ:SUM] for all [M:INEQ] . Find the smallest possible value of [M:VAR] .

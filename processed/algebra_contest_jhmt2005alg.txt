@@ -1,0 +1,10 @@
+algebra#@#If [M:VAR] and [M:VAR] are real numbers , determine the minimum value of : [M:EX]
+algebra#@#A rectangle 's perimeter and area both have a value of [M:L:N] . What is the length of its longer side ?
+algebra#@#If [M:INEQ] , what is the positive difference between the two roots of the following equation ? [M:EQ]
+algebra#@#Consider the following function : [M:EQ:FUNC] . Compute [M:EX:FUNC] .
+algebra#@#Determine the sum of the positive factors of [M:L:N] .
+algebra#@#Determine [M:EX] if : [M:EQ] , [M:EQ] , [M:EQ] , [M:EQ]
+algebra#@#An equilateral triangle with area [M:L:N:POW] and located in the first quadrant has one vertex located on the [M:VAR] -axis and one vertex located on the origin . Find the coordinates of the third vertex .
+algebra#@#[M:VAR] , [M:VAR] , and [M:VAR] are distinct integers satisfying : [M:EQ] . Find [M:EX] .
+algebra#@#How many integer pair [M:VAR:COORD] fulfill the following condition ? [M:EQ]
+algebra#@#Evaluate the infinite sum : [M:EX]

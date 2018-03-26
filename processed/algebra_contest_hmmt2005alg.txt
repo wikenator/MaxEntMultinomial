@@ -1,0 +1,10 @@
+algebra#@#How many real numbers [M:VAR] are solutions to the following equation ? [M:EQ]
+algebra#@#How many real numbers [M:VAR] are solution to the following equation ? [M:EQ]
+algebra#@#Let [M:VAR] , [M:VAR] , and [M:VAR] be distinct real numbers that sum to [M:L:N] . Find the maximum possible value of [M:EX]
+algebra#@#If [M:VAR] , [M:VAR] , [M:INEQ] , what is the smallest possible value of [M:EX] ? (Note that [M:EX] denotes the greatest integer less than or equal to [M:VAR] .)
+algebra#@#Ten positive integers are arranged around a circle . Each number is one more than the greatest common divisor of its two neighbors . What is the sum of the ten numbers ?
+algebra#@#Find the sum of the [M:VAR] -coordinates of the distinct points of intersection of the plane curves given by [M:EQ] and [M:EQ] .
+algebra#@#Let [M:VAR] be a positive real number . Find the maximum possible value of [M:EX]
+algebra#@#Compute [M:EX:SUM]
+algebra#@#The number [M:L:N] has exactly four prime factors . Find their sum .
+algebra#@#Find the sum of the absolute values of the roots of [M:EQ] .

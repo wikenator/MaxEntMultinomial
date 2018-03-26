@@ -1,0 +1,3 @@
+algebra#@#Find [M:EX:TRIG] .
+algebra#@#Given two regions described by the inequalities [M:INEQ] and [M:INEQ] , respectively , find the area of the intersection of the two regions .
+algebra#@#Find all pairs of positive integers [M:VAR:COORD] such that [M:EQ] , and [M:VAR] is not divisible by [M:L:N] .

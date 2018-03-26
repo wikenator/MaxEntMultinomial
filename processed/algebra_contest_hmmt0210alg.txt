@@ -1,0 +1,10 @@
+algebra#@#Suppose that [M:VAR] and [M:VAR] are positive reals such that [M:EQ] , [M:EQ] . Find [M:VAR] .
+algebra#@#The rank of a rational number [M:VAR] is the unique [M:VAR] for which [M:EQ] , where each [M:VAR] is the smallest positive integer such that [M:INEQ] . Let [M:VAR] be the largest rational number less than [M:L:F] with rank [M:L:N] , and suppose the expression for [M:VAR] is [M:EX] . Find the ordered triple [M:VAR:COORD] .
+algebra#@#Let [M:EQ:FUNC] and let [M:EX:FUNC] equal [M:EX] for [M:INEQ] . Define [M:VAR] to be [M:L:N] if [M:INEQ:FUNC] and [M:L:N] if [M:INEQ:FUNC] . What is the largest [M:INEQ] such that [M:EQ:FUNC] ?
+algebra#@#Suppose that there exist nonzero complex numbers [M:VAR] , [M:VAR] , [M:VAR] , and [M:VAR] such that [M:VAR] is a root of both the equations [M:EQ] and [M:EQ] . Find all possible values of [M:VAR] (including complex values ).
+algebra#@#Suppose that [M:VAR] and [M:VAR] are complex numbers such that [M:EQ] and that [M:EQ] . Find the sum of all possible values of [M:EX] .
+algebra#@#Suppose that a polynomial of the form [M:EQ:FUNC] has no real roots . What is the maximum possible number of coefficients of [M:L:N] in [M:VAR] ?
+algebra#@#Let [M:VAR] , [M:VAR] , [M:VAR] , [M:VAR] , [M:VAR] , and [M:VAR] be complex numbers such that [M:EQ] , [M:EQ] , [M:EQ] . If [M:EQ] and [M:EQ] , find the value of [M:EX] .
+algebra#@#How many polynomials of degree exactly [M:L:N] with real coefficients send the set [M:L:N] , [M:L:N] , [M:L:N] , [M:L:N] , [M:L:N] , [M:L:N] to a permutation of itself ?
+algebra#@#Let [M:EQ:FUNC] , where [M:VAR] is a positive real number . We use [M:EX:FUNC] to denote the polynomial obtained by composing [M:EX:FUNC] with itself [M:VAR] times . For every positive integer [M:VAR] , all the roots of [M:EX:FUNC] are real . What is the smallest possible value of [M:VAR] ?
+algebra#@#Let [M:EX:FUNC] and [M:EX:FUNC] be two cubic polynomials such that [M:EQ:FUNC] , [M:EQ:FUNC] , and [M:EQ:FUNC] for all real numbers [M:VAR] . Find the ordered pair [M:VAR:COORD] .

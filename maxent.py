@@ -53,21 +53,43 @@ if __name__ == '__main__':
 #	pkl_group = cmd_line_parser.add_mutually_exclusive_group(required=False)
 	cmd_line_parser.add_argument('-l', '--load_pickle', action='store_true', help='Load data from pickle files (will not recalculate data).')
 #	pkl_group.add_argument('-s', '--save_pickle', action='store_true', help='Save data to pickle files after calculation.')
+	cmd_line_parser.add_argument('--steps', nargs=1, default=400, help='Number of iterations for maxent gradient descent calculated during learning. Default: %(default)s')
+	cmd_line_parser.add_argument('--learn_rate', nargs=1, default=5e-4, help='Learning rate to use during maxent learning. Default: %(default)s')
+	cmd_line_parser.add_argument('--reg_coeff', nargs=1, default=0.001, help='Regularization coefficient to normalize maxent gradient descent during learning. Default: %(default)s')
 	args = cmd_line_parser.parse_args()
 	
-#	if (args.save_pickle == False) and (args.load_pickle == False):
-#		args.save_pickle == True
+	sys.stderr.write("MaxEnt parameters:\n")
+	print('\t' + str(args) + '\n')
 
 	save_pickle = not args.load_pickle
+
+	if type(args.steps) == list:
+		n_steps = int(args.steps[0])
+
+	else:
+		n_steps = int(args.steps)
+
+	if type(args.learn_rate) == list:
+		learn_rate = float(args.learn_rate[0])
+
+	else:
+		learn_rate = float(args.learn_rate)
+
+	if type(args.reg_coeff) == list:
+		reg_coeff = float(args.reg_coeff[0])
+
+	else:
+		reg_coeff = float(args.reg_coeff)
+
 	prefix = './pickles/'
 
-	mec = MEC(args.load_pickle)
+	mec = MEC(save_pickle)
 	mec.iters = 5
 
 	if len(sys.argv) > 1 and sys.argv[1] == 'nb':
 		NB_Test(mec)
 
-	mec.split_sets(0.8, args.load_pickle)
+	mec.split_sets(0.8, save_pickle)
 	mec.set_stats()
 
 	if not args.load_pickle:
@@ -102,9 +124,9 @@ if __name__ == '__main__':
 		train_features, 
 		weights, 
 		train_labels, 
-		400, 
-		5e-3, 
-		0.02
+		n_steps,
+		learn_rate,
+		reg_coeff
 	)
 	class_prob_train = numpy.dot(weights, train_features)
 	class_bin_train = mec.hard_classify(class_prob_train)
@@ -121,4 +143,4 @@ if __name__ == '__main__':
 		.sum() \
 		.astype(float) / \
 		len(class_bin_test))
-	print "MaxEnt Stats:\n\tMinimized Cost: %.6f\n\tBest Learning Rate: %.6f" % (min_cost, best_learn_rate)
+	print "\nMaxEnt Stats:\n\tMinimized Cost: %.6f\n\tBest Learning Rate: %.6f" % (min_cost, best_learn_rate)

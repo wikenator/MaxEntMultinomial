@@ -1,0 +1,8 @@
+algebra#@#Determine the units digit of [M:EX] .
+algebra#@#How many integer pairs [M:VAR:COORD] for [M:INEQ:C] are there such that [M:EQ] has two distinct real roots ?
+algebra#@#Find all [M:VAR] in [M:L:INT] inclusive so that [M:EQ:TRIG]
+algebra#@#Solve for all values of [M:VAR] . [M:EQ]
+algebra#@#Given that the number [M:EX] is a prime for at least one digit [M:VAR] , find all such [M:VAR] .
+algebra#@#A circular disk of gradually decreasing radius slides down a pit defined by the equation [M:EQ] , maintaining two points of contact with the pit . What is its radius when the two points of contact coalesce into one ?
+algebra#@#Between which two consecutive integers does [M:EX:FUNC] lie ? [M:EQ:FUNC]
+algebra#@#If the range of [M:EQ:FUNC] for positive [M:VAR] , [M:VAR] , and [M:VAR] is [M:VAR:COORD] exclusive , find [M:EX] .

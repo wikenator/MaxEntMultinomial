@@ -1,30 +1,30 @@
 arithmetic#@#Henry found under one tree twenty nuts , under another fifty -six, and under another ninety -five -- how many did he find in all ?
 arithmetic#@#Charles gathered at one time nineteen apples , at another fifteen , at another one hundred and fifteen and at another one hundred and twenty -five -- how many did he gather in all ?
-arithmetic#@#George Washington was born in the year 1732 , he lived sixty -seven years -- in what year did he die ?
-arithmetic#@#A person collecting money received from one man 150 dollars , of another 145 dollars , of another 103 dollars , and of another 27 dollars -- how much did he collect in all ?
-arithmetic#@#The distance from New York to Brunswick is 30 miles , from Brunswick to Princeton 18 miles , from Princeton to Trenton 12 miles , from Trenton to Bristol 10 miles , from Bristol to Philadelphia 20 miles -- What is the distance from New York to Philadelphia ?
+arithmetic#@#George Washington was born in the year [M:L:N] , he lived sixty -seven years -- in what year did he die ?
+arithmetic#@#A person collecting money received from one man [M:L:N] dollars , of another [M:L:N] dollars , of another [M:L:N] dollars , and of another [M:L:N] dollars -- how much did he collect in all ?
+arithmetic#@#The distance from New York to Brunswick is [M:L:N] miles , from Brunswick to Princeton [M:L:N] miles , from Princeton to Trenton [M:L:N] miles , from Trenton to Bristol [M:L:N] miles , from Bristol to Philadelphia [M:L:N] miles -- What is the distance from New York to Philadelphia ?
 arithmetic#@#William has twenty -five cents and George has thirteen -- How many more has William than George ?
-arithmetic#@#Sir Isaac Newton was born in the year 1642 , and died in 1727 -- how old was he at the time of his death ?
+arithmetic#@#Sir Isaac Newton was born in the year [M:L:N] , and died in [M:L:N] -- how old was he at the time of his death ?
 arithmetic#@#Benjamin is seventeen years old and John is eight -- how much older is Benjamin than John ?
-arithmetic#@#Gunpowder was invented in the year 1330 , and the art of printing discovered in 1441 -- how many years between these two periods ?
-arithmetic#@#The mariner 's compass was invented about the year 1302 and Europeans stumbled upon America in 1492 -- how many years between these two periods ?
-arithmetic#@#The population of New York state , in the year 1820 , was 1,372,812 , and in 1825 it was 1,616,482 -- how much is the increase ?
-arithmetic#@#Add 1000 , 500 , and 627 , and subtract from their sum 800 -- what is the remainder ?
-arithmetic#@#A boy had 800 nuts , ate 45 , gave his sister 210 , his brother 304 , and sold 50 -- what number had he left ?
-arithmetic#@#A man borrowed from his friend , at several times , 120 dollars , 50 dollars , and 35 dollars , and paid back 75 dollars and 31 dollars -- how much does he still owe ?
-arithmetic#@#Find the sum of the numbers from 495 to 514 inclusive .
+arithmetic#@#Gunpowder was invented in the year [M:L:N] , and the art of printing discovered in [M:L:N] -- how many years between these two periods ?
+arithmetic#@#The mariner 's compass was invented about the year [M:L:N] and Europeans stumbled upon America in [M:L:N] -- how many years between these two periods ?
+arithmetic#@#The population of New York state , in the year [M:L:N] , was [M:L:N] , and in [M:L:N] it was [M:L:N] -- how much is the increase ?
+arithmetic#@#Add [M:L:N] , [M:L:N] , and [M:L:N] , and subtract from their sum [M:L:N] -- what is the remainder ?
+arithmetic#@#A boy had [M:L:N] nuts , ate [M:L:N] , gave his sister [M:L:N] , his brother [M:L:N] , and sold [M:L:N] -- what number had he left ?
+arithmetic#@#A man borrowed from his friend , at several times , [M:L:N] dollars , [M:L:N] dollars , and [M:L:N] dollars , and paid back [M:L:N] dollars and [M:L:N] dollars -- how much does he still owe ?
+arithmetic#@#Find the sum of the numbers from [M:L:N] to [M:L:N] inclusive .
 arithmetic#@#From forty -nine million one thousand six hundred forty -five, take two million nine hundred seventy -eight thousand seven hundred sixty .
 arithmetic#@#From two million nine , take three hundred thousand thirty -five.
-arithmetic#@#What is the difference between 705 billion 96 million 6 thousand 5 , and 208 billion 107 million 61 thousand ?
-arithmetic#@#The sum of two numbers is 60,908,072 ; the less is 21,090,806 ; what is the greater ?
-arithmetic#@#Subtract 564,038 from 4,000,000 as often as you can . What is the last remainder ?
-arithmetic#@#Four men owned 1976 hogs . A owned 278 , and B owned 490 . C owned as many less than B as B did more than A . How many did D own ?
-arithmetic#@#What number must be added to 109 thousand eight , to make 19 million 63 thousand 140 ?
-arithmetic#@#Take 395 from each of the following numbers : 563 , 2,768 , 1,024 , 576 , 843 , 10,021 , 3,200 , 493 , 1,000 . Add the remainders .
-arithmetic#@#A broker lost $27,000 in mining stock , then gained $23,625 , then lost $38,500 , which exhausted his capital ; what was his capital ?
-arithmetic#@#A man borrowed of his neighbor 30 dollars at one time , 106 at another , 67 at another , and 37 at another ; how much did he borrow in the whole ?
-arithmetic#@#Four boys collected chestnuts ; John had 4,096 , Peter had 16,784 , Charles had 11,590 , and David 557 ; how many were there in the whole ?
-arithmetic#@#Four boys , on counting their apples , found Andrew had 67 , Bennet 11 more than Andrew , Charles had 101 , and Daniel had 16 more than Charles ; how many had they all ?
-arithmetic#@#If one acre of land costs 45 dollars , what will 4,721 acres cost ?
-arithmetic#@#A farmer raised , in one year , 60 bushels of oats , 940 bushels of wheat , 370 of corn , and 80 bushels of potatoes ; how many bushels did he raise in all ?
-arithmetic#@#King Charles the martyr was beheaded in the year 1648 , and 130 years have elapse since that period ; what year is it now ?
+arithmetic#@#What is the difference between [M:L:N] billion [M:L:N] million [M:L:N] thousand [M:L:N] , and [M:L:N] billion [M:L:N] million [M:L:N] thousand ?
+arithmetic#@#The sum of two numbers is [M:L:N] ; the less is [M:L:N] ; what is the greater ?
+arithmetic#@#Subtract [M:L:N] from [M:L:N] as often as you can . What is the last remainder ?
+arithmetic#@#Four men owned [M:L:N] hogs . [M:VAR] owned [M:L:N] , and [M:VAR] owned [M:L:N] . [M:VAR] owned as many less than [M:VAR] as [M:VAR] did more than [M:VAR] . How many did [M:VAR] own ?
+arithmetic#@#What number must be added to [M:L:N] thousand eight , to make [M:L:N] million [M:L:N] thousand [M:L:N] ?
+arithmetic#@#Take [M:L:N] from each of the following numbers : [M:L:N] , [M:L:N] , [M:L:N] , [M:L:N] , [M:L:N] , [M:L:N] , [M:L:N] , [M:L:N] , [M:L:N] . Add the remainders .
+arithmetic#@#A broker lost [M:L:N] in mining stock , then gained [M:L:N] , then lost [M:L:N] , which exhausted his capital ; what was his capital ?
+arithmetic#@#A man borrowed of his neighbor [M:L:N] dollars at one time , [M:L:N] at another , [M:L:N] at another , and [M:L:N] at another ; how much did he borrow in the whole ?
+arithmetic#@#Four boys collected chestnuts ; John had [M:L:N] , Peter had [M:L:N] , Charles had [M:L:N] , and David [M:L:N] ; how many were there in the whole ?
+arithmetic#@#Four boys , on counting their apples , found Andrew had [M:L:N] , Bennet [M:L:N] more than Andrew , Charles had [M:L:N] , and Daniel had [M:L:N] more than Charles ; how many had they all ?
+arithmetic#@#If one acre of land costs [M:L:N] dollars , what will [M:L:N] acres cost ?
+arithmetic#@#A farmer raised , in one year , [M:L:N] bushels of oats , [M:L:N] bushels of wheat , [M:L:N] of corn , and [M:L:N] bushels of potatoes ; how many bushels did he raise in all ?
+arithmetic#@#King Charles the martyr was beheaded in the year [M:L:N] , and [M:L:N] years have elapse since that period ; what year is it now ?

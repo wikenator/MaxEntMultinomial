@@ -28,11 +28,13 @@ class NaiveClassifier:
 
 		self.read_files(pkl)
 
-	def read_files(self, pkl):
+	def read_files(self, save_pkl):
 		sys.stdout.write("Reading files for processing.\n")
 
-		if pkl:
+		if save_pkl:
 			file_list = glob.glob('./processed/*.txt')
+
+			sys.stdout.write("\tReading "+str(len(file_list))+" files.\n")
 
 			for f_name in file_list:
 				f = open(f_name, 'r').readlines()
@@ -64,8 +66,8 @@ class NaiveClassifier:
 			self.arith_count = len(self.arith_problems)
 			self.geo_count = len(self.geo_problems)
 
-	def split_sets(self, pct, pkl):
-		if not pkl:
+	def split_sets(self, pct, save_pkl):
+		if save_pkl:
 			shuffle(self.alg_problems)
 			shuffle(self.arith_problems)
 			shuffle(self.geo_problems)
