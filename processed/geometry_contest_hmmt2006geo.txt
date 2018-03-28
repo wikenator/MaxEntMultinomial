@@ -1,0 +1,10 @@
+geometry#@#Octagon [M:EX] is equiangular . Given that [M:EQ] , [M:EQ] , [M:EQ] , [M:EQ] , and [M:EQ:C] , compute the perimeter of the octagon .
+geometry#@#Suppose [M:EX] is a scalene right triangle , and [M:VAR] is the point on hypotenuse [M:EX] such that [M:EQ:A] . Given that [M:EQ] and [M:EQ] , compute the area of [M:EX] .
+geometry#@#Let [M:VAR] , [M:VAR] , [M:VAR] , and [M:VAR] be points on a circle such that [M:EQ] and [M:EQ] . Point [M:VAR] is on segment [M:EX] with [M:EQ] , and [M:VAR] is on segment [M:EX] with [M:EQ] . The line through [M:VAR] and [M:VAR] intersects the circle at [M:VAR] and [M:VAR] . If [M:EQ] , find [M:EX] .
+geometry#@#Let [M:EX] be a triangle such that [M:EQ] , [M:EQ] , and [M:EQ] . A semicircle with its diameter on [M:EX] is tangent to [M:EX] and [M:EX] . Compute the area of the semicircle .
+geometry#@#Triangle [M:EX] has side lengths [M:EQ] , [M:EQ] , and [M:EQ] . Point [M:VAR] is on side [M:EX] such that [M:EQ] , and [M:VAR] is a point such that [M:EQ] and [M:EQ] . Let [M:VAR] be the intersection of lines [M:EX] and [M:EX] . Find the area of [M:EX] .
+geometry#@#A circle of radius [M:VAR] is tangent to the hypotenuse , the incircle , and one leg of an isosceles triangle with inradius [M:EQ:TRIG] . Find [M:EX] .
+geometry#@#Suppose [M:EX] is an isosceles trapezoid in which [M:EX] . Two mutually externally tangent circles [M:VAR] and [M:VAR] are inscribed in [M:EX] such that [M:VAR] is tangent to [M:EX] , [M:EX] , and [M:EX] while [M:VAR] is tangent to [M:EX] , [M:EX] , and [M:EX] . Given that [M:EQ] , [M:EQ] , compute the radius of either circle .
+geometry#@#Triangle [M:EX] has a right angle at [M:VAR] . Point [M:VAR] lies on side [M:EX] such that [M:EQ:A] . Given [M:EQ] and [M:EQ] , compute [M:EX] .
+geometry#@#Four spheres , each of radius [M:VAR] , lie inside a regular tetrahedron with side length [M:L:N] such that each sphere is tangent to three faces of the tetrahedron and to the other three spheres . Find [M:VAR] .
+geometry#@#Triangle [M:EX] has side lengths [M:EQ] , [M:EQ] , and [M:EQ] . Find the radius of the circle tangent to sides [M:EX] and [M:EX] and to the circumcircle of triangle [M:EX] .

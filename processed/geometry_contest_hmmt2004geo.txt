@@ -1,0 +1,10 @@
+geometry#@#In trapezoid [M:EX] , [M:EX] is parallel to [M:EX] . [M:EQ:A:C] , while [M:EQ:A:C] . If [M:EQ] and the area of [M:EX] is [M:L:N] , find [M:EX] .
+geometry#@#A parallelogram has [M:L:N] of its vertices at [M:L:COORD] , [M:L:COORD] , and [M:L:COORD] . Compute the sum of the possible [M:VAR] -coordinates for the [M:L:N] th vertex .
+geometry#@#A swimming pool is in the shape of a circle with diameter [M:L:N] ft . The depth varies linearly along the east -west direction from [M:L:N] ft at the shallow end in the east to [M:L:N] ft at the diving end in the west (this is so that divers look impressive against the sunset ) but does not vary at all along the north -south direction . What is the volume of the pool , in ft^3 ?
+geometry#@#[M:VAR] is inside rectangle [M:EX] . [M:EQ] , [M:EQ] , and [M:EQ] . Find [M:EX] .
+geometry#@#Find the area of the region of the [M:EX] -plane defined by the inequality [M:INEQ] .
+geometry#@#In trapezoid [M:EX] shown , [M:EX] is parallel to [M:EX] , and [M:EQ] , [M:EQ] , [M:EQ] , [M:EQ] . If sides [M:EQ] and [M:EQ] are extended to meet at [M:VAR] , find the resulting angle at [M:VAR] (in degrees ).
+geometry#@#Yet another trapezoid [M:EX] has [M:EX] parallel to [M:EX] . [M:EX] and [M:EX] intersect at [M:VAR] . If [M:EQ] , find [M:EX] . (Here the notation [M:EX] denotes the area of the polygon [M:EX] .)
+geometry#@#A triangle has side lengths [M:L:N] , [M:L:N] , and [M:L:N] . Find the area of the triangle whose vertices are the incenter , circumcenter , and centroid of the original triangle .
+geometry#@#Given is a regular tetrahedron of volume [M:L:N] . We obtain a second regular tetrahedron by reflecting the given one through its center . What is the volume of their intersection ?
+geometry#@#Right triangle [M:EX] has right angle at [M:VAR] and [M:EQ] , [M:EQ] . Angle [M:VAR] is trisected , and the angle trisectors intersect [M:EX] at [M:VAR] and [M:VAR] so that [M:VAR] , [M:VAR] , [M:VAR] , [M:VAR] lie on [M:EX] in that order . Find the value of [M:EX] .
