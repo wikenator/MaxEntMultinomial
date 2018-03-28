@@ -2,7 +2,7 @@
 
 import sys, math
 import numpy
-from nltk.tokenize import word_tokenize
+#from nltk.tokenize import word_tokenize
 from nltk.util import ngrams
 from nltk.corpus import stopwords
 from NaiveClassifier import NaiveClassifier as NBC
@@ -12,28 +12,31 @@ class MaxEntClassifier(NBC):
 		NBC.__init__(self, pkl)
 
 		# create array of selected stop words and punctuation
-		self.stop_words = set(stopwords.words('english'))
-		self.stop_words.add(',')
-		self.stop_words.add('.')
-		self.stop_words.add('?')
-		self.stop_words.add(';')
-		self.stop_words.add(':')
-		self.stop_words.add(')')
-		self.stop_words.add('(')
-		self.stop_words.add('$')
+#		self.stop_words = set(stopwords.words('english'))
+#		self.stop_words.add(',')
+#		self.stop_words.add('.')
+#		self.stop_words.add('?')
+#		self.stop_words.add(';')
+#		self.stop_words.add(':')
+#		self.stop_words.add(')')
+#		self.stop_words.add('(')
+#		self.stop_words.add('[')
+#		self.stop_words.add(']')
+#		self.stop_words.add('$')
 
 	# add all word tokens into a set and sort tokens alphabetically
 	def get_vocabulary(self, use_bigrams, use_trigrams):
 		sys.stderr.write("Compiling vocabulary.\n")
 
 		all_problems = self.alg_problems + self.arith_problems + self.geo_problems
-		vocab = [w.lower() for p in all_problems for w in word_tokenize(p[0]) if (not w in self.stop_words) and (len(w) > 2)]
+#		vocab = [w for p in all_problems for w in word_tokenize(p[0].lower()) if (not w in self.stop_words) and (len(w) > 2)]
+		vocab = [w for p in all_problems for w in self.util.regex_tokenizer(p[0].lower())]
 
 		if use_bigrams:
-			vocab += [b for p in all_problems for b in ngrams(word_tokenize(p[0].lower()), 2)]
+			vocab += [b for p in all_problems for b in ngrams(self.util.regex_tokenizer(p[0].lower()), 2)]
 
 		if use_trigrams:
-			vocab += [t for p in all_problems for t in ngrams(word_tokenize(p[0].lower()), 3)]
+			vocab += [t for p in all_problems for t in ngrams(self.util.regex_tokenizer(p[0].lower()), 3)]
 
 		vocab = set(vocab)
 		vocab = list(vocab)
@@ -49,7 +52,8 @@ class MaxEntClassifier(NBC):
 		
 		# process algebra problem set
 		for p, c in self.alg_train_set:
-			tokens = word_tokenize(p.lower())
+#			tokens = word_tokenize(p.lower())
+			tokens = self.util.regex_tokenizer(p.lower())
 
 			for w in tokens:
 				if w in V: wts[0][V.index(w)] = self.alg[w]
@@ -68,7 +72,8 @@ class MaxEntClassifier(NBC):
 
 		# process arithmetic problem set
 		for p, c in self.arith_train_set:
-			tokens = word_tokenize(p.lower())
+#			tokens = word_tokenize(p.lower())
+			tokens = self.util.regex_tokenizer(p.lower())
 
 			for w in tokens:
 				if w in V: wts[1][V.index(w)] = self.arith[w]
@@ -87,7 +92,8 @@ class MaxEntClassifier(NBC):
 
 		# process geometry problem set
 		for p, c in self.geo_train_set:
-			tokens = word_tokenize(p.lower())
+#			tokens = word_tokenize(p.lower())
+			tokens = self.util.regex_tokenizer(p.lower())
 
 			for w in tokens:
 				if w in V: wts[2][V.index(w)] = self.geo[w]
@@ -110,17 +116,18 @@ class MaxEntClassifier(NBC):
 	def get_train_features(self, V, use_bigrams=True, use_trigrams=True):
 		sys.stderr.write("\nVectorizing training features.\n")
 
-		train_sets = self.alg_train_set + self.arith_train_set + self.geo_train_set
+#		train_sets = self.alg_train_set + self.arith_train_set + self.geo_train_set
 
-		return self.get_features(train_sets, V, use_bigrams, use_trigrams)
+		return self.get_features(self.train_problems, V, use_bigrams, use_trigrams)
 
 	# abstract for get_features
 	def get_test_features(self, V, use_bigrams=True, use_trigrams=True):
 		sys.stderr.write("\nVectorizing test features.\n")
 
-		test_sets = self.alg_test_set + self.arith_test_set + self.geo_test_set
+#		test_sets = self.alg_test_set + self.arith_test_set + self.geo_test_set
 
-		return self.get_features(test_sets, V, use_bigrams, use_trigrams)
+#		print len(self.test_problems)
+		return self.get_features(self.test_problems, V, use_bigrams, use_trigrams)
 
 	# convert word tokens into 0-1 features
 	# convert text categories into integer features
@@ -129,9 +136,10 @@ class MaxEntClassifier(NBC):
 		labels = numpy.empty((1, len(sets)), dtype=int)
 
 		for i, (p, c) in enumerate(sets):
-			sys.stderr.write("Getting features for item "+str(i)+'\r')
+			sys.stderr.write("Getting features for item "+str(i+1)+'\r')
 
-			tokens = word_tokenize(p.lower())
+#			tokens = word_tokenize(p.lower())
+			tokens = self.util.regex_tokenizer(p.lower())
 
 			for w in tokens:
 				if w in V: feats[V.index(w)][i] = 1
@@ -211,7 +219,7 @@ class MaxEntClassifier(NBC):
 		c = self.cost(predictions, l)
 		
 		for i in xrange(n_steps):
-			sys.stderr.write("iter: "+str(i)+" cost: "+str(c)+"\r")
+			sys.stderr.write("iter: "+str(i+1)+" cost: "+str(c)+"\r")
 
 #			w -= learn_rate * self.gradient(f, l, probabilities)
 			w -= learn_rate * self.gradient_reg(f, l, probabilities, w, reg_coeff)

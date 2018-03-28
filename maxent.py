@@ -103,23 +103,23 @@ if __name__ == '__main__':
 		weights = mec.get_init_weights(all_words, args.use_bigrams, args.use_trigrams)
 		train_features, train_labels = mec.get_train_features(all_words, args.use_bigrams, args.use_trigrams)
 
-		if not os.path.exists('./pickles/config'+str(args.use_bigrams)+str(args.use_trigrams)+'.cfg'):
-			pkl_files = os.listdir('./pickles/')
+#		if not os.path.exists('./pickles/config'+str(args.use_bigrams)+str(args.use_trigrams)+'.cfg'):
+#			pkl_files = os.listdir('./pickles/')
 
-			for f in pkl_files:
-				if f.endswith('.cfg'):
-					os.remove(os.path.join('./pickles/', f))
+#			for f in pkl_files:
+#				if f.endswith('.cfg'):
+#					os.remove(os.path.join('./pickles/', f))
 
-			open('./pickles/config'+str(args.use_bigrams)+str(args.use_trigrams)+'.cfg', 'w').close()
+#			open('./pickles/config'+str(args.use_bigrams)+str(args.use_trigrams)+'.cfg', 'w').close()
 
-			pickle_objs(
-				mec, 
-				prefix, 
-				all_words, 
-				weights, 
-				train_features, 
-				train_labels
-			)
+		pickle_objs(
+			mec, 
+			prefix, 
+			all_words, 
+			weights, 
+			train_features, 
+			train_labels
+		)
 	
 	else:
 		sys.stderr.write("Reading pickle files.\n")
@@ -169,3 +169,8 @@ if __name__ == '__main__':
 
 	if not args.no_retrain:
 		print "\nMaxEnt Stats:\n\tMinimized Cost: %.6f\n\tBest Learning Rate: %.6f" % (min_cost, best_learn_rate)
+
+	print "\nTop 10 important features:\n\t"
+
+	for k, v in sorted(mec.alg.iteritems(), key=lambda(k, v): (v, k), reverse=True)[:10]:
+		print "%s: %f" % (k, v)

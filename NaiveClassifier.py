@@ -3,9 +3,10 @@
 import sys, re
 import pickle, glob
 import math, numpy
-from nltk.tokenize import word_tokenize
+#from nltk.tokenize import word_tokenize
 from nltk.util import ngrams
 from random import shuffle
+from Utils import Utils as Util
 
 class NaiveClassifier:
 	alg = {}
@@ -26,12 +27,14 @@ class NaiveClassifier:
 		self.avg_prec = 0.0
 		self.avg_recall = 0.0
 
+		self.util = Util()
+
 		self.read_files(pkl)
 
 	def read_files(self, save_pkl):
-		sys.stdout.write("Reading files for processing.\n")
-
 		if save_pkl:
+			sys.stdout.write("Reading files for processing.\n")
+
 			file_list = glob.glob('./processed/*.txt')
 
 			sys.stdout.write("\tReading "+str(len(file_list))+" files.\n")
@@ -101,7 +104,8 @@ class NaiveClassifier:
 		geo_trigram_count = 0
 
 		for p, c in self.alg_train_set:
-			tokens = word_tokenize(p.lower())
+#			tokens = word_tokenize(p.lower())
+			tokens = self.util.regex_tokenizer(p.lower())
 
 			for w in tokens:
 				if w not in self.alg: self.alg[w] = 1
@@ -129,7 +133,8 @@ class NaiveClassifier:
 					self.alg[t] += 1
 
 		for p, c in self.arith_train_set:
-			tokens = word_tokenize(p.lower())
+#			tokens = word_tokenize(p.lower())
+			tokens = self.util.regex_tokenizer(p.lower())
 
 			for w in tokens:
 				if w not in self.arith: self.arith[w] = 1
@@ -157,7 +162,8 @@ class NaiveClassifier:
 					self.arith[t] += 1
 
 		for p, c in self.geo_train_set:
-			tokens = word_tokenize(p.lower())
+#			tokens = word_tokenize(p.lower())
+			tokens = self.util.regex_tokenizer(p.lower())
 
 			for w in tokens:
 				if w not in self.geo: self.geo[w] = 1
@@ -222,11 +228,14 @@ class NaiveClassifier:
 			self.geo[w] /= total_geo
 
 	def set_stats(self):
-		print "Set Statistics:\n\tAlgebra Train/Test: %d/%d\n\tArithmetic Train/Test: %d/%d\n\tGeometry Train/Test: %d/%d" % (
+		print "Set Statistics:\n\tAlgebra Total/Train/Test: %d/%d/%d\n\tArithmetic Total/Train/Test: %d/%d/%d\n\tGeometry Total/Train/Test: %d/%d/%d" % (
+			self.alg_count,
 			self.alg_train_count,
 			self.alg_test_count,
+			self.arith_count,
 			self.arith_train_count,
 			self.arith_test_count,
+			self.geo_count,
 			self.geo_train_count,
 			self.geo_test_count
 		)
@@ -239,7 +248,8 @@ class NaiveClassifier:
 			arith_prob = math.log(self.p_arith+self.p_arith_bigram)
 			geo_prob = math.log(self.p_geo+self.p_geo_bigram)
 
-			tokens = word_tokenize(p.lower())
+#			tokens = word_tokenize(p.lower())
+			tokens = self.util.regex_tokenizer(p.lower())
 
 			for w in tokens:
 				if w in self.alg: alg_prob += math.log(self.alg[w])
