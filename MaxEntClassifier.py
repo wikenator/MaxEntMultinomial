@@ -209,7 +209,7 @@ class MaxEntClassifier(NBC):
 
 	# training for maxent classification
 	# returns optimized weights, minimum cost value, and final learning rate
-	def maxent(self, f, w, l, n_steps=1000, learn_rate=5e-4, reg_coeff=0.001, threshold=1e-5):
+	def maxent(self, f, w, l, n_steps=1000, learn_rate=5e-4, reg_coeff=0.001, threshold=1e-6):
 		sys.stderr.write("\nRunning MaxEnt classification.\n")
 
 #		c = self.cost(self.softmax(numpy.dot(w, f)), l)
@@ -222,7 +222,9 @@ class MaxEntClassifier(NBC):
 			sys.stderr.write("iter: "+str(i+1)+" cost: "+str(c)+"\r")
 
 #			w -= learn_rate * self.gradient(f, l, probabilities)
-			w -= learn_rate * self.gradient_reg(f, l, probabilities, w, reg_coeff)
+			grad = self.gradient_reg(f, l, probabilities, w, reg_coeff)
+
+			w -= learn_rate * grad
 
 			probabilities = numpy.dot(w, f)
 			predictions = self.softmax(probabilities)
@@ -233,9 +235,17 @@ class MaxEntClassifier(NBC):
 
 			else:
 				# stop gradient descent if new cost is not much better
-				if abs(c-new_cost) < threshold: break
-				# lower learning rate if gradient descent not converging
-				elif abs(c-new_cost) > 0.5: learn_rate /= 2
+				if abs(c-new_cost) < threshold:
+					break
+
+				# lower learning rate if diverging
+				elif c-new_cost < 0:
+					w += learn_rate * grad
+					learn_rate /= 2
+
+				# increase learning rate if converging
+				elif c-new_cost > 0:
+					learn_rate *= 1.10
 
 				c = new_cost
 
