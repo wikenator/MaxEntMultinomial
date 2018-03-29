@@ -19,6 +19,25 @@ def NB_Test(m, b, t):
 		m.avg_recall/mec.iters
 	)
 
+def report(m, f, r, min_cost, best_learn_rate):
+	print "\nTraining accuracies: ", m.train_acc
+	print "Test accuracies: ", m.test_acc
+	print "Precisions: ", m.precision
+	print "Recalls: ", m.recall
+	print "\nAverage training accuracy: %.5f" % (sum(m.train_acc)/args.folds)
+	print "Average test accuracy: %.5f" % (sum(m.test_acc)/args.folds)
+	print "Average precision: %.5f" % (sum(m.precision)/args.folds)
+	print "Average recall: %.5f" % (sum(m.recall)/args.folds)
+
+	if args.folds == 1:
+		if not args.no_retrain:
+			print "\nMaxEnt Stats:\n\tMinimized Cost: %.6f\n\tBest Learning Rate: %.6f" % (min_cost, best_learn_rate)
+
+		print "\nTop 10 important features:"
+
+		for k, v in sorted(m.alg.iteritems(), key=lambda(k, v): (v, k), reverse=True)[:10]:
+			print "\t%s:\t%f" % (k, v)
+
 if __name__ == '__main__':
 	u = Util()
 	args = u.cmdline_argparse()
@@ -26,8 +45,6 @@ if __name__ == '__main__':
 	prefix = './pickles/'
 
 	mec = MEC(save_pickle)
-	train_acc = []
-	test_acc = []
 	k = 100
 
 	# run Naive Bayes classifier
@@ -50,15 +67,6 @@ if __name__ == '__main__':
 			all_words = mec.get_vocabulary(args.use_bigrams, args.use_trigrams)
 			weights = mec.get_init_weights(all_words, args.use_bigrams, args.use_trigrams)
 			train_features, train_labels = mec.get_train_features(all_words, args.use_bigrams, args.use_trigrams)
-
-#			if not os.path.exists('./pickles/config'+str(args.use_bigrams)+str(args.use_trigrams)+'.cfg'):
-#				pkl_files = os.listdir('./pickles/')
-
-#				for f in pkl_files:
-#					if f.endswith('.cfg'):
-#						os.remove(os.path.join('./pickles/', f))
-
-#				open('./pickles/config'+str(args.use_bigrams)+str(args.use_trigrams)+'.cfg', 'w').close()
 			to_pickle = {
 				'all_words': all_words,
 				'init_weights': weights,
@@ -81,6 +89,8 @@ if __name__ == '__main__':
 
 		if args.no_retrain:
 			weights = pickle.load(open('./data/train_weights'+str(fold)+'.pkl', 'rb'))
+			min_cost = 0
+			best_learn_rate = 0
 
 		# run maxent classifier
 		# default values: steps=1000
@@ -102,25 +112,18 @@ if __name__ == '__main__':
 		class_prob_train = numpy.dot(weights, train_features)
 		class_bin_train = mec.hard_classify(class_prob_train)
 
-		train_acc.append(((class_bin_train == train_labels).sum().astype(float)/len(class_bin_train)))
+		mec.train_acc.append(((class_bin_train == train_labels).sum().astype(float)/len(class_bin_train)))
 
 		test_features, test_labels = mec.get_test_features(all_words, args.use_bigrams, args.use_trigrams)
 		class_prob_test = numpy.dot(weights, test_features)
 		class_bin_test = mec.hard_classify(class_prob_test)
 
-		test_acc.append(((class_bin_test == test_labels).sum().astype(float)/len(class_bin_test)))
+		confusion_matrix = mec.maxent_confusion_matrix(test_labels[0], class_bin_test)
+		prec, rec = mec.precision_recall(confusion_matrix)
+		mec.precision.append(prec)
+		mec.recall.append(rec)
+
+		mec.test_acc.append(((class_bin_test == test_labels).sum().astype(float)/len(class_bin_test)))
 	# end for
 
-	print "\n\nTraining accuracies: ", train_acc
-	print "Average training accuracy: %.5f" % (sum(train_acc)/args.folds)
-	print "Test accuracies: ", test_acc
-	print "Average test accuracy: %.5f" % (sum(test_acc)/args.folds)
-
-	if args.folds == 1:
-		if not args.no_retrain:
-			print "\nMaxEnt Stats:\n\tMinimized Cost: %.6f\n\tBest Learning Rate: %.6f" % (min_cost, best_learn_rate)
-
-		print "\nTop 10 important features:"
-
-		for k, v in sorted(mec.alg.iteritems(), key=lambda(k, v): (v, k), reverse=True)[:10]:
-			print "\t%s:\t%f" % (k, v)
+	report(mec, args.folds, args.no_retrain, min_cost, best_learn_rate)

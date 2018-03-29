@@ -315,6 +315,6 @@ class NaiveClassifier:
 		fp = cm[0][1] + cm[2][1]
 		fn = cm[1][0] + cm[1][2]
 
-		print "TP: %d, FP: %d, FN: %d" % (tp, fp, fn)
+		print "\nTP: %d, FP: %d, FN: %d" % (tp, fp, fn)
 
 		return list([float(tp)/(tp+fp), float(tp)/(tp+fn)])

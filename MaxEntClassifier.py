@@ -10,6 +10,11 @@ from NaiveClassifier import NaiveClassifier as NBC
 class MaxEntClassifier(NBC):
 	def __init__(self, pkl):
 		NBC.__init__(self, pkl)
+		
+		self.train_acc = []
+		self.test_acc = []
+		self.precision = []
+		self.recall = []
 
 	# add all word tokens into a set and sort tokens alphabetically
 	def get_vocabulary(self, use_bigrams, use_trigrams):
@@ -218,3 +223,11 @@ class MaxEntClassifier(NBC):
 		print
 
 		return w, c, learn_rate
+
+	def maxent_confusion_matrix(self, actual, predicted):
+		confusion_matrix = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
+
+		for i, a in enumerate(actual):
+			confusion_matrix[a][predicted[i]] += 1
+
+		return confusion_matrix
