@@ -11,19 +11,6 @@ class MaxEntClassifier(NBC):
 	def __init__(self, pkl):
 		NBC.__init__(self, pkl)
 
-		# create array of selected stop words and punctuation
-#		self.stop_words = set(stopwords.words('english'))
-#		self.stop_words.add(',')
-#		self.stop_words.add('.')
-#		self.stop_words.add('?')
-#		self.stop_words.add(';')
-#		self.stop_words.add(':')
-#		self.stop_words.add(')')
-#		self.stop_words.add('(')
-#		self.stop_words.add('[')
-#		self.stop_words.add(']')
-#		self.stop_words.add('$')
-
 	# add all word tokens into a set and sort tokens alphabetically
 	def get_vocabulary(self, use_bigrams, use_trigrams):
 		sys.stderr.write("Compiling vocabulary.\n")
@@ -44,71 +31,55 @@ class MaxEntClassifier(NBC):
 
 		return vocab
 
-	# set initial weights to raw word count probabilities
-	def get_init_weights(self, V, use_bigrams=True, use_trigrams=True):
+	# abstract for get_weights
+	def get_init_weights(self, V, use_bigrams, use_trigrams):
 		sys.stderr.write("Initializing weights.\n")
 
 		wts = numpy.zeros((3, len(V)))
-		
+
 		# process algebra problem set
-		for p, c in self.alg_train_set:
-#			tokens = word_tokenize(p.lower())
-			tokens = self.util.regex_tokenizer(p.lower())
-
-			for w in tokens:
-				if w in V: wts[0][V.index(w)] = self.alg[w]
-
-			if use_bigrams:
-				bigrams = ngrams(tokens, 2)
-
-				for b in bigrams:
-					if b in V: wts[0][V.index(b)] = self.alg[b]
-
-			if use_trigrams:
-				trigrams = ngrams(tokens, 3)
-
-				for t in trigrams:
-					if t in V: wts[0][V.index(t)] = self.alg[t]
+		wts = self.get_weights(
+			self.alg_train_set, self.alg,
+			V, wts, 0, 
+			use_bigrams, use_trigrams
+		)
 
 		# process arithmetic problem set
-		for p, c in self.arith_train_set:
-#			tokens = word_tokenize(p.lower())
-			tokens = self.util.regex_tokenizer(p.lower())
-
-			for w in tokens:
-				if w in V: wts[1][V.index(w)] = self.arith[w]
-
-			if use_bigrams:
-				bigrams = ngrams(tokens, 2)
-
-				for b in bigrams:
-					if b in V: wts[1][V.index(b)] = self.arith[b]
-
-			if use_trigrams:
-				trigrams = ngrams(tokens, 3)
-
-				for t in trigrams:
-					if t in V: wts[1][V.index(t)] = self.arith[t]
+		wts = self.get_weights(
+			self.arith_train_set, self.arith,
+			V, wts, 1, 
+			use_bigrams, use_trigrams
+		)
 
 		# process geometry problem set
-		for p, c in self.geo_train_set:
+		wts = self.get_weights(
+			self.geo_train_set, self.geo,
+			V, wts, 2, 
+			use_bigrams, use_trigrams
+		)
+
+		return wts
+		
+	# set initial weights to raw word count probabilities
+	def get_weights(self, t_set, probs, V, wts, idx, b, t):
+		for p, c in t_set:
 #			tokens = word_tokenize(p.lower())
 			tokens = self.util.regex_tokenizer(p.lower())
 
 			for w in tokens:
-				if w in V: wts[2][V.index(w)] = self.geo[w]
+				if w in V: wts[idx][V.index(w)] = probs[w]
 
-			if use_bigrams:
+			if b:
 				bigrams = ngrams(tokens, 2)
 
 				for b in bigrams:
-					if b in V: wts[2][V.index(b)] = self.geo[b]
+					if b in V: wts[idx][V.index(b)] = probs[b]
 
-			if use_trigrams:
+			if t:
 				trigrams = ngrams(tokens, 3)
 
 				for t in trigrams:
-					if t in V: wts[2][V.index(t)] = self.geo[t]
+					if t in V: wts[idx][V.index(t)] = probs[t]
 
 		return wts	
 
@@ -116,17 +87,12 @@ class MaxEntClassifier(NBC):
 	def get_train_features(self, V, use_bigrams=True, use_trigrams=True):
 		sys.stderr.write("\nVectorizing training features.\n")
 
-#		train_sets = self.alg_train_set + self.arith_train_set + self.geo_train_set
-
 		return self.get_features(self.train_problems, V, use_bigrams, use_trigrams)
 
 	# abstract for get_features
 	def get_test_features(self, V, use_bigrams=True, use_trigrams=True):
 		sys.stderr.write("\nVectorizing test features.\n")
 
-#		test_sets = self.alg_test_set + self.arith_test_set + self.geo_test_set
-
-#		print len(self.test_problems)
 		return self.get_features(self.test_problems, V, use_bigrams, use_trigrams)
 
 	# convert word tokens into 0-1 features
@@ -209,7 +175,7 @@ class MaxEntClassifier(NBC):
 
 	# training for maxent classification
 	# returns optimized weights, minimum cost value, and final learning rate
-	def maxent(self, f, w, l, n_steps=1000, learn_rate=5e-4, reg_coeff=0.001, threshold=1e-6):
+	def maxent(self, f, w, l, n_steps=1000, learn_rate=5e-4, reg_coeff=0.001, threshold=1e-5):
 		sys.stderr.write("\nRunning MaxEnt classification.\n")
 
 #		c = self.cost(self.softmax(numpy.dot(w, f)), l)
@@ -245,7 +211,7 @@ class MaxEntClassifier(NBC):
 
 				# increase learning rate if converging
 				elif c-new_cost > 0:
-					learn_rate *= 1.10
+					learn_rate *= 1.05
 
 				c = new_cost
 
