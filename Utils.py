@@ -28,25 +28,20 @@ class Utils():
 		cmd_line_parser.add_argument('--steps', nargs=1, default=1000, help='Number of iterations for maxent gradient descent calculated during learning. Default: %(default)s')
 		cmd_line_parser.add_argument('--learn_rate', nargs=1, default=5e-4, help='Learning rate to use during maxent learning. Default: %(default)s')
 		cmd_line_parser.add_argument('--reg_coeff', nargs=1, default=0.001, help='Regularization coefficient to normalize maxent gradient descent during learning. Default: %(default)s')
+		cmd_line_parser.add_argument('-f', '--folds', nargs=1, default=1, help='Perform k-fold cross-validation. Larger k = less bias, more variance. Smaller k = more bias, less variance. Accuracy from each cross-validation will be averaged over all folds. Default: %(default)s')
 		args = cmd_line_parser.parse_args()
 
-		if type(args.steps) == list:
-			args.steps = int(args.steps[0])
+		if type(args.steps) == list: args.steps = int(args.steps[0])
+		else: args.steps = int(args.steps)
 
-		else:
-			args.steps = int(args.steps)
+		if type(args.learn_rate) == list: args.learn_rate = float(args.learn_rate[0])
+		else: args.learn_rate = float(args.learn_rate)
 
-		if type(args.learn_rate) == list:
-			args.learn_rate = float(args.learn_rate[0])
+		if type(args.reg_coeff) == list: args.reg_coeff = float(args.reg_coeff[0])
+		else: args.reg_coeff = float(args.reg_coeff)
 
-		else:
-			args.learn_rate = float(args.learn_rate)
-
-		if type(args.reg_coeff) == list:
-			args.reg_coeff = float(args.reg_coeff[0])
-
-		else:
-			args.reg_coeff = float(args.reg_coeff)
+		if type(args.folds) == list: args.folds = float(args.folds[0])
+		else: args.folds = int(args.folds)
 
 		sys.stderr.write("MaxEnt parameters:\n")
 		print('\t' + str(args) + '\n')

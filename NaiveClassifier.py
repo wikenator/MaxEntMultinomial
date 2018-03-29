@@ -93,112 +93,9 @@ class NaiveClassifier:
 		self.geo_test_set = self.geo_problems[:self.geo_test_count]
 
 	def compute_base_probs(self, k, use_bigrams, use_trigrams):
-		self.alg = {}
-		self.arith = {}
-		self.geo = {}
-		alg_bigram_count = 0
-		arith_bigram_count = 0
-		geo_bigram_count = 0
-		alg_trigram_count = 0
-		arith_trigram_count = 0
-		geo_trigram_count = 0
-
-		for p, c in self.alg_train_set:
-#			tokens = word_tokenize(p.lower())
-			tokens = self.util.regex_tokenizer(p.lower())
-
-			for w in tokens:
-				if w not in self.alg: self.alg[w] = 1
-
-				self.alg[w] += 1
-
-			if use_bigrams:
-				bigrams = ngrams(tokens, 2)
-
-				for b in bigrams:
-					alg_bigram_count += 1
-
-					if b not in self.alg: self.alg[b] = 1
-
-					self.alg[b] += 1
-
-			if use_trigrams:
-				trigrams = ngrams(tokens, 3)
-
-				for t in trigrams:
-					alg_trigram_count += 1
-
-					if t not in self.alg: self.alg[t] = 1
-
-					self.alg[t] += 1
-
-		for p, c in self.arith_train_set:
-#			tokens = word_tokenize(p.lower())
-			tokens = self.util.regex_tokenizer(p.lower())
-
-			for w in tokens:
-				if w not in self.arith: self.arith[w] = 1
-
-				self.arith[w] += 1
-
-			if use_bigrams:
-				bigrams = ngrams(tokens, 2)
-
-				for b in bigrams:
-					arith_bigram_count += 1
-
-					if b not in self.arith: self.arith[b] = 1
-
-					self.arith[b] += 1
-
-			if use_trigrams:
-				trigrams = ngrams(tokens, 3)
-
-				for t in trigrams:
-					arith_trigram_count += 1
-
-					if t not in self.arith: self.arith[t] = 1
-	
-					self.arith[t] += 1
-
-		for p, c in self.geo_train_set:
-#			tokens = word_tokenize(p.lower())
-			tokens = self.util.regex_tokenizer(p.lower())
-
-			for w in tokens:
-				if w not in self.geo: self.geo[w] = 1
-
-				self.geo[w] += 1
-
-			if use_bigrams:
-				bigrams = ngrams(tokens, 2)
-
-				for b in bigrams:
-					geo_bigram_count += 1
-
-					if b not in self.geo: self.geo[b] = 1
-
-					self.geo[b] += 1
-
-			if use_trigrams:
-				trigrams = ngrams(tokens, 3)
-
-				for t in trigrams:
-					geo_trigram_count += 1
-
-					if t not in self.geo: self.geo[t] = 1
-
-					self.geo[t] += 1
-
-		self.alg['<UNK>'] = 1.0
-		self.alg[('<UNK>', '<UNK>')] = 1.0
-		self.alg[('<UNK>', '<UNK>', '<UNK>')] = 1.0
-		self.arith['<UNK>'] = 1.0
-		self.arith[('<UNK>', '<UNK>')] = 1.0
-		self.arith[('<UNK>', '<UNK>', '<UNK>')] = 1.0
-		self.geo['<UNK>'] = 1.0
-		self.geo[('<UNK>', '<UNK>')] = 1.0
-		self.geo[('<UNK>', '<UNK>', '<UNK>')] = 1.0
+		self.alg, alg_bigram_count, alg_trigram_count = self.generate_counts(self.alg_train_set, use_bigrams, use_trigrams)
+		self.arith, arith_bigram_count, arith_trigram_count = self.generate_counts(self.arith_train_set, use_bigrams, use_trigrams)
+		self.geo, geo_bigram_count, geo_trigram_count = self.generate_counts(self.geo_train_set, use_bigrams, use_trigrams)
 
 		self.p_alg = float(self.alg_train_count)/(self.alg_train_count+self.arith_train_count+self.geo_train_count)
 		self.p_arith = float(self.arith_train_count)/(self.alg_train_count+self.arith_train_count+self.geo_train_count)
@@ -226,6 +123,47 @@ class NaiveClassifier:
 
 		for w in self.geo:
 			self.geo[w] /= total_geo
+
+	# count all tokens in a given training set
+	def generate_counts(self, t_set, b, t):
+		counts = {}
+		b_count = 0
+		t_count = 0
+
+		for p, c in t_set:
+#			tokens = word_tokenize(p.lower())
+			tokens = self.util.regex_tokenizer(p.lower())
+
+			for w in tokens:
+				if w not in counts: counts[w] = 1
+
+				counts[w] += 1
+
+			if b:
+				bigrams = ngrams(tokens, 2)
+
+				for b in bigrams:
+					b_count += 1
+
+					if b not in counts: counts[b] = 1
+
+					counts[b] += 1
+
+			if t:
+				trigrams = ngrams(tokens, 3)
+
+				for t in trigrams:
+					t_count += 1
+
+					if t not in counts: counts[t] = 1
+
+					counts[t] += 1
+
+		counts['<UNK>'] = 1.0
+		if b: counts[('<UNK>', '<UNK>')] = 1.0
+		if t: counts[('<UNK>', '<UNK>', '<UNK>')] = 1.0
+
+		return counts, b_count, t_count
 
 	def set_stats(self):
 		print "Set Statistics:\n\tAlgebra Total/Train/Test: %d/%d/%d\n\tArithmetic Total/Train/Test: %d/%d/%d\n\tGeometry Total/Train/Test: %d/%d/%d" % (
