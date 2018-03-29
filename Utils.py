@@ -31,10 +31,10 @@ class Utils():
 		args = cmd_line_parser.parse_args()
 
 		if type(args.steps) == list:
-			args.n_steps = int(args.steps[0])
+			args.steps = int(args.steps[0])
 
 		else:
-			args.n_steps = int(args.steps)
+			args.steps = int(args.steps)
 
 		if type(args.learn_rate) == list:
 			args.learn_rate = float(args.learn_rate[0])

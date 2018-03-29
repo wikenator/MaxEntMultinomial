@@ -71,7 +71,7 @@ if __name__ == '__main__':
 		train_labels = pickle.load(open(prefix+'train_labels.pkl', 'rb'))
 
 	# run maxent classifier
-	# default values: n_steps=1000
+	# default values: steps=1000
 	#		  learn_rate=5e-4
 	#		  reg_coeff=0.001
 	#		  threshold=1e-5
@@ -83,7 +83,7 @@ if __name__ == '__main__':
 			train_features, 
 			weights, 
 			train_labels, 
-			args.n_steps,
+			args.steps,
 			args.learn_rate,
 			args.reg_coeff
 		)
