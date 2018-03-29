@@ -23,11 +23,12 @@ class Utils():
 		cmd_line_parser.add_argument('-t', '--use_trigrams', action='store_true', help='Add trigram features to maxent learning.')
 		#pkl_group = cmd_line_parser.add_mutually_exclusive_group(required=False)
 		cmd_line_parser.add_argument('-l', '--load_pickle', action='store_true', help='Load data from pickle files (will not recalculate data).')
-		cmd_line_parser.add_argument('-r', '--no_retrain', action='store_true', help='Do not retrain weights from loaded data.')
+		cmd_line_parser.add_argument('-n', '--naive', action='store_true', help='Run Naive Bayes classifer before MaxEnt.')
+		cmd_line_parser.add_argument('-R', '--no_retrain', action='store_true', help='Do not retrain weights from loaded data.')
 		#pkl_group.add_argument('-s', '--save_pickle', action='store_true', help='Save data to pickle files after calculation.')
-		cmd_line_parser.add_argument('--steps', nargs=1, default=1000, help='Number of iterations for maxent gradient descent calculated during learning. Default: %(default)s')
-		cmd_line_parser.add_argument('--learn_rate', nargs=1, default=5e-4, help='Learning rate to use during maxent learning. Default: %(default)s')
-		cmd_line_parser.add_argument('--reg_coeff', nargs=1, default=0.001, help='Regularization coefficient to normalize maxent gradient descent during learning. Default: %(default)s')
+		cmd_line_parser.add_argument('-s', '--steps', nargs=1, default=1000, help='Number of iterations for maxent gradient descent calculated during learning. Default: %(default)s')
+		cmd_line_parser.add_argument('-r', '--learn_rate', nargs=1, default=5e-4, help='Learning rate to use during maxent learning. Default: %(default)s')
+		cmd_line_parser.add_argument('-c', '--reg_coeff', nargs=1, default=0.001, help='Regularization coefficient to normalize maxent gradient descent during learning. Default: %(default)s')
 		cmd_line_parser.add_argument('-f', '--folds', nargs=1, default=1, help='Perform k-fold cross-validation. Larger k = less bias, more variance. Smaller k = more bias, less variance. Accuracy from each cross-validation will be averaged over all folds. Default: %(default)s')
 		args = cmd_line_parser.parse_args()
 
@@ -40,7 +41,7 @@ class Utils():
 		if type(args.reg_coeff) == list: args.reg_coeff = float(args.reg_coeff[0])
 		else: args.reg_coeff = float(args.reg_coeff)
 
-		if type(args.folds) == list: args.folds = float(args.folds[0])
+		if type(args.folds) == list: args.folds = int(args.folds[0])
 		else: args.folds = int(args.folds)
 
 		sys.stderr.write("MaxEnt parameters:\n")
@@ -48,11 +49,11 @@ class Utils():
 
 		return args
 
-	def pickle_objs(self, prefix, data):
+	def pickle_objs(self, prefix, i, data):
 		sys.stderr.write('\nPickling objects.\n')
 
 		for k, v in data.iteritems():
-			pkl_fh = open(prefix + k + '.pkl', 'wb')
+			pkl_fh = open(prefix + k + str(i) + '.pkl', 'wb')
 			pickle.dump(v, pkl_fh)
 			pkl_fh.close()
 

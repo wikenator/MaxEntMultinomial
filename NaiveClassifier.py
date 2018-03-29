@@ -26,6 +26,7 @@ class NaiveClassifier:
 	def __init__(self, pkl):
 		self.avg_prec = 0.0
 		self.avg_recall = 0.0
+		self.fold = 0
 
 		self.util = Util()
 
@@ -61,9 +62,9 @@ class NaiveClassifier:
 		else:
 			prefix = './pickles/'
 
-			self.alg_problems = pickle.load(open(prefix+'alg_problems.pkl', 'rb'))
-			self.arith_problems = pickle.load(open(prefix+'arith_problems.pkl', 'rb'))
-			self.geo_problems = pickle.load(open(prefix+'geo_problems.pkl', 'rb'))
+			self.alg_problems = pickle.load(open(prefix+'alg_problems'+str(self.fold)+'.pkl', 'rb'))
+			self.arith_problems = pickle.load(open(prefix+'arith_problems'+str(self.fold)+'.pkl', 'rb'))
+			self.geo_problems = pickle.load(open(prefix+'geo_problems'+str(self.fold)+'.pkl', 'rb'))
 
 			self.alg_count = len(self.alg_problems)
 			self.arith_count = len(self.arith_problems)
@@ -75,22 +76,53 @@ class NaiveClassifier:
 			shuffle(self.arith_problems)
 			shuffle(self.geo_problems)
 
-		self.alg_train_count = int(self.alg_count * pct)
-		self.alg_test_count = int(self.alg_count - self.alg_train_count)
-		self.arith_train_count = int(self.arith_count * pct)
-		self.arith_test_count = int(self.arith_count - self.arith_train_count)
-		self.geo_train_count = int(self.geo_count * pct)
-		self.geo_test_count = int(self.geo_count - self.geo_train_count)
+		if self.fold == 0:
+			self.alg_train_count = int(self.alg_count * pct)
+			self.alg_test_count = int(self.alg_count - self.alg_train_count)
+			self.arith_train_count = int(self.arith_count * pct)
+			self.arith_test_count = int(self.arith_count - self.arith_train_count)
+			self.geo_train_count = int(self.geo_count * pct)
+			self.geo_test_count = int(self.geo_count - self.geo_train_count)
 
-		self.train_problems = self.alg_problems[self.alg_test_count:] + self.arith_problems[self.arith_test_count:] + self.geo_problems[self.geo_test_count:]
-		self.test_problems = self.alg_problems[:self.alg_test_count] + self.arith_problems[:self.arith_test_count] + self.geo_problems[:self.geo_test_count]
+		# fold boundaries capture test sets
+		alg_fold_end = int((self.fold+1)*(self.alg_count*(1-pct))+1)
+		arith_fold_end = int((self.fold+1)*(self.arith_count*(1-pct))+1)
+		geo_fold_end = int((self.fold+1)*(self.geo_count*(1-pct))+1)
 
-		self.alg_train_set = self.alg_problems[self.alg_test_count:]
-		self.alg_test_set = self.alg_problems[:self.alg_test_count]
-		self.arith_train_set = self.arith_problems[self.arith_test_count:]
-		self.arith_test_set = self.arith_problems[:self.alg_test_count]
-		self.geo_train_set = self.geo_problems[self.geo_test_count:]
-		self.geo_test_set = self.geo_problems[:self.geo_test_count]
+		if self.fold == 0:
+			alg_fold_start = 0
+			arith_fold_start = 0
+			geo_fold_start = 0
+
+		else:
+			alg_fold_start = alg_fold_end - self.alg_test_count#fold * (self.alg_count * (1 - pct)) + 1
+			arith_fold_start = arith_fold_end - self.arith_test_count#fold * (self.arith_count * (1 - pct)) + 1
+			geo_fold_start = geo_fold_end - self.geo_test_count#fold * (self.geo_count * (1 - pct)) + 1
+
+		self.train_problems = \
+			self.alg_problems[:alg_fold_start] + \
+			self.alg_problems[alg_fold_end:] + \
+			self.arith_problems[:arith_fold_start] + \
+			self.arith_problems[arith_fold_end:] + \
+			self.geo_problems[:geo_fold_start] + \
+			self.geo_problems[geo_fold_end:]
+		self.test_problems = \
+			self.alg_problems[alg_fold_start:alg_fold_end] + \
+			self.arith_problems[arith_fold_start:arith_fold_end] + \
+			self.geo_problems[geo_fold_start:geo_fold_end]
+
+		self.alg_train_set = \
+			self.alg_problems[:alg_fold_start] + \
+			self.alg_problems[alg_fold_end:]
+		self.alg_test_set = self.alg_problems[alg_fold_start:alg_fold_end]
+		self.arith_train_set = \
+			self.arith_problems[:arith_fold_start] + \
+			self.arith_problems[arith_fold_end:]
+		self.arith_test_set = self.arith_problems[arith_fold_start:arith_fold_end]
+		self.geo_train_set = \
+			self.geo_problems[:geo_fold_start] + \
+			self.geo_problems[geo_fold_end:]
+		self.geo_test_set = self.geo_problems[geo_fold_start:geo_fold_end]
 
 	def compute_base_probs(self, k, use_bigrams, use_trigrams):
 		self.alg, alg_bigram_count, alg_trigram_count = self.generate_counts(self.alg_train_set, use_bigrams, use_trigrams)
