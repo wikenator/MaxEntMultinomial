@@ -5,9 +5,10 @@ import numpy
 from MaxEntClassifier import MaxEntClassifier as MEC
 from Utils import Utils as Util
 
-def NB_Test(m, b, t):
+def NB_Test(m, pkl, b, t):
 	for i in xrange(mec.iters):
-		m.split_sets(0.8)
+		m.split_sets(0.8, pkl)
+		m.compute_base_probs(1, b, t)
 		prec, recall = m.calculate_probs(b, t)
 
 		print "Pass %d\n\tPrecision: %.4f\n\tRecall: %.4f" % (i+1, prec, recall)
@@ -50,7 +51,7 @@ if __name__ == '__main__':
 	# run Naive Bayes classifier
 	if args.naive:
 		mec.iters = 5
-		NB_Test(mec, args.use_bigrams, args.use_trigrams)
+		NB_Test(mec, save_pickle, args.use_bigrams, args.use_trigrams)
 
 	for fold in xrange(args.folds):
 		sys.stderr.write("Running fold "+str(fold)+"\n")

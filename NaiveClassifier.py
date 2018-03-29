@@ -9,30 +9,34 @@ from random import shuffle
 from Utils import Utils as Util
 
 class NaiveClassifier:
-	alg = {}
-	arith = {}
-	geo = {}
-	alg_count = 0.0
-	alg_bigram_count = 0.0
-	arith_count = 0.0
-	arith_bigram_count = 0.0
-	geo_count = 0.0
-	geo_bigram_count = 0.0
-	alg_problems = []
-	arith_problems = []
-	geo_problems = []
-	categories = ['algebra', 'arithmetic', 'geometry']
+	#alg = {}
+	#arith = {}
+	#geo = {}
+	#alg_bigram_count = 0.0
+	#arith_bigram_count = 0.0
+	#geo_bigram_count = 0.0
 
 	def __init__(self, pkl):
-		self.avg_prec = 0.0
-		self.avg_recall = 0.0
 		self.fold = 0
+		self.categories = ['algebra', 'arithmetic', 'geometry']
 
 		self.util = Util()
 
 		self.read_files(pkl)
 
+	def reset_vars(self):
+		self.alg_count = 0.0
+		self.arith_count = 0.0
+		self.geo_count = 0.0
+		self.avg_prec = 0.0
+		self.avg_recall = 0.0
+		self.alg_problems = []
+		self.arith_problems = []
+		self.geo_problems = []
+		
 	def read_files(self, save_pkl):
+		self.reset_vars()
+
 		if save_pkl:
 			sys.stdout.write("Reading files for processing.\n")
 
