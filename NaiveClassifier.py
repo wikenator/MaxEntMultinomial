@@ -48,8 +48,7 @@ class NaiveClassifier:
 				f = open(f_name, 'r').readlines()
 
 				for l in f:
-					#pid, 
-					c, p = l.strip().split('#@#')
+					pid, c, p = l.strip().split('#@#')
 
 					if c == 'algebra':
 						self.alg_count += 1
