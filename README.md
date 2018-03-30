@@ -33,7 +33,7 @@ maxent.py [-h] [-b] [-t] [-l] [-n] [-R]
 MaxEnt iterations, learning rate, and regularization coefficient can be modified in any maxent command.
 
 ### Run MaxEnt with no options
-- unigram-only
+- unigram only
 - saves probabilities and weights to pickle files
 - defaults to one fold using 80/20 train/test set split
 
@@ -47,7 +47,7 @@ MaxEnt iterations, learning rate, and regularization coefficient can be modified
 `./maxent.py -b`
 
 ### Perform k-fold cross-validation
-- use `-b` switch for bigram, otherwise defaults to unigrams
+- use `-b` switch for bigram, otherwise defaults to unigram only
 - train/test split is calculated as `(set size)/(# of folds)`
 - below example calculates 10-fold cross-validation:
 
