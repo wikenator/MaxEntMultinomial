@@ -1,7 +1,0 @@
-algebra_contest#@#Find [M:EX] , given that [M:EQ] , [M:EQ] , and [M:EQ] .
-algebra_contest#@#Find [M:EX] , where [M:INEQ] .
-algebra_contest#@#How many times does [M:L:N] divide into [M:N:FAC] (factorial)?
-algebra_contest#@#Given that [M:L:N] has at most two prime factors , find its largest prime factor .
-algebra_contest#@#What is the last digit of [M:EX] ?
-algebra_contest#@#A polynomial [M:EX:FUNC] has four roots , [M:L:F] , [M:L:F] , [M:L:N] , [M:L:N]. The product of the roots is [M:L:N] , and [M:EQ:FUNC] . Find [M:EX:FUNC] .
-algebra_contest#@#How many integers between [M:L:N] and [M:L:N] inclusive share no common factors with [M:L:N] ?

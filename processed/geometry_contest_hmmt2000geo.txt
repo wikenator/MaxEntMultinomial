@@ -1,6 +1,0 @@
-geometry#@#In a triangle the sum of squares of the sides of [M:L:N] . What is the maximum possible value of the sum of the medians ?
-geometry#@#Find [M:EX] , given that [M:EQ] , [M:EQ] , [M:EQ] , and [M:EX] is a square .
-geometry#@#Side [M:EQ] . [M:EX:T] is an equilateral triangle . Side [M:EQ:C] . [M:EQ:A] . [M:EQ] . Calculate the area of [M:EX] .
-geometry#@#What is the area of the largest circle contained in an equilateral triangle of area [M:EX] ?
-geometry#@#Let [M:EX] be a triangle inscribed in the ellipse [M:EQ] . If its centroid is the origin [M:L:COORD] , find its area .
-geometry#@#A sphere is inscribed inside a pyramid with a square as a base whose height is [M:EX] times the length of one edge of the base . A cube is inscribed inside the sphere . What is the ratio of the volume of the pyramid to the volume of the cube ?

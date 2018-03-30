@@ -1,8 +1,0 @@
-algebra#@#Compute the minimum possible value of [M:EX] for real values of [M:VAR] .
-algebra#@#Express [M:EX] as a fraction in lowest terms .
-algebra#@#If [M:VAR] , [M:VAR] , and [M:VAR] are integers satisfying [M:EQ] , list all possibilities for the ordered triple [M:VAR:COORD] .
-algebra#@#The quartic ([M:L:N] th -degree) polynomial [M:EX:FUNC] satisfies [M:EQ:FUNC] and attains its maximum value of [M:L:N] at both [M:EQ] and [M:EQ] . Compute [M:EX:FUNC] .
-algebra#@#Compute the ordered pair of real numbers [M:VAR:COORD] such that [M:INEQ:C] if and only if [M:EQ] does not have a real solution in [M:VAR] .
-algebra#@#How many positivie integers [M:VAR] are there such that for any natural numbers [M:VAR] , [M:VAR] , we have [M:EX] implies [M:EX] ? (Note: The symbol | means ``divides ''; if [M:EX] then [M:VAR] is a multiple of [M:VAR] .)
-algebra#@#The function [M:EX:FUNC] is known to be of the form [M:EX:PROD] , where [M:VAR] is a real number and [M:EX:FUNC] is either [M:EX:TRIG] or [M:EX:TRIG] for [M:EQ] , ... , [M:VAR] . Additionally , [M:EX:FUNC] is known to have zeros at every integer between [M:L:N] and [M:L:N] (inclusive) except for one integer [M:VAR] . Find the sum of all possible values of [M:VAR] .
-algebra#@#For real numbers [M:VAR:COORD] satisfying the following equations , find all possible values of [M:EX] . [M:EQ] , [M:EQ] , [M:EQ]
