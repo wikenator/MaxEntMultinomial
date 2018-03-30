@@ -51,7 +51,7 @@ MaxEnt iterations, learning rate, and regularization coefficient can be modified
 - train/test split is calculated as `(set size)/(# of folds)`
 - below example calculates 10-fold cross-validation:
 
-`./maxent.py [-b] -f 10
+`./maxent.py [-b] -f 10`
 
 ### Read previously saved data
 - use `-b` switch to use previously saved bigram data
