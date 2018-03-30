@@ -27,3 +27,41 @@ maxent.py [-h] [-b] [-t] [-l] [-n] [-R]
 `-c REG_COEFF, --reg_coeff REG_COEFF` Regularization coefficient to normalize maxent gradient descent during learning. Default: 0.001
 
 `-f FOLDS, --folds FOLDS` Perform k-fold cross-validation. Larger k = less bias, more variance. Smaller k = more bias, less variance. Accuracy from each cross-validation will be averaged over all folds. Default: 1
+
+## Example Commands
+
+MaxEnt iterations, learning rate, and regularization coefficient can be modified in any maxent command.
+
+### Run MaxEnt with no options
+- unigram-only
+- saves probabilities and weights to pickle files
+- defaults to one fold using 80/20 train/test set split
+
+`./maxent.py`
+
+### Incorporate bigrams 
+- uses unigrams and bigrams
+- saves probabilities and weights to pickle files
+- defaults to one fold using 80/20 train/test set split
+
+`./maxent.py -b`
+
+### Perform k-fold cross-validation
+- use `-b` switch for bigram, otherwise defaults to unigrams
+- train/test split is calculated as `(set size)/(# of folds)`
+- below example calculates 10-fold cross-validation:
+
+`./maxent.py [-b] -f 10
+
+### Read previously saved data
+- use `-b` switch to use previously saved bigram data
+- will retrain weights during MaxEnt classification
+- if k-fold cross-validation was used to save data, use `-f #` switch again
+
+`./maxent.py [-b] -l [-f #]`
+
+### Read previously saved data and MaxEnt weights
+- use `-b` switch to use previously saved bigram data
+- if k-fold cross-validation was used to save data, use `-f #` switch again
+
+`./maxent.py [-b] -l -R [-f #]`
