@@ -9,13 +9,6 @@ from random import shuffle
 from Utils import Utils as Util
 
 class NaiveClassifier:
-	#alg = {}
-	#arith = {}
-	#geo = {}
-	#alg_bigram_count = 0.0
-	#arith_bigram_count = 0.0
-	#geo_bigram_count = 0.0
-
 	def __init__(self, pkl):
 		self.fold = 0
 		self.categories = ['algebra', 'arithmetic', 'geometry']

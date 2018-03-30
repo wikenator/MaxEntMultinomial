@@ -48,6 +48,9 @@ if __name__ == '__main__':
 	mec = MEC(save_pickle)
 	k = 100
 
+	if args.folds > 1: pct_split = 1 - (1.0 / args.folds)
+	else: pct_split = 0.8
+
 	# run Naive Bayes classifier
 	if args.naive:
 		mec.iters = 5
@@ -57,7 +60,7 @@ if __name__ == '__main__':
 		sys.stderr.write("Running fold "+str(fold)+"\n")
 
 		mec.fold = fold
-		mec.split_sets(0.8, save_pickle)
+		mec.split_sets(pct_split, save_pickle)
 		mec.compute_base_probs(k, args.use_bigrams, args.use_trigrams)
 		mec.set_stats()
 
@@ -88,7 +91,7 @@ if __name__ == '__main__':
 			train_features = pickle.load(open(prefix+'train_features'+str(fold)+'.pkl', 'rb'))
 			train_labels = pickle.load(open(prefix+'train_labels'+str(fold)+'.pkl', 'rb'))
 
-		if args.no_retrain:
+		if args.no_retrain and os.path.exists('./data/train_weights'+str(fold)+'.pkl'):
 			weights = pickle.load(open('./data/train_weights'+str(fold)+'.pkl', 'rb'))
 			min_cost = 0
 			best_learn_rate = 0
