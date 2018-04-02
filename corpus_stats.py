@@ -5,8 +5,8 @@ import numpy
 import nltk
 from Utils import Utils as Util
 
+vocab = {}
 counts = []
-vocab = []
 alg_count = 0
 arith_count = 0
 geo_count = 0
@@ -20,12 +20,6 @@ for f in files:
 		f = os.path.splitext(os.path.basename(f))[0]
 		sent_count = 0
 		word_count = 0
-#		counts[f] = {
-#			's': 0,
-#			'w': 0
-#		}
-
-#		sys.stderr.write('Processing file: ' + f + '\n')
 
 		for sent in fh.read().splitlines():
 			pid, cat, sent = sent.split('#@#')
@@ -37,28 +31,18 @@ for f in files:
 			ques_count += 1
 
 			s_tok = nltk.tokenize.sent_tokenize(sent)
-#			w_tok = nltk.tokenize.word_tokenize(sent)
 			w_tok = u.regex_tokenizer(sent)
-#			counts[f]['s'] += len(s_tok)
-#			counts[f]['w'] += len(w_tok)
 			sent_count += len(s_tok)
 			word_count += len(w_tok)
 
 			for w in w_tok:
-				vocab.append(w)
+				if w not in vocab: vocab[w] = 1
+
+				vocab[w] += 1
 
 		counts.append([sent_count, word_count])
 
 		fh.close()
-
-data_size = len(vocab)
-vocab = set(vocab)
-
-#for f in sorted(counts):
-#	print f + '\n\tsentence counts: ' + str(counts[f]['s']) + '\n\tword counts: ' + str(counts[f]['w'])
-
-#for i, c in enumerate(counts):
-#	print files[i] + ':\n\tsentence counts: ' + str(c[0]) + '\n\tword counts: ' + str(c[1])
 
 counts = numpy.matrix(counts)
 
@@ -66,4 +50,4 @@ print "Algebra: %d\nArithmetic: %d\nGeometry: %d" % (alg_count, arith_count, geo
 print '\nAvg sents/ques: ' + str(float(sum(counts[:, 0]))/ques_count)
 print 'Avg words/sent: ' + str(float(sum(counts[:, 1]))/float(sum(counts[:, 0])))
 print '\nVocabulary size: ' + str(len(vocab))
-print 'Data size: ' + str(data_size)
+print 'Data size: ' + str(sum(vocab.values()))
