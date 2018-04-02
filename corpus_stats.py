@@ -6,6 +6,7 @@ import nltk
 from Utils import Utils as Util
 
 counts = []
+vocab = []
 alg_count = 0
 arith_count = 0
 geo_count = 0
@@ -43,9 +44,15 @@ for f in files:
 			sent_count += len(s_tok)
 			word_count += len(w_tok)
 
+			for w in w_tok:
+				vocab.append(w)
+
 		counts.append([sent_count, word_count])
 
 		fh.close()
+
+data_size = len(vocab)
+vocab = set(vocab)
 
 #for f in sorted(counts):
 #	print f + '\n\tsentence counts: ' + str(counts[f]['s']) + '\n\tword counts: ' + str(counts[f]['w'])
@@ -58,3 +65,5 @@ counts = numpy.matrix(counts)
 print "Algebra: %d\nArithmetic: %d\nGeometry: %d" % (alg_count, arith_count, geo_count)
 print '\nAvg sents/ques: ' + str(float(sum(counts[:, 0]))/ques_count)
 print 'Avg words/sent: ' + str(float(sum(counts[:, 1]))/float(sum(counts[:, 0])))
+print '\nVocabulary size: ' + str(len(vocab))
+print 'Data size: ' + str(data_size)
