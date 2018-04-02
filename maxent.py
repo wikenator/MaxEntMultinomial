@@ -86,10 +86,21 @@ if __name__ == '__main__':
 		else:
 			sys.stderr.write("Reading pickle files.\n")
 
-			all_words = pickle.load(open(prefix+'all_words'+str(fold)+'.pkl', 'rb'))
-			weights = pickle.load(open(prefix+'init_weights'+str(fold)+'.pkl', 'rb'))
-			train_features = pickle.load(open(prefix+'train_features'+str(fold)+'.pkl', 'rb'))
-			train_labels = pickle.load(open(prefix+'train_labels'+str(fold)+'.pkl', 'rb'))
+			all_pkl = open(prefix+'all_words'+str(fold)+'.pkl', 'rb')
+			all_words = pickle.load(all_pkl)
+			all_pkl.close()
+
+			wts_pkl = open(prefix+'init_weights'+str(fold)+'.pkl', 'rb')
+			weights = pickle.load(wts_pkl)
+			wts_pkl.close()
+
+			feat_pkl = open(prefix+'train_features'+str(fold)+'.pkl', 'rb')
+			train_features = pickle.load(feat_pkl)
+			feat_pkl.close()
+
+			label_pkl = open(prefix+'train_labels'+str(fold)+'.pkl', 'rb')
+			train_labels = pickle.load(label_pkl)
+			label_pkl.close()
 
 		if args.no_retrain and os.path.exists('./data/train_weights'+str(fold)+'.pkl'):
 			weights = pickle.load(open('./data/train_weights'+str(fold)+'.pkl', 'rb'))
