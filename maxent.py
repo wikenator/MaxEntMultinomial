@@ -129,6 +129,15 @@ if __name__ == '__main__':
 
 		mec.train_acc.append(((class_bin_train == train_labels).sum().astype(float)/len(class_bin_train)))
 
+		err_report = open('train_misclassify.txt', 'a')
+		err_report.write('FOLD ' + str(fold) + '\n')
+
+		for i, l in enumerate(train_labels[0]):
+			if class_bin_train[i] != l:
+				err_report.write("%s#@#%s#@#%s\n" % (mec.categories[class_bin_train[i]], mec.train_problems[i][1], mec.train_problems[i][0]))
+
+		err_report.close()
+
 		test_features, test_labels = mec.get_test_features(all_words, args.use_bigrams, args.use_trigrams)
 		class_prob_test = numpy.dot(weights, test_features)
 		class_bin_test = mec.hard_classify(class_prob_test)
@@ -139,6 +148,22 @@ if __name__ == '__main__':
 		mec.recall.append(rec)
 
 		mec.test_acc.append(((class_bin_test == test_labels).sum().astype(float)/len(class_bin_test)))
+
+		err_report = open('test_misclassify.txt', 'a')
+		err_report.write('FOLD ' + str(fold) + '\n')
+
+		for i, l in enumerate(test_labels[0]):
+			if class_bin_test[i] != l:
+				err_report.write("%s#@#%s#@#%s\n" % (mec.categories[class_bin_test[i]], mec.test_problems[i][1], mec.test_problems[i][0]))
+
+		err_report.close()
+
+		del all_words
+		del weights
+		del train_features
+		del train_labels
+		del test_features
+		del test_labels
 	# end for
 
 	report(mec, args.folds, args.no_retrain, min_cost, best_learn_rate)
