@@ -1,3 +1,5 @@
 !.gitignore
 *.swp
 *.pyc
+train_misclassify.txt
+test_misclassify.txt
