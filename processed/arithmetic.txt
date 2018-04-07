@@ -47,7 +47,7 @@
 1170#@#arithmetic#@#A checking account has a balance of [M:L:N:D] . One check is written for [M:L:N:D] and another for [M:L:N:D] . What is the new balance ?
 1171#@#arithmetic#@#A man had [M:L:N:D] ; he spent [M:L:N:D] : how much had he left ?
 1172#@#arithmetic#@#A person buys [M:L:N:D] worth of hamburger and pays for it with a [M:L:N] bill . How much change does this person get ?
-1173#@#arithmetic#@#A man bought two pieces of cloth -- one containing [M:L:N:D] yd ., the other , [M:L:N:D] yd .; he sold [M:L:N:D] yd .: how much had he left ?
+1173#@#arithmetic#@#A man bought two pieces of cloth -- one containing [M:L:N:D] yd. , the other , [M:L:N:D] yd. ; he sold [M:L:N:D] yd. : how much had he left ?
 1174#@#arithmetic#@#Bought a house for [M:L:N:D] , and sold it for [M:L:N] : how much did I gain ?
 1175#@#arithmetic#@#A man paid [M:L:N:D] for sugar , [M:L:N:D] for coffee , [M:L:N:D] for a barrel of flour , [M:L:N:D] for tea , and [M:L:N] cents for butter ; how much did he pay for all ?
 1176#@#arithmetic#@#A man collected of [M:VAR] [M:L:N:D] , of [M:VAR] [M:L:N:D] , of [M:VAR] [M:L:N:D] , of [M:VAR] [M:L:N:D] , of [M:VAR] [M:L:N:D] : how much did he collect in all ?
@@ -61,7 +61,7 @@
 1184#@#arithmetic#@#A store -keeper sold [M:L:N] pieces of silk , [M:L:F:M] yards in each piece . How many yards did he sell ?
 1185#@#arithmetic#@#If it takes [M:L:F:M] yards for a jacket , and [M:L:F:M] yards for a coat , how many yards will be needed for both ?
 1186#@#arithmetic#@#David paid [M:L:F] of a dollar for a fishing rod , and [M:L:F] of a dollar for a line . How much did he pay for both ?
-1187#@#arithmetic#@#A girl 's weight on June [M:L:N] th was [M:L:F:M] lb ., and on August [M:L:N] th was [M:L:F:M] lb . How much did she gain in two months ?
+1187#@#arithmetic#@#A girl 's weight on June [M:L:N] th was [M:L:F:M] lb. , and on August [M:L:N] th was [M:L:F:M] lb . How much did she gain in two months ?
 1188#@#arithmetic#@#How many pounds of coffee are there in [M:L:N] packages weighing [M:L:F:M] pounds each ?
 1189#@#arithmetic#@#A grocer bought [M:L:N] doz . eggs . He sold [M:L:F:M] doz . to one customer and [M:L:F:M] doz . to another . How many dozen did he sell to both ?
 1190#@#arithmetic#@#A grocer bought [M:L:F:M] dozen eggs from one dealer , and [M:L:F:M] dozen from another . How many dozen did he buy ?
@@ -96,30 +96,30 @@
 1246#@#arithmetic#@#A man bought cows at [M:L:N] per head ; how many could he buy for [M:L:N:D] ?
 1247#@#arithmetic#@#If a field of [M:L:N] acres produces [M:L:N] bushels of wheat , how much will [M:L:N] acre produce ?
 1248#@#arithmetic#@#At [M:L:N] dollars per barrel , how many barrels of sugar can be bought for [M:L:N] dollars ?
-1249#@#arithmetic#@#Paid [M:L:N:D] for [M:L:N] barrels of apples ; what was the price per barrel (in dollars )?
+1249#@#arithmetic#@#Paid [M:L:N:D] for [M:L:N] barrels of apples ; what was the price per barrel ( in dollars ) ?
 1250#@#arithmetic#@#A speculator bought land for [M:L:N] dollars at [M:L:N] dollars an acre ; how many acres did he purchase ?
 1251#@#arithmetic#@#How many bales will [M:L:N] pounds of cotton make , allowing [M:L:N] pounds to the bale ?
 1252#@#arithmetic#@#John has [M:L:N] nuts , and wishes to divide them equally among [M:L:N] of his comrades -- how many must he give to each one ?
-1253#@#arithmetic#@#A drover bought [M:L:N] cattle for [M:L:N] ; what is the average price for each (in dollars )?
+1253#@#arithmetic#@#A drover bought [M:L:N] cattle for [M:L:N] ; what is the average price for each ( in dollars ) ?
 1254#@#arithmetic#@#There are [M:L:N] pence in one shilling --how many shillings are there [M:L:N] pence ?
-1255#@#arithmetic#@#Paid [M:L:N:D] for [M:L:N] boxes of strawberries ; what was the price per box (in dollars )?
+1255#@#arithmetic#@#Paid [M:L:N:D] for [M:L:N] boxes of strawberries ; what was the price per box ( in dollars ) ?
 1256#@#arithmetic#@#Mr . [M:VAR] bought a house for [M:L:N] , and paid for it in yearly installments of [M:L:N] ; how many years were required to pay for the house ?
-1257#@#arithmetic#@#If [M:L:N] pounds of pork cost [M:L:N] , what is the price per pound (in dollars )?
+1257#@#arithmetic#@#If [M:L:N] pounds of pork cost [M:L:N] , what is the price per pound ( in dollars ) ?
 1258#@#arithmetic#@#The multiplier is [M:L:N] and the product is [M:L:N]; what is the multiplicand ?
-1260#@#arithmetic#@#If [M:L:N] barrels of beef are sold for [M:L:N] dollars , what is the price of one barrel (in dollars )?
-1261#@#arithmetic#@#If [M:L:N] barrels of sugar cost [M:L:N:D] , what is the price of a barrel (in dollars )?
-1262#@#arithmetic#@#If [M:L:N] cords of wood cost [M:L:N:D] , what is the price of a cord (in dollars )?
-1263#@#arithmetic#@#If a farm of [M:L:N] acres costs [M:L:N:D] , what is the price of one acre (in dollars )?
-1264#@#arithmetic#@#If [M:L:N] sheep cost [M:L:N] , what is the price of one sheep (in dollars )?
+1260#@#arithmetic#@#If [M:L:N] barrels of beef are sold for [M:L:N] dollars , what is the price of one barrel ( in dollars ) ?
+1261#@#arithmetic#@#If [M:L:N] barrels of sugar cost [M:L:N:D] , what is the price of a barrel ( in dollars ) ?
+1262#@#arithmetic#@#If [M:L:N] cords of wood cost [M:L:N:D] , what is the price of a cord ( in dollars ) ?
+1263#@#arithmetic#@#If a farm of [M:L:N] acres costs [M:L:N:D] , what is the price of one acre ( in dollars ) ?
+1264#@#arithmetic#@#If [M:L:N] sheep cost [M:L:N] , what is the price of one sheep ( in dollars ) ?
 1265#@#arithmetic#@#A farmer wishes to plant [M:L:N] apple trees in [M:L:N] rows --how many must he plant in each row ?
-1266#@#arithmetic#@#If [M:L:N] hogsheads of molasses cost [M:L:N] dollars , what is the price of [M:L:N] hogshead (in dollars )?
-1267#@#arithmetic#@#If [M:L:N] acres of land cost [M:L:N:D] , what was the cost of one acre (in dollars )?
-1268#@#arithmetic#@#If a man travels [M:L:N] miles a day , how long will it take him to travel [M:L:N] miles (in days )?
+1266#@#arithmetic#@#If [M:L:N] hogsheads of molasses cost [M:L:N] dollars , what is the price of [M:L:N] hogshead ( in dollars ) ?
+1267#@#arithmetic#@#If [M:L:N] acres of land cost [M:L:N:D] , what was the cost of one acre ( in dollars ) ?
+1268#@#arithmetic#@#If a man travels [M:L:N] miles a day , how long will it take him to travel [M:L:N] miles ( in days ) ?
 1269#@#arithmetic#@#How many times is [M:L:N] contained in [M:L:N] ?
 1270#@#arithmetic#@#Divide one hundred eighty -four thousand , seven hundred seventy -five dollars among [M:L:N] men .
 1271#@#arithmetic#@#What number multiplied by [M:L:N] and divided by [M:L:N] will give [M:L:N] ?
 1272#@#arithmetic#@#The dividend is [M:L:N] , and the quotient is [M:L:N] ; what is the divisor ?
-1273#@#arithmetic#@#If [M:L:N] bags of coffee cost [M:L:N] dollars , what does one bag cost (in dollars )?
+1273#@#arithmetic#@#If [M:L:N] bags of coffee cost [M:L:N] dollars , what does one bag cost ( in dollars ) ?
 1274#@#arithmetic#@#What part of a dozen are [M:L:N] objects ?
 1275#@#arithmetic#@#A dime is what part of [M:L:N] ?
 1276#@#arithmetic#@#A workman has several sizes of wire . They are marked [M:L:F] in. , [M:L:F] in. , [M:L:F] in. , and [M:L:F] in. , these being their diameters .
@@ -127,7 +127,7 @@
 1279#@#arithmetic#@#A piece of plate glass is [M:L:F] in. thick . Express this fraction in lowest terms .
 1280#@#arithmetic#@#Marie cut a pie into [M:L:N] pieces and gave each one in the family one piece . There were [M:L:N] in the family . What part of the pie did she give them ?
 1282#@#arithmetic#@#Express as dollars [M:L:N] half dollars .
-1283#@#arithmetic#@#Express [M:L:N] ``quarters" as dollars . (Write as a mixed number .)
+1283#@#arithmetic#@#Express [M:L:N] ``quarters" as dollars .
 1284#@#arithmetic#@#[M:L:N] cents is what part of a dime ?
 1285#@#arithmetic#@#A man 's income is [M:L:N] . If he spends [M:L:N] , what fraction of his income does he spend ?
 1286#@#arithmetic#@#Two boys plan to walk [M:L:N] mi. After walking [M:L:N] mi. they have walked what part of the distance ?
@@ -145,37 +145,37 @@
 1300#@#arithmetic#@#A quarter is what part of [M:L:N] ?
 1301#@#arithmetic#@#If you have earned [M:L:N] half dollars , how many dollars have you earned ?
 1302#@#arithmetic#@#What part of a foot is an inch ?
-1303#@#arithmetic#@#Eleven half dollars make how many dollars ? (Write as a fraction .)
+1303#@#arithmetic#@#Eleven half dollars make how many dollars ?
 1304#@#arithmetic#@#At [M:L:N] a bushel , what will [M:L:N] bushels of beans cost ?
 1305#@#arithmetic#@#If man gathers [M:L:N] bushels of apples from an orchard of [M:L:N] acres , how many bushels may he expect from [M:L:N] acres of like orchard ?
 1306#@#arithmetic#@#A square whose side is a foot long is a square foot . If your desk is [M:L:N] feet wide and [M:L:N] feet long , how many square feet does it contain ?
 1307#@#arithmetic#@#If a pound of coffee costs [M:L:N] cents , how much will [M:L:N] pounds cost ?
 1308#@#arithmetic#@#A farmer gets [M:L:N] bushels of wheat from [M:L:N] acres . At this rate how much will he get from [M:L:N] acres ?
-1309#@#arithmetic#@#What will [M:L:N] two -cent stamps cost (in cents )?
+1309#@#arithmetic#@#What will [M:L:N] two -cent stamps cost ( in cents ) ?
 1310#@#arithmetic#@#Find the cost of [M:L:N] tons of hay when [M:L:N] ton costs [M:L:N] .
 1311#@#arithmetic#@#There are two pints in a quart . How many pints in [M:L:N] quarts ?
-1312#@#arithmetic#@#What will [M:L:N] two -cent pencils cost (in cents )?
+1312#@#arithmetic#@#What will [M:L:N] two -cent pencils cost ( in cents ) ?
 1313#@#arithmetic#@#There are [M:L:N] cents in one dollar . How many cents are there in [M:L:N] dollars ?
 1314#@#arithmetic#@#A boy has [M:L:N] recitations a day . How many recitations does he have in [M:L:N] weeks of [M:L:N] school days each ?
 1315#@#arithmetic#@#Edward had [M:L:N] nuts , and George [M:L:N] times more than Edward . How many had George ?
-1316#@#arithmetic#@#Charles gathered [M:L:N] pecks of wild blackberries yesterday and sold them at [M:L:N] cents a quart . What did he earn (in cents )? (There are [M:L:N] quarts in a peck .)
+1316#@#arithmetic#@#Charles gathered [M:L:N] pecks of wild blackberries yesterday and sold them at [M:L:N] cents a quart . What did he earn ( in cents ) ? ( There are [M:L:N] quarts in a peck . )
 1317#@#arithmetic#@#Charles caught [M:L:N] perch , and James and Henry together caught [M:L:N] times as many . How many did all three catch ?
 1318#@#arithmetic#@#A man earns [M:L:N] per year and spends [M:L:N] of it . At this rate what can he save in [M:L:N] years ?
-1319#@#arithmetic#@#What will [M:L:N] gallons of vinegar cost me (in dollars ) at [M:L:N] cents a quart ? (There are [M:L:N] quarts in a gallon .)
+1319#@#arithmetic#@#What will [M:L:N] gallons of vinegar cost me ( in dollars ) at [M:L:N] cents a quart ? ( There are [M:L:N] quarts in a gallon . )
 1320#@#arithmetic#@#What will [M:L:N] yards of lace cost at [M:L:N] cents a yard ?
 1321#@#arithmetic#@#[M:L:N] cattle are in one drove , and [M:L:N] times as many in another . How many cattle are there in all ?
 1322#@#arithmetic#@#A trader bought [M:L:N] horses at [M:L:N] each and sold them for [M:L:N] each . What did he gain on the [M:L:N] ?
 1323#@#arithmetic#@#If a man earns [M:L:N] a month and spends [M:L:N] of it , what does he save in [M:L:N] months ?
 1324#@#arithmetic#@#[M:L:N] times two dots are how many dots ?
-1325#@#arithmetic#@#How much does a boy earn (in dollars ) in [M:L:N] weeks of [M:L:N] work days , if he earns [M:L:N] cents in one day ?
+1325#@#arithmetic#@#How much does a boy earn ( in dollars ) in [M:L:N] weeks of [M:L:N] work days , if he earns [M:L:N] cents in one day ?
 1326#@#arithmetic#@#A boy sells [M:L:N] copies of The Evening News and [M:L:N] copies of the Journal every day . How many papers does he sell in a week , not counting Sunday ?
-1327#@#arithmetic#@#How much will [M:L:N] pounds of sugar cost (in cents ) at [M:L:N] cents a pound ?
-1328#@#arithmetic#@#What will [M:L:N] oranges cost at [M:L:N] cents each (in cents )?
-1329#@#arithmetic#@#If a boy earns [M:L:N] cents a day for [M:L:N] days , what does he earn in all (in dollars )?
+1327#@#arithmetic#@#How much will [M:L:N] pounds of sugar cost ( in cents ) at [M:L:N] cents a pound ?
+1328#@#arithmetic#@#What will [M:L:N] oranges cost at [M:L:N] cents each ( in cents ) ?
+1329#@#arithmetic#@#If a boy earns [M:L:N] cents a day for [M:L:N] days , what does he earn in all ( in dollars ) ?
 1330#@#arithmetic#@#A farmer has [M:L:N] acres of beans . If he gets [M:L:N] bushels from one acre , what can he expect from the [M:L:N] acres ?
 1331#@#arithmetic#@#A boy paid [M:L:N] for a pony and [M:L:N] times as much for a phaeton . Find the cost of both .
 1332#@#arithmetic#@#A farmer has a [M:L:N] -acre field of potatoes . How many bushels in his whole crop if he gets [M:L:N] bushels per acre ?
-1333#@#arithmetic#@#At [M:L:N] cents a pound , what will [M:L:N] pounds of rice cost (in cents )?
+1333#@#arithmetic#@#At [M:L:N] cents a pound , what will [M:L:N] pounds of rice cost ( in cents ) ?
 1334#@#arithmetic#@#If a woman pays [M:L:F] for a yard of ribbon , how much would she pay for [M:L:F] of a yard ?
 1335#@#arithmetic#@#If [M:L:F] of a yard of lace is needed to trim two neck bands , how much lace will be needed to trim one neck band ?
 1336#@#arithmetic#@#If [M:L:N] dozen pairs of buttonhole scissors cost [M:L:F:M] , what do they cost per dozen ?
@@ -193,7 +193,7 @@
 1348#@#arithmetic#@#If a dealer pays [M:L:F:M] a barrel for flour , what will [M:L:N] barrels cost ?
 1349#@#arithmetic#@#If [M:L:N] yards of cloth cost [M:L:F:M] , what is the cost of [M:L:N] yard ?
 1350#@#arithmetic#@#If a book cost [M:L:F] , how much will [M:L:N] books cost ?
-1351#@#arithmetic#@#At the rate of [M:L:F] of a mile an hour , how far could you travel in [M:L:N] hrs .?
+1351#@#arithmetic#@#At the rate of [M:L:F] of a mile an hour , how far could you travel in [M:L:N] hrs. ?
 1352#@#arithmetic#@#If [M:L:N] books cost [M:L:F:M] , what is the average cost ?
 1353#@#arithmetic#@#At [M:L:F] a yard , how many yards of cloth can be bought for [M:L:F] ?
 1354#@#arithmetic#@#If it takes a train [M:L:F] of an hour to reach a certain station , what fraction of an hour will it take to cover [M:L:F] of the distance ?
@@ -203,7 +203,7 @@
 1358#@#arithmetic#@#In a piece of muslin are [M:L:N] yards . How many yards in [M:L:F:M] pieces ?
 1359#@#arithmetic#@#At [M:L:F] a bushel , what do [M:L:N] bushels of corn cost ?
 1360#@#arithmetic#@#If [M:L:N] reams of tissue paper cost [M:L:F:M] , what does it cost per ream ?
-1361#@#arithmetic#@#A dealer sells [M:L:N] notebooks at [M:L:F:M] cents each . How much does he receive (in cents )?
+1361#@#arithmetic#@#A dealer sells [M:L:N] notebooks at [M:L:F:M] cents each . How much does he receive ( in cents ) ?
 1362#@#arithmetic#@#At [M:L:N] a cord , what will [M:L:F] of a cord of wood cost ?
 1363#@#arithmetic#@#If [M:L:N] tons of coal cost [M:L:F:M] , what will [M:L:N] ton cost ?
 1364#@#arithmetic#@#Joan found [M:L:N] seashells on the beach . she gave Sam some of her seashells . She has [M:L:N] seashell . How many seashells did she give to Sam ?
@@ -597,11 +597,11 @@
 1758#@#arithmetic#@#There are [M:L:N] short bushes and [M:L:N] tall trees currently in the park . Park workers will plant [M:L:N] short bushes today . How many short bushes will the park have when the workers are finished ?
 1759#@#arithmetic#@#At [M:L:N] minutes past [M:L:N] , Dick 's mother told him , ``You must come in in a quarter of an hour .'' At what time must Dick come in ?
 1760#@#arithmetic#@#When the minute hand of a clock is [M:L:N] minute spaces past XII and the hour hand is between V and VI , what time is it ?
-1761#@#arithmetic#@#Where is the minute hand at a quarter before the hour ? (e.g. `` [M:L:N] '' for [M:L:N] minutes past the hour .)
+1761#@#arithmetic#@#Where is the minute hand at a quarter before the hour ?
 1762#@#arithmetic#@#When the hour hand is between II and III and minute hand is at V , what is the time ?
 1763#@#arithmetic#@#When the hour hand is between X and XI and the minute hand is [M:L:N] spaces beyond II , what time is it ?
 1764#@#arithmetic#@#John went to play with Walter for a half hour . He reached Walter 's house at [M:L:N] minutes past [M:L:N] o ' clock . When was it time for him to leave ?
-1765#@#arithmetic#@#How long (in minutes ) does it take the minute hand to pass from I to II ?
+1765#@#arithmetic#@#How long ( in minutes ) does it take the minute hand to pass from I to II ?
 1766#@#arithmetic#@#Another day at quarter to five , Dick 's mother told him , ``You must come in [M:L:N] minutes .'' At what time did he have to come ?
 1767#@#arithmetic#@#At [M:L:N] minutes past [M:L:N] , Dick 's mother told him , ``You may stay just three quarters of an hour .'' At what time did he have to come in on that day ?
 1768#@#arithmetic#@#How many minutes does it take the minute hand to go from [M:L:N] to [M:L:N] ?

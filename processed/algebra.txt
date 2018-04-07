@@ -39,7 +39,7 @@
 39#@#algebra#@#Carolyn 's age is triple her daughter 's age . In eight years the sum of their ages will be [M:L:N] . How old are they now , from youngest to oldest ?
 40#@#algebra#@#Ryan is seven years older than Darren . The sum of their ages is [M:L:N] . How old are they now , from youngest to oldest ?
 41#@#algebra#@#Ann is eighteen years older than her son . One year ago , she was three times as old as her son . How old are they now , from youngest to oldest ?
-42#@#algebra#@#Albert and Tami are twins . The sum of their ages is [M:L:N] . How old are they ? (Only need to list one age )
+42#@#algebra#@#Albert and Tami are twins . The sum of their ages is [M:L:N] . How old are they ? ( Only need to list one age )
 43#@#algebra#@#The sum of Jason and Mandy 's age is [M:L:N] . Ten years ago Jason was double Mandy 's age . How old are they now , from youngest to oldest ?
 44#@#algebra#@#The sum of the ages of John and Mary is [M:L:N] . Four years ago , John was twice as old as Mary . Find the present age of each , from youngest to oldest .
 45#@#algebra#@#Carmen is [M:L:N] years older than David . Five years ago the sum of their ages was [M:L:N] . How old are they now , from youngest to oldest ?
@@ -70,7 +70,7 @@
 71#@#algebra#@#If [M:VAR] and [M:VAR] are positive integers such that [M:EQ] , find [M:EX] .
 72#@#algebra#@#Let [M:VAR] be the sum of all the real coefficients of the expansion of [M:EX] . What is [M:EX:LOG] ?
 73#@#algebra#@#If [M:EQ:TRIG] and [M:EQ:TRIG] , compute [M:EX:TRIG] .
-74#@#algebra#@#Suppose [M:VAR] , [M:VAR] , and [M:VAR] are integers such that the greatest common divisor of [M:EX] and [M:EX] is [M:EX] (in the ring of polynomials in [M:VAR] with integer coefficients ), and the least common multiple of [M:EX] and [M:EX] is [M:EX] . Find [M:EX] .
+74#@#algebra#@#Suppose [M:VAR] , [M:VAR] , and [M:VAR] are integers such that the greatest common divisor of [M:EX] and [M:EX] is [M:EX] ( in the ring of polynomials in [M:VAR] with integer coefficients ), and the least common multiple of [M:EX] and [M:EX] is [M:EX] . Find [M:EX] .
 75#@#algebra#@#Let [M:VAR] , [M:VAR] , and [M:VAR] be the [M:L:N] roots of [M:EQ] . Find [M:EX] .
 76#@#algebra#@#Let [M:VAR] and [M:VAR] be positive real numbers and [M:VAR] an angle such that [M:INEQ:TRIG] for any integer [M:VAR] . Suppose [M:EQ:TRIG] and [M:EQ:TRIG] . Compute [M:EX] .
 77#@#algebra#@#Simplify the product [M:EX:PROD] .
@@ -80,7 +80,7 @@
 81#@#algebra#@#Suppose that [M:VAR] and [M:VAR] are positive reals such that [M:EQ] , [M:EQ] . Find [M:VAR] .
 82#@#algebra#@#The rank of a rational number [M:VAR] is the unique [M:VAR] for which [M:EQ] , where each [M:VAR] is the smallest positive integer such that [M:INEQ] . Let [M:VAR] be the largest rational number less than [M:L:F] with rank [M:L:N] , and suppose the expression for [M:VAR] is [M:EX] . Find the ordered triple [M:VAR:COORD] .
 83#@#algebra#@#Let [M:EQ:FUNC] and let [M:EX:FUNC] equal [M:EX] for [M:INEQ] . Define [M:VAR] to be [M:L:N] if [M:INEQ:FUNC] and [M:L:N] if [M:INEQ:FUNC] . What is the largest [M:INEQ] such that [M:EQ:FUNC] ?
-84#@#algebra#@#Suppose that there exist nonzero complex numbers [M:VAR] , [M:VAR] , [M:VAR] , and [M:VAR] such that [M:VAR] is a root of both the equations [M:EQ] and [M:EQ] . Find all possible values of [M:VAR] (including complex values ).
+84#@#algebra#@#Suppose that there exist nonzero complex numbers [M:VAR] , [M:VAR] , [M:VAR] , and [M:VAR] such that [M:VAR] is a root of both the equations [M:EQ] and [M:EQ] . Find all possible values of [M:VAR] ( including complex values ).
 85#@#algebra#@#Suppose that [M:VAR] and [M:VAR] are complex numbers such that [M:EQ] and that [M:EQ] . Find the sum of all possible values of [M:EX] .
 86#@#algebra#@#Suppose that a polynomial of the form [M:EQ:FUNC] has no real roots . What is the maximum possible number of coefficients of [M:L:N] in [M:VAR] ?
 87#@#algebra#@#Let [M:VAR] , [M:VAR] , [M:VAR] , [M:VAR] , [M:VAR] , and [M:VAR] be complex numbers such that [M:EQ] , [M:EQ] , [M:EQ] . If [M:EQ] and [M:EQ] , find the value of [M:EX] .
@@ -90,7 +90,7 @@
 91#@#algebra#@#Let [M:EX:FUNC] be the function such that [M:EX:FUNC:C] . What is the total length of the graph of [M:L:N] from [M:EQ] to [M:EQ] ?
 92#@#algebra#@#You are given an unlimited supply of red , blue , and yellow cards to form a hand . Each card has a point value and your score is the sum of the point values of those cards . The point values are as follows : the value of each red card is [M:L:N] , the value of each blue card is equal to twice the number of red cards , and the value of each yellow card is equal to three times the number of blue cards . What is the maximum score you can get with fifteen cards ?
 93#@#algebra#@#Given points [M:VAR] and [M:VAR] in the plane , let [M:EX] be the unique point [M:VAR] such that [M:EX] is an equilateral triangle with [M:VAR] , [M:VAR] , [M:VAR] in the clockwise orientation . Solve [M:EQ] for [M:VAR] .
-94#@#algebra#@#During the weekends , Eli delivers milk in the complex plane . On Saturday , he begins at [M:VAR] and delivers milk to houses located at [M:EX] , [M:EX] , [M:EX] , ... , [M:EX] , in that order ; on Sunday , he begins at [M:L:N] and delivers milk to houses located at [M:EX] , [M:EX] , [M:EX] , ... , [M:EX] , in that order . Eli always walks directly (in a straight line ) between two houses . If the distance he must travel from his starting point to the last house is [M:EX] on both days , find the real part of [M:EX] .
+94#@#algebra#@#During the weekends , Eli delivers milk in the complex plane . On Saturday , he begins at [M:VAR] and delivers milk to houses located at [M:EX] , [M:EX] , [M:EX] , ... , [M:EX] , in that order ; on Sunday , he begins at [M:L:N] and delivers milk to houses located at [M:EX] , [M:EX] , [M:EX] , ... , [M:EX] , in that order . Eli always walks directly ( in a straight line ) between two houses . If the distance he must travel from his starting point to the last house is [M:EX] on both days , find the real part of [M:EX] .
 95#@#algebra#@#Find all ordered triples [M:VAR:COORD] of positive reals that satisfy : [M:EQ] , [M:EQ] , and [M:EQ] , where [M:EX] denotes the greatest integer less than or equal to [M:VAR] .
 96#@#algebra#@#Let [M:EQ] , [M:EQ] , and for [M:INEQ] , let [M:EQ] , [M:EQ] . Find [M:VAR] .
 97#@#algebra#@#Let [M:EX:FUNC] be a binary operation that takes two positive real numbers and returns a positive real number . Suppose further that [M:EX:FUNC] is continuous , commutative ( [M:EQ:FUNC:C] ), and that [M:EQ:FUNC] . Solve the equation [M:EQ:FUNC] for [M:VAR] in terms of [M:VAR] for [M:INEQ] .
@@ -103,7 +103,6 @@
 104#@#algebra#@#Determine all real values of [M:VAR] for which there exist distinct complex numbers [M:VAR] , [M:VAR] such that the following three equations hold : [M:EQ] , [M:EQ] , [M:EQ]
 105#@#algebra#@#Let [M:VAR] and [M:VAR] be real numbers , and let [M:VAR] , [M:VAR] , and [M:VAR] be the roots of [M:EQ:FUNC] . Also , [M:VAR:EQ] has roots [M:EX] , [M:EX] , and [M:EX] . If [M:EQ:FUNC] , find the maximum possible value of [M:VAR] .
 106#@#algebra#@#Find the number of integers [M:VAR] such that [M:EQ]
-107#@#algebra#@#Compute [M:EX:SUM]
 108#@#algebra#@#Let [M:VAR] , [M:VAR] be complex numbers such that [M:EQ] and [M:EQ] . Find all possible values of [M:EX] .
 109#@#algebra#@#Let [M:VAR] be a non -real complex number with [M:EQ] . Compute [M:EX:SUM]
 110#@#algebra#@#Let [M:VAR] be a positive integer whose decimal representation contains [M:L:N] as a contiguous substring , and let [M:VAR] be a positive integer such that [M:INEQ] . Find the minimum possible value of [M:EX]
@@ -115,30 +114,30 @@
 116#@#algebra#@#Given that [M:VAR] and [M:VAR] are complex numbers such that [M:EQ] and [M:EQ] , find the smallest possible value of [M:EX] . Here , [M:EX] denotes the absolute value of a complex number , given by [M:EQ] whenever [M:VAR] and [M:VAR] are real numbers .
 117#@#algebra#@#Find the largest real number [M:VAR] such that [M:INEQ:SUM] whenever [M:VAR] , ... , [M:VAR] are real numbers such that [M:EQ] and [M:VAR] is the median of [M:VAR] , ... , [M:VAR] .
 118#@#algebra#@#Find all real numbers [M:VAR] such that [M:EQ] is true for exactly one real number [M:VAR] .
-119#@#algebra#@#Given that a , [M:VAR] , and [M:VAR] are complex numbers satisfying [M:EQ] , [M:EQ] , [M:EQ] compute [M:EX] . (Here, [M:EQ] .)
+119#@#algebra#@#Given that a , [M:VAR] , and [M:VAR] are complex numbers satisfying [M:EQ] , [M:EQ] , [M:EQ] compute [M:EX] . ( Here, [M:EQ] . )
 120#@#algebra#@#For an integer [M:VAR] , let [M:EX:FUNC] denote the number of positive integers [M:INEQ] dividing [M:VAR] . Suppose that [M:VAR] is a positive integer and [M:VAR] , [M:VAR] , ... , [M:VAR] are real numbers such that [M:EQ:SUM] for all [M:INEQ] . Find the smallest possible value of [M:VAR] .
 121#@#algebra#@#Let [M:EX:FUNC] be a polynomial [M:EQ:FUNC] where [M:VAR] , ... , [M:VAR] are nonnegative integers . Given that [M:EQ:FUNC] and [M:EQ:FUNC] , find [M:EX:FUNC] .
-122#@#algebra#@#The fraction [M:L:F] has a unique ``(restricted) partial fraction decomposition '' of the form [M:EQ] where [M:VAR] , [M:VAR] , [M:VAR] are integers with [M:INEQ:C] and [M:INEQ:C] . Find [M:EX] .
-123#@#algebra#@#Let [M:VAR] be a real number and [M:INEQ] an integer such that [M:INEQ:C] for all (positive) real numbers [M:VAR] with [M:INEQ:C] . (The exact value [M:EX] is not important . You could replace it with any ``sufficiently small number ''.) Find the ordered pair [M:VAR:COORD] .
+122#@#algebra#@#The fraction [M:L:F] has a unique `` ( restricted ) partial fraction decomposition '' of the form [M:EQ] where [M:VAR] , [M:VAR] , [M:VAR] are integers with [M:INEQ:C] and [M:INEQ:C] . Find [M:EX] .
+123#@#algebra#@#Let [M:VAR] be a real number and [M:INEQ] an integer such that [M:INEQ:C] for all ( positive ) real numbers [M:VAR] with [M:INEQ:C] . ( The exact value [M:EX] is not important . You could replace it with any `` sufficiently small number '' . ) Find the ordered pair [M:VAR:COORD] .
 124#@#algebra#@#Compute the number of sequences of integers [M:VAR:SET] such that the following conditions hold . [M:INEQ:C] . There exists a positive integer [M:VAR] with the following property : for every index [M:VAR:SET] there exists an index [M:VAR:SET] such that [M:EX] is divisible by [M:L:N] .
 125#@#algebra#@#Let [M:VAR] , [M:VAR] , [M:VAR] be positive real numbers such that [M:EQ] and [M:EQ] . Let [M:EQ:COORD] . Find the largest possible value of [M:VAR] .
 126#@#algebra#@#Let [M:VAR] , [M:VAR] , [M:VAR] , [M:VAR] , [M:VAR] be nonnegative integers such that [M:EQ] . What is the maximum possible value of [M:EX] ?
 127#@#algebra#@#Suppose [M:VAR:COORD] is a [M:L:N] -term sequence of real numbers satisfying the following conditions : [M:EQ] and [M:EQ] ; there exist real numbers [M:VAR] , [M:VAR] , [M:VAR] such that [M:EQ:TRIG] for all [M:VAR:SET]. Compute the maximum possible value of [M:EX:TRIG] over all such sequences [M:VAR:COORD] .
-128#@#algebra#@#Find the number of ordered pairs of integers [M:EX] (not necessarily distinct ) such that [M:EX] is a ``quadratic residue modulo [M:EX] and [M:L:N] '', i .e. there exists a polynomial [M:EX:FUNC] with integer coefficients such that either of the following equivalent conditions holds : there exist polynomials [M:EX:FUNC] , [M:EX:FUNC] with integer coefficients such that [M:EQ:FUNC] ; or more conceptually , the remainder when (the polynomial ) [M:EX] is divided by (the polynomial ) [M:EX] is a polynomial with (integer) coefficients all divisible by [M:L:N] .
-129#@#algebra#@#Let [M:EQ] . Find the number of ordered [M:L:N] -tuples of integers [M:EX] (not necessarily distinct ) such that for every integer [M:VAR] , [M:EX] is divisible by [M:VAR] .
-130#@#algebra#@#Find all ordered [M:L:N] -tuples of integers [M:VAR:COORD] (not necessarily distinct ) satisfying the following system of equations : [M:EQ] , [M:EQ] , [M:EQ] , [M:EQ]
+128#@#algebra#@#Find the number of ordered pairs of integers [M:EX] ( not necessarily distinct ) such that [M:EX] is a `` quadratic residue modulo [M:EX] and [M:L:N] '' , i.e. there exists a polynomial [M:EX:FUNC] with integer coefficients such that either of the following equivalent conditions holds : there exist polynomials [M:EX:FUNC] , [M:EX:FUNC] with integer coefficients such that [M:EQ:FUNC] ; or more conceptually , the remainder when ( the polynomial ) [M:EX] is divided by ( the polynomial ) [M:EX] is a polynomial with ( integer ) coefficients all divisible by [M:L:N] .
+129#@#algebra#@#Let [M:EQ] . Find the number of ordered [M:L:N] -tuples of integers [M:EX] ( not necessarily distinct ) such that for every integer [M:VAR] , [M:EX] is divisible by [M:VAR] .
+130#@#algebra#@#Find all ordered [M:L:N] -tuples of integers [M:VAR:COORD] ( not necessarily distinct ) satisfying the following system of equations : [M:EQ] , [M:EQ] , [M:EQ] , [M:EQ]
 131#@#algebra#@#Let [M:VAR] be a complex number such that [M:EQ] and [M:EQ] . Compute the real part of [M:VAR] .
 132#@#algebra#@#For which integers [M:EX] is [M:EX] a prime number ?
 133#@#algebra#@#Let A denote the set of all integers [M:VAR] such that [M:INEQ:C] , and moreover the sum of the decimal digits of [M:VAR] is [M:L:N] . Find the sum of the squares of the elements of [M:VAR] .
 134#@#algebra#@#Determine the remainder when [M:EX:SUM] is divided by [M:L:N] , where [M:EX] denotes the largest integer not greater than [M:VAR] .
 135#@#algebra#@#An infinite sequence of real numbers [M:VAR] , [M:VAR] , ... satisfies the recurrence [M:EQ] for every positive integer [M:VAR] . Given that [M:EQ] and [M:EQ] , compute [M:EX] .
-136#@#algebra#@#Call a positive integer [M:INEQ] ``special'' if for every [M:VAR] such that [M:INEQ:C] , [M:VAR] can be expressed as a sum of [M:VAR] positive integers that are relatively prime to [M:VAR] (although not necessarily relatively prime to each other ). How many special integers are there less than [M:L:N] ?
-137#@#algebra#@#Determine the smallest positive integer [M:INEQ] for which [M:EQ:MOD] where [M:VAR] denotes the result when the numbers [M:L:POW] , [M:L:POW] , ... , [M:EX] are written in decimal notation and concatenated (for example , if [M:EQ] we have [M:EQ] ).
+136#@#algebra#@#Call a positive integer [M:INEQ] ``special'' if for every [M:VAR] such that [M:INEQ:C] , [M:VAR] can be expressed as a sum of [M:VAR] positive integers that are relatively prime to [M:VAR] ( although not necessarily relatively prime to each other ). How many special integers are there less than [M:L:N] ?
+137#@#algebra#@#Determine the smallest positive integer [M:INEQ] for which [M:EQ:MOD] where [M:VAR] denotes the result when the numbers [M:L:POW] , [M:L:POW] , ... , [M:EX] are written in decimal notation and concatenated ( for example , if [M:EQ] we have [M:EQ] ).
 138#@#algebra#@#Define [M:EX] as the product of all positive integers less than or equal to [M:VAR] and relatively prime to [M:VAR] . Compute the number of integers [M:INEQ:C] such that [M:VAR] divides [M:EX] .
-139#@#algebra#@#For any positive integer [M:VAR] , let [M:VAR] be the set of all permutations of [M:L:N] , [M:L:N] , [M:L:N] , ... , [M:VAR] . For each permutation [M:VAR:SET] , let [M:EX:FUNC] be the number of ordered pairs [M:VAR:COORD] for which [M:INEQ:FUNC] and [M:INEQ:C] . Further define [M:EX:FUNC] to be the number of positive integers [M:INEQ] such that [M:EQ:MOD] . Compute [M:EX:SUM]
+139#@#algebra#@#For any positive integer [M:VAR] , let [M:VAR] be the set of all permutations of [M:L:N] , [M:L:N] , [M:L:N] , ... , [M:VAR] . For each permutation [M:VAR:SET] , let [M:EX:FUNC] be the number of ordered pairs [M:VAR:COORD] for which [M:INEQ:FUNC] and [M:INEQ:C] . Further define [M:EX:FUNC] to be the number of positive integers [M:INEQ] such that [M:EQ:MOD] . Compute [M:EX:SUM] .
 140#@#algebra#@#Let [M:VAR] , [M:VAR] , and [M:VAR] be real numbers such that [M:EQ] , [M:EQ] , [M:EQ] . Compute the value of [M:EX] .
 141#@#algebra#@#Let [M:EQ:FUNC] be a polynomial with integer coefficients , and [M:INEQ:C] for all [M:INEQ:C] . Given that [M:EQ:FUNC] , compute [M:EX:FUNC] .
-142#@#algebra#@#Find the value of [M:EX:SUM] (i.e. the sum of [M:EX] over all triples of positive integers [M:VAR:COORD] satisfying [M:INEQ:C] ).
+142#@#algebra#@#Find the value of [M:EX:SUM] ( i.e. the sum of [M:EX] over all triples of positive integers [M:VAR:COORD] satisfying [M:INEQ:C] ).
 143#@#algebra#@#Let [M:EX:FUNC] be a function satisfying [M:EQ:FUNC] . Find all possible values of [M:EX:FUNC] .
 144#@#algebra#@#Find all pairs [M:VAR:COORD] of positive integers such that [M:EX] is a multiple of [M:EX] .
 145#@#algebra#@#Kelvin the Frog was bored in math class one day , so he wrote all ordered triples [M:VAR:COORD] of positive integers such that [M:EQ] on a sheet of paper . Find the sum of all the integers he wrote down . In other words , compute [M:EX:SUM] where [M:VAR:SET] denotes the positive integers .
@@ -151,7 +150,7 @@
 152#@#algebra#@#Bobbo starts swimming at [M:L:N] feet /s across a [M:L:N] foot wide river with a current of [M:L:N] feet /s. Bobbo doesn 't know that there is a waterfall [M:L:N] feet from where he entered the river . He realizes his predicament midway across the river . What is the minimum speed that Bobbo must increase to make it to the other side of the river safely ?
 153#@#algebra#@#Find the sum of every even positive integer less than [M:L:N] not divisible by [M:L:N] .
 154#@#algebra#@#Given that [M:VAR] and [M:VAR] are relatively prime positive integers such that [M:EQ] , find [M:VAR] and [M:VAR] .
-155#@#algebra#@#A man named Juan has three rectangular solids , each having volume [M:L:N] . Two of the faces of one solid have areas [M:L:N] and [M:L:N] . Two faces of another solid have areas [M:L:N] and [M:L:N] . Finally , two faces of the last solid have areas [M:L:N] and [M:L:N] . What is the minimum possible exposed surface area of the tallest tower Juan can construct by stacking his solids one on top of the other , face to face ? (Assume that the base of the tower is not exposed ).
+155#@#algebra#@#A man named Juan has three rectangular solids , each having volume [M:L:N] . Two of the faces of one solid have areas [M:L:N] and [M:L:N] . Two faces of another solid have areas [M:L:N] and [M:L:N] . Finally , two faces of the last solid have areas [M:L:N] and [M:L:N] . What is the minimum possible exposed surface area of the tallest tower Juan can construct by stacking his solids one on top of the other , face to face ? ( Assume that the base of the tower is not exposed ).
 156#@#algebra#@#How many pairs of positive integers [M:VAR:COORD] with [M:INEQ] satisfy [M:EQ] ?
 157#@#algebra#@#Given that three roots of [M:EQ:FUNC] are [M:L:N] , [M:L:N] , and [M:L:N] , what is the value of [M:EX] ?
 158#@#algebra#@#Find the set of solutions for [M:VAR] in the inequality [M:INEQ] when [M:INEQ] , [M:INEQ] .
@@ -159,7 +158,7 @@
 160#@#algebra#@#G. H. Hardy once went to visit Srinivasa Ramanujan in the hospital , and he started the conversation with : ``I came here in taxi -cab number [M:L:N] . That number seems dull to me , which I hope isn 't a bad omen .'' ``Nonsense,'' said Ramanujan . ``The number isn 't dull at all . It 's quite interesting . It 's the smallest number that can be expressed as the sum of two cubes in two different ways .'' Ramanujan had immediately seen that [M:EQ] . What is the smallest positive integer representable as the sum of the cubes of three positive integers in two different ways ?
 161#@#algebra#@#If [M:EQ] , for how many real values of a does [M:EQ] ?
 162#@#algebra#@#For what single digit [M:VAR] does [M:L:N] divide the [M:L:N] -digit number [M:EX] ?
-163#@#algebra#@#Alex is stuck on a platform floating over an abyss at [M:L:N] ft /s. An evil physicist has arranged for the platform to fall in (taking Alex with it ) after traveling [M:L:N] ft . One minute after the platform was launched , Edward arrives with a second platform capable of floating all the way across the abyss . He calculates for [M:L:N] seconds , then launches the second platform in such a way as to maximize the time that one end of Alex 's platform is between the two ends of the new platform , thus giving Alex as much time as possible to switch . If both platforms are [M:L:N] ft long and move with constant velocity once launched , what is the speed of the second platform (in ft /s)?
+163#@#algebra#@#Alex is stuck on a platform floating over an abyss at [M:L:N] ft /s. An evil physicist has arranged for the platform to fall in ( taking Alex with it ) after traveling [M:L:N] ft . One minute after the platform was launched , Edward arrives with a second platform capable of floating all the way across the abyss . He calculates for [M:L:N] seconds , then launches the second platform in such a way as to maximize the time that one end of Alex 's platform is between the two ends of the new platform , thus giving Alex as much time as possible to switch . If both platforms are [M:L:N] ft long and move with constant velocity once launched , what is the speed of the second platform ( in ft /s ) ?
 164#@#algebra#@#Find all possible values of [M:EX] where [M:EX] , [M:INEQ] .
 165#@#algebra#@#You are trapped in a room with only one exit , a long hallway with a series of doors and land mines . To get out you must open all the doors and disarm all the mines . In the room is a panel with [M:L:N] buttons , which conveniently contains an instruction manual . The red button arms a mine , the yellow button disarms two mines and closes a door , and the green button opens two doors . Initially [M:L:N] doors are closed and [M:L:N] mines are armed . The manual warns that attempting to disarm two mines or open two doors when only one is armed /closed will reset the system to its initial state . What is the minimum number of buttons you must push to get out ?
 166#@#algebra#@#Carl and Bob can demolish a building in [M:L:N] days , Anne and Bob can do it in [M:L:N] , Anne and Carl in [M:L:N] . How many days does it take all of them working together if Carl gets injured at the end of the first day and can 't come back ?
@@ -171,17 +170,17 @@
 172#@#algebra#@#Five students take a test on which any integer score from [M:L:N] to [M:L:N] inclusive is possible . What is the largest possible difference between the median and the mean of the scores ?
 173#@#algebra#@#What is the fewest number of multiplications required to reach [M:EX] from [M:VAR] , using only previous generated powers of [M:VAR] ? For example , [M:EX] uses [M:L:N] multiplications .
 174#@#algebra#@#A jacket was originally priced [M:L:N] . The price was reduced by [M:L:N:P] three times and incresed by [M:L:N:P] four times in some order . To the nearest cent , what was the final price ?
-175#@#algebra#@#Barbara , Edward , Abhinav , and Alex took turns writing this test . Working alone , they could finish it in [M:L:N] , [M:L:N] , [M:L:N] , and [M:L:N] days , respectively . If only one person works on the test per day , and nobody works on it unless everyone else has spent at least as many days working on it , how many days (an integer ) did it take to write this test ?
+175#@#algebra#@#Barbara , Edward , Abhinav , and Alex took turns writing this test . Working alone , they could finish it in [M:L:N] , [M:L:N] , [M:L:N] , and [M:L:N] days , respectively . If only one person works on the test per day , and nobody works on it unless everyone else has spent at least as many days working on it , how many days ( an integer ) did it take to write this test ?
 176#@#algebra#@#A number [M:VAR] is called multiplicatively perfect if the product of all the positive divisors of [M:VAR] is [M:EX] . Determine the number of positive multiplicatively perfect numbers less than [M:L:N] .
 177#@#algebra#@#A man has three daughters . The product of their ages is [M:L:N] , and he remembers that the sum of their ages is the number of trees in his yard . He counts the trees but cannot determine any of their ages . What are all possible ages of his oldest daughter ?
 178#@#algebra#@#Find the smallest positive integer [M:VAR] such that [M:EX] is not prime for any integer [M:VAR] .
-179#@#algebra_contest#@#Find [M:EX] , given that [M:EQ] , [M:EQ] , and [M:EQ] .
-180#@#algebra_contest#@#Find [M:EX] , where [M:INEQ] .
-181#@#algebra_contest#@#How many times does [M:L:N] divide into [M:N:FAC] (factorial)?
-182#@#algebra_contest#@#Given that [M:L:N] has at most two prime factors , find its largest prime factor .
-183#@#algebra_contest#@#What is the last digit of [M:EX] ?
-184#@#algebra_contest#@#A polynomial [M:EX:FUNC] has four roots , [M:L:F] , [M:L:F] , [M:L:N] , [M:L:N]. The product of the roots is [M:L:N] , and [M:EQ:FUNC] . Find [M:EX:FUNC] .
-185#@#algebra_contest#@#How many integers between [M:L:N] and [M:L:N] inclusive share no common factors with [M:L:N] ?
+179#@#algebra#@#Find [M:EX] , given that [M:EQ] , [M:EQ] , and [M:EQ] .
+180#@#algebra#@#Find [M:EX] , where [M:INEQ] .
+181#@#algebra#@#How many times does [M:L:N] divide into [M:N:FAC] ( factorial ) ?
+182#@#algebra#@#Given that [M:L:N] has at most two prime factors , find its largest prime factor .
+183#@#algebra#@#What is the last digit of [M:EX] ?
+184#@#algebra#@#A polynomial [M:EX:FUNC] has four roots , [M:L:F] , [M:L:F] , [M:L:N] , [M:L:N]. The product of the roots is [M:L:N] , and [M:EQ:FUNC] . Find [M:EX:FUNC] .
+185#@#algebra#@#How many integers between [M:L:N] and [M:L:N] inclusive share no common factors with [M:L:N] ?
 186#@#algebra#@#Nine nonnegative numbers have average [M:L:N] . What is the greatest possible value for their median ?
 187#@#algebra#@#[M:VAR] and [M:VAR] are primes such that the numbers [M:EX] and [M:EX] are both squares . Find the value of [M:VAR] .
 188#@#algebra#@#Real numbers [M:VAR] , [M:VAR] , [M:VAR] satisfy the equations [M:EQ] , [M:EQ] . Find the value of [M:EX]
@@ -204,8 +203,8 @@
 205#@#algebra#@#Suppose [M:EX:FUNC] is a polynomial such that [M:EQ:FUNC] and [M:EQ:FUNC] for all real [M:VAR] for which both sides are defined . Find [M:EX:FUNC] .
 206#@#algebra#@#How many ordered pairs of integers [M:VAR:COORD] satisfy all of the following inequalities ? [M:INEQ] , [M:INEQ] , [M:INEQ]
 207#@#algebra#@#Find the largest number [M:VAR] such that [M:EX] is divisible by [M:EX] .
-208#@#algebra#@#Compute : [M:EX]
-209#@#algebra#@#Evaluate the sum [M:EX]
+208#@#algebra#@#Compute : [M:EX] .
+209#@#algebra#@#Evaluate the sum [M:EX] .
 210#@#algebra#@#There exists a positive real number [M:VAR] such that [M:EQ:TRIG] . Find the value of [M:EX] .
 211#@#algebra#@#Find all real solutions to [M:EQ] .
 212#@#algebra#@#If [M:VAR] , [M:VAR] , [M:VAR] are positive reals such that [M:EQ] find the maximum possible value of [M:VAR] .
@@ -215,17 +214,17 @@
 216#@#algebra#@#How many real numbers [M:VAR] are solutions to the following equation ? [M:EQ]
 217#@#algebra#@#How many real numbers [M:VAR] are solution to the following equation ? [M:EQ]
 218#@#algebra#@#Let [M:VAR] , [M:VAR] , and [M:VAR] be distinct real numbers that sum to [M:L:N] . Find the maximum possible value of [M:EX]
-219#@#algebra#@#If [M:VAR] , [M:VAR] , [M:INEQ] , what is the smallest possible value of [M:EX] ? (Note that [M:EX] denotes the greatest integer less than or equal to [M:VAR] .)
+219#@#algebra#@#If [M:VAR] , [M:VAR] , [M:INEQ] , what is the smallest possible value of [M:EX] ? ( Note that [M:EX] denotes the greatest integer less than or equal to [M:VAR] . )
 220#@#algebra#@#Ten positive integers are arranged around a circle . Each number is one more than the greatest common divisor of its two neighbors . What is the sum of the ten numbers ?
 221#@#algebra#@#Find the sum of the [M:VAR] -coordinates of the distinct points of intersection of the plane curves given by [M:EQ] and [M:EQ] .
 222#@#algebra#@#Let [M:VAR] be a positive real number . Find the maximum possible value of [M:EX]
 224#@#algebra#@#The number [M:L:N] has exactly four prime factors . Find their sum .
 225#@#algebra#@#Find the sum of the absolute values of the roots of [M:EQ] .
-226#@#algebra#@#Larry can swim from Harvard to MIT (with the current of the Charles River ) in [M:L:N] minutes , or back (against the current ) in [M:L:N] minutes . How long does it take him to row from Harvard to MIT , if he rows the return trip in [M:L:N] minutes ? (Assume that the speed of the current and Larry 's swimming and rowing speeds relative to the current are all constant .)
+226#@#algebra#@#Larry can swim from Harvard to MIT ( with the current of the Charles River ) in [M:L:N] minutes , or back ( against the current ) in [M:L:N] minutes . How long does it take him to row from Harvard to MIT , if he rows the return trip in [M:L:N] minutes ? ( Assume that the speed of the current and Larry 's swimming and rowing speeds relative to the current are all constant . )
 227#@#algebra#@#Find all real solutions [M:VAR:COORD] of the system [M:EQ] .
 228#@#algebra#@#The train schedule in Hummut is hopelessly unreliable . Train [M:VAR] will enter Intersection [M:VAR] from the west at a random time between [M:L:T] am and [M:L:T] pm ; each moment in that interval is equally likely . Train [M:VAR] will enter the same intersection from the north at a random time between [M:L:T] am and [M:L:T] pm , independent of Train [M:VAR] ; again , each moment in the interval is equally likely . If each train take [M:L:N] minutes to clear the intersection , what is the probability of a collision today ?
 229#@#algebra#@#Let [M:VAR] , [M:VAR] , ... be a sequence defined by [M:EQ] and [M:EQ] for [M:INEQ] . Find [M:EX:SUM]
-230#@#algebra#@#Tim has a working analog [M:L:N] -hour clock with two hands that run continuously (instead of , say , jumping on the minute ). He also has a clock that runs really slow - at half the correct rate , to be exact . At noon one day , both clocks happen to show the exact time . At any given instant , the hands on each clock form an angle between [M:L:N] and [M:L:N] inclusive . At how many times during the day are the angles on the two clocks equal ?
+230#@#algebra#@#Tim has a working analog [M:L:N] -hour clock with two hands that run continuously ( instead of , say , jumping on the minute ). He also has a clock that runs really slow - at half the correct rate , to be exact . At noon one day , both clocks happen to show the exact time . At any given instant , the hands on each clock form an angle between [M:L:N] and [M:L:N] inclusive . At how many times during the day are the angles on the two clocks equal ?
 231#@#algebra#@#Let [M:VAR] , [M:VAR] , [M:VAR] be the roots of [M:EQ] , and let [M:EQ] . Find [M:EX] .
 232#@#algebra#@#Let [M:EQ:FUNC] . Let the roots of [M:EX:FUNC] be [M:EX] for [M:EQ] , [M:L:N] , [M:L:N] , [M:L:N] . Given that the [M:VAR] , [M:VAR] are all integers , find [M:EX] .
 233#@#algebra#@#Solve for all complex numbers [M:VAR] such that [M:EQ] .
@@ -235,7 +234,7 @@
 238#@#algebra#@#Three real numbers [M:VAR] , [M:VAR] , and [M:VAR] are such that [M:EQ:C] . Determine the value of [M:EX] .
 240#@#algebra#@#A convex quadrilateral is determined by the points of intersection of the curves [M:EQ] and [M:EQ] ; determine its area .
 241#@#algebra#@#Consider the polynomial [M:EQ:FUNC] . Determine all real numbers [M:VAR] for which there exists a complex number [M:VAR] not in the reals such that [M:EQ:FUNC] .
-242#@#algebra#@#An infinite sequence of positive real numbers is defined by [M:EQ] and [M:EQ] for [M:EQ] , [M:L:N] , [M:L:N] , ... . Find the possible value (s) of [M:VAR] .
+242#@#algebra#@#An infinite sequence of positive real numbers is defined by [M:EQ] and [M:EQ] for [M:EQ] , [M:L:N] , [M:L:N] , ... . Find the possible value ( s ) of [M:VAR] .
 243#@#algebra#@#Let [M:VAR:SET] denote the set of all rationals other than [M:L:N] and [M:L:N] . A function [M:EX:FUNC] has the property that for all [M:EX] , [M:EQ:FUNC] . Compute the value of [M:EX:FUNC] .
 244#@#algebra#@#The complex numbers [M:VAR] , [M:VAR] , [M:VAR] , and [M:VAR] are the four distinct roots of the equation [M:EQ] . Determine the unordered set [M:VAR:COORD]
 245#@#algebra#@#The polynomial [M:EQ:FUNC] has distinct zeroes [M:VAR] , ... , [M:VAR] . A polynomial [M:EX:FUNC] of degree [M:L:N] has the property that [M:EQ:FUNC] for [M:EQ:FUNC] , ... , [M:L:N] . Determine the value of [M:EX:FUNC] .
@@ -262,7 +261,7 @@
 266#@#algebra#@#Determine the number of consecutive zeroes at the right end of the decimal expansion of [M:EX] where [M:EQ] .
 267#@#algebra#@#Find the real number [M:VAR] such that [M:EQ]
 268#@#algebra#@#Let [M:VAR] , [M:VAR] , [M:VAR] , [M:INEQ] be real numbers such that [M:EQ] . Find the minimum value of [M:EX]
-269#@#algebra#@#Compute [M:EX]
+269#@#algebra#@#Compute [M:EX] .
 270#@#algebra#@#Find the sum of all integers [M:INEQ:C] such that [M:EQ:FUNC] is divisble by [M:L:N] .
 271#@#algebra#@#What is the largest integer less than or equal to [M:EX] ?
 272#@#algebra#@#Let [M:VAR:SET] be a set of real numbers such that there always exists [M:VAR] , [M:VAR] in [M:VAR:SET] with the following property : [M:INEQ:C] . What is the minimum number of elements of [M::VAR:SET] such that this holds for any set [M:VAR:SET] ?
@@ -278,24 +277,24 @@
 282#@#algebra#@#Compute the minimum possible value of [M:EX] for real values of [M:VAR] .
 283#@#algebra#@#Express [M:EX] as a fraction in lowest terms .
 284#@#algebra#@#If [M:VAR] , [M:VAR] , and [M:VAR] are integers satisfying [M:EQ] , list all possibilities for the ordered triple [M:VAR:COORD] .
-285#@#algebra#@#The quartic ([M:L:N] th -degree) polynomial [M:EX:FUNC] satisfies [M:EQ:FUNC] and attains its maximum value of [M:L:N] at both [M:EQ] and [M:EQ] . Compute [M:EX:FUNC] .
+285#@#algebra#@#The quartic ( [M:L:N] th -degree ) polynomial [M:EX:FUNC] satisfies [M:EQ:FUNC] and attains its maximum value of [M:L:N] at both [M:EQ] and [M:EQ] . Compute [M:EX:FUNC] .
 286#@#algebra#@#Compute the ordered pair of real numbers [M:VAR:COORD] such that [M:INEQ:C] if and only if [M:EQ] does not have a real solution in [M:VAR] .
-287#@#algebra#@#How many positivie integers [M:VAR] are there such that for any natural numbers [M:VAR] , [M:VAR] , we have [M:EX] implies [M:EX] ? (Note: The symbol | means ``divides ''; if [M:EX] then [M:VAR] is a multiple of [M:VAR] .)
-288#@#algebra#@#The function [M:EX:FUNC] is known to be of the form [M:EX:PROD] , where [M:VAR] is a real number and [M:EX:FUNC] is either [M:EX:TRIG] or [M:EX:TRIG] for [M:EQ] , ... , [M:VAR] . Additionally , [M:EX:FUNC] is known to have zeros at every integer between [M:L:N] and [M:L:N] (inclusive) except for one integer [M:VAR] . Find the sum of all possible values of [M:VAR] .
+287#@#algebra#@#How many positivie integers [M:VAR] are there such that for any natural numbers [M:VAR] , [M:VAR] , we have [M:EX] implies [M:EX] ? ( Note: The symbol | means ``divides'' ; if [M:EX] then [M:VAR] is a multiple of [M:VAR] . )
+288#@#algebra#@#The function [M:EX:FUNC] is known to be of the form [M:EX:PROD] , where [M:VAR] is a real number and [M:EX:FUNC] is either [M:EX:TRIG] or [M:EX:TRIG] for [M:EQ] , ... , [M:VAR] . Additionally , [M:EX:FUNC] is known to have zeros at every integer between [M:L:N] and [M:L:N] ( inclusive ) except for one integer [M:VAR] . Find the sum of all possible values of [M:VAR] .
 289#@#algebra#@#For real numbers [M:VAR:COORD] satisfying the following equations , find all possible values of [M:EX] . [M:EQ] , [M:EQ] , [M:EQ]
 290#@#algebra#@#Let [M:VAR] , [M:VAR] , [M:VAR] , [M:VAR] be integers with no common divisor such that [M:EQ] . Compute [M:EX] .
 291#@#algebra#@#On a test , the average score for the girls in the class is [M:L:N] , and the average score for the boys in the class is [M:L:N] . If the average score for the class is [M:L:N] , what fraction of the class are boys ?
 292#@#algebra#@#How many distinct real roots does the following equation have ? [M:EQ]
-293#@#algebra#@#At William Rice 's Marsh , there are an infinite number of magic lilypads numbered [M:L:N] , [M:L:N] , [M:L:N] , and so on . A magic lilypad lights up in a frog jumps on it while it is not lit , and turns off if a frog jumps on it while it is lit . Suppose all lilypads are initially turned off . Conor the Frog begins by hopping on the first lilypad and then continues hopping on every lilypad thereafter . Conor 's friend Bob starts hopping after Conor and begins by hopping on the second pad and continues by hopping on the fourth , sixth , eighth , and so on . Shortly after Bob , Dan hops on the third , sixth , ninth , and so on lilypads . If there is a frog for each positive number [M:VAR] that hops on every (n^(th) pad , what is the number on the (m^(th) lilypad that remains lit in the end ?
-294#@#algebra#@#Ashley Ann Allen , a hapless algebra student , sees the expression [M:EX:LOG] . She mistakenly cancels the ``log ''s, to get the expression [M:EX] . Miraculously , when she plugs in values for [M:VAR] and [M:VAR] , she gets the correct answer . Assuming [M:INEQ] , find all possible ordered pairs of integers [M:VAR:COORD] satisfying the given conditions .
+293#@#algebra#@#At William Rice 's Marsh , there are an infinite number of magic lilypads numbered [M:L:N] , [M:L:N] , [M:L:N] , and so on . A magic lilypad lights up in a frog jumps on it while it is not lit , and turns off if a frog jumps on it while it is lit . Suppose all lilypads are initially turned off . Conor the Frog begins by hopping on the first lilypad and then continues hopping on every lilypad thereafter . Conor 's friend Bob starts hopping after Conor and begins by hopping on the second pad and continues by hopping on the fourth , sixth , eighth , and so on . Shortly after Bob , Dan hops on the third , sixth , ninth , and so on lilypads . If there is a frog for each positive number [M:VAR] that hops on every [M:VAR] -th pad , what is the number on the [M:VAR] -th lilypad that remains lit in the end ?
+294#@#algebra#@#Ashley Ann Allen , a hapless algebra student , sees the expression [M:EX:LOG] . She mistakenly cancels the ``log'' s , to get the expression [M:EX] . Miraculously , when she plugs in values for [M:VAR] and [M:VAR] , she gets the correct answer . Assuming [M:INEQ] , find all possible ordered pairs of integers [M:VAR:COORD] satisfying the given conditions .
 295#@#algebra#@#Let [M:EQ] where [M:EX] is the greatest integer less than or equal to [M:VAR] . Find [M:EX] .
 296#@#algebra#@#If the roots of [M:EX] are three consecutive positive integers , then what are all possible values of [M:EX] ?
 297#@#algebra#@#Find all ordered pairs of digits [M:VAR:COORD] such that the [M:L:N] digit number [M:EX] is divisible by [M:L:N] .
 298#@#algebra#@#If [M:VAR] , [M:VAR] , [M:VAR] are real numbers such that [M:EQ] , [M:EQ] , [M:EQ] . Find [M:EX] .
-299#@#algebra#@#A monic polynomial is one in which the coefficient of the highest order term is [M:L:N] . Find the monic polynomial [M:EX:FUNC] (with integer coefficients ) of least degree that satisfies [M:EQ:FUNC] .
+299#@#algebra#@#A monic polynomial is one in which the coefficient of the highest order term is [M:L:N] . Find the monic polynomial [M:EX:FUNC] ( with integer coefficients ) of least degree that satisfies [M:EQ:FUNC] .
 300#@#algebra#@#Reid is twice as old as Gabe . Four years ago , Gabe was twice as old as Dani . In [M:L:N] years , Reid will be twice as old as Dani . How many years old is Reid now ?
 301#@#algebra#@#Let [M:EQ:FUNC] . Given that [M:L:N] is a root of [M:EQ:FUNC] and [M:L:N] is not , what is the maximum number of distinct real roots that [M:EX:FUNC] could have ?
-302#@#algebra#@#If [M:VAR:SET] and [M:EQ:C] , find [M:VAR] , [M:VAR] , [M:VAR] . (The order in which you write your answer does not matter .)
+302#@#algebra#@#If [M:VAR:SET] and [M:EQ:C] , find [M:VAR] , [M:VAR] , [M:VAR] . ( The order in which you write your answer does not matter . )
 303#@#algebra#@#Find [M:EX] , given that [M:EQ] , [M:EQ] .
 304#@#algebra#@#The product of a [M:L:N] x [M:L:N] matrix and a [M:L:N] x [M:L:N] matrix contains the entry [M:VAR] in exactly two places . If [M:EX:FUNC] is the determinant of the matrix product , [M:EQ:FUNC] , [M:EQ:FUNC] , and [M:EQ:FUNC] . Find [M:EX:FUNC]
 305#@#algebra#@#For how many integers [M:VAR] , with [M:INEQ:C] , does [M:EQ] have integer solutions for [M:VAR] ?
@@ -307,26 +306,26 @@
 312#@#algebra#@#Find all integer pairs [M:VAR:COORD] such that [M:EQ] .
 313#@#algebra#@#Find all the solutions for which [M:EQ:FUNC] .
 314#@#algebra#@#Find the minimum possible value of [M:EX] for real numbers [M:VAR] and [M:VAR] .
-315#@#algebra#@#The dollar is now worth [M:L:F] ounce of gold . After the [M:VAR]^(th) [M:L:N] billion ``No Bank Left Behind '' bailout package passed by Congress , the dollar gains [M:EX] of its [M:EX]^(th) value in gold . After four bank bailouts , the dollar is worth [M:EX] in gold , where [M:VAR] , [M:VAR] are positive integers . Find [M:EX] .
+315#@#algebra#@#The dollar is now worth [M:L:F] ounce of gold . After the [M:VAR] -th [M:L:N] billion `` No Bank Left Behind '' bailout package passed by Congress , the dollar gains [M:EX] of its [M:EX] -th value in gold . After four bank bailouts , the dollar is worth [M:EX] in gold , where [M:VAR] , [M:VAR] are positive integers . Find [M:EX] .
 316#@#algebra#@#Evaluate [M:EX:SUM]
 317#@#algebra#@#All the roots of [M:EX] are positive integers greater than [M:L:N] , and the coefficients satisfy [M:EQ] . Find [M:VAR] .
-318#@#algebra#@#Let [M:EX:FUNC] be the number of [M:L:N] [M:VAR] in the binary expansion of [M:VAR] (e.g. [M:EQ:FUNC] , [M:EQ:FUNC] , [M:EQ:FUNC] , [M:EQ:FUNC] ). Evaluate : [M:EX:SUM]
+318#@#algebra#@#Let [M:EX:FUNC] be the number of [M:L:N] [M:VAR] in the binary expansion of [M:VAR] ( e.g. [M:EQ:FUNC] , [M:EQ:FUNC] , [M:EQ:FUNC] , [M:EQ:FUNC] ). Evaluate : [M:EX:SUM]
 319#@#algebra#@#Find [M:EX:TRIG] .
 320#@#algebra#@#Given two regions described by the inequalities [M:INEQ] and [M:INEQ] , respectively , find the area of the intersection of the two regions .
 321#@#algebra#@#Find all pairs of positive integers [M:VAR:COORD] such that [M:EQ] , and [M:VAR] is not divisible by [M:L:N] .
 322#@#algebra#@#The wages of [M:L:N] men for [M:L:N] weeks being [M:L:N] , how many weeks will [M:L:N] men work for [M:L:N] ?
-323#@#algebra#@#In beams of the same width and thickness the deflection due to a central load varies jointly as the load and the cube of the length . If a beam [M:L:N] ft . long is bent [M:L:F] inch by a load of [M:L:N] lbs ., how much will a load of [M:L:N] lbs . bend a [M:L:N] -ft. beam ?
+323#@#algebra#@#In beams of the same width and thickness the deflection due to a central load varies jointly as the load and the cube of the length . If a beam [M:L:N] ft. long is bent [M:L:F] inch by a load of [M:L:N] lbs. , how much will a load of [M:L:N] lbs. bend a [M:L:N] -ft. beam ?
 324#@#algebra#@#How many acres can [M:L:N] men reap in [M:L:N] days , if [M:L:N] men can reap [M:L:N] acres in [M:L:N] days ?
 325#@#algebra#@#The volume of a circular cylinder varies as the square of the radius of the base when the height is the same , and as the height when the base is the same . The volume is [M:L:N] cubic feet when the height is [M:L:N] feet , and the radius of the base is [M:L:N] feet ; what will be the height of a cylinder on a base of radius [M:L:N] feet , when the volume is [M:L:N] cubic feet ?
 326#@#algebra#@#Given that the area of a circle varies as the square of its radius , and that the area of a circle is [M:L:N] square feet when the radius is [M:L:N] feet ; find the area of a circle whose radius is [M:L:N] feet [M:L:N] inches .
 327#@#algebra#@#A wall that is to be built to the height of [M:L:N] feet , was raised [M:L:N] feet by [M:L:N] men in [M:L:N] days ; how many men must be employed to finish the wall in [M:L:N] days at the same rate of working ?
-328#@#algebra#@#The distance of the offing at sea (that is , the distance from the viewer to the horizon ) varies as the square root of the height of the eye above sea level , and the distance is [M:L:N] miles when the height is [M:L:N] feet : find the distance when the height is [M:L:N] yards .
+328#@#algebra#@#The distance of the offing at sea ( that is , the distance from the viewer to the horizon ) varies as the square root of the height of the eye above sea level , and the distance is [M:L:N] miles when the height is [M:L:N] feet : find the distance when the height is [M:L:N] yards .
 329#@#algebra#@#If [M:VAR] be the sum of three quantities which vary as [M:VAR] , [M:EX] , and [M:EX] respectively , and when [M:EQ] , [M:EQ] , when [M:EQ] , [M:EQ] , and when [M:EQ] , [M:EQ] , express [M:VAR] in terms of [M:VAR] .
 330#@#algebra#@#If [M:L:N] men in [M:L:N] weeks earn [M:L:N] , how many weeks will it take [M:L:N] men to earn [M:L:N] , it being given that the amount earned varies jointly as the number of men , and the number of weeks during which they work ?
 331#@#algebra#@#The volume of a circular disc varies as its thickness and the square of the radius of its face jointly . Two metallic discs having the thicknesses [M:L:N] and [M:L:N] and the radii [M:L:N] and [M:L:N] respectively are melted and recast in a single disc having the radius [M:L:N] . What is its thickness ?
 332#@#algebra#@#The wages of [M:L:N] men for [M:L:N] weeks being [M:L:N:D] pounds , find how many men can be hired to work [M:L:N] weeks for [M:L:N] pounds .
-333#@#algebra#@#If , when the price of a bushel of wheat is [M:L:N] s . [M:L:N] d . the penny loaf weigh [M:L:N] oz . what ought it to weigh when wheat is at [M:L:N] s . [M:L:F:M] d . per bushel ? (Prior to [M:L:N] , one shilling (s.) was equal to [M:L:N] pence (d.) .)
-334#@#algebra#@#The intensity of light varies inversely as the square of the distance from the source . Two lights , one of which is twice as strong as the other , are [M:L:N] ft . apart . Where on the line joining them do they produce equal illumination ? (Please give the distance from the stronger light .)
+333#@#algebra#@#If , when the price of a bushel of wheat is [M:L:N] s. [M:L:N] d. the penny loaf weigh [M:L:N] oz. what ought it to weigh when wheat is at [M:L:N] s. [M:L:F:M] d. per bushel ? ( Prior to [M:L:N] , one shilling ( s. ) was equal to [M:L:N] pence ( d. ) . )
+334#@#algebra#@#The intensity of light varies inversely as the square of the distance from the source . Two lights , one of which is twice as strong as the other , are [M:L:N] ft . apart . Where on the line joining them do they produce equal illumination ? ( Please give the distance from the stronger light . )
 335#@#algebra#@#The squares of the periods of revolution of the planets about the sun vary as the cubes of their mean distances . The earth makes a revolution in one year at a mean distance of [M:L:N] miles . Venus makes a revolution in [M:L:N] days . Find its mean distance from the sun .
 336#@#algebra#@#How many bushels of grain will [M:L:N] horses eat in [M:L:N] days , if [M:L:N] horses eat [M:L:N] bushels in [M:L:N] days ?
 337#@#algebra#@#The expenses of a Charitable Institution are partly constant , and partly vary as the number of inmates . When the inmates are [M:L:N] and [M:L:N] the expenses are respectively [M:L:N] pounds and [M:L:N] pounds . Find the expenses for [M:L:N] inmates .
@@ -338,16 +337,16 @@
 343#@#algebra#@#The distance through which a heavy body falls from rest varies as the square of the time if falls ; also a body falls [M:L:N] feet in [M:L:N] seconds . How far does a body fall in [M:L:N] seconds ?
 344#@#algebra#@#The intensity of light varies inversely as the square of the distance from the source . If the sun is equivalent to [M:L:N] full moons in brightness , at how many times its present distance would it be of the same brightness as the full moon ?
 345#@#algebra#@#If the cost of making an embankment vary as the length if the area of the transverse section and height be constant , as the height if the area of the transverse section and length be constant , and as the area of the transverse section if the length and height be constant , and an embankment [M:L:N] mile long , [M:L:N] feet high , and [M:L:N] feet broad cost [M:L:N] pounds find the cost of an embankment half a mile long , [M:L:N] feet high , and [M:L:N] feet broad .
-346#@#algebra#@#[M:VAR] borrowed of his friend [M:VAR] [M:L:N] pounds for [M:L:N] months , promising to do him the like kindness ; sometime after [M:VAR] had occasion for [M:L:N] pounds . How long may he keep it to receive full amends for the favor ? (Assume [M:L:N] days per month .)
+346#@#algebra#@#[M:VAR] borrowed of his friend [M:VAR] [M:L:N] pounds for [M:L:N] months , promising to do him the like kindness ; sometime after [M:VAR] had occasion for [M:L:N] pounds . How long may he keep it to receive full amends for the favor ? ( Assume [M:L:N] days per month . )
 347#@#algebra#@#A right -circular cone whose altitude is a is cut by a plane drawn parallel to its base . How far is the plane from the vertex of the cone when the area of the section is half that of the base ?
 348#@#algebra#@#If the illumination from a source of light varies inversely as the square of the distance , how much farther from a candle must be a book , which is now [M:L:N] inches off , be removed , so as to receive just one -third as much light ?
 349#@#algebra#@#The volume of a gas varies as the absolute temperature and inversely as the pressure ; also when the pressure is [M:L:N] and the temperature [M:L:N] the volume is [M:L:N] cubic inches . What will the volume be when the pressure becomes [M:L:N] and the temperature [M:L:N] ?
-350#@#algebra#@#If an iron bar , [M:L:N] ft . long , [M:L:F:M] in . broad , and [M:L:F] in . thick , weigh [M:L:F:M] lbs ., what will be the weight of a bar [M:L:N] ft . long , [M:L:F:M] in . broad , and [M:L:F:M] in . thick ?
+350#@#algebra#@#If an iron bar , [M:L:N] ft. long , [M:L:F:M] in. broad , and [M:L:F] in. thick , weigh [M:L:F:M] lbs. , what will be the weight of a bar [M:L:N] ft. long , [M:L:F:M] in. broad , and [M:L:F:M] in. thick ?
 351#@#algebra#@#The value of a silver coin varies directly as the square of its diameter , while its thickness remains the same ; it also varies directly as its thickness while its diameter remains the same . Two silver coins have their diameters in the ratio of [M:L:F] . Find the ratio of their thicknesses if the value of the first be four times that of the second .
 352#@#algebra#@#What number is [M:L:N:P] more than [M:L:N] ?
-353#@#algebra#@#A coal dealer received an order for a ton ([M:L:N] pounds ) of coal , but by mistake , a long ton ([M:L:N] pounds ) was delivered ; what was the percent of loss caused by the error ?
+353#@#algebra#@#A coal dealer received an order for a ton ( [M:L:N] pounds ) of coal , but by mistake , a long ton ( [M:L:N] pounds ) was delivered ; what was the percent of loss caused by the error ?
 354#@#algebra#@#A man 's salary is [M:L:N] a year ; if he pays [M:L:N:P] of the amount for board , [M:L:N:P] for clothing , [M:L:N:P] for books , and [M:L:N:P] for incidentals , what are his yearly expenses ?
-356#@#algebra#@#If a piece of (rectangular) cloth [M:L:N] yards long and [M:L:N] inches wide shrinks [M:L:F:M] inches in length and [M:L:N] inch in width , what percent is it reduced in area ?
+356#@#algebra#@#If a piece of ( rectangular ) cloth [M:L:N] yards long and [M:L:N] inches wide shrinks [M:L:F:M] inches in length and [M:L:N] inch in width , what percent is it reduced in area ?
 357#@#algebra#@#A speculator lost [M:L:N:P] of his money in a stock speculation , and sustained an additional loss of [M:L:N:P] of the remainder in a mining venture , when he found that he had but [M:L:N:D] remaining . What was the sum total of his losses ?
 358#@#algebra#@#A capitalist is worth [M:L:N] , [M:L:N:P] of which is invested in stocks and the remainder in real estate . What is the value of his real estate ?
 359#@#algebra#@#A man sold a horse for [M:L:N] , which was [M:L:N:P] more than cost . How much was his gain ?
@@ -364,7 +363,7 @@
 370#@#algebra#@#A farmer sold [M:L:N] bushels of wheat , which was [M:L:N:P] of his harvest . What was the number of bushels harvested ?
 371#@#algebra#@#What percent of [M:L:N] yards is [M:L:N] yards ?
 372#@#algebra#@#What percent of [M:L:F] is [M:L:F] ?
-373#@#algebra#@#A dealer invested equal sums in the purchase of flour and bacon ; he sold the flour at a profit of [M:L:N:P] and the bacon at a profit of [M:L:N:P] . If his gain on the bacon exceeded the gain on the flour by [M:L:N:D] , what sum was invested in the purchase of each ? (Since the sums invested in both were equal , simply provide this number once . That is , let your answer either be the sum invested in bacon or the sum invested in flour .)
+373#@#algebra#@#A dealer invested equal sums in the purchase of flour and bacon ; he sold the flour at a profit of [M:L:N:P] and the bacon at a profit of [M:L:N:P] . If his gain on the bacon exceeded the gain on the flour by [M:L:N:D] , what sum was invested in the purchase of each ? ( Since the sums invested in both were equal , simply provide this number once . That is , let your answer either be the sum invested in bacon or the sum invested in flour . )
 374#@#algebra#@#Wolves killed [M:L:N:P] of a flock of [M:L:N] sheep . What number of the flock remained ?
 375#@#algebra#@#[M:VAR] has [M:L:N] , and [M:L:F:M:P] of his money equals [M:L:N:P] of [M:VAR] 's money . How much money does [M:VAR] have ?
 376#@#algebra#@#The original capacity of a mill was [M:L:N] barrels per day , but by the addition of new machinery the capacity has been increased [M:L:N:P] . What is the present capacity of the mill ?
@@ -375,9 +374,9 @@
 381#@#algebra#@#A speculator lost [M:L:N:P] of his capital in a mining speculation and he has [M:L:N] remaining . How much did he lose ?
 382#@#algebra#@#How many yards each will the largest aprons of equal size contain , if cut from four pieces of calico containing respectively [M:L:N] , [M:L:N] , [M:L:N] , and [M:L:N] yards ?
 383#@#algebra#@#There is a street [M:L:N] rods long , and the land on one side of this street is owned by three people , [M:VAR] , [M:VAR] , and [M:VAR] . [M:VAR] has [M:L:N] rods fronting the street , [M:VAR] [M:L:N] rods , and [M:VAR] [M:L:N] rods . They agree to divide their land into village lots , in such a manner , that the lots shall be of the greatest width that will allow each person to form an exact number of lots out of his land . What is this width ?
-384#@#algebra#@#The Union Pacific R . R . Co . have [M:L:N] acres of land in one place and [M:L:N] acres in another . They wish to divide the whole into lots of equal extent , containing the greatest number of acres that will allow of an exact division . How many acres will there be in each division ?
-385#@#algebra#@#The sides of my garden are [M:L:N] ft ., [M:L:N] ft ., and [M:L:N] ft . What is the greatest length of boards that I can use in fencing it , without cutting any of them ?
-386#@#algebra#@#How many common divisors are in [M:L:N] pk . and [M:L:N] qt .? ([M:L:N] pk . = [M:L:N] qt .)
+384#@#algebra#@#The Union Pacific R. R. Co. have [M:L:N] acres of land in one place and [M:L:N] acres in another . They wish to divide the whole into lots of equal extent , containing the greatest number of acres that will allow of an exact division . How many acres will there be in each division ?
+385#@#algebra#@#The sides of my garden are [M:L:N] ft. , [M:L:N] ft. , and [M:L:N] ft . What is the greatest length of boards that I can use in fencing it , without cutting any of them ?
+386#@#algebra#@#How many common divisors are in [M:L:N] pk. and [M:L:N] qt. ? ( [M:L:N] pk. = [M:L:N] qt. )
 387#@#algebra#@#A commission merchant has [M:L:N] bushels of wheat , [M:L:N] bushels of corn , and [M:L:N] bushels of oats , which he wishes to ship in the least number of sacks of equal size , that will exactly hold the grain . How many sacks will he require ?
 388#@#algebra#@#A company of speculators bought three tracts of land containing respectively [M:L:N] , [M:L:N] , and [M:L:N] acres ; which they divided into farms of the largest possible size to contain an equal number of acres . If the farms were sold at [M:L:N] each , how much profit was made ?
 389#@#algebra#@#A railroad company built three side tracks , [M:L:N] , [M:L:N] , and [M:L:N] ft . in length . What is the greatest length of rail that could be used in their construction ?
@@ -400,7 +399,7 @@
 406#@#algebra#@#Three tanks contain respectively [M:L:N] , [M:L:N] , [M:L:N] gallons of oil . What is the largest measure which , when used an exact number of times in each tank , will remove the oil ?
 407#@#algebra#@#Three pieces of silk contain respectively [M:L:N] , [M:L:N] , and [M:L:N] yards . What is the largest dress pattern into which they can be divided without remnant ?
 408#@#algebra#@#A triangular lot , the sides of which are [M:L:N] , [M:L:N] , [M:L:N] feet , is to be inclosed with a tight board fence . What is the least number of boards that will require no cutting ?
-409#@#algebra#@#A grain -dealer wishes to construct a number of bins of equal capacity , which will exactly contain [M:L:N] bu . of wheat , [M:L:N] bu . of oats , and [M:L:N] bu . of barley . How many bins must he have , and how many bushels will each bin hold ?
+409#@#algebra#@#A grain -dealer wishes to construct a number of bins of equal capacity , which will exactly contain [M:L:N] bu. of wheat , [M:L:N] bu. of oats , and [M:L:N] bu. of barley . How many bins must he have , and how many bushels will each bin hold ?
 410#@#algebra#@#Robinson has [M:L:N] dimes , and Blaise [M:L:N] . How shall they arrange them in packages , so that each shall have the same number in each package ?
 411#@#algebra#@#What is the length of the longest line that will exactly measure two fences , one [M:L:N] rods and the other [M:L:N] rods long ?
 412#@#algebra#@#What is the smallest sum of money with which I can buy horses at [M:L:N] each , donkeys at [M:L:N] each , or pigs at [M:L:N] each , using the same sum in each case ?
@@ -414,50 +413,50 @@
 420#@#algebra#@#Four agents start from New York at the same time . The first makes his trip and back in [M:L:N] weeks , the second in [M:L:N] weeks , the third in [M:L:N] weeks , and the fourth in [M:L:N] weeks . How many weeks will pass by before they will again start out from New York together ?
 421#@#algebra#@#I have [M:L:N] wine measures ; the first holds [M:L:N] quarts , the second [M:L:N] quarts , the third [M:L:N] quarts , and the fouth [M:L:N] quarts ; what is the size of the smallest cask that can be exactly measured by means of each of these measures ?
 422#@#algebra#@#What is the smallest number of melons that will exactly fill barrels that will contain either [M:L:N] , [M:L:N] , or [M:L:N] melons ?
-423#@#algebra#@#What is the shortest piece of goods that can be cut into pieces of [M:L:N] yds ., [M:L:N] yds ., and [M:L:N] yds . and nothing remain ?
+423#@#algebra#@#What is the shortest piece of goods that can be cut into pieces of [M:L:N] yds. , [M:L:N] yds. , and [M:L:N] yds. and nothing remain ?
 424#@#algebra#@#What is the shortest distance that may be exactly measured by each of the three poles , whose lengths are respectively [M:L:N] , [M:L:N] , and [M:L:N] feet ?
 425#@#algebra#@#How many bushels will the smallest bin contain that can be emptied by taking out either [M:L:N] bushels , [M:L:N] bushels , or [M:L:N] bushels at a time ?
 426#@#algebra#@#Suppose a surveyor has one chain [M:L:N] rods long , another [M:L:N] rods , another [M:L:N] rods , and another [M:L:N] rods ; what is the shortest distance that can be exactly measured by each chain ?
 427#@#algebra#@#What is the smallest tract of land that can be exactly laid out in fields of either [M:L:N] , [M:L:N] , or [M:L:N] acres ?
 428#@#algebra#@#The driving wheels of three locomotives are respectively [M:L:N] , [M:L:N] , and [M:L:N] ft . in circumference . What is the shortest distance in which all of the wheels will make an exact number of revolutions ?
-429#@#algebra#@#What is the smallest sum of money that will buy an exact number of pounds of sugar valued at [M:L:N] , [M:L:N] , or [M:L:N] cents ? (Answer in cents )
+429#@#algebra#@#What is the smallest sum of money that will buy an exact number of pounds of sugar valued at [M:L:N] , [M:L:N] , or [M:L:N] cents ? ( Answer in cents )
 430#@#algebra#@#I have a certain number of pennies which I can arrange in either [M:L:N] , [M:L:N] , [M:L:N] , [M:L:N] , or [M:L:N] equal piles . What is the least number of pennies I can have that will fit this arrangement ?
-431#@#algebra#@#If ribbons cost [M:L:N] , [M:L:N] , and [M:L:N] cents per yard , what is the least sum of money that will buy an exact number of yards of each ? (Answer in cents )
-432#@#algebra#@#If three trains travel at a rate of a mile in respectively [M:L:N] , [M:L:N] , and [M:L:N] seconds , what is the shortest time in which they will each have traveled an exact number of miles ? (Answer in seconds )
+431#@#algebra#@#If ribbons cost [M:L:N] , [M:L:N] , and [M:L:N] cents per yard , what is the least sum of money that will buy an exact number of yards of each ? ( Answer in cents )
+432#@#algebra#@#If three trains travel at a rate of a mile in respectively [M:L:N] , [M:L:N] , and [M:L:N] seconds , what is the shortest time in which they will each have traveled an exact number of miles ? ( Answer in seconds )
 433#@#algebra#@#How long must a box be that no room may be lost in packing in it books [M:L:N] inches , [M:L:N] inches , or [M:L:N] inches long ?
-434#@#algebra#@#Three horses can race around a track in respectively [M:L:N] , [M:L:N] , and [M:L:N] seconds . If they start at the same time and place , at what time will they first meet again at the starting point ? (Answer in seconds )
+434#@#algebra#@#Three horses can race around a track in respectively [M:L:N] , [M:L:N] , and [M:L:N] seconds . If they start at the same time and place , at what time will they first meet again at the starting point ? ( Answer in seconds )
 435#@#algebra#@#A carpenter has planks [M:L:N] , [M:L:N] , and [M:L:N] feet long with which to lay a walk . What is the shortest walk that can be made by using each an exact number of times ?
 436#@#algebra#@#There is a circular island , around which [M:VAR] can travel in [M:L:N] hours , [M:VAR] in [M:L:N] hours , and [M:VAR] in [M:L:N] hours . Now suppose they all start together , and go the same way round it ; how much time must elapse before they come together again ?
-437#@#algebra#@#In a factory are three wheels , which revolve once in [M:L:N] , [M:L:N] , and [M:L:N] seconds respectively . What is the least time in which all of them will make an exact number of revolutions ? (Answer in seconds )
+437#@#algebra#@#In a factory are three wheels , which revolve once in [M:L:N] , [M:L:N] , and [M:L:N] seconds respectively . What is the least time in which all of them will make an exact number of revolutions ? ( Answer in seconds )
 438#@#algebra#@#The circumferences of three wheels are [M:L:N] , [M:L:N] , and [M:L:N] feet . What is the shortest distance over which they can each turn an exact number of times ?
 439#@#algebra#@#A lady wishes to buy a piece of cambric , that can be cut into dress patterns of [M:L:N] , [M:L:N] , or [M:L:N] yards . What is the smallest quantity that she can buy ?
-440#@#algebra#@#Runner [M:VAR] can walk around a race -track in [M:L:N] min ., runner [M:VAR] in [M:L:N] , [M:VAR] in [M:L:N] , and D in [M:L:N] min . If they start from the same place at the same time , and walk in the same direction , when will they all first arrive at the starting point together ? (Answer in minutes )
+440#@#algebra#@#Runner [M:VAR] can walk around a race -track in [M:L:N] min. , runner [M:VAR] in [M:L:N] , [M:VAR] in [M:L:N] , and [M:VAR] in [M:L:N] min . If they start from the same place at the same time , and walk in the same direction , when will they all first arrive at the starting point together ?
 441#@#algebra#@#A coal -dealer has five bins whose capacities are respectively [M:L:N] , [M:L:N] , [M:L:N] , [M:L:N] , and [M:L:N] bu . What is the smallest number of bushels that could be measured exactly in each ?
 462#@#algebra#@#A navy general has three types of vehicles that need a specific amount of soldiers from the navy general 's division to operate correctly . An aircraft carrier needs [M:L:N] soldiers , a submarine needs [M:L:N] soldiers , and a battleship needs [M:L:N] soldiers . If the navy general wants to make sure that each vehicle will be able to operate with the correct numbers of soldiers with no soldiers left over , what is the least number of soldiers that can be in the navy general 's division ?
 463#@#algebra#@#Three clocks ring at the same time . The first clock rings every [M:L:N] hours . The second clock rings every [M:L:N] hours . The third clock rings every [M:L:N] hours . What is the least possible amount of hours that can pass until the three clocks ring at the same time again ?
-467#@#algebra#@#An office manager needs to buy additional staplers , boxes of paper clips , and boxes of binder clips for work . The office manager has been instructed to spend an equivalent amount on each of the [M:L:N] items in order to prevent accusations of favoritism or bias on office supply requests . A stapler costs [M:L:N] , a box of paper clips costs [M:L:N] , and a box of binder clips costs [M:L:N] . What is the smallest amount she can spend on staplers to make sure she is able spend an equivalent amount on each on each of the three types of items ? (Hint: Find the LCM )
+467#@#algebra#@#An office manager needs to buy additional staplers , boxes of paper clips , and boxes of binder clips for work . The office manager has been instructed to spend an equivalent amount on each of the [M:L:N] items in order to prevent accusations of favoritism or bias on office supply requests . A stapler costs [M:L:N] , a box of paper clips costs [M:L:N] , and a box of binder clips costs [M:L:N] . What is the smallest amount she can spend on staplers to make sure she is able spend an equivalent amount on each on each of the three types of items ? ( Hint: Find the LCM )
 469#@#algebra#@#Three clocks ring at the same time . The first clock rings every [M:L:N] minutes . The second clock rings every [M:L:N] minutes . The third clock rings every [M:L:N] minutes . What is the least possible amount of hours that can pass until the three clocks ring at the same time again ?
 470#@#algebra#@#A professor 's class revolves around [M:L:N] large group projects . Each project requires a specific number of students in order for the project to work as planned . The first project requires [M:L:N] students . The second project requires [M:L:N] students . The third project requires [M:L:N] students . If the professor wants to make sure that each project will be able to make the correct size of groups with no students left over , what is the least number of students that can be in the class ?
 471#@#algebra#@#The Super Sports League has [M:L:N] sports seasons each year : basketball , football , and ba seball . Each team needs to have a specific amount of players on the team during each of the seasons . During basketball season , each team needs [M:L:N] players . During football season , each team needs [M:L:N] players . During baseball season , each team needs [M:L:N] players . Once a new year starts , no new members can be added until the beginning of the next year . What is the smallest amount of members the league can accept if they want to make sure each team will have an equal amount of members during each sports season .
 472#@#algebra#@#If a boy can walk [M:L:N] miles in [M:L:N] hours , how far can he walk in [M:L:N] hours ?
 473#@#algebra#@#If an express train runs [M:L:N] miles in [M:L:N] hours , how many miles would the express train run in [M:L:N] hours ?
-474#@#algebra#@#What is the ratio of [M:L:N] yards to [M:L:N] inches ? (Write in simplest form )
+474#@#algebra#@#What is the ratio of [M:L:N] yards to [M:L:N] inches ?
 475#@#algebra#@#If [M:L:N] men can do a piece of work in [M:L:N] days , in how many days can [M:L:N] men do it ?
 476#@#algebra#@#If a boy can ride on a bicycle [M:L:N] miles in [M:L:N] hours , how far can he ride in [M:L:N] hours ?
 477#@#algebra#@#If [M:L:N] sheep cost [M:L:N] , how much will [M:L:N] sheep cost ?
-478#@#algebra#@#What is the ratio of [M:L:N] gal . to [M:L:N] gal .? (Write in simplest form )
-479#@#algebra#@#A boy measured a stick with a [M:L:N] -inch rule and found it to be [M:L:N] yd . long . The ratio of [M:L:N] yd . to [M:L:N] in . is what ? (Write in simplest form )
-480#@#algebra#@#[M:VAR] has [M:L:N] and [M:VAR] has [M:L:N] . What is the ratio of [M:VAR] 's money to [M:VAR] 's? (Write in simplest form )
+478#@#algebra#@#What is the ratio of [M:L:N] gal. to [M:L:N] gal. ?
+479#@#algebra#@#A boy measured a stick with a [M:L:N] -inch rule and found it to be [M:L:N] yd. long . The ratio of [M:L:N] yd. to [M:L:N] in. is what ?
+480#@#algebra#@#[M:VAR] has [M:L:N] and [M:VAR] has [M:L:N] . What is the ratio of [M:VAR] 's money to [M:VAR] 's ?
 481#@#algebra#@#If [M:L:N] tons of coal cost [M:L:N] , how much will [M:L:N] tons cost ?
 482#@#algebra#@#If a man can row [M:L:N] miles in [M:L:N] hours , how far can he row in [M:L:N] hours ?
-483#@#algebra#@#If [M:L:F:M] yd . of cloth cost [M:L:F:M] , what will [M:L:N] yd . cost ?
-484#@#algebra#@#Which is greater , the ratio of [M:L:N] to [M:L:N] , or the ratio of [M:L:N] to [M:L:N] ? (Enter your answer as a ratio [M:EX] )
-485#@#algebra#@#A man is dipping water from a barrel into a [M:L:N] -gallon can , using a [M:L:N] -quart dipper . The ratio of [M:L:N] qt . to [M:L:N] gal . is ---?
-486#@#algebra#@#If [M:L:N] lb . of butter can be made from [M:L:N] qt . of milk , how much milk will be required to produce [M:L:N] lb . of butter ?
+483#@#algebra#@#If [M:L:F:M] yd. of cloth cost [M:L:F:M] , what will [M:L:N] yd. cost ?
+484#@#algebra#@#Which is greater , the ratio of [M:L:N] to [M:L:N] , or the ratio of [M:L:N] to [M:L:N] ?
+485#@#algebra#@#A man is dipping water from a barrel into a [M:L:N] -gallon can , using a [M:L:N] -quart dipper . The ratio of [M:L:N] qt. to [M:L:N] gal. is --- ?
+486#@#algebra#@#If [M:L:N] lb. of butter can be made from [M:L:N] qt. of milk , how much milk will be required to produce [M:L:N] lb. of butter ?
 487#@#algebra#@#When eggs are worth [M:L:N] cents a dozen , what is the value of [M:L:N] dozen ?
-488#@#algebra#@#If [M:L:F:M] bu . of wheat cost [M:L:N:D] , how many bushels can be bought for [M:L:F:M] ?
-489#@#algebra#@#If [M:L:F:M] cd . of wood cost [M:L:N:D] , how much can be bought for [M:L:N:D] .
-490#@#algebra#@#What is the ratio of [M:L:N] bu . to [M:L:N] bu .? (Write in simplest form )
+488#@#algebra#@#If [M:L:F:M] bu. of wheat cost [M:L:N:D] , how many bushels can be bought for [M:L:F:M] ?
+489#@#algebra#@#If [M:L:F:M] cd. of wood cost [M:L:N:D] , how much can be bought for [M:L:N:D] .
+490#@#algebra#@#What is the ratio of [M:L:N] bu. to [M:L:N] bu. ?
 491#@#algebra#@#If a freight train moves [M:L:N] miles an hour , how many hours will it take to move [M:L:N] miles ?
 492#@#algebra#@#If [M:L:N] dozen eggs cost [M:L:N:D] , how much will [M:L:N] dozen eggs cost ?
 493#@#algebra#@#If [M:L:N] men could build a piece of fence in a day , how many men would it take to build it in [M:L:N] days ?
@@ -465,10 +464,10 @@
 495#@#algebra#@#There are [M:L:N] children in room [M:L:N] , and the number of boys is to the number of girls as [M:L:N] is to [M:L:N] . How many girls are there ?
 496#@#algebra#@#What is the ratio of the side of a square [M:L:N] inches long to the side of a square [M:L:N] inches long ?
 497#@#algebra#@#If a quantity of provisions will last [M:L:N] men in a garrison [M:L:N] days , how long will the same quantity last [M:L:N] men ?
-498#@#algebra#@#What is the ratio of a bushel to [M:L:N] quarts ? ([M:L:N] bushel = [M:L:N] quarts )
-499#@#algebra#@#James has [M:L:N] marbles and Henry has [M:L:N] marbles . What is the ratio of Henry 's marbles to James 's marbles ? (Write in simplest form )
+498#@#algebra#@#What is the ratio of a bushel to [M:L:N] quarts ? ( [M:L:N] bushel = [M:L:N] quarts )
+499#@#algebra#@#James has [M:L:N] marbles and Henry has [M:L:N] marbles . What is the ratio of Henry 's marbles to James 's marbles ?
 500#@#algebra#@#What is the ratio of [M:L:N] feet to [M:L:N] inches ?
-501#@#algebra#@#What is the ratio of [M:L:N] in . to [M:L:N] in .? (Write in simplest form )
+501#@#algebra#@#What is the ratio of [M:L:N] in. to [M:L:N] in. ?
 502#@#algebra#@#A publishing house gained [M:L:N] by printing [M:L:N] books . On the first , the gain was [M:L:N] . On the second the loss was [M:L:N] . On the third the gain was [M:L:N] . How much was the gain or loss on the fourth ?
 503#@#algebra#@#Divide [M:L:N] dollars between [M:VAR] , [M:VAR] , and [M:VAR] so that [M:VAR] may have [M:L:N] dollars more than [M:VAR] and [M:VAR] have [M:L:N] dollars more than [M:VAR] . Place your answer in [M:VAR:COORD] format .
 505#@#algebra#@#John has three times as many oranges and James , and they together have [M:L:N] . How many does each have ?
@@ -480,7 +479,7 @@
 511#@#algebra#@#Three times a certain number equals [M:L:N] . What is the number ?
 512#@#algebra#@#Three times a certain number is equal to that number increased by [M:L:N] . What is that number ?
 513#@#algebra#@#The sum of two numbers is [M:L:N] . Their difference is [M:L:N] . What are the numbers ?
-514#@#algebra#@#Divide a line [M:L:N] inches long into two parts , such that one may be three -fourths of the other . State the length of the two parts divided by a comma (e.g. [M:L:N] , [M:L:N] ).
+514#@#algebra#@#Divide a line [M:L:N] inches long into two parts , such that one may be three -fourths of the other . State the length of the two parts divided by a comma ( e.g. [M:L:N] , [M:L:N] ).
 515#@#algebra#@#A father is [M:L:N] times as old as his son . He was [M:L:N] years old when his son was born . How old is the son ?
 516#@#algebra#@#James and John together have [M:L:N] dollars . James has [M:L:N] more dollars than John . How many dollars does each have ?
 517#@#algebra#@#Find three consecutive odd numbers whose sum is [M:L:N] .
@@ -544,11 +543,11 @@
 576#@#algebra#@#A man sold a house for [M:VAR] dollars and gained [M:L:N] . What did the house cost when originally purchased ?
 577#@#algebra#@#James has a walnuts , John twice as many less [M:L:N] , and Joseph three times as many as James and John less [M:L:N] . How many do they have all together ?
 578#@#algebra#@#Charles walked [M:VAR] miles and rode [M:L:N] miles . How far did he go ?
-579#@#algebra#@#A man started at a certain point and traveled east [M:VAR] miles , then west [M:VAR] miles , then east [M:VAR] miles , then east [M:VAR] miles , then west [M:VAR] miles . How far is he from where he started ? (Take east to be the positive direction .)
+579#@#algebra#@#A man started at a certain point and traveled east [M:VAR] miles , then west [M:VAR] miles , then east [M:VAR] miles , then east [M:VAR] miles , then west [M:VAR] miles . How far is he from where he started ? ( Take east to be the positive direction . )
 580#@#algebra#@#A farmer sold a sheep for [M:VAR] dollars and gained [M:VAR] dollars . What did the sheep cost when he first bought it ?
 581#@#algebra#@#I paid [M:VAR] cents for a pound of butter , and [M:VAR] cents for a lemon . How much more did the butter cost than the lemon ?
 582#@#algebra#@#Two men are [M:L:N] miles apart , and approach each other , one at the rate of [M:VAR] miles an hour , the other at the rate of [M:VAR] miles an hour . How far apart will they be at the end of seven hours ?
-583#@#algebra#@#A man had [M:VAR] cows and [M:VAR] horses . After exchanging [M:L:N] cows with another man for [M:L:N] horses , what will represent the number that he has of each ? (List the number of cows , followed by the number of horses .)
+583#@#algebra#@#A man had [M:VAR] cows and [M:VAR] horses . After exchanging [M:L:N] cows with another man for [M:L:N] horses , what will represent the number that he has of each ? ( List the number of cows , followed by the number of horses . )
 584#@#algebra#@#A man has four daughters each of whom is [M:L:N] years older than the next younger . If [M:VAR] represent the age of the oldest , what will represent the age of the others ?
 585#@#algebra#@#In a certain school there are [M:VAR] girls , and three times as many boys less [M:L:N] . How many boys , and how many boys and girls together ?
 586#@#algebra#@#A man pumps [M:VAR] gallons of water into a tank each day , and draws off [M:VAR] gallons each day . How much water will remain in the tank at the end of five days ?
