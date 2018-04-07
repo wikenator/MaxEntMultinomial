@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-import sys
+import sys, re
 import pickle, argparse
 from nltk import RegexpTokenizer as RT
 from nltk.tokenize import word_tokenize
@@ -57,8 +57,16 @@ class Utils():
 			pickle.dump(v, pkl_fh)
 			pkl_fh.close()
 
-	def regex_tokenizer(self, sent):
-		regex_tokenizer = RT('\w+|\[M:.*?\]|\S+')
+	def regex_tokenizer(self, sent, whole_sent=False):
+		regex_tokenizer = RT('\w+|\[M:.*?\]|[\(\)\[\]\.\,:;\?\!]|\S+')
 		tokens = regex_tokenizer.tokenize(sent)
 
-		return [t for t in tokens if not t in self.stop_words and len(t) > 2]
+		for i in range(len(tokens)-1):
+			if re.match(r'^(in|cm|ft|d|s|bu|mi|km|m|oz|yd)$', tokens[i]) and tokens[i+1] == '.':
+				tokens[i:i+2] = [''.join(tokens[i:i+2])]
+
+		if not whole_sent:
+			return [t for t in tokens if not t in self.stop_words and len(t) > 2]
+
+		else:
+			return [t for t in tokens]
