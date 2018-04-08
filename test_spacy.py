@@ -22,14 +22,11 @@ def showTree(sent):
 u = Util()
 
 math_trigrams = {}
-math_left_dep = {}
-math_right_dep = {}
-nlp = spacy.load('en_core_web_lg', disable=['vectors', 'ner'])
+#nlp = spacy.load('en_core_web_lg', disable=['vectors', 'ner'])
+nlp = spacy.load('en', disable=['vectors', 'ner'])
 
 file_list = glob.glob('./processed/*.txt')
-m_tri = open('math_trigrams.txt', 'w')
-m_ldep = open('math_left_dep.txt', 'w')
-m_rdep = open('math_right_dep.txt', 'w')
+m_vb_tri = open('math_verb_trigrams.txt', 'w')
 
 #file_list = [file_list[1]]
 for f_name in file_list:
@@ -43,15 +40,15 @@ for f_name in file_list:
 		for name, proc in nlp.pipeline:
 			doc = proc(doc)
 
-	#	for token in doc:
-	#		if re.match('\[M:', str(token)):
-	#			token.tag_ = 'MATH'
-	#			token.pos_ = 'X'
+		#for token in doc:
+		#	if re.match('\[M:', str(token)):
+			#	token.tag_ = 'MATH'
+			#	token.pos_ = 'X'
 
 #			print token.tag_, token.lower_, token.dep_, token.head.lower_
 
 		#doc = nlp(p.decode('utf8'))
-#		sys.stderr.write('Processing problem #' + str(pid) + '\r')
+		sys.stderr.write('Processing problem #' + str(pid) + '\r')
 
 		#indexes = [m.span() for m in re.finditer('\[M:.*?\]', p.decode('utf8'))]
 
@@ -134,26 +131,27 @@ for f_name in file_list:
 
 				math_trigrams[sym_tri][spec_tri]['dependency'][dep] += 1
 
+sys.stderr.write('\n')
+
 for sym_t, spec_t in math_trigrams.iteritems():
 	#print str(sum(spec_t['trigram'].values())) + ': ' + str(sym_t)
-	if ['VB', 'MD'] in sym_t:
-		print sym_t
-#	m_tri.write(str(sum(spec_t.values())) + ': ' + str(sym_t) + '\n')
+	if any(any(verb_pos in s for s in sym_t) for verb_pos in ['VB', 'MD']):
+#		print sym_t
+		m_vb_tri.write(str(sym_t) + '\n')
 
-		tri_sum = 0
+#		tri_sum = 0
 
+#		for t in spec_t:
+#			tri_sum += int(spec_t[t]['count'])
+
+#		if tri_sum > 0:
 		for t in spec_t:
-			tri_sum += int(spec_t[t]['count'])
+			#print '\t' + str(spec_t[t]['count']) + ':' + str(t)
+			m_vb_tri.write('\t' + str(spec_t[t]['count']) + ':' + str(t) + '\n')
 
-		if tri_sum > 0:
-			for t in spec_t:
-				print '\t' + str(spec_t[t]['count']) + ':' + str(t)
-
-				for d in spec_t[t]['dependency']:
-					print '\t\t' + str(spec_t[t]['dependency'][d]) + ': ' + str(d)
-			#print '\t' + str(spec_t['trigram'][t]) + ': ' + str(t)
-			#print '\t\t' + str(spec_t['dependency'][d]) + ': ' + str(d)
-#			m_tri.write('\t' + str(spec_t[t]) + ': ' + str(t) + '\n')
+			for d in spec_t[t]['dependency']:
+				#print '\t\t' + str(spec_t[t]['dependency'][d]) + ': ' + str(d)
+				m_vb_tri.write('\t\t' + str(spec_t[t]['dependency'][d]) + ': ' + str(d) + '\n')
 
 #[showTree(sent) for sent in doc.sents]
 #for token in doc:
