@@ -8,6 +8,9 @@ from nltk.corpus import stopwords
 
 class Utils():
 	def __init__(self):
+		# regex pattern used for handling abbreviations
+		self.abbrev_pattern = re.compile(r'^(in|cm|ft|d|s|bu|mi|km|m|oz|yd)$')
+
 		# create array of selected stop words and punctuation
 		self.stop_words = set(stopwords.words('english'))
 		self.stop_words.add(',')
@@ -60,10 +63,15 @@ class Utils():
 	def regex_tokenizer(self, sent, whole_sent=False):
 		regex_tokenizer = RT('\w+|\[M:.*?\]|[\(\)\[\]\.\,:;\?\!]|\S+')
 		tokens = regex_tokenizer.tokenize(sent)
+		i = 0
+		j = len(tokens)-1
 
-		for i in range(len(tokens)-1):
-			if re.match(r'^(in|cm|ft|d|s|bu|mi|km|m|oz|yd)$', tokens[i]) and tokens[i+1] == '.':
+		while i < j:
+			if re.match(self.abbrev_pattern, tokens[i]) and tokens[i+1] == '.':
 				tokens[i:i+2] = [''.join(tokens[i:i+2])]
+				j -= 1
+
+			i += 1
 
 		if not whole_sent:
 			return [t for t in tokens if not t in self.stop_words and len(t) > 2]
