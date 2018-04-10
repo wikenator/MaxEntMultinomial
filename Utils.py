@@ -2,12 +2,15 @@
 
 import sys, re
 import pickle, argparse
+import numpy
 from nltk import RegexpTokenizer as RT
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 
 class Utils():
 	def __init__(self):
+		self.categories = ['algebra', 'arithmetic', 'geometry']
+
 		# regex pattern used for handling abbreviations
 		self.abbrev_pattern = re.compile(r'^(in|cm|ft|d|s|bu|mi|km|m|oz|yd)$')
 
@@ -61,7 +64,7 @@ class Utils():
 			pkl_fh.close()
 
 	def regex_tokenizer(self, sent, whole_sent=False):
-		regex_tokenizer = RT('\w+|\[M:.*?\]|[\(\)\[\]\.\,:;\?\!]|\S+')
+		regex_tokenizer = RT('\w+|\[M:.*?\]|[\(\)\.\,;\?\!]|\S+')
 		tokens = regex_tokenizer.tokenize(sent)
 		i = 0
 		j = len(tokens)-1
@@ -78,3 +81,14 @@ class Utils():
 
 		else:
 			return [t for t in tokens]
+
+	# convert 1-row vector to one-hot vector
+	def onehot_enc(self, vec):
+		onehot = []
+
+		for val in vec[0]:
+			l = [0 for i in range(len(self.categories))]
+			l[val] = 1
+			onehot.append(l)
+
+		return numpy.asarray(onehot).T

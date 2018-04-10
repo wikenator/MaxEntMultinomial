@@ -11,7 +11,6 @@ from Utils import Utils as Util
 class NaiveClassifier:
 	def __init__(self, pkl):
 		self.fold = 0
-		self.categories = ['algebra', 'arithmetic', 'geometry']
 
 		self.util = Util()
 
