@@ -22,8 +22,7 @@ def showTree(sent):
 u = Util()
 
 math_trigrams = {}
-#nlp = spacy.load('en_core_web_lg', disable=['vectors', 'ner'])
-nlp = spacy.load('en', disable=['vectors', 'ner'])
+nlp = spacy.load('en_core_web_lg', disable=['vectors', 'ner'])
 
 file_list = glob.glob('./processed/*.txt')
 m_vb_tri = open('math_verb_trigrams.txt', 'w')
