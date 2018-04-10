@@ -3,6 +3,7 @@
 import os, sys, pickle#, argparse
 import numpy
 from MaxEntClassifier import MaxEntClassifier as MEC
+from FeatureBuilder import FeatureBuilder as FB
 from Utils import Utils as Util
 
 def NB_Test(m, pkl, b, t):
@@ -36,16 +37,21 @@ def report(m, f, r, min_cost, best_learn_rate):
 
 		print "\nTop 10 important features:"
 
-		for k, v in sorted(m.alg.iteritems(), key=lambda(k, v): (v, k), reverse=True)[:10]:
+		all_feats = m.alg
+		all_feats.update(m.arith)
+		all_feats.update(m.geo)
+
+		for k, v in sorted(all_feats.iteritems(), key=lambda(k, v): (v, k), reverse=True)[:10]:
 			print "\t%s:\t%f" % (k, v)
 
 if __name__ == '__main__':
-	u = Util()
-	args = u.cmdline_argparse()
+	util = Util()
+	args = util.cmdline_argparse()
 	save_pickle = not args.load_pickle
 	prefix = './pickles/'
 
 	mec = MEC(save_pickle)
+	fb = FB(mec)
 	k = 100
 
 	if args.folds > 1: pct_split = 1 - (1.0 / args.folds)
@@ -68,9 +74,9 @@ if __name__ == '__main__':
 			if not save_pickle:
 				sys.stderr.write("Creating new data.\n")
 
-			all_words = mec.get_vocabulary(args.use_bigrams, args.use_trigrams)
-			weights = mec.get_init_weights(all_words, args.use_bigrams, args.use_trigrams)
-			train_features, train_labels = mec.get_train_features(all_words, args.use_bigrams, args.use_trigrams)
+			all_words = fb.get_vocabulary(args.use_bigrams, args.use_trigrams)
+			weights = fb.get_init_weights(all_words, args.use_bigrams, args.use_trigrams)
+			train_features, train_labels = fb.get_train_features(all_words, args.use_bigrams, args.use_trigrams)
 			to_pickle = {
 				'all_words': all_words,
 				'init_weights': weights,
@@ -134,11 +140,11 @@ if __name__ == '__main__':
 
 		for i, l in enumerate(train_labels[0]):
 			if class_bin_train[i] != l:
-				err_report.write("%s#@#%s#@#%s\n" % (mec.categories[class_bin_train[i]], mec.train_problems[i][1], mec.train_problems[i][0]))
+				err_report.write("%s#@#%s#@#%s\n" % (mec.util.categories[class_bin_train[i]], mec.train_problems[i][1], mec.train_problems[i][0]))
 
 		err_report.close()
 
-		test_features, test_labels = mec.get_test_features(all_words, args.use_bigrams, args.use_trigrams)
+		test_features, test_labels = fb.get_test_features(all_words, args.use_bigrams, args.use_trigrams)
 		class_prob_test = numpy.dot(weights, test_features)
 		class_bin_test = mec.hard_classify(class_prob_test)
 
@@ -154,7 +160,7 @@ if __name__ == '__main__':
 
 		for i, l in enumerate(test_labels[0]):
 			if class_bin_test[i] != l:
-				err_report.write("%s#@#%s#@#%s\n" % (mec.categories[class_bin_test[i]], mec.test_problems[i][1], mec.test_problems[i][0]))
+				err_report.write("%s#@#%s#@#%s\n" % (mec.util.categories[class_bin_test[i]], mec.test_problems[i][1], mec.test_problems[i][0]))
 
 		err_report.close()
 
