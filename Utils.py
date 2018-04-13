@@ -9,7 +9,7 @@ from nltk.corpus import stopwords
 
 class Utils():
 	def __init__(self):
-		self.categories = ['algebra', 'arithmetic', 'geometry']
+		self.categories = ('algebra', 'arithmetic', 'geometry')
 
 		# regex pattern used for handling abbreviations
 		self.abbrev_pattern = re.compile(r'^(in|cm|ft|d|s|bu|mi|km|m|oz|yd)$')
@@ -27,7 +27,9 @@ class Utils():
 		cmd_line_parser = argparse.ArgumentParser(description='Train MaxEnt classifier to classify math word problems.')
 		cmd_line_parser.add_argument('-b', '--use_bigrams', action='store_true', help='Add bigram features to maxent learning.')
 		cmd_line_parser.add_argument('-t', '--use_trigrams', action='store_true', help='Add trigram features to maxent learning.')
+		cmd_line_parser.add_argument('-d', '--dep_parse', action='store_true', help='Add dependency parsing features to maxent learning.')
 		#pkl_group = cmd_line_parser.add_mutually_exclusive_group(required=False)
+		cmd_line_parser.add_argument('-p', '--save_pickle', action='store_true', help='Save data to pickle files.')
 		cmd_line_parser.add_argument('-l', '--load_pickle', action='store_true', help='Load data from pickle files (will not recalculate data).')
 		cmd_line_parser.add_argument('-n', '--naive', action='store_true', help='Run Naive Bayes classifer before MaxEnt.')
 		cmd_line_parser.add_argument('-R', '--no_retrain', action='store_true', help='Do not retrain weights from loaded data.')
