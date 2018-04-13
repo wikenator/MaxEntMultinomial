@@ -51,7 +51,7 @@ class MaxEntClassifier(NBC):
 
 	# training for maxent classification
 	# returns optimized weights, minimum cost value, and final learning rate
-	def maxent(self, f, w, l, n_steps=1000, learn_rate=5e-4, reg_coeff=0.001, threshold=1e-5):
+	def maxent(self, f, w, l, n_steps=1000, learn_rate=5e-4, reg_coeff=0.001, threshold=1e-6):
 		sys.stderr.write("\nRunning MaxEnt classification.\n")
 
 #		c = self.cost(self.softmax(numpy.dot(w, f)), l)
