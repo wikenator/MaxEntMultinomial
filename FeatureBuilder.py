@@ -137,17 +137,17 @@ class FeatureBuilder():
 
 							geo_counts[sym_tri] += 1
 
-##						dep_feats.append(dep)
+						dep_feats.append(dep)
 
-		for i, (sym_t, spec_t) in enumerate(dep_trigrams.iteritems()):
-			tri_cat_sum = {c: len([k for k in spec_t.keys() if k[0] == c]) for c in self.mec.util.categories}
-			dep_cats = [k for k, v in tri_cat_sum.iteritems() if v]
+##		for i, (sym_t, spec_t) in enumerate(dep_trigrams.iteritems()):
+##			tri_cat_sum = {c: len([k for k in spec_t.keys() if k[0] == c]) for c in self.mec.util.categories}
+##			dep_cats = [k for k, v in tri_cat_sum.iteritems() if v]
 
-			if len(dep_cats) == 1:
-				c = dep_cats[0]
-				deps = [d for k, v in spec_t.iteritems() for d in v['deps'] if k[0] == c]
+##			if len(dep_cats) == 1:
+##				c = dep_cats[0]
+##				deps = [d for k, v in spec_t.iteritems() for d in v['deps'] if k[0] == c]
 
-				for d in deps: dep_feats.append(d)
+##				for d in deps: dep_feats.append(d)
 
 #			else:
 #				min_cat_feats = {}

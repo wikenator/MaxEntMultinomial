@@ -34,10 +34,6 @@ class MaxEntClassifier(NBC):
 		return numpy.mean(self.cross_entropy(predicted, actual))
 
 	# gradient descent
-	def gradient(self, f, l, p):
-		return numpy.dot(f, (p - self.util.onehot_enc(l)).T).T
-
-	# gradient descent
 	def gradient_reg(self, f, l, p, w, reg_lambda):
 #		return numpy.mean(numpy.dot(f, (p - self.util.onehot_enc(l)).T))
 		return (
@@ -54,8 +50,6 @@ class MaxEntClassifier(NBC):
 	def maxent(self, f, w, l, n_steps=1000, learn_rate=5e-4, reg_coeff=0.001, threshold=1e-6):
 		sys.stderr.write("\nRunning MaxEnt classification.\n")
 
-#		c = self.cost(self.softmax(numpy.dot(w, f)), l)
-
 		probabilities = numpy.dot(w, f)
 		predictions = self.softmax(probabilities)
 		c = self.cost(predictions, l)
@@ -63,9 +57,7 @@ class MaxEntClassifier(NBC):
 		for i in xrange(n_steps):
 			sys.stderr.write("iter: "+str(i+1)+" cost: "+str(c)+"\r")
 
-#			w -= learn_rate * self.gradient(f, l, probabilities)
 			grad = self.gradient_reg(f, l, probabilities, w, reg_coeff)
-
 			w -= learn_rate * grad
 
 			probabilities = numpy.dot(w, f)
