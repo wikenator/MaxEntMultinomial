@@ -3,7 +3,7 @@ Multinomial Logistic Regression (Maximum Entropy) Classifier for classifying mat
 
 ## Usage
 ```
-maxent.py [-h] [-b] [-t] [-l] [-n] [-R]
+maxent.py [-h] [-b] [-t] [-d] [-p | -l] [-n] [-R]
           [ [-s | --steps] STEPS] [ [-r | --learn_rate] LEARN_RATE]
           [ [-c | --reg_coeff] REG_COEFF] [-f FOLDS]
 ```
@@ -14,7 +14,11 @@ maxent.py [-h] [-b] [-t] [-l] [-n] [-R]
 
 `-t, --use_trigrams` adds trigram features during maxent classifier training.
 
-`-l, --load_pickle` loads data from pickle files. Data/probabilities will not be recalculated, even if bigram features are turned on/off.
+`-d, --dep_parse` adds dependency parsing features during maxent classifier training.
+
+`-p, --save_pickle` saves data to pickle files. Cannot be used with `--load_pickle` option.
+
+`-l, --load_pickle` loads data from pickle files. Data/probabilities will not be recalculated, even if bigram features are turned on/off. Cannot be used with `--save_pickle` option.
 
 `-n, --naive` runs a simple Naive Bayes classifier before beginning MaxEnt calculations.
 
@@ -34,34 +38,42 @@ MaxEnt iterations, learning rate, and regularization coefficient can be modified
 
 ### Run MaxEnt with no options
 - unigram only
-- saves probabilities and weights to pickle files
+- use `-p` switch to save probabilities and weights to pickle files, otherwise defaults to standard output
 - defaults to one fold using 80/20 train/test set split
 
-`./maxent.py`
+`./maxent.py [-p]`
 
 ### Incorporate bigrams 
 - uses unigrams and bigrams
-- saves probabilities and weights to pickle files
 - defaults to one fold using 80/20 train/test set split
 
 `./maxent.py -b`
 
+### Incorporate dependency parse 
+- use `-b` switch to use bigrams, otherwise defaults to unigram only
+- defaults to one fold using 80/20 train/test set split
+
+`./maxent.py [-b] -d`
+
 ### Perform k-fold cross-validation
 - use `-b` switch for bigram, otherwise defaults to unigram only
+- use `-d` switch for dependency parse
 - train/test split is calculated as `(set size)/(# of folds)`
 - below example calculates 10-fold cross-validation:
 
-`./maxent.py [-b] -f 10`
+`./maxent.py [-b] [-d] -f 10`
 
 ### Read previously saved data
 - use `-b` switch to use previously saved bigram data
+- use `-d` switch to use previously saved dependency parse data
 - will retrain weights during MaxEnt classification
 - if k-fold cross-validation was used to save data, use `-f #` switch again
 
-`./maxent.py [-b] -l [-f #]`
+`./maxent.py [-b] [-d] -l [-f #]`
 
 ### Read previously saved data and MaxEnt weights
 - use `-b` switch to use previously saved bigram data
+- use `-d` switch to use previously saved dependency parse data
 - if k-fold cross-validation was used to save data, use `-f #` switch again
 
-`./maxent.py [-b] -l -R [-f #]`
+`./maxent.py [-b] [-d] -l -R [-f #]`
