@@ -31,7 +31,7 @@ m_vb_tri = open('math_verb_trigrams.txt', 'w')
 for f_name in file_list:
 	f = open(f_name, 'r').readlines()
 
-	for l in f:
+	for l in f[:20]:
 		pid, c, p = l.strip().split('#@#')
 	#	doc = nlp(p.decode('utf8'))
 		doc = spacy.tokens.doc.Doc(nlp.vocab, words=u.regex_tokenizer(p.decode('utf8'), True))
@@ -134,23 +134,35 @@ sys.stderr.write('\n')
 
 for sym_t, spec_t in math_trigrams.iteritems():
 	#print str(sum(spec_t['trigram'].values())) + ': ' + str(sym_t)
-	if any(any(verb_pos in s for s in sym_t) for verb_pos in ['VB', 'MD']):
-#		print sym_t
-		m_vb_tri.write(str(sym_t) + '\n')
+#	if any(any(verb_pos in s for s in sym_t) for verb_pos in ['VB', 'MD']):
+	print sym_t
+##		m_vb_tri.write(str(sym_t) + '\n')
 
-#		tri_sum = 0
+	tri_sum = {c: len([k for k in spec_t.keys() if k[0] == c]) for c in u.categories}
+	dep_cats = [k for k, v in tri_sum.iteritems() if v]
 
-#		for t in spec_t:
-#			tri_sum += int(spec_t[t]['count'])
+	print tri_sum
+	print min(k for k, v in tri_sum.iteritems() if v)
+	if len(dep_cats) == 1:
+		deps = [d for k, v in spec_t.iteritems() for d in v['dependency'] if k[0] == dep_cats[0]]
 
+		for d in deps:
+			print d
+#		for k, v in spec_t.iteritems():
+#			if k[0] == dep_cats[0]:
+#				for d in v['dependency']:
+#					print d
+sys.exit()
+
+#		print "%d\n" % tri_sum
 #		if tri_sum > 0:
-		for t in spec_t:
-			#print '\t' + str(spec_t[t]['count']) + ':' + str(t)
-			m_vb_tri.write('\t' + str(spec_t[t]['count']) + ':' + str(t) + '\n')
+for t in spec_t:
+	print '\t' + str(spec_t[t]['count']) + ':' + str(t)
+##			m_vb_tri.write('\t' + str(spec_t[t]['count']) + ':' + str(t) + '\n')
 
-			for d in spec_t[t]['dependency']:
-				#print '\t\t' + str(spec_t[t]['dependency'][d]) + ': ' + str(d)
-				m_vb_tri.write('\t\t' + str(spec_t[t]['dependency'][d]) + ': ' + str(d) + '\n')
+	for d in spec_t[t]['dependency']:
+		print '\t\t' + str(spec_t[t]['dependency'][d]) + ': ' + str(d)
+##				m_vb_tri.write('\t\t' + str(spec_t[t]['dependency'][d]) + ': ' + str(d) + '\n')
 
 #[showTree(sent) for sent in doc.sents]
 #for token in doc:
