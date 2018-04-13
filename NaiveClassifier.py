@@ -214,7 +214,6 @@ class NaiveClassifier:
 				arith_prob = math.log(self.p_arith)
 				geo_prob = math.log(self.p_geo)
 
-#			tokens = word_tokenize(p.lower())
 			tokens = self.util.regex_tokenizer(p.lower())
 
 			for w in tokens:
