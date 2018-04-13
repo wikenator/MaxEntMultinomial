@@ -4,8 +4,8 @@ import sys, re
 import pickle, glob
 import math, numpy
 #from nltk.tokenize import word_tokenize
-from nltk.util import ngrams
 from random import shuffle
+from nltk.util import ngrams
 from Utils import Utils as Util
 
 class NaiveClassifier:
@@ -26,10 +26,21 @@ class NaiveClassifier:
 		self.arith_problems = []
 		self.geo_problems = []
 		
-	def read_files(self, save_pkl):
+	def read_files(self, load_pkl):
 		self.reset_vars()
 
-		if save_pkl:
+		if load_pkl:
+			prefix = './pickles/'
+
+			self.alg_problems = pickle.load(open(prefix+'alg_problems'+str(self.fold)+'.pkl', 'rb'))
+			self.arith_problems = pickle.load(open(prefix+'arith_problems'+str(self.fold)+'.pkl', 'rb'))
+			self.geo_problems = pickle.load(open(prefix+'geo_problems'+str(self.fold)+'.pkl', 'rb'))
+
+			self.alg_count = len(self.alg_problems)
+			self.arith_count = len(self.arith_problems)
+			self.geo_count = len(self.geo_problems)
+
+		else:
 			sys.stdout.write("Reading files for processing.\n")
 
 			file_list = glob.glob('./processed/*.txt')
@@ -54,19 +65,8 @@ class NaiveClassifier:
 						self.geo_count += 1
 						self.geo_problems.append((p, c))
 
-		else:
-			prefix = './pickles/'
-
-			self.alg_problems = pickle.load(open(prefix+'alg_problems'+str(self.fold)+'.pkl', 'rb'))
-			self.arith_problems = pickle.load(open(prefix+'arith_problems'+str(self.fold)+'.pkl', 'rb'))
-			self.geo_problems = pickle.load(open(prefix+'geo_problems'+str(self.fold)+'.pkl', 'rb'))
-
-			self.alg_count = len(self.alg_problems)
-			self.arith_count = len(self.arith_problems)
-			self.geo_count = len(self.geo_problems)
-
-	def split_sets(self, pct, save_pkl):
-		if save_pkl:
+	def split_sets(self, pct, load_pkl):
+		if not load_pkl:
 			shuffle(self.alg_problems)
 			shuffle(self.arith_problems)
 			shuffle(self.geo_problems)
@@ -119,7 +119,7 @@ class NaiveClassifier:
 			self.geo_problems[geo_fold_end:]
 		self.geo_test_set = self.geo_problems[geo_fold_start:geo_fold_end]
 
-	def compute_base_probs(self, k, use_bigrams, use_trigrams):
+	def compute_base_probs(self, use_bigrams, use_trigrams):
 		self.alg, alg_bigram_count, alg_trigram_count = self.generate_counts(self.alg_train_set, use_bigrams, use_trigrams)
 		self.arith, arith_bigram_count, arith_trigram_count = self.generate_counts(self.arith_train_set, use_bigrams, use_trigrams)
 		self.geo, geo_bigram_count, geo_trigram_count = self.generate_counts(self.geo_train_set, use_bigrams, use_trigrams)
@@ -142,14 +142,9 @@ class NaiveClassifier:
 		total_arith = float(sum(self.arith.values()))
 		total_geo = float(sum(self.geo.values()))
 
-		for w in self.alg:
-			self.alg[w] /= total_alg
-
-		for w in self.arith:
-			self.arith[w] /= total_arith
-
-		for w in self.geo:
-			self.geo[w] /= total_geo
+		for w in self.alg: self.alg[w] /= total_alg
+		for w in self.arith: self.arith[w] /= total_arith
+		for w in self.geo: self.geo[w] /= total_geo
 
 	# count all tokens in a given training set
 	def generate_counts(self, t_set, b, t):
@@ -209,9 +204,15 @@ class NaiveClassifier:
 		confusion_matrix = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
 
 		for p, c in self.test_problems:
-			alg_prob = math.log(self.p_alg+self.p_alg_bigram)
-			arith_prob = math.log(self.p_arith+self.p_arith_bigram)
-			geo_prob = math.log(self.p_geo+self.p_geo_bigram)
+			if use_bigrams:
+				alg_prob = math.log(self.p_alg+self.p_alg_bigram)
+				arith_prob = math.log(self.p_arith+self.p_arith_bigram)
+				geo_prob = math.log(self.p_geo+self.p_geo_bigram)
+
+			else:
+				alg_prob = math.log(self.p_alg)
+				arith_prob = math.log(self.p_arith)
+				geo_prob = math.log(self.p_geo)
 
 #			tokens = word_tokenize(p.lower())
 			tokens = self.util.regex_tokenizer(p.lower())
