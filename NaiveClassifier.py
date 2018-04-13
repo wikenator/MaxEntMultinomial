@@ -65,6 +65,7 @@ class NaiveClassifier:
 						self.geo_count += 1
 						self.geo_problems.append((p, c))
 
+	# split data into training and test sets
 	def split_sets(self, pct, load_pkl):
 		if not load_pkl:
 			shuffle(self.alg_problems)
@@ -90,9 +91,9 @@ class NaiveClassifier:
 			geo_fold_start = 0
 
 		else:
-			alg_fold_start = alg_fold_end - self.alg_test_count#fold * (self.alg_count * (1 - pct)) + 1
-			arith_fold_start = arith_fold_end - self.arith_test_count#fold * (self.arith_count * (1 - pct)) + 1
-			geo_fold_start = geo_fold_end - self.geo_test_count#fold * (self.geo_count * (1 - pct)) + 1
+			alg_fold_start = alg_fold_end-self.alg_test_count
+			arith_fold_start = arith_fold_end-self.arith_test_count
+			geo_fold_start = geo_fold_end-self.geo_test_count
 
 		self.train_problems = \
 			self.alg_problems[:alg_fold_start] + \
@@ -119,6 +120,7 @@ class NaiveClassifier:
 			self.geo_problems[geo_fold_end:]
 		self.geo_test_set = self.geo_problems[geo_fold_start:geo_fold_end]
 
+	# compute base probabilities for vocabulary features
 	def compute_base_probs(self, use_bigrams, use_trigrams):
 		self.alg, alg_bigram_count, alg_trigram_count = self.generate_counts(self.alg_train_set, use_bigrams, use_trigrams)
 		self.arith, arith_bigram_count, arith_trigram_count = self.generate_counts(self.arith_train_set, use_bigrams, use_trigrams)
@@ -200,6 +202,7 @@ class NaiveClassifier:
 			self.geo_test_count
 		)
 
+	# calculate probabilities, precision, and recall for test set
 	def calculate_probs(self, use_bigrams, use_trigrams):
 		confusion_matrix = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
 

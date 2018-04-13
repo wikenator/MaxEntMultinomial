@@ -75,6 +75,7 @@ class FeatureBuilder():
 				doc = proc(doc)
 
 			for word in doc:
+				# only interested in dependency relation involving math tokens
 				if re.match('\[M:', word.text):
 					if word.i == 0:
 						prev_tok_txt = 'null'
@@ -137,6 +138,7 @@ class FeatureBuilder():
 
 							geo_counts[sym_tri] += 1
 
+						# append dependency triple to dependency features list
 						dep_feats.append(dep)
 
 ##		for i, (sym_t, spec_t) in enumerate(dep_trigrams.iteritems()):
@@ -186,6 +188,7 @@ class FeatureBuilder():
 		for d in self.mec.arith_dep: self.mec.arith_dep[d] /= total_arith
 		for d in self.mec.geo_dep: self.mec.geo_dep[d] /= total_geo
 
+		# sort features and remove duplicates
 		dep_feats = set(dep_feats)
 		dep_feats = list(dep_feats)
 		dep_feats.sort()
@@ -196,6 +199,7 @@ class FeatureBuilder():
 	def get_init_weights(self, V, use_bigrams, use_trigrams, dep_parse):
 		sys.stderr.write("Initializing weights.\n")
 
+		# set weights with dependency parse features
 		if dep_parse:
 			D = self.mec.all_deps
 			wts = numpy.zeros((3, len(V)+len(D)))
@@ -224,6 +228,7 @@ class FeatureBuilder():
 				dep_parse, D, self.mec.geo_dep
 			)
 
+		# set weights with just vocabulary features
 		else:
 			wts = numpy.zeros((3, len(V)))
 

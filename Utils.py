@@ -23,6 +23,7 @@ class Utils():
 		self.stop_words.add(':')
 		self.stop_words.add('$')
 
+	# parse command line arguments
 	def cmdline_argparse(self):
 		cmd_line_parser = argparse.ArgumentParser(description='Train MaxEnt classifier to classify math word problems.')
 		cmd_line_parser.add_argument('-b', '--use_bigrams', action='store_true', help='Add bigram features to maxent learning.')
@@ -57,6 +58,7 @@ class Utils():
 
 		return args
 
+	# save data as pickle object
 	def pickle_objs(self, prefix, i, data):
 		sys.stderr.write('\nPickling objects.\n')
 
@@ -65,12 +67,16 @@ class Utils():
 			pickle.dump(v, pkl_fh)
 			pkl_fh.close()
 
+	# tokenize sentences based on regular expression
+	# nltk word_tokenize does not tokenize math tokens correctly
 	def regex_tokenizer(self, sent, whole_sent=False):
 		regex_tokenizer = RT('\w+|\[M:.*?\]|[\(\)\.\,;\?\!]|\S+')
 		tokens = regex_tokenizer.tokenize(sent)
 		i = 0
 		j = len(tokens)-1
 
+		# combine abbreviations with their period;
+		# separation is a result of tokenizing the sentence
 		while i < j:
 			if re.match(self.abbrev_pattern, tokens[i]) and tokens[i+1] == '.':
 				tokens[i:i+2] = [''.join(tokens[i:i+2])]
@@ -78,9 +84,11 @@ class Utils():
 
 			i += 1
 
+		# return tokenized sentence minus stopword and short words
 		if not whole_sent:
 			return [t for t in tokens if not t in self.stop_words and len(t) > 2]
 
+		# return entire tokenized sentence
 		else:
 			return [t for t in tokens]
 

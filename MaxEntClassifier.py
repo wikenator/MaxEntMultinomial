@@ -35,7 +35,6 @@ class MaxEntClassifier(NBC):
 
 	# gradient descent
 	def gradient_reg(self, f, l, p, w, reg_lambda):
-#		return numpy.mean(numpy.dot(f, (p - self.util.onehot_enc(l)).T))
 		return (
 			numpy.dot(
 				f, 
@@ -87,6 +86,7 @@ class MaxEntClassifier(NBC):
 
 		return w, c, learn_rate
 
+	# used for future precision and recall calculations
 	def maxent_confusion_matrix(self, actual, predicted):
 		confusion_matrix = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
 

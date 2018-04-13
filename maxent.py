@@ -6,6 +6,7 @@ from MaxEntClassifier import MaxEntClassifier as MEC
 from FeatureBuilder import FeatureBuilder as FB
 from Utils import Utils as Util
 
+# Naive Bayes classification
 def NB_Test(m, pkl, b, t):
 	for i in xrange(mec.iters):
 		m.split_sets(0.8, pkl)
@@ -52,6 +53,7 @@ if __name__ == '__main__':
 	mec = MEC(args.load_pickle)
 	fb = FB(mec)
 
+	# calculate train/test set split percentages
 	if args.folds > 1: pct_split = 1 - (1.0 / args.folds)
 	else: pct_split = 0.8
 
@@ -60,6 +62,7 @@ if __name__ == '__main__':
 		mec.iters = 5
 		NB_Test(mec, args.load_pickle, args.use_bigrams, args.use_trigrams)
 
+	# perform k-fold cross-validation
 	for fold in xrange(args.folds):
 		sys.stderr.write("\nRunning fold " + str(fold+1) + "\n")
 
@@ -68,6 +71,7 @@ if __name__ == '__main__':
 		mec.compute_base_probs(args.use_bigrams, args.use_trigrams)
 		mec.set_stats()
 
+		# load previously saved data
 		if args.load_pickle:
 			sys.stderr.write("Reading pickle files.\n")
 
@@ -114,16 +118,16 @@ if __name__ == '__main__':
 
 			mec.util.pickle_objs(prefix, fold, to_pickle)
 
-		if args.no_retrain and os.path.exists('./data/train_weights'+str(fold)+'.pkl'):
-			weights = pickle.load(open('./data/train_weights'+str(fold)+'.pkl', 'rb'))
-			min_cost = 0
-			best_learn_rate = 0
-
 		# run maxent classifier
 		# default values: steps=1000
 		#		  learn_rate=5e-4
 		#		  reg_coeff=0.001
 		#		  threshold=1e-5
+		if args.no_retrain and os.path.exists('./data/train_weights'+str(fold)+'.pkl'):
+			weights = pickle.load(open('./data/train_weights'+str(fold)+'.pkl', 'rb'))
+			min_cost = 0
+			best_learn_rate = 0
+
 		else:
 			weights, min_cost, best_learn_rate = mec.maxent(
 				train_features, 
@@ -137,6 +141,7 @@ if __name__ == '__main__':
 			if args.save_pickle:
 				mec.util.pickle_objs('./data/', fold, {'train_weights': weights})
 		
+		# find training accuracy
 		class_prob_train = numpy.dot(weights, train_features)
 		class_bin_train = mec.hard_classify(class_prob_train)
 
@@ -151,6 +156,7 @@ if __name__ == '__main__':
 
 		err_report.close()
 
+		# find testing accuracy
 		test_features, test_labels = fb.get_test_features(all_words, args.use_bigrams, args.use_trigrams, args.dep_parse)
 		class_prob_test = numpy.dot(weights, test_features)
 		class_bin_test = mec.hard_classify(class_prob_test)
@@ -171,6 +177,7 @@ if __name__ == '__main__':
 
 		err_report.close()
 
+		# free up memory for next iteration
 		del all_words
 		del weights
 		del train_features
@@ -179,6 +186,5 @@ if __name__ == '__main__':
 		del test_labels
 
 		if args.dep_parse: del mec.all_deps
-	# end for
 
 	report(mec, args.folds, args.no_retrain, min_cost, best_learn_rate)
