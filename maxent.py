@@ -9,7 +9,7 @@ from Utils import Utils as Util
 def NB_Test(m, pkl, b, t):
 	for i in xrange(mec.iters):
 		m.split_sets(0.8, pkl)
-		m.compute_base_probs(1, b, t)
+		m.compute_base_probs(b, t)
 		prec, recall = m.calculate_probs(b, t)
 
 		print "Pass %d\n\tPrecision: %.4f\n\tRecall: %.4f" % (i+1, prec, recall)
@@ -22,10 +22,10 @@ def NB_Test(m, pkl, b, t):
 	)
 
 def report(m, f, r, min_cost, best_learn_rate):
-	print "\nTraining accuracies: ", m.train_acc
-	print "Test accuracies: ", m.test_acc
-	print "Precisions: ", m.precision
-	print "Recalls: ", m.recall
+	print "\nTraining accuracies:", m.train_acc
+	print "Test accuracies:", m.test_acc
+	print "Precisions:", m.precision
+	print "Recalls:", m.recall
 	print "\nAverage training accuracy: %.5f" % (sum(m.train_acc)/args.folds)
 	print "Average test accuracy: %.5f" % (sum(m.test_acc)/args.folds)
 	print "Average precision: %.5f" % (sum(m.precision)/args.folds)
@@ -47,12 +47,10 @@ def report(m, f, r, min_cost, best_learn_rate):
 if __name__ == '__main__':
 	util = Util()
 	args = util.cmdline_argparse()
-	save_pickle = not args.load_pickle
 	prefix = './pickles/'
 
-	mec = MEC(save_pickle)
+	mec = MEC(args.load_pickle)
 	fb = FB(mec)
-	k = 100
 
 	if args.folds > 1: pct_split = 1 - (1.0 / args.folds)
 	else: pct_split = 0.8
@@ -60,41 +58,26 @@ if __name__ == '__main__':
 	# run Naive Bayes classifier
 	if args.naive:
 		mec.iters = 5
-		NB_Test(mec, save_pickle, args.use_bigrams, args.use_trigrams)
+		NB_Test(mec, args.load_pickle, args.use_bigrams, args.use_trigrams)
 
 	for fold in xrange(args.folds):
-		sys.stderr.write("Running fold "+str(fold)+"\n")
+		sys.stderr.write("\nRunning fold " + str(fold+1) + "\n")
 
 		mec.fold = fold
-		mec.split_sets(pct_split, save_pickle)
-		mec.compute_base_probs(k, args.use_bigrams, args.use_trigrams)
+		mec.split_sets(pct_split, args.load_pickle)
+		mec.compute_base_probs(args.use_bigrams, args.use_trigrams)
 		mec.set_stats()
 
-		if save_pickle or not os.path.exists('./pickles/all_words'+str(fold)+'.pkl'):
-			if not save_pickle:
-				sys.stderr.write("Creating new data.\n")
-
-			all_words = fb.get_vocabulary(args.use_bigrams, args.use_trigrams)
-			weights = fb.get_init_weights(all_words, args.use_bigrams, args.use_trigrams)
-			train_features, train_labels = fb.get_train_features(all_words, args.use_bigrams, args.use_trigrams)
-			to_pickle = {
-				'all_words': all_words,
-				'init_weights': weights,
-				'train_features': train_features,
-				'train_labels': train_labels,
-				'alg_problems': mec.alg_problems,
-				'arith_problems': mec.arith_problems,
-				'geo_problems': mec.geo_problems
-			}
-
-			mec.util.pickle_objs(prefix, fold, to_pickle)
-
-		else:
+		if args.load_pickle:
 			sys.stderr.write("Reading pickle files.\n")
 
-			all_pkl = open(prefix+'all_words'+str(fold)+'.pkl', 'rb')
-			all_words = pickle.load(all_pkl)
-			all_pkl.close()
+			words_pkl = open(prefix+'all_words'+str(fold)+'.pkl', 'rb')
+			all_words = pickle.load(words_pkl)
+			words_pkl.close()
+
+			dep_pkl = open(prefix+'all_words'+str(fold)+'.pkl', 'rb')
+			all_deps = pickle.load(dep_pkl)
+			dep_pkl.close()
 
 			wts_pkl = open(prefix+'init_weights'+str(fold)+'.pkl', 'rb')
 			weights = pickle.load(wts_pkl)
@@ -107,6 +90,29 @@ if __name__ == '__main__':
 			label_pkl = open(prefix+'train_labels'+str(fold)+'.pkl', 'rb')
 			train_labels = pickle.load(label_pkl)
 			label_pkl.close()
+
+		else:
+			all_words = fb.get_vocabulary(args.use_bigrams, args.use_trigrams)
+
+			if args.dep_parse:
+				mec.all_deps = fb.get_dependencies(fb.all_problems)
+
+			weights = fb.get_init_weights(all_words, args.use_bigrams, args.use_trigrams, args.dep_parse)
+			train_features, train_labels = fb.get_train_features(all_words, args.use_bigrams, args.use_trigrams, args.dep_parse)
+
+		if args.save_pickle:
+			to_pickle = {
+				'all_words': all_words,
+#				'all_deps': all_deps,
+				'init_weights': weights,
+#				'train_features': train_features,
+#				'train_labels': train_labels,
+				'alg_problems': mec.alg_problems,
+				'arith_problems': mec.arith_problems,
+				'geo_problems': mec.geo_problems
+			}
+
+			mec.util.pickle_objs(prefix, fold, to_pickle)
 
 		if args.no_retrain and os.path.exists('./data/train_weights'+str(fold)+'.pkl'):
 			weights = pickle.load(open('./data/train_weights'+str(fold)+'.pkl', 'rb'))
@@ -128,12 +134,13 @@ if __name__ == '__main__':
 				args.reg_coeff
 			)
 
-			mec.util.pickle_objs('./data/', fold, {'train_weights': weights})
+			if args.save_pickle:
+				mec.util.pickle_objs('./data/', fold, {'train_weights': weights})
 		
 		class_prob_train = numpy.dot(weights, train_features)
 		class_bin_train = mec.hard_classify(class_prob_train)
 
-		mec.train_acc.append(((class_bin_train == train_labels).sum().astype(float)/len(class_bin_train)))
+		mec.train_acc.append(((class_bin_train == train_labels[0]).sum().astype(float)/len(class_bin_train)))
 
 		err_report = open('train_misclassify.txt', 'a')
 		err_report.write('FOLD ' + str(fold) + '\n')
@@ -144,7 +151,7 @@ if __name__ == '__main__':
 
 		err_report.close()
 
-		test_features, test_labels = fb.get_test_features(all_words, args.use_bigrams, args.use_trigrams)
+		test_features, test_labels = fb.get_test_features(all_words, args.use_bigrams, args.use_trigrams, args.dep_parse)
 		class_prob_test = numpy.dot(weights, test_features)
 		class_bin_test = mec.hard_classify(class_prob_test)
 
@@ -153,7 +160,7 @@ if __name__ == '__main__':
 		mec.precision.append(prec)
 		mec.recall.append(rec)
 
-		mec.test_acc.append(((class_bin_test == test_labels).sum().astype(float)/len(class_bin_test)))
+		mec.test_acc.append(((class_bin_test == test_labels[0]).sum().astype(float)/len(class_bin_test)))
 
 		err_report = open('test_misclassify.txt', 'a')
 		err_report.write('FOLD ' + str(fold) + '\n')
@@ -170,6 +177,8 @@ if __name__ == '__main__':
 		del train_labels
 		del test_features
 		del test_labels
+
+		if args.dep_parse: del mec.all_deps
 	# end for
 
 	report(mec, args.folds, args.no_retrain, min_cost, best_learn_rate)
