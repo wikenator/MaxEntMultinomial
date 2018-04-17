@@ -1,0 +1,551 @@
+2918#@#geometry#@#Find the directrices of the following ellipse : [M:EQ] .
+2919#@#geometry#@#Show that [M:EQ] is the equation of an ellipse , and find its directrices .
+2920#@#geometry#@#The diameter of a circle is [M:L:N] , and the versed sine [M:L:N] ; what is the area of the segment ?
+2921#@#geometry#@#The chord of a segment is [M:L:N] feet , and the radius of the circle is [M:L:N] feet. Find the area of the segment . ( Assume that the segment is smaller than a semicircle . )
+2922#@#geometry#@#The chord of half an arc is [M:L:N] feet , and the radius of the circle is [M:L:N] feet . Find the height of the segment subtended by the whole arc .
+2923#@#geometry#@#The radius of a circle is [M:L:N] . What is the area of a segment whose arc is [M:L:N] ?
+2924#@#geometry#@#If the radius of a circle is [M:L:N] , what is the area of a segment whose arc is [M:L:N] ?
+2925#@#geometry#@#The diameter of a circle is [M:L:N] , and the chord of the arc [M:L:N] : what is the area of the segment ?
+2926#@#geometry#@#What is the area of a circular segment [M:EX] , whose height is [M:L:N] feet , and the chord [M:L:N] feet ?
+2927#@#geometry#@#Find the area of the segment corresponding to a sector the angle of which is [M:L:N] , and the radius , [M:L:N] inches .
+2928#@#geometry#@#If the base of a segment , less than a semi -circle, is [M:L:N] feet , and the radius of the circle [M:L:N] feet , what is the area of the segment ?
+2929#@#geometry#@#Find the lateral area of a circular cone with a slant height of [M:L:F:M] and a circumference of [M:L:F:M] .
+2930#@#geometry#@#The altitude of a right circular cone is [M:L:N] and the radius is [M:L:N] . Find the total surface area of the cone .
+2931#@#geometry#@#Find the lateral area of a frustum of a right circular cone , the circumference of whose bases are [M:L:N] and [M:L:N] and whose slant height is [M:L:N:D] .
+2932#@#geometry#@#Find the total area of a cone with a slant height of [M:L:N] and a radius of [M:L:N] .
+2933#@#geometry#@#Find the plane through the point [M:L:COORD] and perpendicular to each of the planes , [M:EQ], [M:EQ] .
+2935#@#geometry#@#Find the general equation of a plane through the point [M:L:COORD] and perpendicular to each of the planes [M:EQ] , [M:EQ] .
+2936#@#geometry#@#Find the standard equation of the plane which satisfies the following conditions : distance from origin to plane [M:EQ] , [M:EQ:TRIG] , and [M:EQ:TRIG] .
+2937#@#geometry#@#Find the general equation of the plane which satisfies the following conditions : passing through the points [M:L:COORD] and [M:L:COORD] and at a distance of [M:L:N] from the origin .
+2938#@#geometry#@#Find the standard equation of the plane through the point [M:L:COORD] and parallel to the plane [M:EQ] .
+2939#@#geometry#@#Find the general equation of the plane which satisfies the following conditions : perpendicular to the plane [M:EQ] and passing through the points [M:L:COORD] and [M:L:COORD] .
+2940#@#geometry#@#A plane is [M:L:N] units from the origin and perpendicular to the line whose direction cosines are proportional to [M:L:N] , [M:L:N] , [M:L:N] . Find its equation .
+2941#@#geometry#@#Find the standard equation of the plane which satisfies the following conditions : [M:VAR] -intercept [M:EQ] , [M:VAR] -intercept [M:EQ] , and [M:VAR] -intercept [M:EQ] .
+2942#@#geometry#@#Find the general equation of a plane through the points [M:L:COORD] , [M:L:COORD] , [M:L:COORD] .
+2943#@#geometry#@#Find the standard equation of the plane which satisfies the following conditions : at a distance of [M:L:N] from the origin , the normal making equal angles with the axes .
+2944#@#geometry#@#What is the general equation of the plane determined by the lines [M:EQ] , [M:EQ] , and the point [M:L:COORD] ?
+2945#@#geometry#@#Write the general equation of a plane perpendicular to the plane [M:EQ] and passing through the two points [M:L:COORD] and [M:L:COORD] .
+2946#@#geometry#@#Find the general equation of the plane which satisfies the following conditions : passing through the points [M:L:COORD] , [M:L:COORD] , and [M:L:COORD] .
+2947#@#geometry#@#Find the general equation of the plane through the points [M:L:COORD] , [M:L:COORD] , and perpendicular to the plane [M:EQ] .
+2948#@#geometry#@#Find the general equation of the plane which satisfies the following conditions : passing through the point [M:L:COORD] and perpendicular to each of the planes [M:EQ] and [M:EQ] .
+2949#@#geometry#@#Find the general equation of the plane which satisfies the following conditions : containing the [M:VAR] -axis and the point [M:VAR:COORD] .
+2950#@#geometry#@#Find the standard equation of the plane which satisfies the following conditions : parallel to the plane [M:EQ] , and passing through [M:L:COORD] .
+2951#@#geometry#@#Find the general equation of the plane which satisfies the following conditions : perpendicular to the line joining the points [M:L:COORD] and [M:L:COORD] at its middle point .
+2952#@#geometry#@#Write the standard equation of a plane whose distance from the point [M:L:COORD] is [M:L:N] , and which is perpendicular to the radius vector of the point [M:L:COORD] .
+2953#@#geometry#@#Find the general equation of the plane which satisfies the following conditions : passing through the line of intersection of the planes [M:EQ] and [M:EQ] , and perpendicular to the plane [M:EQ] .
+2954#@#geometry#@#Find the general equation of the plane which satisfies the following conditions : perpendicular to the line through the points [M:L:COORD] and [M:L:COORD] , and five units from the origin .
+2955#@#geometry#@#Find the equation of the hyperbola whose center is the origin and whose foci are on the [M:VAR] -axis if [M:EQ] , [M:EQ] .
+2956#@#geometry#@#Find the equation of the following hyperbola : center at [M:L:COORD] , transverse axis [M:EQ] and is parallel to the [M:VAR] -axis, and length of the conjugate axis [M:EQ] .
+2957#@#geometry#@#Find the equation of the following hyperbola : center at [M:L:COORD] , length of the transverse axis [M:EQ] and is parallel to the [M:VAR] -axis, and the latus rectum is equal to one -half of the conjugate axis .
+2958#@#geometry#@#Find the equation of the following hyperbola having its center at [M:L:COORD] and its transverse axis along the [M:VAR] -axis: length of the transverse axis [M:EQ] and its conjugate axis is equal to one -half the distance between the foci .
+2959#@#geometry#@#Find the equation of the following hyperbola having its center at [M:L:COORD] and its transverse axis along the [M:VAR] -axis: length of the latus rectum [M:EQ] and [M:EQ] .
+2960#@#geometry#@#Find the equation of the hyperbola whose center is at the origin and with transverse axis [M:L:N] , and the point [M:L:COORD] being on the curve .  Assume that the transverse axis is horizontal .
+2962#@#geometry#@#Find the equation of the following hyperbola having its center at [M:L:COORD] and its transverse axis along the [M:VAR] -axis: distance between the foci [M:EQ] and [M:EQ] .
+2963#@#geometry#@#Find the equation of the following hyperbola having its center at [M:L:COORD] and its transverse axis along the [M:VAR] -axis: one focus is at [M:L:COORD] and the equation of the corresponding directrix is [M:EQ] .
+2964#@#geometry#@#Find the equation of the hyperbola whose center is at the origin and whose semi -axes equal , respectively , [M:L:N] and [M:L:N] .  Assume that the transverse axis is horizontal . Please give your answer in the standard form of a hyperbola , [M:EQ] , where [M:VAR:COORD] is the center of the hyperbola .
+2965#@#geometry#@#Find the equation of the following hyperbola : center at [M:L:COORD] , transverse axis parallel to the [M:VAR] -axis and [M:EQ] , and length of the conjugate axis [M:EQ] .
+2966#@#geometry#@#Find the equation of the following hyperbola : vertices are [M:L:COORD] and [M:L:COORD] and [M:EQ] .
+2967#@#geometry#@#Find the equation of the hyperbola whose center is at the origin and the distance between the foci [M:L:N] , and eccentricity [M:L:N:POW] .  Assume that the transverse axis is horizontal .
+2968#@#geometry#@#Find the equation of the following hyperbola : [M:EQ] , one focus is at [M:L:COORD] , and the corresponding directrix is [M:EQ] .
+2969#@#geometry#@#Find the equation of the following hyperbola having its center at [M:L:COORD] and its transverse axis along the [M:VAR] -axis: the two points [M:L:COORD] and [M:L:COORD] are on the curve .
+2970#@#geometry#@#Find the equation of the following hyperbola : center at [M:L:COORD] , length of the transverse axis [M:EQ] and is parallel to the [M:VAR] -axis, and the center is twice as far from the focus as from the vertex .
+2971#@#geometry#@#Find the equation of a hyperbola with center at the point [M:L:COORD] , semi -axes [M:L:N] and [M:L:N] , and the transverse axis parallel to the [M:VAR] -axis.
+2972#@#geometry#@#Find the area of a spherical pentagon whose angles are [M:L:N] , [M:L:N] , [M:L:N] , [M:L:N] , [M:L:N] , the surface of the sphere being [M:L:N] square feet .
+2973#@#geometry#@#If [M:VAR] is the radius of the sphere , find the area of a spherical polygon whose angles are [M:VAR] , [M:VAR] , [M:VAR] , [M:VAR] , etc . , if [M:EQ] , [M:EQ] , [M:EQ] , [M:EQ] , [M:EQ] yd .
+2974#@#geometry#@#Find one angle of an equilateral spherical hexagon equivalent to six equilateral spherical triangles each with angles of [M:L:N] .
+2975#@#geometry#@#What is the area of a spherical quadrilateral , the angles being [M:L:N] , [M:L:N] , [M:L:N] , and [M:L:N] , the volume of the sphere being [M:L:N] cubic feet ?
+2976#@#geometry#@#Find the area of a spherical polygon whose angles are [M:L:N] , [M:L:N] , [M:L:N] , and [M:L:N] , in a sphere whose radius is [M:L:N] inches .
+2977#@#geometry#@#For a right triangle having an angle of [M:L:N] , find the ratio of the side opposite the angle [M:L:N] to the hypotenuse .
+2978#@#geometry#@#Find the numerical value of [M:EX:TRIG] .
+2979#@#geometry#@#In a right -angled triangle , if one acute angle is [M:L:N] , what is the other ?
+2980#@#geometry#@#One triangle used by draftsman has an angle of [M:L:N] and an angle of [M:L:N] . How large is the remaining angle ?
+2981#@#geometry#@#In a [M:EX:T] , if [M:EQ:A] , and [M:EQ:A] , how large are [M:EX:A] and [M:EX:A] ?
+2982#@#geometry#@#Find the area of the triangle with base and height as follows : [M:L:N] in. , [M:L:N] in. ?
+2983#@#geometry#@#The base of an isosceles triangle is [M:L:N] ft. , and each of the equal sides is [M:L:F] longer than the base . How long is the perimeter ?
+2984#@#geometry#@#The perimeter of an isosceles triangle is [M:L:N] ft ., and the unequal side is [M:L:N] ft . Find the length of one of the equal sides .
+2985#@#geometry#@#What is the area of an equilateral triangle with perimeter [M:L:N] ft. [M:L:N] in. and altitude [M:L:N:D] ft. ?
+2986#@#geometry#@#A triangle has a perimeter of [M:L:N] ft. [M:L:N] in . One side is [M:L:N] ft. and another is half as much longer ; how long is the third ?
+2987#@#geometry#@#How long is the perimeter of an equilateral triangle [M:L:F:M] ft. on a side ?
+2988#@#geometry#@#The two sides forming the right angle of a right triangle are [M:L:N] rd. and [M:L:N] rd. What is the area in square rods ?
+2989#@#geometry#@#What is the area of a triangular flower bed with base [M:L:N] ft. and height [M:L:N] ft. ?
+2990#@#geometry#@#Find the area of a triangle with base and altitude as follows : [M:L:F:M] ft. , [M:L:F:M] ft .
+2991#@#geometry#@#The common chord of two intersecting circles whose radii are [M:L:N] feet [M:L:N] inch and [M:L:N] foot [M:L:N] inches is [M:L:N] foot [M:L:N] inches ; find the farthest possible distance between their centers .
+2992#@#geometry#@#A tangent to a circle whose radius is [M:L:N] foot [M:L:N] inches , from a given point without the circumference , is [M:L:N] feet ; find the distance from the point to the center .
+2993#@#geometry#@#What is the radius of a circle if a chord [M:L:N] inches long is [M:L:N] inches from the center ?
+2994#@#geometry#@#A chord is met at one extremity by a tangent , making with it an angle of [M:L:N] . Into what arcs does the chord divide the circumference ?
+2995#@#geometry#@#In a circle whose diameter is [M:L:N] m , find the length of the chord which is [M:L:N] m from the center .
+2996#@#geometry#@#If a chord [M:L:N] in. long is [M:L:N] in. from the center of a circle , compute the radius .
+2997#@#geometry#@#Find the angle between a secant and a tangent when their intercepted arcs are respectively [M:L:F] and [M:L:F] of the circumference .
+2998#@#geometry#@#From the same point a tangent and a secant are drawn to a circle . The tangent is [M:L:N] in. , and the secant [M:L:N] in. ( from the intersection with the tangent to the far side of the circle ) . If the secant passes through the center of the circle , find the radius .
+2999#@#geometry#@#The greatest distance of a chord of [M:L:N] feet from its arc is [M:L:N] inches ; find the diameter of the circle .
+3000#@#geometry#@#In a circle whose radius is [M:L:N] , two parallel chords are [M:L:N] and [M:L:N] . Compute the distance between the chords .
+3001#@#geometry#@#Two chords form an angle inscribed in a circle . The angle between the two chords , one of which is a diameter , is [M:L:F] of a right angle ; find the arc subtended by the shorter chord .
+3002#@#geometry#@#Find the length of the common tangent of two circles which cuts the line segment joining their centers , when this line segment is [M:L:N] feet and the radii of the circles are [M:L:N] inches and [M:L:N] inches .
+3003#@#geometry#@#The radii of two concentric circles are [M:L:N] and [M:L:N] . Compute the length of the chord of one circle tangent to the other .
+3004#@#geometry#@#Find the angle between two tangents when the intercepted arcs are in the ratio [M:L:F] .
+3005#@#geometry#@#If a chord of [M:L:N] feet is [M:L:N] inches from the center of a circle , what is the distance of a chord whose length is [M:L:N] inches ?
+3006#@#geometry#@#The radius of a circle is [M:L:N] . What is the distance from the center to a chord whose length is [M:L:N] ?
+3007#@#geometry#@#Two chords of a circle are [M:L:N] in. and [M:L:N] in. long . The first is [M:L:N] in. from the center ; how far from the center is the second ?
+3008#@#geometry#@#A chord that divides a circumference into arcs one of which contains [M:L:N] is met at one extremity by a tangent . At what ( acute ) angle does the meeting take place ?
+3009#@#geometry#@#What is the longest and shortest chord that can be drawn through a point [M:L:N] cm from the center of a circle whose radius is [M:L:N] cm ?
+3010#@#geometry#@#Find the product of the segments of a chord drawn through a point [M:L:N] in. from the center of a circle whose radius is [M:L:N] in .
+3011#@#geometry#@#What part of a right angle is an angle between a tangent and a chord intercepting an arc of [M:L:F] of a semi -circumference?
+3012#@#geometry#@#If a chord [M:L:N] in. long is [M:L:N] in. from the center of a circle , how long is a chord which is [M:L:N] in. from the center ?
+3013#@#geometry#@#Find the vertices of the following hyperbola . [M:EQ] .
+3014#@#geometry#@#Find the directrices of the following hyperbola : [M:EQ] .
+3015#@#geometry#@#Express the following angle in radians : [M:L:N] .
+3016#@#geometry#@#Express the following angle in degrees : [M:L:F]  radians .
+3017#@#geometry#@#Find the focus of the following parabola . [M:EQ] .
+3018#@#geometry#@#How many sides has the regular polygon whose interior and exterior angles are in the ratio of [M:L:N] to [M:L:N] ?
+3019#@#geometry#@#How many sides has the polygon each of whose interior angles exceeds its exterior angle by [M:L:F] right angles ?
+3020#@#geometry#@#If one angle of a parallelogam equals [M:L:F] of a right angle , how many degrees in each of the other angles ?
+3021#@#geometry#@#How many sides has the polygon each of whose interior angles equals [M:L:N] ?
+3022#@#geometry#@#How many sides has the polygon each of whose angles equals [M:L:N] ?
+3023#@#geometry#@#Find the number of degrees in an angle of a regular pentagon .
+3024#@#geometry#@#How many sides has a polygon , the sum of whose angles is [M:L:N] right angles ?
+3025#@#geometry#@#What is the sum of the angles of a hexagon ?
+3026#@#geometry#@#How many degrees in each exterior angle of a regular polygon of [M:L:N] sides ?
+3027#@#geometry#@#How many sides has the polygon the sum of whose interior angles exceeds the sum of its exterior angles by [M:L:N] right angles ?
+3028#@#geometry#@#How many sides has an equilangular polygon , if the sum of five of its angles is [M:L:N] right angles ?
+3029#@#geometry#@#How many sides has the polygon the sum of whose interior angles is double the sum of the exterior angles ?
+3030#@#geometry#@#How many sides has the polygon the sum of whose interior angles exceeds the sum of its exterior angles by [M:L:N] ?
+3031#@#geometry#@#What kind of a quadrilateral is formed by the points [M:L:COORD] , [M:L:COORD] , [M:L:COORD] , [M:L:COORD] ?
+3032#@#geometry#@#The following four points are the vertices of a quadrilateral : [M:L:COORD] , [M:L:COORD] , [M:L:COORD] , [M:L:COORD] . What kind of a quadrilateral is this ?
+3033#@#geometry#@#Find the vertex of the parabola . [M:EQ] .
+3034#@#geometry#@#The diameters of two circles are [M:L:N] ft. and [M:L:N] ft. , respectively . Find the ratio of their areas .
+3035#@#geometry#@#What is the change in the area of a circle , if its radius is multiplied by [M:L:N] ?
+3036#@#geometry#@#Find the area of a circle whose diameter is [M:L:N] in .
+3037#@#geometry#@#Find the diameter of a circle whose circumference is [M:L:N] in .
+3038#@#geometry#@#Find the length of the circumference of a circle of radius [M:L:N] ft .
+3039#@#geometry#@#The area of a circle is [M:L:N] sq. in . Find its radius .
+3040#@#geometry#@#The circumference of a circle is [M:L:N] feet . Find its radius and area .
+3041#@#geometry#@#Find the area of a circle whose radius is [M:L:N] inches .
+3042#@#geometry#@#Find the circumference and the area of a circle whose diameter is [M:L:N] feet . (Please separate your answers with a comma .)
+3043#@#geometry#@#The areas of two circles are in the ratio of [M:L:F:M] . If the radius of the larger is [M:L:N] feet [M:L:N] inch , what is the radius of the smaller ?
+3044#@#geometry#@#Find the radius of a circle with an area three times as large as a circle whose radius is [M:L:N] feet .
+3045#@#geometry#@#What is the ratio of the areas of two circles whose radii are [M:L:N] feet and [M:L:N] feet ?
+3046#@#geometry#@#What is the change in the area of a circle , if its radius is multiplied by [M:VAR] ?
+3047#@#geometry#@#Find the area of a circle whose radius is [M:L:N] feet .
+3048#@#geometry#@#Two circumferences are in the ratio [M:L:F] , and the radius of the larger is [M:L:N] m ; what is the radius of the smaller ?
+3049#@#geometry#@#Find the number of acres between two concentric circumferences which are [M:L:N] miles and [M:L:N] mile long , respectively .
+3050#@#geometry#@#Find the radius of a circle whose area is [M:L:N] sq. in .
+3051#@#geometry#@#Find the diameter and area of a circle whose circumference is [M:L:F:M] feet .
+3052#@#geometry#@#The circumference of a circle is [M:L:N] feet . Find its area .
+3053#@#geometry#@#The circumference of a circle is [M:L:N:D] inches ; find its diameter , and its area .
+3054#@#geometry#@#The circumference of a circle is [M:L:N:D] inches . Find the radius .
+3055#@#geometry#@#Find the circumference and area of a circle whose radius is [M:L:N] feet .
+3056#@#geometry#@#Find the radius of a circle with an area [M:L:N] times as large as a circle whose radius is [M:L:N] m .
+3057#@#geometry#@#Find the circumference of a circle whose area is [M:L:N] sq. in .
+3058#@#geometry#@#What is the width of the circular ring between two concentric circumferences whose lengths are [M:L:N] feet and [M:L:N] feet ?
+3059#@#geometry#@#The diameter of a circle is [M:L:N] feet . Find the diameter of a circle twice as large ( by area ) .
+3060#@#geometry#@#The area of a circle is [M:L:N] sq. ft . Find the diameter .
+3061#@#geometry#@#The area of a circle is [M:L:N] square inches . Find its circumference .
+3062#@#geometry#@#Find the circumference of a circle whose diameter is [M:L:N] feet .
+3063#@#geometry#@#Find the area of a circle whose circumference is [M:L:N] .
+3064#@#geometry#@#Find the area of a square circumscribed about a circle whose radius is [M:L:N] ft .
+3065#@#geometry#@#Find the radius of a circle if the difference between the areas of the inscribed and circumscribed regular hexagons is [M:L:N] square inches.
+3066#@#geometry#@#Find the ratio of the areas of two equilateral triangles , one inscribed in , the other circumscribed about , a circle whose radius is [M:L:N] inches .
+3067#@#geometry#@#Find the perimeter of a regular hexagon circumscribed about a circle whose radius is [M:L:N] inches .
+3068#@#geometry#@#The points of tangency of a quadrilateral , circumscribed about a circle , divide the circumference into arcs , which are to each other as [M:L:N] , [M:L:N] , [M:L:N] , and [M:L:N] . Find the angles of the quadrilateral .
+3069#@#geometry#@#The sides of a triangle are : [M:EQ] feet , [M:EQ] feet , [M:EQ] feet ; find the area of the triangle and the radii of the circumscribed and inscribed circles .
+3070#@#geometry#@#Find the radii of the inscribed and circumscribed circles of the isosceles triangle whose leg is [M:L:N] feet [M:L:N] inches and whose base is [M:L:N] feet [M:L:N] inches .
+3071#@#geometry#@#The side of the circumscribed equilateral triangle is [M:L:N] . Find the radius of the circle .
+3072#@#geometry#@#Find the length of a side and the area of a regular octagon circumscribed about a circle whose radius is a mile .
+3073#@#geometry#@#Find the area of a circle inscribed in a square whose side is [M:L:N] feet .
+3074#@#geometry#@#Find the ratio between the area of a circle and its regular circumscribed hexagon .
+3075#@#geometry#@#Find the difference between the radii of the regular dodecagons inscribed in and circumscribed about a circle of radius [M:L:N] inches .
+3076#@#geometry#@#The perimeter of a regular inscribed hexagon is [M:L:N] in . Find the perimeter of a regular hexagon circumscribed about a circle of twice the diameter .
+3077#@#geometry#@#Find the radius of a circle if the difference between the areas of the inscribed and circumscribed regular triangles is [M:L:N] square inches .
+3078#@#geometry#@#Find the radius of a circle if the difference of the perimeters of the regular inscribed and circumscribed triangles is [M:L:N] inches .
+3079#@#geometry#@#Find the area of a regular hexagon circumscribed about a circle whose radius is [M:L:N] inches.
+3080#@#geometry#@#Find the area of a triangle if the perimeter is [M:L:N] feet and the radius of the inscribed circle [M:L:N:D] feet .
+3081#@#geometry#@#Find the area of a pentagon whose perimeter is [M:L:N:D] 5.18 m, circumscribed about a circle whose diameter is [M:L:N:D] m .
+3082#@#geometry#@#The sides of a triangle are : [M:EQ] m , [M:EQ] m , [M:EQ] m ; find the area of the triangle and the radii of the circumscribed and inscribed circles .
+3083#@#geometry#@#The apothem of an inscribed square is [M:EX] feet ; find the area of an equilateral triangle circumscribed about the same circle .
+3084#@#geometry#@#What is the radius of a circle if the difference between the areas of the inscribed and circumscribed regular dodecagons is [M:L:N] square inches ?
+3085#@#geometry#@#If a triangle whose angles are [M:L:N] , [M:L:N] , and [M:L:N] is circumscribed about a circle , find the number of degrees in the arcs into which the points of tangency divide the circle .
+3086#@#geometry#@#The sides of a triangle are : [M:L:N] m , [M:L:N] m , [M:L:N] m ; find the radii of the inscribed and circumscribed circles .
+3087#@#geometry#@#Find the radius of a circle if the difference of the perimeters of the regular inscribed and circumscribed hexagons is [M:L:N] inches .
+3088#@#geometry#@#If the area of a circumscribed square is [M:L:N] square inches greater than that of an inscribed square , what is the diameter of the circle ?
+3089#@#geometry#@#Find a side of the circumscribed equilateral triangle , the radius of the circle being [M:L:N:POW] .
+3090#@#geometry#@#Find the length of a side of an equilateral triangle circumscribed about a circle of radius [M:L:N] in .
+3091#@#geometry#@#The radius of a circle is [M:L:N] . Find the side of the circumscribed equilateral triangle .
+3092#@#geometry#@#Three consecutive angles of a circumscribed quadrilateral are [M:L:N] , [M:L:N] , [M:L:N] ; find the number of degrees in each angle of the inscribed quadrilateral made by joining the points of contact of the sides of the circumscribed quadrilateral .
+3093#@#geometry#@#Find the perimeter of a regular circumscribed hexagon , if the radius of the circle is [M:L:N] ft .
+3095#@#geometry#@#The lower base of a frustum of a pyramid is a square [M:L:N] in. on a side . The side of the upper base is half that of the lower base , and the altitude of the frustum is [M:L:N] in . Find to two decimal places the volume of the frustum .
+3097#@#geometry#@#If the bases of the frustum of a pyramid are regular hexagons whose sides are [M:L:N] ft. and [M:L:N] ft. respectively , and the volume of the frustum is [M:L:N] cu. ft. , find the altitude .
+3098#@#geometry#@#Find the lateral area of the frustum of a regular pyramid , given the slant height [M:VAR] of the frustum and the perimeters of the bases [M:VAR] and [M:VAR] , as follows : [M:EQ] in. , [M:EQ] in. , [M:EQ] in .
+3099#@#geometry#@#A pyramid [M:L:N] in. high , with a base whose area is [M:L:N] sq. in. , is cut by a plane parallel to the base [M:L:N] in. from the base . Find the volume of the frustum .
+3100#@#geometry#@#Find the volume of a frustum of a pyramid , the altitude [M:VAR] and the base [M:VAR] and [M:VAR] of the frustums being given , as follows : [M:EQ] ft. [M:L:N] in. , [M:EQ] sq. ft. [M:L:N] sq. in. , [M:EQ] sq. ft .
+3104#@#geometry#@#Find the volume of a frustum of a pyramid , the altitude [M:VAR] and the base [M:VAR] and [M:VAR] of the frustums being given , as follows : [M:EQ] in. , [M:EQ] sq. in. , [M:EQ] sq. in .
+3108#@#geometry#@#The slant height of the frustum of a regular pyramid is [M:L:N] ft. , and the sides of its square bases are [M:L:N] ft. and [M:L:N] ft. respectively . Find the volume .
+3112#@#geometry#@#Find the lateral area of the frustum of a regular pyramid , given the slant height [M:VAR] of the frustum and the perimeters of the bases [M:VAR] and [M:VAR] , as follows : [M:EQ] ft. [M:L:N] in. , [M:EQ] ft. [M:L:N] in. , [M:EQ] ft. [M:L:N] in .
+3113#@#geometry#@#The lower base of a frustum of a pyramid is a square [M:L:N] in. on a side . The side of the upper base is half that of the lower base , and the altitude of the frustum is the same as the side of the upper base . Find the volume of the frustum .
+3114#@#geometry#@#Find the volume of a frustum of a triangular pyramid whose altitude is [M:L:N] inches , and whose bases are [M:L:N] square inches and [M:L:N] square inches respectively .
+3115#@#geometry#@#Find to two decimal places the volume of a frustum of a cone of revolution , given the altitude [M:VAR] and the radii of the bases [M:VAR] and [M:VAR] respectively as follows : [M:EQ] in. , [M:EQ] in. , [M:EQ] in .
+3116#@#geometry#@#The diameters of the bases of a frustum of a circular cone are [M:L:N] feet and [M:L:N] feet , and the altitude is [M:L:N] feet . Find the volume .
+3117#@#geometry#@#Find to two decimal places the volume of a frustum of a cone , given the altitude [M:VAR] and the areas of the bases [M:VAR] and [M:VAR] respectively as follows : [M:EQ] in. , [M:EQ] sq. in. , [M:EQ] sq. in .
+3118#@#geometry#@#A pyramid [M:L:N] in. high , with a base whose area is [M:L:N] sq. in. , is cut by a plane parallel to the base [M:L:N] in. from the vertex . Find the volume of the frustum .
+3119#@#geometry#@#The radii of the bases of a frustum of a right circular cone are [M:L:N] feet and [M:L:N] feet , and its altitude is [M:L:N] feet . Find the altitude of the cone from which the frustum is cut off .
+3120#@#geometry#@#Find the volume of a frustum of a pyramid , the altitude [M:VAR] and the base [M:VAR] and [M:VAR] of the frustums being given , as follows : [M:EQ] ft. [M:L:N] in. , [M:EQ] sq. ft., [M:EQ] sq. ft. [M:L:N] sq. in .
+3121#@#geometry#@#The radii of the bases of a frustum of a cone of revolution are [M:L:N] inches and [M:L:N] inches , and the slant height is [M:L:N] inches . Find the lateral area .
+3122#@#geometry#@#Find the lateral area of a frustum of a cone , given the circumferences of the bases [M:VAR] and [M:VAR] and the slant height [M:VAR] respectively as follows : [M:EQ] in. , [M:EQ] in. , [M:EQ] in .
+3124#@#geometry#@#The radius of a sphere is [M:L:N] . Find the area of a lune whose angle is [M:L:N] degrees .
+3125#@#geometry#@#The diameter of a sphere is [M:L:N] . Find the area of a lune whose angle is [M:L:N] degrees .
+3126#@#geometry#@#Find the area of a zone with a height of [M:L:N:D] on a sphere of diameter [M:L:N] .
+3127#@#geometry#@#The area of a zone is [M:EX] and its altitude is [M:L:N] . Find the radius of the sphere .
+3128#@#geometry#@#Find the area of a lune of angle [M:L:N] degrees on a sphere of radius [M:L:N] .
+3129#@#geometry#@#A lune on a sphere of radius [M:L:N] is equivalent to the whole surface of a sphere of radius [M:L:N] . What is its angle ?
+3130#@#geometry#@#Find the foci of the following hyperbola . [M:EQ] .
+3131#@#geometry#@#Determine coordinates of foci for the following hyperbola : [M:EQ] .
+3132#@#geometry#@#The conjugate of a certain angle [M:VAR] is [M:EX] . How many degrees are there in [M:VAR] ?
+3133#@#geometry#@#The supplement of a certain angle [M:VAR] is [M:EX] . How many degrees are there in [M:VAR] ?
+3134#@#geometry#@#Find the supplement of the complement of [M:L:N] .
+3135#@#geometry#@#What is the supplement of [M:L:N] ?
+3136#@#geometry#@#What is the complement of [M:L:N] ?
+3137#@#geometry#@#Find the eccentricity of the following ellipse : [M:EQ] .
+3138#@#geometry#@#Find the area of a triangle whose three sides are [M:L:N] , [M:L:N] , and [M:L:N] .
+3139#@#geometry#@#The sides of a triangle are [M:L:N] , [M:L:N] , and [M:L:N] . Using Heron 's Formula , find the area .
+3140#@#geometry#@#Using Heron 's Formula , find the areas of the triangle in which it is given that [M:EQ] , [M:EQ] , and [M:EQ] .
+3141#@#geometry#@#Find the angles of the triangle [M:EX] , when [M:VAR] is [M:L:N] more than [M:L:F] of [M:VAR] , which is [M:L:N] less than [M:L:N] times [M:VAR] .
+3142#@#geometry#@#An exterior angle of a triangle is [M:L:N] and one of the opposite interior angles is [M:L:N] . Find the number of degrees in each angle of the triangle .
+3143#@#geometry#@#In a certain triangle one angle is twice as large as another and three times as large as the third . How many degrees are there in each ?
+3144#@#geometry#@#The angles at the base of a triangle are [M:L:N] and [M:L:N] ; deduce the vertical angle .
+3145#@#geometry#@#The sum of the angles at the base of a triangle is [M:L:N] , and their difference is [M:L:N] ; find all the angles .
+3146#@#geometry#@#The base of a triangle is produced both ways , and the exterior angles are found to be [M:L:N] and [M:L:N] ; deduce the vertical angle .
+3147#@#geometry#@#Find the angles of a triangle which are in the ratio [M:EX] .
+3148#@#geometry#@#In a certain right triangle the acute angles are [M:EX] and [M:EX] . Find the value of [M:VAR] .
+3149#@#geometry#@#Express in degrees the angles of an isosceles triangle in which each base is double of the vertical angle .
+3150#@#geometry#@#In a certain triangle [M:EX] the interior angle at [M:VAR] is [M:L:N] . What is the exterior angle at the same vertex ?
+3151#@#geometry#@#The angle at the vertex of an isosceles triangle is one -third the exterior angle at the vertex , how many degrees in each angle , exterior and interior , at the base ?
+3152#@#geometry#@#In the triangle [M:EX] , [M:VAR] lacks [M:L:N] of being equal to the sum of [M:VAR] and [M:VAR] , and [M:VAR] lacks [M:L:N] of being equal to the sum of [M:VAR] and [M:VAR] ; find [M:VAR] , [M:VAR] , and [M:VAR] .
+3153#@#geometry#@#Find the angles of an isosceles triangle in which the exterior angle at the base is [M:L:N] .
+3154#@#geometry#@#Find the angles of an isoscoles triangle when one of the angles at the base is equal to one -half the angle at the vertex .
+3155#@#geometry#@#The angles of a triangle are in the ratio [M:EX] . How many degrees in each angle ?
+3156#@#geometry#@#In a certain right triangle one angle is [M:L:N] . What is the size of the other acute angle ?
+3157#@#geometry#@#Each angle at the base of an isosceles triangle contains [M:L:N] . How many degrees in the exterior angle at the vertex ?
+3158#@#geometry#@#The sum of two angles of a triangle is [M:L:N] and their difference is [M:L:N] . How many degrees are there in each of the three angles of the triangle ?
+3159#@#geometry#@#Find the angles of an isosceles triangle in which the exterior angle at the vertex is [M:L:N] .
+3160#@#geometry#@#What are the angles of an isosceles triangle in which the angle at the vertex is [M:L:N] more than one -third the sum of the base angles ?
+3161#@#geometry#@#In the triangle [M:EX] , if [M:EQ] and [M:EQ] , find the third angle .
+3162#@#geometry#@#In a certain right triangle one acute angle is two thirds of the other . How many degrees are there in each ?
+3163#@#geometry#@#If the exterior angle at [M:VAR] of the triangle [M:EX] is [M:L:N] , and angle [M:VAR] is three times angle [M:VAR] , find [M:VAR] and [M:VAR] .
+3164#@#geometry#@#Express in degrees the angles of an isosceles triangle in which each base is four times the vertical angle .
+3165#@#geometry#@#In the triangle [M:EX] , if [M:EQ:C] , find the third angle .
+3166#@#geometry#@#In a certain right triangle one acute angle is twice as large as the other . How many degrees are there in each ?
+3167#@#geometry#@#One angle of a triangle contains [M:L:N] . How many degrees in each of the other two angles if one is [M:L:N] larger than the other ?
+3168#@#geometry#@#[M:EX] is a triangle in which the angles at [M:VAR] and [M:VAR] are respectively double and triple of the angle at [M:VAR] : find the number of degrees in each of these angles .
+3169#@#geometry#@#Find the incenter of the triangle with vertices : [M:L:COORD], [M:L:COORD], [M:L:COORD] .
+3170#@#geometry#@#Find the area of a segment of a circle of [M:L:N] -foot radius cut off by the side of a regular inscribed hexagon .
+3171#@#geometry#@#A regular hexagon , [M:EX] , is inscribed in a circle whose radius is [M:L:N] ; find the length of the diagonal [M:EX] .
+3172#@#geometry#@#Find the diameter of the circle circumscribed about the triangle two of whose sides are [M:L:N] feet [M:L:N] inches and [M:L:N] feet [M:L:N] inches , and the perpendicular to the third side from the opposite vertex is [M:L:N] feet [M:L:N] inches .
+3173#@#geometry#@#Two sides of a triangle , inscribed in a circle whose radius is [M:L:N] inches , are [M:L:N] inches and [M:L:N] inches ; find the perpendicular to the third side from the opposite vertex .
+3174#@#geometry#@#Find the perimeter of a regular decagon inscribed in a circle whose diameter is [M:L:N] feet .
+3175#@#geometry#@#One angle of an inscribed triangle is [M:L:N] , and one of its sides subtends an arc of [M:L:N] ; find the other angles of the triangle .
+3176#@#geometry#@#Find the area of an equilateral triangle inscribed in a circle whose radius is [M:L:N] feet .
+3177#@#geometry#@#Find the difference in area between a square and an equilateral triangle each inscribed in a circle whose radius is [M:L:N] m .
+3178#@#geometry#@#Find the side and area of a regular pentagon inscribed in a circle whose radius is [M:L:N] m .
+3179#@#geometry#@#Find the radius of a circle circumscribed about an equilateral triangle whose area is [M:EX] square feet .
+3180#@#geometry#@#The arcs subtended by three consecutive sides of a quadrilateral are [M:L:N] , [M:L:N] , [M:L:N] ; find the angles of the quadrilateral .
+3181#@#geometry#@#Find the radius of a circle circumscribed about a regular hexagon whose perimeter is [M:L:N:D] m .
+3182#@#geometry#@#Find the apothem , the side , and the area of a regular octagon inscribed in a circle whose radius is [M:L:N] m .
+3183#@#geometry#@#Find the angles of an isosceles triangle , if the arc subtended by one of the equal sides is [M:L:N] more than [M:L:N:D] times the arc subtended by the base .
+3184#@#geometry#@#Find the side of a regular decagon inscribed in a circle whose radius is [M:L:N] feet .
+3185#@#geometry#@#The bases of a trapezoid subtend arcs of [M:L:N] and [M:L:N] , respectively ; find its angles .
+3186#@#geometry#@#Find the area of a circle in which is inscribed a rectangle [M:L:N] feet by [M:L:N] feet .
+3187#@#geometry#@#Find the radius of a circle circumscribed about a square whose area is [M:L:N] square year [M:L:N] square feet .
+3188#@#geometry#@#Find the side of a square inscribed in a circle whose radius is [M:L:N] feet .
+3189#@#geometry#@#Find the side of an equilateral triangle inscribed in a circle whose diameter is [M:L:N:D] cm .
+3190#@#geometry#@#Find the radius of a circle circumscribed about a regular hexagon whose apothem is [M:EX] feet .
+3191#@#geometry#@#The numbers of degrees in the arcs subtended by the sides of a pentagon , in order , are consecutive ; find the angles of the pentagon .
+3192#@#geometry#@#The area of a certain regular hexagon is [M:EX] square inches ; find the area and the circumference of the circumscribed circle .
+3193#@#geometry#@#Two sides of an inscribed triangle subtend [M:L:F] and [M:L:F] of the circumference of a circle , respectively ; find the angles of the triangle .
+3194#@#geometry#@#One side of a triangle is [M:L:N] cm , the altitude of the triangle to the second side is [M:L:N] cm , the diameter of the circumscribed circle is [M:L:N] cm ; find the third side of the triangle .
+3195#@#geometry#@#How far apart are two parallel chords in a circle whose radius is [M:L:N] feet , if these chords are the sides of two regular inscribed polygons , one a hexagon , one a dodecagon ?
+3196#@#geometry#@#Find the side , the apothem , and the area of a regular dodecagon inscribed in a circle whose diameter is [M:L:N] km .
+3197#@#geometry#@#Three consecutive sides of a quadrilateral inscribed in a circle subtend arcs of [M:L:N] , [M:L:N] , and [M:L:N] respectively . Find each angle of the quadrilateral in degrees .
+3198#@#geometry#@#Find the directrix of the following parabola . [M:EQ] .
+3199#@#geometry#@#Determine the equation of the directrix for the following parabola : [M:EQ] .
+3200#@#geometry#@#Give the center of the ellipse . [M:EQ] .
+3201#@#geometry#@#Determine the center of the following ellipse . [M:EQ] .
+3202#@#geometry#@#Determine the asymptotes of the following hyperbola . [M:EQ] .
+3203#@#geometry#@#Find the asymptotes of the hyperbola [M:EQ] .
+3204#@#geometry#@#Find the center of the hyperbola . [M:EQ] .
+3205#@#geometry#@#Find the volume of a pyramid whose altitude is [M:L:N] , and whose base is a rectangle with sides [M:L:N] and [M:L:N] .
+3206#@#geometry#@#Find the volume of a regular pyramid whose altitude is [M:L:N] , and whose base is a square with side [M:L:N] .
+3207#@#geometry#@#What is the volume of a marble pyramid , the base of which is a pentagon , each side of which is [M:L:N] inches , and altitude [M:L:N] feet ?
+3208#@#geometry#@#Find the lateral area of the regular pyramid , given the slant height ( [M:VAR] ) and the perimeter of the base ( [M:VAR] ), as follows : [M:EQ] in. , [M:EQ] in .
+3209#@#geometry#@#Find the volume of a regular triangular pyramid whose basal edge ( the edge of the base ) is [M:L:N] feet and whose altitude is [M:L:N:POW] feet .
+3211#@#geometry#@#The slant height of a regular pyramid is [M:L:N] in. , and the base is an equilateral triangle of altitude [M:EX] in . Find the lateral area of the pyramid .
+3212#@#geometry#@#If the base of a pyramid is a square and its altitude is [M:L:N] ft. , how long must each side of the square be in order that the volume may be [M:L:N] cu. ft. ?
+3213#@#geometry#@#Find the lateral area of a regular hexagonal pyramid whose altitude is [M:L:N] , and whose base edge is [M:L:N] .
+3214#@#geometry#@#The slant height of a regular triangular pyramid is [M:L:N] feet , and the base edge is [M:L:N] feet . Find the lateral area .
+3215#@#geometry#@#What is the volume of a square pyramid , each side of the base being [M:L:N] inches and altitude [M:L:N] feet ?
+3217#@#geometry#@#Find the altitude of a triangular pyramid , if the volume is [M:L:N] , and the sides of the base are [M:L:N] , [M:L:N] , and [M:L:N] .
+3218#@#geometry#@#Find the volume of a triangular pyramid , if the altitude is [M:L:N] , and the sides of the base are [M:L:N] , [M:L:N] , and [M:L:N] .
+3219#@#geometry#@#Find the total surface of a regular pyramid whose slant height is [M:L:N] inches, and whose base is a square with side [M:L:N] inches .
+3220#@#geometry#@#What is the volume of a hexagonal pyramid , the base of which is [M:L:N:D] on each side , and altitude [M:L:N] ?
+3221#@#geometry#@#If a prism and a pyramid have a common base and altitude , what is the ratio of their volumes ?
+3223#@#geometry#@#Find the volume of a regular pyramid whose altitude is [M:L:N] , and whose base is a triangle with side [M:L:N] .
+3224#@#geometry#@#A regular pyramid [M:L:N] feet high stands on a square base each side of which is [M:L:N] feet . Find its lateral edge .
+3225#@#geometry#@#The slant height of a regular hexagonal pyramid is [M:L:N] ft . Each side of its base is [M:L:N] ft. What is its lateral area ? Also , what is its total area ?
+3226#@#geometry#@#Each face of a triangular pyramid is an equilateral triangle whose side is [M:L:N] . Find the volume and total surface .
+3227#@#geometry#@#The altitude of a square pyramid is [M:L:N] in . One side of its base is [M:L:N] in . What is its lateral area ? What is its total area ?
+3228#@#geometry#@#Find the altitude of a triangular pyramid whose volume is [M:L:N] cu. in. and whose base is [M:L:N] sq. in .
+3229#@#geometry#@#The slant height of a regular triangular pyramid equals the altitude of the base . The area of the base is [M:L:N:POW] sq. ft . Find the total area of the pyramid .
+3230#@#geometry#@#Find the lateral area of a square pyramid whose altitude is [M:L:N] , and whose base edge is [M:L:N] .
+3231#@#geometry#@#A hexagonal pyramid is [M:L:N] feet on each edge of the base , and altitude [M:L:N] feet : what is the volume ?
+3232#@#geometry#@#Find the volume of the pyramid , given the altitude ( [M:VAR] ) and the area of the base ( [M:VAR] ), as follows : [M:EQ] in. , [M:EQ] sq. in .
+3233#@#geometry#@#Each side of the base of a triangular pyramid is [M:L:N] feet and altitude [M:L:N] feet : what is the volume ?
+3234#@#geometry#@#The sides of a trapezoid are [M:L:N:D] feet , [M:L:N] feet , [M:L:N:D] feet , and [M:L:N] feet ; find the altitude of the trapezoid .
+3235#@#geometry#@#Find the side of a square equivalent ( in area ) to a trapezoid whose altitude is [M:L:N] in. and whose median is [M:L:N] in .
+3236#@#geometry#@#Find the area of an isosceles trapezoid in which the bases are [M:L:N] ft. and [M:L:N] ft. , and a leg is [M:L:N] ft .
+3237#@#geometry#@#Find the area of a trapezoid , of which the parallel sides are [M:L:N] feet [M:L:N] inches and [M:L:N] feet [M:L:N] inches , and the distance between them [M:L:N] feet [M:L:N] inches .
+3238#@#geometry#@#The two parallel sides of a trapezoid are [M:L:N] m and [M:L:N] m ; the non -parallel sides are [M:L:N] m and [M:L:N] m . Find the area of the trapezoid .
+3239#@#geometry#@#Find the area of a trapezoid whose bases are [M:L:N] feet and [M:L:N] feet , and whose other sides are [M:L:N] feet and [M:L:N] feet .
+3240#@#geometry#@#The bases of a trapezoid are [M:L:N] m and [M:L:N] m ; the non -parallel sides are [M:L:N] m each ; find the area of the trapezoid .
+3241#@#geometry#@#In a trapezoid whose altitude is [M:L:N] feet and whose bases are [M:L:N] feet and [M:L:N] feet , what is the length of a line parallel to the bases and [M:L:F:M] feet from the smaller base .
+3242#@#geometry#@#Find the area of the trapezoid whose bases are [M:L:N] in. and [M:L:N] in. respectively and whose altitude is [M:L:N] in .
+3243#@#geometry#@#The area of a trapezoid is [M:L:N] sq. ft. , one base is [M:L:N] ft. , and the altitude is [M:L:N] ft . Find the other base .
+3244#@#geometry#@#The bases of an isosceles trapezoid are [M:L:N] and [M:L:N] , and a leg is [M:L:N] . Compute the altitude .
+3245#@#geometry#@#The parallel sides of a trapezoid are [M:L:N] and [M:L:N] feet respectively , and the perpendicular distance between them is [M:L:N] ft. ; find the area .
+3246#@#geometry#@#What is the area of a trapezoid the parallel sides of which are [M:L:N:D] and [M:L:N:D] , and the altitude [M:L:N] ?
+3247#@#geometry#@#Find the area of a trapezoid , of which the parallel sides are [M:L:F:M] feet and [M:L:F:M] feet , and the distance between them [M:L:F:M] feet .
+3248#@#geometry#@#The bases of a trapezoid are [M:L:N] ft. and [M:L:N] ft. , and the altitude is [M:L:N] ft . Compute the area .
+3249#@#geometry#@#Find the area of a trapezoid , the parallel sides being [M:L:N] and [M:L:N] yards , the distance between them [M:L:N] yards .
+3250#@#geometry#@#The area of a trapezoid is [M:L:N] acres , and the sum of its bases is [M:L:N] yards ; find its altitude .
+3251#@#geometry#@#One base of a trapezoid is [M:L:N] cm , the line joining the middle points of the non -parallel sides [M:L:N:D] m , find the length of the other base .
+3252#@#geometry#@#The perimeter of a trapezoid is [M:L:N] inches . If each of the non -parallel sides is [M:L:N] inches long , and the area is [M:L:N] square inches , what are the respective lengths of the parallel sides ?
+3253#@#geometry#@#The bases of a trapezoid are [M:L:N] feet and [M:L:N] feet respectively ; each leg is [M:L:N] feet . Find the area of the trapezoid .
+3254#@#geometry#@#The bases of a trapezoid are [M:L:N] and [M:L:N] inches , and its altitude is [M:L:N] inches . Find its area .
+3255#@#geometry#@#Find the side of a square equivalent ( in area ) to a trapezoid whose bases are [M:L:N] feet and [M:L:N] feet , and each leg is [M:L:N] feet .
+3256#@#geometry#@#The line joining the middle points of the non -parallel sides of a trapezoid is [M:L:N] feet [M:L:N] inches , and one of the bases is [M:L:F:M] times as long as the other ; find the length of the bases .
+3257#@#geometry#@#Find the area of a trapezoid whose parallel sides are [M:L:N] m and [M:L:N] m , and whose non -parallel sides are [M:L:N] m and [M:L:N] m .
+3258#@#geometry#@#The bases of a trapezoid are [M:L:N] feet and [M:L:N] feet , and the altitude is [M:L:N] feet . Find the base of the equivalent ( in area ) rectangle that has an equal altitude .
+3259#@#geometry#@#Find the area of a trapezoid , of which the parallel sides are [M:L:N] and [M:L:N] feet , and the perpendicular between them [M:L:N] feet .
+3260#@#geometry#@#The area of a trapezoid is [M:L:N] sq. yd. , and the bases are [M:L:N] yd. and [M:L:N] yd . Compute the altitude .
+3261#@#geometry#@#Find the area of a trapezoid in which the bases are [M:L:N] ft . and [M:L:N] ft ., the legs [M:L:N] ft . and [M:L:N] ft .
+3262#@#geometry#@#Find the area of a trapezoid whose median is [M:L:N] in. and whose altitude is [M:L:N] in .
+3263#@#geometry#@#One base of a trapezoid is [M:L:N:D] m , the line joining the middle points of the non -parallel sides is [M:L:F:M] times the other base ; find the other base .
+3264#@#geometry#@#Find the equation of the straight line which passes through the point [M:L:COORD] and is perpendicular to [M:EQ] .
+3265#@#geometry#@#Find the equation of the straight line which passes through the point [M:L:COORD] and is parallel to [M:EQ] .
+3266#@#geometry#@#A line passes through the point [M:L:COORD] and is parallel to the line through the two points [M:L:COORD] and [M:L:COORD] ; find its equation .
+3267#@#geometry#@#Find the equation of the line passing through the point [M:L:COORD] which is perpendicular to the line [M:EQ] .
+3268#@#geometry#@#Find the equation of the line that passes through [M:L:COORD] and is parallel to [M:EQ] .
+3269#@#geometry#@#Find the equation of the straight line through the point [M:L:COORD] and parallel to the line [M:EQ] .
+3271#@#geometry#@#Find the line through the point [M:L:COORD] and perpendicular to the line [M:EQ] .
+3272#@#geometry#@#Find the equation of the line through the point [M:L:COORD] and perpendicular to the line [M:EQ] .
+3275#@#geometry#@#Find the equation of the line passing through the point [M:L:COORD] which is parallel to the line [M:EQ] .
+3276#@#geometry#@#Find the line from [M:L:COORD] and perpendicular to [M:EQ] .
+3278#@#geometry#@#Find the equation of the straight line through the point [M:L:COORD] and perpendicular to [M:EQ] .
+3279#@#geometry#@#Find the equation of the line through [M:L:COORD] and parallel to [M:EQ] .
+3280#@#geometry#@#Find the equation of the line through [M:L:COORD] , parallel to the line joining [M:L:COORD] and [M:L:COORD] .
+3282#@#geometry#@#Find the line through [M:L:COORD] and parallel to the line joining the points [M:L:COORD] and [M:L:COORD] .
+3283#@#geometry#@#Find the equation of the line through [M:L:COORD] , and perpendicular to the line joining [M:L:COORD] and [M:L:COORD] .
+3284#@#geometry#@#A line passes through [M:L:COORD] and is perpendicular to [M:EQ] . Find its equation .
+3285#@#geometry#@#Find the equation of the line that passes through [M:L:COORD] and is perpendicular to [M:EQ] .
+3286#@#geometry#@#Find the line through [M:L:COORD] and perpendicular to [M:EQ] .
+3287#@#geometry#@#Find the line through [M:L:COORD] and parallel to [M:EQ] .
+3288#@#geometry#@#Find the equation of the line passing through the point [M:L:COORD] which has the same slope as the line [M:EQ] .
+3289#@#geometry#@#Find the equation of the line through the point [M:L:COORD] perpendicular to the line [M:EQ] .
+3290#@#geometry#@#What is the volume of a cylinder [M:L:N] feet in length and [M:L:N] feet diameter ?
+3291#@#geometry#@#The lateral area of a cylinder of revolution is [M:EX] . The area of the base is [M:EX] . Find the altitude .
+3292#@#geometry#@#The entire surface of a cylinder of revolution is [M:L:N] sq. ft. and the radius of the base is [M:L:N] ft . Find the altitude .
+3293#@#geometry#@#Find the volume of a right circular cylinder whose altitude is [M:L:N] inches , and the diameter of whose base is [M:L:N] inches .
+3294#@#geometry#@#The altitudes of two similar cylinders of revolution are as [M:L:F] . If the volume of the first is [M:L:N] , find the volume of the second .
+3295#@#geometry#@#Find the total area of a cylinder of revolution whose altitude is [M:L:N] feet , and the diameter of whose base is [M:L:N] inches .
+3296#@#geometry#@#What is the entire surface of a right circular cylinder whose altitude is [M:L:N] inches and radius of the base [M:L:N] inches ?
+3297#@#geometry#@#Find the lateral area and total area of a right circular cylinder whose altitude is [M:L:N] centimeters and the diameter of whose base is [M:L:N] centimeters .
+3298#@#geometry#@#A right circular cylinder has the radius of its base equal to [M:L:N] in . How great must its altitude be in order that it shall have a lateral area of [M:L:N] sq. in. ?
+3299#@#geometry#@#What is the lateral area of a cylinder whose element is [M:L:N] inches and the perimeter of whose right section is [M:L:N] inches ?
+3300#@#geometry#@#Find the total surface area of a right circular cylinder of radius [M:L:N] and altitude [M:L:N] .
+3301#@#geometry#@#Find the volume , the lateral area , and the total area of a right circular cylinder the diameter of whose base is [M:L:N] inches , and whose altitude is [M:L:N] inches .
+3302#@#geometry#@#The base of a right circular cylinder has a radius of [M:L:N] cm . and an altitude of [M:L:N] cm . Find its total surface area and its volume .
+3303#@#geometry#@#The lateral area of a right circular cylinder is [M:L:N] square feet , and its volume is [M:L:N] cubic feet . Find the diameter and circumference of its base , and its altitude .
+3304#@#geometry#@#Find the volume of a circular cylinder if the radius of a right section is [M:L:N] and the length of an element is [M:L:N] .
+3305#@#geometry#@#The volume of a right circular cylinder is [M:EX] cubic inches and its altitude is equal to its diameter . Find the altitude .
+3306#@#geometry#@#What is the altitude of a right circular cylinder if its lateral area equals the sum of its bases ? ( Take the radius of the cylinder to be [M:VAR] . )
+3307#@#geometry#@#Two right circular cylinders are of equal height while the circumference of one is double the circumference of the other . What is the ratio of their lateral areas ? Also of their volumes ?
+3308#@#geometry#@#The lateral area of a cylinder of revolution is [M:L:N] sq. ft. , and its radius [M:L:N] ft . Find the lateral area of a similar cylinder whose radius is [M:L:N] ft .
+3309#@#geometry#@#The volumes of two similar cylinders of revolution are as [M:L:F] . Find the ratio of their lateral areas .
+3310#@#geometry#@#What is the volume of a cylinder whose edge is [M:L:N] inches , and the area of whose right section is [M:L:N] square inches ?
+3311#@#geometry#@#Find the lateral area of a cylinder if the perimeter of the base is [M:L:N] and the altitude is [M:L:N] .
+3312#@#geometry#@#What is the volume of a cylinder whose altitude is [M:L:N] inches and the area of whose base is [M:L:N] square inches ?
+3313#@#geometry#@#Find the lateral area of a cylinder if the perimeter of a right section is [M:L:N] and the length of an element is [M:L:N] .
+3314#@#geometry#@#What is the volume of a cylinder , the diameter of the base being [M:L:N] inches and length [M:L:N] inches ?
+3315#@#geometry#@#The lateral area of a cylinder of revolution is [M:L:N] sq. yd. , and the altitude is [M:L:N] ft . Find the radius of the base in terms of feet .
+3316#@#geometry#@#Find the volume of a right circular cylinder with radius [M:L:N] and altitude [M:L:N] .
+3317#@#geometry#@#Find the volume of an oblique cylinder whose base is a circle of radius [M:L:N] and whose altitude is [M:L:N] .
+3318#@#geometry#@#Compute the area of the surface of a sphere whose volume is one cubic yard .
+3319#@#geometry#@#What is the volume of a sphere [M:L:N] inches in diameter ?
+3320#@#geometry#@#Compute the area of the surface of a sphere whose circumference is [M:L:N:D] feet .
+3321#@#geometry#@#Find the surface area of a sphere with a radius of [M:L:N] .
+3322#@#geometry#@#Compute the area of the surface of a sphere whose radius is [M:L:N] in .
+3323#@#geometry#@#Compute the volume of a sphere whose surface is [M:L:N] square feet .
+3324#@#geometry#@#What is the area of a sphere , the radius of which is [M:L:N] feet [M:L:N] inches ?
+3325#@#geometry#@#Find the radius of a sphere equivalent ( in volume ) to two spheres whose radii are [M:L:N] inches and [M:L:N] inches .
+3326#@#geometry#@#Find the diameter of a sphere whose surface and volume are numerically equal .
+3327#@#geometry#@#Find the area of a sphere with a radius of [M:L:N] .
+3328#@#geometry#@#Compute the volume of a sphere whose circumference is [M:L:N] feet .
+3329#@#geometry#@#Compute the radius of a sphere whose volume is one cubic foot .
+3330#@#geometry#@#Compute the area of the surface of a sphere whose diameter is [M:L:N] in .
+3331#@#geometry#@#The radii of two spheres are [M:L:N] and [M:L:N] . What is the ratio of their volumes ?
+3332#@#geometry#@#The volumes of two spheres are [M:L:N] and [M:L:N] . What is the ratio of their radii ?
+3333#@#geometry#@#Find the diameter of a sphere whose circumference and volume are numerically equal .
+3334#@#geometry#@#Find the diameter of a sphere whose circumference and surface are numerically equal .
+3335#@#geometry#@#Compute the volume of a sphere whose radius is [M:L:N] in .
+3336#@#geometry#@#Compute the area of the surface of a sphere whose radius is [M:EX] .
+3337#@#geometry#@#Compute the radius of a sphere whose circumference is [M:L:N] in .
+3338#@#geometry#@#What is the area of a hemisphere , [M:L:N] inches in diameter ?
+3339#@#geometry#@#Compute the radius of a sphere whose surface is one square yard .
+3340#@#geometry#@#The surface area of a sphere is [M:L:N] ; find its radius .
+3341#@#geometry#@#What is the volume of a sphere , the diameter of which is [M:L:N] inches ?
+3342#@#geometry#@#Find approximately the radius of a sphere whose volume is [M:L:N] cu. in .
+3343#@#geometry#@#Compute the radius of a sphere if the area of a great circle is [M:L:N:D] square feet .
+3344#@#geometry#@#Compute the volume of a sphere whose diameter is [M:L:N] in .
+3345#@#geometry#@#If the area of a circle be [M:L:N] inches , what will be the area of a sphere of equal diameter ?
+3346#@#geometry#@#If the perimeter of a rectangle is [M:L:N] feet , and the length is equal to twice the width , find the area .
+3347#@#geometry#@#Find the area of a rectangle whose base and altitude are [M:L:N] feet and [M:L:N] feet .
+3348#@#geometry#@#Find the side of a square equivalent to a parallelogram whose base is [M:L:N] , and whose altitude is [M:L:N] .
+3349#@#geometry#@#Find the side of a square equivalent ( in area ) to the difference of two squares whose sides are [M:L:N] m and [M:L:N] m .
+3350#@#geometry#@#Find the difference in perimeter between a rectangle whose base is [M:L:N] feet and an equivalent ( in area ) square whose side is [M:L:N] feet .
+3351#@#geometry#@#The side of a square is [M:L:N] feet ; find the sides of an equivalent ( in area ) rectangle whose base is [M:L:N] times its altitude .
+3352#@#geometry#@#Find the area of a rhombus in which the diagonals are [M:L:N] and [M:L:N] .
+3353#@#geometry#@#Find the dimensions of a rectangle whose area is [M:L:N] sq. in. , and whose base and altitude are as [M:L:F] .
+3354#@#geometry#@#The sum of the diagonals of a rhombus is [M:L:N] , and their ratio [M:L:F] . Find the area .
+3355#@#geometry#@#Find the side of a square equivalent in area to a rectangle whose base is [M:L:N] feet [M:L:N] inches and whose altitude is [M:L:N] inches .
+3356#@#geometry#@#Two rectangles have the same altitude , and the area of the first is [M:L:N] acres and the area of the second [M:L:N] acres . If the base of the first is [M:L:N] rods , what is the base of the second ?
+3357#@#geometry#@#A rectangle which is [M:L:N] times as long as it is wide contains [M:L:N] square rods ; find its width .
+3358#@#geometry#@#The perimeter of a rectangle is [M:L:N] feet , and the length is [M:L:N] times the breadth ; find the length , the breadth , and the area of the rectangle .
+3359#@#geometry#@#Find the side of a square whose area is [M:L:N] square yards [M:L:N] square feet .
+3360#@#geometry#@#Find the side of a square which contains [M:L:N] sq. yd. and [M:L:N] sq. ft .
+3361#@#geometry#@#The area of a parallelogram is [M:L:N] sq. in. and the base is [M:L:N] in . Find the altitude .
+3362#@#geometry#@#Find the area of a square whose perimeter is [M:L:N] ft .
+3363#@#geometry#@#What is the area of a parallelogram whose base and altitude are [M:L:N] m and [M:L:N] m ?
+3364#@#geometry#@#The area of a rectangle is [M:L:N] sq. in. , and its altitude is [M:L:N] in . Compute the base .
+3365#@#geometry#@#Find the difference in area between a rectangle [M:L:N] times as long as wide , with a perimeter of [M:L:N] yards and a square whose perimeter is [M:L:N] yards .
+3366#@#geometry#@#Compute the side of a square whose area is equal to the difference of the areas of two squares whose sides are [M:L:N] and [M:L:N] .
+3367#@#geometry#@#The area of a rhombus is [M:L:N] sq. in. , and one diagonal is [M:L:N] in . Find the other diagonal .
+3368#@#geometry#@#Compute the side of a square whose area is equal to the areas of two squares whose sides are [M:L:N] in. and [M:L:N] in .
+3369#@#geometry#@#If the perimeter of a rectangle is [M:L:N] m and its length is [M:L:N:D] m more than its breadth , find its length , breadth , and area .
+3370#@#geometry#@#Compute the side of a square equivalent ( in area ) to the sum of the squares whose sides are : [M:L:N] , [M:L:N] , [M:L:N] , [M:L:N] .
+3371#@#geometry#@#Find the area of a rhombus in which the perimeter is [M:L:N] ft. and the altitude [M:L:N] ft .
+3372#@#geometry#@#Find the side of a square equivalent ( in area ) to a rectangle whose dimensions are [M:L:N] and [M:L:N] .
+3373#@#geometry#@#The base of a rectangle is [M:L:N] in. and its altitude is [M:L:N] in . Compute its area .
+3374#@#geometry#@#The perimeter of a rectangle is [M:L:N] m , and the length is [M:L:N:D] m ; find the breadth and area of the rectangle .
+3375#@#geometry#@#What is the equation of a circle , if it passes through the three points [M:L:COORD] , [M:L:COORD] , [M:L:COORD] ?
+3376#@#geometry#@#Find a tangent to the circle [M:EQ] and perpendicular to the line [M:EQ] .
+3377#@#geometry#@#Find the equation of the circle through the points : [M:L:COORD] , [M:VAR:COORD] , and [M:VAR:COORD] .
+3378#@#geometry#@#Find the equation of the circle through the points [M:L:COORD] , [M:L:COORD] , [M:L:COORD] .
+3379#@#geometry#@#Find the equation of the circle through the points : [M:L:COORD] , [M:L:COORD] , and [M:L:COORD] .
+3380#@#geometry#@#Find the equation of the circle through [M:L:COORD] and [M:L:COORD] and having a radius [M:L:N] .
+3381#@#geometry#@#Find the equation of the tangent to the circle [M:EQ] at the point [M:L:COORD] .
+3382#@#geometry#@#Find a tangent to the circle [M:EQ] and parallel to [M:EQ] .
+3383#@#geometry#@#What is the equation of a circle , if its center is at the point [M:L:COORD] , and it is tangent to the line [M:EQ] ?
+3384#@#geometry#@#What is the equation of a circle , if it passes through the points [M:L:COORD] and [M:L:COORD] and has its center on the line [M:EQ] ?
+3385#@#geometry#@#For what value ( s ) of [M:VAR] will the line [M:EQ] touch the circle [M:EQ] ?
+3386#@#geometry#@#What is the equation of a circle , if it passes through the points [M:L:COORD] and [M:L:COORD] and [M:EQ] ?
+3387#@#geometry#@#Find a tangent to the circle [M:EQ] and parallel to the line [M:EQ] .
+3388#@#geometry#@#Find the circle through [M:L:COORD] , [M:L:COORD] , and [M:L:COORD] .
+3389#@#geometry#@#What is the equation of a circle , if it circumscribes the triangle , the equations of whose sides are [M:EQ] , [M:EQ], [M:EQ] .
+3390#@#geometry#@#What is the equation of a circle , if it has the line joining the points [M:L:COORD] and [M:L:COORD] as a diameter ?
+3391#@#geometry#@#Find the equation of the circle passing through the points [M:EQ:COORD] and [M:EQ:COORD] which has its center on the line [M:EQ] .
+3392#@#geometry#@#Find the circle which touches both axes and passes through the point [M:L:COORD] .
+3393#@#geometry#@#Find the circle which touches both axes at a distance of [M:L:N] from the origin .
+3394#@#geometry#@#Find the equation of the circle which has the line joining the points [M:L:COORD] and [M:L:COORD] for a diameter .
+3395#@#geometry#@#Find the equation of the circle whose center is on the line [M:EQ] and which touches the lines [M:EQ] , [M:EQ] .
+3396#@#geometry#@#What is the equation of a circle , if its radius is [M:L:N] , and it is tangent to the line [M:EQ] at the point [M:L:COORD] ?
+3397#@#geometry#@#Find the equation of the tangent from the origin to the circle [M:EQ] .
+3398#@#geometry#@#Find the tangent at [M:L:COORD] to the circle [M:EQ] .
+3399#@#geometry#@#Find equations of tangent and normal to [M:EQ] at the point [M:L:COORD] .
+3400#@#geometry#@#Find the equation of the circle which touches each axis , and passes through the point [M:L:COORD] .
+3401#@#geometry#@#Find the equation of the following ellipse which has its center at [M:L:COORD] , major axis along the [M:VAR] -axis : equation of a directrix is [M:EQ] , [M:EQ] .
+3402#@#geometry#@#Find the equation of the following ellipse : given the center at the point [M:L:COORD] , the origin at a vertex , and [M:L:COORD] a point on the curve .
+3403#@#geometry#@#An ellipse with semi -minor axis equal to [M:L:N] and passing through the point [M:L:COORD] has its center at the origin and its major axis on the [M:VAR] -axis. Find the equation of the ellipse .
+3404#@#geometry#@#Find the equation of an ellipse whose axes are the coordinate axes and whose foci are the points [M:L:COORD] , [M:L:COORD] and eccentricity [M:L:F] .
+3407#@#geometry#@#Find the equation of an ellipse whose axes are the coordinate axes and whose major axis is [M:L:N] , and which passes through the point [M:L:COORD] .
+3408#@#geometry#@#Find the equation of the following ellipse which has its center at [M:L:COORD] , major axis along the [M:VAR] -axis : major axis [M:EQ] , [M:L:COORD] is a point on the curve .
+3409#@#geometry#@#Find the equation of the following ellipse : given the circumscribing rectangle , whose sides are the lines [M:EQ] , [M:EQ] , [M:EQ] , [M:EQ] ; the axes of the curve being parallel to the coordinate axes
+3410#@#geometry#@#Find the equation of the following ellipse : given the focus at the origin , the equation of the directrix [M:EQ] , and the eccentricity [M:L:F] .
+3412#@#geometry#@#Find the equation of the following ellipse which has its center at [M:L:COORD] , major axis along the [M:VAR] -axis : distance between the foci [M:EQ] , [M:EQ] .
+3413#@#geometry#@#Find the equation of the ellipse having its center at the origin and its foci on the [M:VAR] -axis, if [M:EQ] and [M:EQ] .
+3414#@#geometry#@#Find the equation of the following ellipse which has its center at [M:L:COORD] , major axis along the [M:VAR] -axis: semi -major axis [M:EQ] , [M:EQ] .
+3415#@#geometry#@#Find the equation of an ellipse whose axes are the coordinate axes and whose latus rectum is [M:L:N] , and eccentricity [M:L:F] .
+3416#@#geometry#@#Find the equation of the following ellipse : given the center at the origin , and the semi -axes [M:L:N:POW] , [M:L:N:POW] .
+3417#@#geometry#@#Find the equation of the following ellipse : given the focus at the point [M:L:COORD] , the equation of the directrix [M:EQ] , and the eccentricity [M:L:F] .
+3418#@#geometry#@#Find the equation of an ellipse whose axes are the coordinate axes and which passes through the two points [M:L:COORD] and [M:L:COORD] .
+3420#@#geometry#@#Find the equation of the following ellipse which has its center at [M:L:COORD] , major axis along the [M:VAR] -axis : minor axis [M:EQ] , a focus at [M:L:COORD] .
+3421#@#geometry#@#Find the equation of the following ellipse : given the center at the point [M:L:COORD] , the semi -axes [M:L:N] and [M:L:N] , and the major axis parallel to the [M:VAR] -axis.
+3422#@#geometry#@#Find the equation of the following ellipse which has its center at [M:L:COORD] , major axis along the [M:VAR] -axis : latus rectum [M:EQ] , [M:EQ] .
+3423#@#geometry#@#Find the equation of the ellipse whose center is the origin and whose foci are on the [M:VAR] -axis if [M:EQ] , [M:EQ] .
+3424#@#geometry#@#Find the equation of the following ellipse which has its center at [M:L:COORD] , major axis along the [M:VAR] -axis : minor axis [M:EQ] , [M:L:COORD] is a point on the curve .
+3425#@#geometry#@#Find the equation of the following ellipse which has its center at [M:L:COORD] , major axis along the [M:VAR] -axis : a focus at [M:L:COORD] , the equation of the corresponding directrix [M:EQ] .
+3426#@#geometry#@#Find the equation of the ellipse whose center is the origin and whose foci are on the [M:VAR] -axis if [M:EQ] , distance from center of focus [M:EQ] .
+3427#@#geometry#@#Find the equation of the following ellipse which has its center at [M:L:COORD] , major axis along the [M:VAR] -axis : latus rectum [M:EQ] , one vertex [M:L:COORD] .
+3428#@#geometry#@#Find the equation of an ellipse whose axes are the coordinate axes and whose latus rectum is [M:L:N] , and the major axis [M:L:N] .
+3429#@#geometry#@#Find the equation of the following ellipse which has its center at [M:L:COORD] , major axis along the [M:VAR] -axis : the two points [M:L:COORD] and [M:L:COORD] are on the curve .
+3430#@#geometry#@#Mars travels around the sun once about every [M:L:N] Earth days . During one Martian year , how many degrees around the sun will the Earth travel ?
+3431#@#geometry#@#The earth turns on its axis once in [M:L:N] hours . How many degrees of longitude correspond to [M:L:N] hour ?
+3433#@#geometry#@#If turning a certain volume dial [M:L:N] increases the volume by [M:L:N] , how far should the dial be turned to increase the volume by [M:L:N] ?
+3434#@#geometry#@#How many degrees are there in the smaller angle formed by the hands of a clock at [M:L:N] o 'clock?
+3435#@#geometry#@#Ordinary scales for weighing small objects are often made with a circular face like a clock face ; the divisions of the scale indicate pounds ; if the entire face represents [M:L:N] pounds , what is the angle between two successive pound marks ? Give your answer in degrees .
+3436#@#geometry#@#If a wheel makes ten revolutions per minute , through how many degrees does it turn in one second ?
+3437#@#geometry#@#If a certain wheel makes eight and a half revolutions in one day , how many degreees will it turn every hour ?
+3438#@#geometry#@#One day on Mars is about [M:L:N] minutes longer than a day on Earth . How many degrees does Earth rotate during one Martian day ?
+3439#@#geometry#@#One year on Earth is equal to [M:L:N:D] days . How far around the sun does the Earth travel in a single day ?
+3440#@#geometry#@#If a star makes a complete circuit of the heavens in [M:L:N] hours [M:L:N] minutes , through what arc will it go between [M:EX] P.M. and [M:EX] A.M. ?
+3441#@#geometry#@#At what rate , in degrees per minute , does the minute -hand of a watch overtake the hour -hand?
+3442#@#geometry#@#Two gears on a bicycle are chained together so that when the larger gear makes two revolutions , the smaller one makes three . If the larger gear is turned [M:L:N] degrees , how far in degrees will the smaller one turn ?
+3443#@#geometry#@#When the hour hand on a [M:L:N] -hour clock has turned [M:L:N] , how many hours have passed ?
+3444#@#geometry#@#At what time between [M:L:N] and [M:L:N] o 'clock is the minute -hand of a watch [M:L:N] ahead of the hour -hand?
+3445#@#geometry#@#How far , in degrees , will the minute hand of a clock travel in [M:L:N] minutes ?
+3446#@#geometry#@#Through how many degrees does the hour hand of a clock turn in one hour ?
+3447#@#geometry#@#Through how many degrees does the minute hand of a clock turn in fifteen minutes ?
+3448#@#geometry#@#By what angle must a man walking north change the direction of his motion in order to walk towards the east ?
+3449#@#geometry#@#A [M:L:N] -hour clock has [M:L:N] hours marked around its edge instead of [M:L:N] . How many minutes after [M:EX] will it take for the minute hand to pass the hour hand ?
+3450#@#geometry#@#A [M:L:N] -hour clock has [M:L:N] hours marked around its edge instead of [M:L:N] . How far does the hour hand on this clock travel over a period of [M:L:N] hours ?
+3451#@#geometry#@#If the north direction on a compass is placed at a bearing of [M:L:N] degrees , what is the bearing , in degrees , of due southwest ?
+3452#@#geometry#@#As the hands of a clock move from [M:EX] pm to [M:EX] pm , how much farther , in degrees , will the minute hand travel than the hour hand ?
+3453#@#geometry#@#If one wheel is rotating through [M:L:N] revolutions per minute , and another through [M:L:N] per second , which is rotating the more rapidly ?
+3454#@#geometry#@#If Wheel [M:VAR] turns at [M:L:N] degrees per minute , and Wheel [M:VAR] turns at [M:L:N] revolutions per hour , which one is rotating faster ?
+3455#@#geometry#@#At what time between [M:L:N] and [M:L:N] o 'clock are the hands of a watch together ?
+3456#@#geometry#@#How many degrees does the minute hand of a clock travel between [M:EX] am and [M:EX] am ?
+3457#@#geometry#@#If a pie is cut into [M:L:N] slices , how many degrees wide is each slice ?
+3458#@#geometry#@#What is the area of a spherical triangle whose angles are [M:L:N] , [M:L:N] , and [M:L:N] , if the radius of the sphere is [M:L:N] m ?
+3459#@#geometry#@#Compute the area of the triangle on a sphere of the given diameter , the angles being as follows : [M:L:N] , [M:L:N] , [M:L:N] , [M:EQ] in .
+3460#@#geometry#@#Compute the area of the triangle on a sphere of the given radius , the angles being as follows : [M:L:N] , [M:L:N] , [M:L:N] , [M:EQ] in .
+3461#@#geometry#@#Compute the area of the triangle on a sphere of the given circumference , the angles being as follows : [M:L:N] , [M:L:N] , [M:L:N] , [M:EQ] in .
+3462#@#geometry#@#What fraction of the surface of a sphere is covered by a spherical triangle whose angles are [M:L:N] , [M:L:N] , and [M:L:N] , respectively ?
+3463#@#geometry#@#Find the area of a spherical triangle whose angles are [M:L:N] , [M:L:N] , [M:L:N] , the radius being [M:L:N] inches .
+3464#@#geometry#@#The area of a sphere is [M:L:N] sq. in. ; the angles of a spherical triangle on this sphere are [M:L:N] , [M:L:N] , and [M:L:N] . What is the area of the triangle ?
+3465#@#geometry#@#What is the area of a spherical triangle , the angles being [M:L:N] , [M:L:N] , and [M:L:N] , and the radius of the sphere being [M:L:N] ?
+3466#@#geometry#@#The angles of a spherical triangle are [M:L:N] , [M:L:N] , [M:L:N] . If the radius of the sphere is [M:L:N] inches , find the area of a triangle symmetrical to the first on the same sphere .
+3467#@#geometry#@#If the surface of a sphere is [M:L:N] sq. ft. , find the area of a spherical triangle whose angles are respectively [M:L:N] , [M:L:N] , and [M:L:N] .
+3468#@#geometry#@#If the angles of a spherical triangle are [M:L:N] , [M:L:N] , and [M:L:N] degrees , respectively , what is its area ?
+3469#@#geometry#@#Find the lateral area of the right prism whose altitude ( [M:VAR] ) and perimeter of base ( [M:VAR] ) are as follows : [M:EQ] in. , [M:EQ] in .
+3470#@#geometry#@#Find the volume and the lateral area of a regular hexagonal prism , if the altitude is [M:L:N] feet , and a side of the hexagon is [M:L:N] foot .
+3471#@#geometry#@#Find the volume of the triangular prism whose base and altitude are as follows : [M:L:N:D] sq. ft. , [M:L:N] ft .
+3472#@#geometry#@#The edge of a cube is [M:L:N] inches . Find its volume and entire surface .
+3473#@#geometry#@#Find the volume of a right prism whose altitude is [M:L:N] inches , and whose base contains [M:L:N] square feet .
+3474#@#geometry#@#The dimensions of a rectangular parallelopiped are [M:L:N] , [M:L:N] , and [M:L:N] . Find its volume and entire surface .
+3475#@#geometry#@#The height of a right triangular prism is [M:L:N] inches , and the base edges are [M:L:N] , [M:L:N] , and [M:L:N] inches . Find the volume and entire surface .
+3476#@#geometry#@#The dimensions of the base of a rectangular parallelopiped are [M:L:N] and [M:L:N] centimeters and the entire surface is [M:L:N] square centimeters . Find the volume .
+3477#@#geometry#@#The lateral edge of a prism is [M:L:N] inches , and the perimeter of its right section is [M:L:N] inches . Find the lateral surface .
+3478#@#geometry#@#A rectangular parallelopiped is [M:L:N] , [M:L:N] , and [M:L:N] centimeters . What is the edge of an equivalent (in volume ) cube ?
+3479#@#geometry#@#The volume of a rectangular parallelopiped is [M:L:N] cubic feet, and the dimensions of its base are [M:L:N] and [M:L:N] feet . Find the altitude .
+3480#@#geometry#@#The altitude of a parallelepiped is [M:L:N] in. , and a diagonal of the base divides the base into two equilateral triangles , each side of which is [M:L:N] in . Find the volume of the parallelepiped .
+3481#@#geometry#@#The volume of a rectangular parallelopiped is [M:L:N] cubic centimeters , the entire surface [M:L:N] square centimeters , and the altitude is [M:L:N] centimeters . Find the dimensions of the base .
+3482#@#geometry#@#Find the volume of a cube whose entire surface is [M:L:N] square inches .
+3483#@#geometry#@#Find the lateral surface of a regular triangular prism , each side of whose base is [M:L:N] centimeters , and whose altitude is [M:L:N] centimeters .
+3484#@#geometry#@#The altitude of a prism is [M:L:N] in. and its base is a square each side of which is [M:L:N] in . Find its volume .
+3485#@#geometry#@#Find the edge of a cube whose volume is equal to the volume of a rectangular parallelopiped whose edges are [M:L:N] , [M:L:N] , and [M:L:N] inches .
+3486#@#geometry#@#Find the altitude of a regular triangular prism , with each edge of its base [M:L:N] in. long , and whose lateral area is [M:L:N] sq. in .
+3487#@#geometry#@#The volume of a rectangular parallelepiped is [M:L:N] cu. in. and its edges are in the ratio of [M:L:N] , [M:L:N] , and [M:L:N] . Find its edges .
+3488#@#geometry#@#Find the volume of the triangular prism whose base and altitude are as follows : [M:L:N] sq. in. , [M:L:N] in .
+3489#@#geometry#@#What is the volume of a triangular prism , each side of the base being [M:L:N] inches and length [M:L:N] inches ?
+3490#@#geometry#@#What is the entire surface of a regular hexagonal prism , each side of the base being [M:L:N] centimeters and the altitude [M:L:N] centimeters .
+3491#@#geometry#@#What is the volume of a triangular prism , each side of the base being [M:L:N] inches and length [M:L:N] feet ?
+3492#@#geometry#@#Two rectangular parallelepipeds with equal altitudes have bases containing [M:L:N] sq. in. and [M:L:N] sq. in. , respectively . The volume of the first is [M:L:N] cu. ft . Find the volume of the second .
+3493#@#geometry#@#Find the entire surface of a right triangular prism the sides of whose base are [M:L:N] , [M:L:N] , and [M:L:N] inches and altitude [M:L:N] inches .
+3494#@#geometry#@#The base of a right prism is a rhombus of which one side is [M:L:N] in. , and the shorter diagonal [M:L:N] in . The height of the prism is [M:L:N] in . Find the entire surface and volume .
+3495#@#geometry#@#Find the edge of a cube whose entire surface is one square yard and fifty -four square inches .
