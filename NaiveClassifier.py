@@ -3,7 +3,6 @@
 import sys, re
 import pickle, glob
 import math, numpy
-#from nltk.tokenize import word_tokenize
 from random import shuffle
 from nltk.util import ngrams
 from Utils import Utils as Util
@@ -68,6 +67,8 @@ class NaiveClassifier:
 	# split data into training and test sets
 	def split_sets(self, pct, load_pkl):
 		if not load_pkl:
+			sys.stderr.write('Shuffling problem sets.\n')
+
 			shuffle(self.alg_problems)
 			shuffle(self.arith_problems)
 			shuffle(self.geo_problems)
@@ -84,7 +85,7 @@ class NaiveClassifier:
 		alg_fold_end = int((self.fold+1)*(self.alg_count*(1-pct))+1)
 		arith_fold_end = int((self.fold+1)*(self.arith_count*(1-pct))+1)
 		geo_fold_end = int((self.fold+1)*(self.geo_count*(1-pct))+1)
-
+		
 		if self.fold == 0:
 			alg_fold_start = 0
 			arith_fold_start = 0
@@ -155,7 +156,6 @@ class NaiveClassifier:
 		t_count = 0
 
 		for p, c in t_set:
-#			tokens = word_tokenize(p.lower())
 			tokens = self.util.regex_tokenizer(p.lower())
 
 			for w in tokens:
