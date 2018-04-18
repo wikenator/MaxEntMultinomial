@@ -71,8 +71,7 @@ class FeatureBuilder():
 		for i, (p, c) in enumerate(sets):
 			doc = spacy.tokens.doc.Doc(self.nlp.vocab, words=self.mec.util.regex_tokenizer(p.decode('utf8'), True))
 
-			for name, proc in self.nlp.pipeline:
-				doc = proc(doc)
+			for name, proc in self.nlp.pipeline: doc = proc(doc)
 
 			for word in doc:
 				# only interested in dependency relation involving math tokens
