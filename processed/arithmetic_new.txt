@@ -1,6 +1,4 @@
-2325#@#arithmetic#@#Lana picked [M:L:N] tulips and [M:L:N] roses to make flower bouquets . If she only used [M:L:N] of the flowers though , how many extra flowers did Lana pick ? 
 2329#@#arithmetic#@#Rachel bought two coloring books . One had [M:L:N] pictures and the other had [M:L:N] . After one week she had already colored [M:L:N] of the pictures . How many pictures does she still have to color ? 
-2334#@#arithmetic#@#Katie picked [M:L:N] tulips and [M:L:N] roses to make flower bouquets . If she only used [M:L:N] of the flowers though , how many extra flowers did Katie pick ? 
 2337#@#arithmetic#@#Ned was trying to expand his game collection . He bought [M:L:N] games from a friend and bought [M:L:N] more at a garage sale . If [M:L:N] of the games didn't work , how many good games did he end up with ? 
 2339#@#arithmetic#@#At the arcade , Tom won [M:L:N] tickets playing 'whack a mole' and [M:L:N] tickets playing 'skee ball' . If he spent [M:L:N] of his tickets on a hat , how many tickets does Tom have left ? 
 2341#@#arithmetic#@#For the school bake sale Katie made pastries . She baked [M:L:N] cupcakes and [M:L:N] cookies . After the sale she had [M:L:N] to take back home . How many pastries did she sell ? 
@@ -12,7 +10,6 @@
 2377#@#arithmetic#@#Dave had to wash [M:L:N] short sleeve shirts and [M:L:N] long sleeve shirts before school . If he had only washed [M:L:N] of them by the time school started , how many did he not wash ? 
 2378#@#arithmetic#@#While on vacation , Rachel took [M:L:N] pictures at the zoo and [M:L:N] at the museum . If she later deleted [M:L:N] of the pictures , how many pictures from her vacation did she still have ? 
 2379#@#arithmetic#@#Vanessa and her mom were picking carrots from their garden . Vanessa picked [M:L:N] and her mother picked [M:L:N] . If only [M:L:N] of the carrots were good , how many bad carrots did they have ? 
-2381#@#arithmetic#@#Janet picked [M:L:N] tulips and [M:L:N] roses to make flower bouquets . If she only used [M:L:N] of the flowers though , how many extra flowers did Janet pick ? 
 2385#@#arithmetic#@#Edward started his own lawn mowing business . In the spring he made [M:L:N] dollars mowing lawns and in the summer he made [M:L:N] dollars . If he had to spend [M:L:N] dollars buying supplies , how much money did he end up with ? 
 2399#@#arithmetic#@#Vanessa had [M:L:N] music files and [M:L:N] video files on her flash drive . If she deleted [M:L:N] of the files , how many files were still on her flash drive ? 
 2402#@#arithmetic#@#Bianca picked [M:L:N] tulips and [M:L:N] roses to make flower bouquets . If she only used [M:L:N] of the flowers though , how many extra flowers did Bianca pick ? 
@@ -23,9 +20,7 @@
 2418#@#arithmetic#@#The school cafeteria ordered [M:L:N] red apples and [M:L:N] green apples for students lunches . But , if only [M:L:N] students wanted fruit , how many extra did the cafeteria end up with ? 
 2422#@#arithmetic#@#For Halloween Faye scored [M:L:N] pieces of candy . She ate [M:L:N] pieces the first night and then her sister gave her [M:L:N] more pieces . How many pieces of candy does Faye have now ? 
 2424#@#arithmetic#@#In fourth grade there were [M:L:N] students at the start of the year . During the year [M:L:N] students left and [M:L:N] new students came to school . How many students were in fourth grade at the end ? 
-2425#@#arithmetic#@#Oliver had [M:L:N] dollars in January . By March he had spent [M:L:N] dollars . If he got another [M:L:N] dollars from his mom , how much money would he have ? 
 2430#@#arithmetic#@#At the fair there were [M:L:N] people in line for the bumper cars . If [M:L:N] of them got tired of waiting and left and [M:L:N] more got in line , how many people would be in line ? 
-2433#@#arithmetic#@#Maria picked [M:L:N] carrots from her garden . If she threw out [M:L:N] of them and then picked [M:L:N] more the next day , how many carrots would she have total ? 
 2434#@#arithmetic#@#A store had [M:L:N] oranges in a bin . If they threw away [M:L:N] of the old ones and put [M:L:N] new ones in the bin how many would be in the bin ? 
 2438#@#arithmetic#@#Adam had [M:L:N] dollars . At the store he spent [M:L:N] on a new game . If he got another [M:L:N] dollars for his allowance , how much money does he have now ? 
 2448#@#arithmetic#@#A book store had [M:L:N] books in the bargin bin . If they sold [M:L:N] books , but then put [M:L:N] more in the bin , how many books would be in the bin ? 
@@ -34,16 +29,11 @@
 2458#@#arithmetic#@#George had [M:L:N] socks . If he threw away [M:L:N] old ones that didn't fit and bought [M:L:N] new ones , how many socks would he have ? 
 2459#@#arithmetic#@#For Halloween Robin scored [M:L:N] pieces of candy . She ate [M:L:N] pieces the first night and then her sister gave her [M:L:N] more pieces . How many pieces of candy does Robin have now ? 
 2461#@#arithmetic#@#A florist had [M:L:N] roses . If she sold [M:L:N] of them and then later picked [M:L:N] more , how many roses would she have ? 
-2470#@#arithmetic#@#Chloe picked [M:L:N] carrots from her garden . If she threw out [M:L:N] of them and then picked [M:L:N] more the next day , how many carrots would she have total ? 
 2471#@#arithmetic#@#Sam had [M:L:N] socks . If he threw away [M:L:N] old ones that didn't fit and bought [M:L:N] new ones , how many socks would he have ? 
 2472#@#arithmetic#@#Maria had [M:L:N] bottles of water in her fridge . If she drank [M:L:N] of them and then bought [M:L:N] more , how many bottles would she have ? 
 2473#@#arithmetic#@#A teacher had [M:L:N] worksheets to grade . If she graded [M:L:N] , but then another [M:L:N] were turned in , how many worksheets would she have to grade ? 
-2480#@#arithmetic#@#Megan picked [M:L:N] carrots from her garden . If she threw out [M:L:N] of them and then picked [M:L:N] more the next day , how many carrots would she have total ? 
-2481#@#arithmetic#@#Roger had [M:L:N] dollars in January . By March he had spent [M:L:N] dollars . If he got another [M:L:N] dollars from his mom , how much money would he have ? 
 2483#@#arithmetic#@#Janet was playing a video game and had [M:L:N] lives . In a hard part of the game she lost [M:L:N] lives . If she got [M:L:N] more lives in the next level , how many lives would she have ? 
-2484#@#arithmetic#@#Nancy picked [M:L:N] carrots from her garden . If she threw out [M:L:N] of them and then picked [M:L:N] more the next day , how many carrots would she have total ? 
 2487#@#arithmetic#@#John had [M:L:N] socks . If he threw away [M:L:N] old ones that didn't fit and bought [M:L:N] new ones , how many socks would he have ? 
-2491#@#arithmetic#@#Bianca picked [M:L:N] carrots from her garden . If she threw out [M:L:N] of them and then picked [M:L:N] more the next day , how many carrots would she have total ? 
 2492#@#arithmetic#@#Zoe had [M:L:N] bottles of water in her fridge . If she drank [M:L:N] of them and then bought [M:L:N] more , how many bottles would she have ? 
 2495#@#arithmetic#@#Adam had [M:L:N] books . If he sold [M:L:N] of them and used the money he earned to buy [M:L:N] new books , how many books would Adam have ? 
 2501#@#arithmetic#@#Luke had [M:L:N] dollars in January . By March he had spent [M:L:N] dollars . If he got another [M:L:N] dollars from his mom , how much money would he have ? 
@@ -54,24 +44,15 @@
 2515#@#arithmetic#@#Haley picked [M:L:N] carrots from her garden . If she threw out [M:L:N] of them and then picked [M:L:N] more the next day , how many carrots would she have total ? 
 2523#@#arithmetic#@#A waiter had [M:L:N] tables he was waiting on , with [M:L:N] women and [M:L:N] men at each table . How many customers total did the waiter have ? 
 2524#@#arithmetic#@#April 's discount flowers was having a sale where each flower was [M:L:N] dollars . If Emily bought [M:L:N] roses and [M:L:N] daisies , how much did she spend ? 
-2525#@#arithmetic#@#Isabel had [M:L:N] pages of math homework and [M:L:N] pages of reading homework . If each page had [M:L:N] problems on it , how many problems did she have to complete total ? 
 2526#@#arithmetic#@#Wendy was playing a video game where she scores [M:L:N] points for each treasure she finds . If she found [M:L:N] treasures on the first level and [M:L:N] on the second , what would her score be ? 
 2534#@#arithmetic#@#At Billy 's Restaurant a group with [M:L:N] adults and [M:L:N] children came in to eat . If each meal cost [M:L:N] dollars , how much was the bill ? 
-2537#@#arithmetic#@#Haley 's favorite band was holding a concert where tickets were [M:L:N] dollars each . Haley bought [M:L:N] tickets for herself and her friends and [M:L:N] extra tickets in case anyone else wanted to go . How much did she spend ? 
 2538#@#arithmetic#@#Luke was putting his spare change into piles . He had [M:L:N] piles of quarters and [M:L:N] piles of dimes . If each pile had [M:L:N] coins in it , how many coins did he have total ? 
-2540#@#arithmetic#@#Katie had [M:L:N] pages of math homework and [M:L:N] pages of reading homework . If each page had [M:L:N] problems on it , how many problems did she have to complete total ? 
 2541#@#arithmetic#@#Faye was playing a video game where she scores [M:L:N] points for each treasure she finds . If she found [M:L:N] treasures on the first level and [M:L:N] on the second , what would her score be ? 
-2544#@#arithmetic#@#Wendy bought [M:L:N] new chairs and [M:L:N] new tables for her house . If she spent [M:L:N] minutes on each piece furniture putting it together , how many minutes did it take her to finish ? 
-2548#@#arithmetic#@#George was working as a sacker at a grocery store where he made [M:L:N] dollars an hour . On Monday he worked [M:L:N] hours and on Tuesday he worked [M:L:N] hours . How much money did George make in those two days ? 
-2553#@#arithmetic#@#Victor was working as a sacker at a grocery store where he made [M:L:N] dollars an hour . On Monday he worked [M:L:N] hours and on Tuesday he worked [M:L:N] hours . How much money did Victor make in those two days ? 
-2555#@#arithmetic#@#Maria bought [M:L:N] new chairs and [M:L:N] new tables for her house . If she spent [M:L:N] minutes on each piece furniture putting it together , how many minutes did it take her to finish ? 
 2556#@#arithmetic#@#Olivia was playing a video game where she scores [M:L:N] points for each treasure she finds . If she found [M:L:N] treasures on the first level and [M:L:N] on the second , what would her score be ? 
 2558#@#arithmetic#@#Faye was selling her necklaces at a garage sale . She sold [M:L:N] bead necklaces and [M:L:N] gem stone necklaces . If each necklace cost [M:L:N] dollars , how much money did she earn ? 
 2561#@#arithmetic#@#Katie was selling her necklaces at a garage sale . She sold [M:L:N] bead necklaces and [M:L:N] gem stone necklaces . If each necklace cost [M:L:N] dollars , how much money did she earn ? 
-2562#@#arithmetic#@#Edward was working as a sacker at a grocery store where he made [M:L:N] dollars an hour . On Monday he worked [M:L:N] hours and on Tuesday he worked [M:L:N] hours . How much money did Edward make in those two days ? 
 2564#@#arithmetic#@#Amy was playing a video game where she scores [M:L:N] points for each treasure she finds . If she found [M:L:N] treasures on the first level and [M:L:N] on the second , what would her score be ? 
 2568#@#arithmetic#@#At Oliver 's Restaurant a group with [M:L:N] adults and [M:L:N] children came in to eat . If each meal cost [M:L:N] dollars , how much was the bill ? 
-2569#@#arithmetic#@#Tiffany had [M:L:N] pages of math homework and [M:L:N] pages of reading homework . If each page had [M:L:N] problems on it , how many problems did she have to complete total ? 
 2575#@#arithmetic#@#Lana 's favorite band was holding a concert where tickets were [M:L:N] dollars each . Lana bought [M:L:N] tickets for herself and her friends and [M:L:N] extra tickets in case anyone else wanted to go . How much did she spend ? 
 2576#@#arithmetic#@#At Tom 's Restaurant a group with [M:L:N] adults and [M:L:N] children came in to eat . If each meal cost [M:L:N] dollars , how much was the bill ? 
 2577#@#arithmetic#@#Gwen was organizing her book case making sure each of the shelves had exactly [M:L:N] books on it . If she had [M:L:N] shelves of mystery books and [M:L:N] shelves of picture books , how many books did she have total ? 
@@ -82,8 +63,6 @@
 2583#@#arithmetic#@#Roger was putting his spare change into piles . He had [M:L:N] piles of quarters and [M:L:N] piles of dimes . If each pile had [M:L:N] coins in it , how many coins did he have total ? 
 2586#@#arithmetic#@#Tiffany was playing a video game where she scores [M:L:N] points for each treasure she finds . If she found [M:L:N] treasures on the first level and [M:L:N] on the second , what would her score be ? 
 2589#@#arithmetic#@#Isabel was selling her necklaces at a garage sale . She sold [M:L:N] bead necklaces and [M:L:N] gem stone necklaces . If each necklace cost [M:L:N] dollars , how much money did she earn ? 
-2592#@#arithmetic#@#Will was working as a sacker at a grocery store where he made [M:L:N] dollars an hour . On Monday he worked [M:L:N] hours and on Tuesday he worked [M:L:N] hours . How much money did Will make in those two days ? 
-2593#@#arithmetic#@#Rachel bought [M:L:N] new chairs and [M:L:N] new tables for her house . If she spent [M:L:N] minutes on each piece furniture putting it together , how many minutes did it take her to finish ? 
 2594#@#arithmetic#@#While playing a trivia game , Adam answered [M:L:N] questions correct in the first half and [M:L:N] questions correct in the second half . If each question was worth [M:L:N] points , what was his final score ? 
 2598#@#arithmetic#@#Billy was putting his spare change into piles . He had [M:L:N] piles of quarters and [M:L:N] piles of dimes . If each pile had [M:L:N] coins in it , how many coins did he have total ? 
 2599#@#arithmetic#@#Chloe was playing a video game where she scores [M:L:N] points for each treasure she finds . If she found [M:L:N] treasures on the first level and [M:L:N] on the second , what would her score be ? 
@@ -97,15 +76,9 @@
 2617#@#arithmetic#@#Emily bought [M:L:N] new chairs and [M:L:N] new tables for her house . If she spent [M:L:N] minutes on each piece furniture putting it together , how many minutes did it take her to finish ? 
 2619#@#arithmetic#@#There were [M:L:N] friends playing a video game online when [M:L:N] more players joined the game . If each player had [M:L:N] lives , how many lives did they have total ? 
 2621#@#arithmetic#@#The school 's debate team had [M:L:N] boys and [M:L:N] girls on it . If they were split into groups of [M:L:N] how many groups could they make ? 
-2627#@#arithmetic#@#For a birthday party Jerry bought [M:L:N] regular sodas and [M:L:N] diet sodas . If his fridge would only hold [M:L:N] on each shelf , how many shelves would he fill up ? 
-2629#@#arithmetic#@#For homework Nancy had [M:L:N] math problems and [M:L:N] spelling problems . If she can finish [M:L:N] problems in an hour how long will it take her to finish all the problems ? 
-2638#@#arithmetic#@#Wendy 's old washing machine could only wash [M:L:N] pieces of clothing at a time . If she had to wash [M:L:N] shirts and [M:L:N] sweaters how many loads would she have to do ? 
-2641#@#arithmetic#@#While playing at the arcade , Frank won [M:L:N] tickets playing 'whack a mole' and [M:L:N] tickets playing 'skee ball' . If he was trying to buy candy that cost [M:L:N] tickets a piece , how many could he buy ? 
 2649#@#arithmetic#@#Nancy 's class is going on a field trip to the zoo . If each van can hold [M:L:N] people and there are [M:L:N] students and [M:L:N] adults going , how many vans will they need ? 
-2651#@#arithmetic#@#For a birthday party George bought [M:L:N] regular sodas and [M:L:N] diet sodas . If his fridge would only hold [M:L:N] on each shelf , how many shelves would he fill up ? 
 2654#@#arithmetic#@#For Halloween Sarah received [M:L:N] pieces of candy from neighbors and [M:L:N] pieces from her older sister . If she only ate [M:L:N] pieces a day , how long would the candy last her ? 
 2657#@#arithmetic#@#A toy store had [M:L:N] giant stuffed bears in stock when they got another shipment with [M:L:N] bears in it . The put the bears onto shelves with [M:L:N] on each shelf . How many shelves did they use ? 
-2659#@#arithmetic#@#While playing at the arcade , Edward won [M:L:N] tickets playing 'whack a mole' and [M:L:N] tickets playing 'skee ball' . If he was trying to buy candy that cost [M:L:N] tickets a piece , how many could he buy ? 
 2660#@#arithmetic#@#Megan 's class is going on a field trip to the zoo . If each van can hold [M:L:N] people and there are [M:L:N] students and [M:L:N] adults going , how many vans will they need ? 
 2663#@#arithmetic#@#Olivia uploaded [M:L:N] pictures from her phone and [M:L:N] from her camera to Facebook . If she sorted the pics into [M:L:N] different albums with the same amount of pics in each album , how many pictures were in each of the albums ? 
 2665#@#arithmetic#@#Jerry was helping the cafeteria workers pick up lunch trays , but he could only carry [M:L:N] trays at a time . If he had to pick up [M:L:N] trays from one table and [M:L:N] trays from another , how many trips will he make ? 
@@ -113,9 +86,7 @@
 2671#@#arithmetic#@#Luke was organizing his baseball cards in a binder with [M:L:N] on each page . If he had [M:L:N] new cards and [M:L:N] old cards to put in the binder , how many pages would he use ? 
 2676#@#arithmetic#@#A vase can hold [M:L:N] flowers . If you had [M:L:N] carnations and [M:L:N] roses , how many vases would you need to hold the flowers ? 
 2677#@#arithmetic#@#Haley and her friends were recycling paper for their class . For every [M:L:N] pounds they recycled they earned one point . If Haley recycled [M:L:N] pounds and her friends recycled [M:L:N] pounds , how many points did they earn ? 
-2682#@#arithmetic#@#For homework Faye had [M:L:N] math problems and [M:L:N] spelling problems . If she can finish [M:L:N] problems in an hour how long will it take her to finish all the problems ? 
 2687#@#arithmetic#@#Paul made [M:L:N] dollars mowing lawns and [M:L:N] dollars weed eating . If he only spent [M:L:N] dollar a week , how long would the money last him ? 
-2691#@#arithmetic#@#For a birthday party Cody bought [M:L:N] regular sodas and [M:L:N] diet sodas . If his fridge would only hold [M:L:N] on each shelf , how many shelves would he fill up ? 
 2692#@#arithmetic#@#Robin 's class is going on a field trip to the zoo . If each van can hold [M:L:N] people and there are [M:L:N] students and [M:L:N] adults going , how many vans will they need ? 
 2694#@#arithmetic#@#There school 's baseball team had [M:L:N] new players and [M:L:N] returning players . If the coach put them into groups with [M:L:N] players in each group , how many groups would there be ? 
 2695#@#arithmetic#@#For homework Amy had [M:L:N] math problems and [M:L:N] spelling problems . If she can finish [M:L:N] problems in an hour how long will it take her to finish all the problems ? 
@@ -123,8 +94,6 @@
 2697#@#arithmetic#@#Sarah 's old washing machine could only wash [M:L:N] pieces of clothing at a time . If she had to wash [M:L:N] shirts and [M:L:N] sweaters how many loads would she have to do ? 
 2699#@#arithmetic#@#While playing at the arcade , Luke won [M:L:N] tickets playing 'whack a mole' and [M:L:N] tickets playing 'skee ball' . If he was trying to buy candy that cost [M:L:N] tickets a piece , how many could he buy ? 
 2700#@#arithmetic#@#A group of [M:L:N] friends went into a restaurant . The chef already had [M:L:N] chicken wings cooked but cooked [M:L:N] more for the group . If they each got the same amount how many would each person get ? 
-2701#@#arithmetic#@#Nancy 's old washing machine could only wash [M:L:N] pieces of clothing at a time . If she had to wash [M:L:N] shirts and [M:L:N] sweaters how many loads would she have to do ? 
-2704#@#arithmetic#@#While playing at the arcade , Ned won [M:L:N] tickets playing 'whack a mole' and [M:L:N] tickets playing 'skee ball' . If he was trying to buy candy that cost [M:L:N] tickets a piece , how many could he buy ? 
 2707#@#arithmetic#@#A pet shelter had [M:L:N] puppies when another [M:L:N] were brought in . If [M:L:N] puppies a day are adopted , how long would it take for all of them to be adopted ? 
 2708#@#arithmetic#@#At a company picnic [M:L:N] managers and [M:L:N] employees decided to start a game of volleyball . If they split into [M:L:N] teams how many people would be on each team ? 
 2714#@#arithmetic#@#For a birthday party Tom bought [M:L:N] regular sodas and [M:L:N] diet sodas . If his fridge would only hold [M:L:N] on each shelf , how many shelves would he fill up ? 
@@ -135,10 +104,8 @@
 2732#@#arithmetic#@#At a restaurant each adult meal costs [M:L:N] and kids eat free . If a group of [M:L:N] people came in and [M:L:N] were kids , how much would it cost for the group to eat ? 
 2741#@#arithmetic#@#There were [M:L:N] friends playing a video game online when [M:L:N] players quit . If each player left had [M:L:N] lives , how many lives did they have total ? 
 2744#@#arithmetic#@#Each chocolate bar in a box cost [M:L:N] . If a box had [M:L:N] bars total and Zoe sold all but [M:L:N] bars , how much money would she have made ? 
-2746#@#arithmetic#@#Mike invited [M:L:N] friends to a birthday party , but [M:L:N] couldn't come . If he wanted to buy enough cupcakes so each person could have exactly [M:L:N] , how many should he buy ? 
 2756#@#arithmetic#@#Each chocolate bar in a box cost [M:L:N] . If a box had [M:L:N] bars total and Emily sold all but [M:L:N] bars , how much money would she have made ? 
 2758#@#arithmetic#@#A worksheet had [M:L:N] problems on it . If a teacher had [M:L:N] worksheets to grade and had already graded [M:L:N] of them , how many more problems does she have to grade ? 
-2759#@#arithmetic#@#Will invited [M:L:N] friends to a birthday party , but [M:L:N] couldn't come . If he wanted to buy enough cupcakes so each person could have exactly [M:L:N] , how many should he buy ? 
 2763#@#arithmetic#@#Each chocolate bar in a box cost [M:L:N] . If a box had [M:L:N] bars total and Wendy sold all but [M:L:N] bars , how much money would she have made ? 
 2772#@#arithmetic#@#Bianca earned [M:L:N] points for each bag of cans she recycled . If she had [M:L:N] bags , but didn't recycle [M:L:N] of them , how many points would she have earned ? 
 2784#@#arithmetic#@#Zoe baked [M:L:N] brownies , but needed [M:L:N] total for her party . If she used [M:L:N] cups of flour on each one , how much cups of flour does she still need ? 
@@ -162,30 +129,22 @@
 2817#@#arithmetic#@#Chloe baked [M:L:N] brownies , but needed [M:L:N] total for her party . If she used [M:L:N] cups of flour on each one , how much cups of flour does she still need ? 
 2819#@#arithmetic#@#Sam invited [M:L:N] friends to a birthday party , but [M:L:N] couldn't come . If he wanted to buy enough cupcakes so each person could have exactly [M:L:N] , how many should he buy ? 
 2820#@#arithmetic#@#Megan earned [M:L:N] points for each bag of cans she recycled . If she had [M:L:N] bags , but didn't recycle [M:L:N] of them , how many points would she have earned ? 
-2823#@#arithmetic#@#Luke had [M:L:N] pieces of clothing to wash . He put [M:L:N] of them in one load , but decided to split the rest into [M:L:N] equal loads . How many pieces of clothing could go in each of the small loads ? 
-2824#@#arithmetic#@#Edward bought [M:L:N] tickets at the state fair . He spent [M:L:N] tickets at the 'dunk a clown' booth and decided to use the rest on rides . If each ride cost [M:L:N] tickets , how many rides could he go on ? 
 2826#@#arithmetic#@#Megan had [M:L:N] files on her computer . She deleted [M:L:N] of them and put the rest into folders with [M:L:N] files in each one . How many folders did Megan end up with ? 
 2830#@#arithmetic#@#Mike made [M:L:N] dollars mowing lawns over the summer . If he spent [M:L:N] dollars buying new mower blades , how many [M:L:N] dollar games could he buy with the money he had left ? 
-2831#@#arithmetic#@#Paige 's team won their dodgeball game and scored [M:L:N] points total . If Paige scored [M:L:N] of the points and everyone else scored [M:L:N] points each , how many players were on her team ? 
 2832#@#arithmetic#@#Oliver is at the library helping put away books . There are [M:L:N] book to put away total but a librarian takes [M:L:N] of them and leaves Oliver with the rest . If he can fit [M:L:N] books on a shelf , how many shelves will he need ? 
 2836#@#arithmetic#@#There are [M:L:N] students trying out for the school 's trivia teams . If [M:L:N] of them didn't get picked for the team and the rest were put into [M:L:N] groups , how many students would be in each group ? 
 2840#@#arithmetic#@#Nancy had [M:L:N] files on her computer . She deleted [M:L:N] of them and put the rest into folders with [M:L:N] files in each one . How many folders did Nancy end up with ? 
-2848#@#arithmetic#@#Kaleb had [M:L:N] pieces of clothing to wash . He put [M:L:N] of them in one load , but decided to split the rest into [M:L:N] equal loads . How many pieces of clothing could go in each of the small loads ? 
 2850#@#arithmetic#@#Mike is at the library helping put away books . There are [M:L:N] book to put away total but a librarian takes [M:L:N] of them and leaves Mike with the rest . If he can fit [M:L:N] books on a shelf , how many shelves will he need ? 
-2853#@#arithmetic#@#Emily 's team won their dodgeball game and scored [M:L:N] points total . If Emily scored [M:L:N] of the points and everyone else scored [M:L:N] points each , how many players were on her team ? 
 2855#@#arithmetic#@#A waiter had [M:L:N] customers in his section . If [M:L:N] of them left and the rest of his tables had [M:L:N] people at each table , how many tables did he have ? 
 2859#@#arithmetic#@#Jerry is at the library helping put away books . There are [M:L:N] book to put away total but a librarian takes [M:L:N] of them and leaves Jerry with the rest . If he can fit [M:L:N] books on a shelf , how many shelves will he need ? 
 2861#@#arithmetic#@#Will had [M:L:N] dollars . If he spent [M:L:N] bucks on a new game , how many [M:L:N] dollar toys could he buy with the money he had left ? 
 2869#@#arithmetic#@#Sarah had [M:L:N] homework problems . She finished [M:L:N] of them but still had [M:L:N] pages of problems to do . If each page has the same number of problems on it , how many problems are on each page ? 
-2871#@#arithmetic#@#Will had [M:L:N] pieces of clothing to wash . He put [M:L:N] of them in one load , but decided to split the rest into [M:L:N] equal loads . How many pieces of clothing could go in each of the small loads ? 
 2873#@#arithmetic#@#Emily was planting vegetables in her garden . She started with [M:L:N] seeds and planted [M:L:N] of them in the big garden and in each of her small gardens put [M:L:N] seeds each . How many small gardens did Emily have ? 
-2875#@#arithmetic#@#Katie 's team won their dodgeball game and scored [M:L:N] points total . If Katie scored [M:L:N] of the points and everyone else scored [M:L:N] points each , how many players were on her team ? 
 2876#@#arithmetic#@#Megan baked [M:L:N] cupcakes for her school 's bake sale . If her brother , Todd , ate [M:L:N] of them how many packages could she make if she put [M:L:N] cupcake in each package ? 
 2877#@#arithmetic#@#Wendy uploaded [M:L:N] pictures to Facebook . She put [M:L:N] pics into one album and put the rest into [M:L:N] different albums . How many pictures were in each album ? 
 2879#@#arithmetic#@#The cafeteria had [M:L:N] apples . For lunch they handed out [M:L:N] to students and decided to use the rest to make pies . If each pie takes [M:L:N] apples , how many pies could they make ? 
 2881#@#arithmetic#@#Paige had [M:L:N] files on her computer . She deleted [M:L:N] of them and put the rest into folders with [M:L:N] files in each one . How many folders did Paige end up with ? 
 2882#@#arithmetic#@#For Halloween Bianca received [M:L:N] pieces of candy . She ate [M:L:N] pieces then placed the rest into piles with [M:L:N] in each pile . How many piles could she make ? 
-2886#@#arithmetic#@#Roger had [M:L:N] pieces of clothing to wash . He put [M:L:N] of them in one load , but decided to split the rest into [M:L:N] equal loads . How many pieces of clothing could go in each of the small loads ? 
 2887#@#arithmetic#@#Wendy picked [M:L:N] flowers for her friend 's wedding . She was making bouquets with [M:L:N] flowers in each one . If [M:L:N] of the flowers wilted before the wedding , how many bouquets could she still make ? 
 2897#@#arithmetic#@#Wendy had [M:L:N] files on her computer . She deleted [M:L:N] of them and put the rest into folders with [M:L:N] files in each one . How many folders did Wendy end up with ? 
 2901#@#arithmetic#@#A company invited [M:L:N] people to a luncheon , but [M:L:N] of them didn't show up . If the tables they had held [M:L:N] people each , how many tables do they need ? 

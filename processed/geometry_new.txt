@@ -190,7 +190,6 @@
 3120#@#geometry#@#Find the volume of a frustum of a pyramid , the altitude [M:VAR] and the base [M:VAR] and [M:VAR] of the frustums being given , as follows : [M:EQ] ft. [M:L:N] in. , [M:EQ] sq. ft., [M:EQ] sq. ft. [M:L:N] sq. in .
 3121#@#geometry#@#The radii of the bases of a frustum of a cone of revolution are [M:L:N] inches and [M:L:N] inches , and the slant height is [M:L:N] inches . Find the lateral area .
 3122#@#geometry#@#Find the lateral area of a frustum of a cone , given the circumferences of the bases [M:VAR] and [M:VAR] and the slant height [M:VAR] respectively as follows : [M:EQ] in. , [M:EQ] in. , [M:EQ] in .
-3124#@#geometry#@#The radius of a sphere is [M:L:N] . Find the area of a lune whose angle is [M:L:N] degrees .
 3125#@#geometry#@#The diameter of a sphere is [M:L:N] . Find the area of a lune whose angle is [M:L:N] degrees .
 3126#@#geometry#@#Find the area of a zone with a height of [M:L:N:D] on a sphere of diameter [M:L:N] .
 3127#@#geometry#@#The area of a zone is [M:EX] and its altitude is [M:L:N] . Find the radius of the sphere .
@@ -347,7 +346,6 @@
 3286#@#geometry#@#Find the line through [M:L:COORD] and perpendicular to [M:EQ] .
 3287#@#geometry#@#Find the line through [M:L:COORD] and parallel to [M:EQ] .
 3288#@#geometry#@#Find the equation of the line passing through the point [M:L:COORD] which has the same slope as the line [M:EQ] .
-3289#@#geometry#@#Find the equation of the line through the point [M:L:COORD] perpendicular to the line [M:EQ] .
 3290#@#geometry#@#What is the volume of a cylinder [M:L:N] feet in length and [M:L:N] feet diameter ?
 3291#@#geometry#@#The lateral area of a cylinder of revolution is [M:EX] . The area of the base is [M:EX] . Find the altitude .
 3292#@#geometry#@#The entire surface of a cylinder of revolution is [M:L:N] sq. ft. and the radius of the base is [M:L:N] ft . Find the altitude .
@@ -437,7 +435,6 @@
 3376#@#geometry#@#Find a tangent to the circle [M:EQ] and perpendicular to the line [M:EQ] .
 3377#@#geometry#@#Find the equation of the circle through the points : [M:L:COORD] , [M:VAR:COORD] , and [M:VAR:COORD] .
 3378#@#geometry#@#Find the equation of the circle through the points [M:L:COORD] , [M:L:COORD] , [M:L:COORD] .
-3379#@#geometry#@#Find the equation of the circle through the points : [M:L:COORD] , [M:L:COORD] , and [M:L:COORD] .
 3380#@#geometry#@#Find the equation of the circle through [M:L:COORD] and [M:L:COORD] and having a radius [M:L:N] .
 3381#@#geometry#@#Find the equation of the tangent to the circle [M:EQ] at the point [M:L:COORD] .
 3382#@#geometry#@#Find a tangent to the circle [M:EQ] and parallel to [M:EQ] .

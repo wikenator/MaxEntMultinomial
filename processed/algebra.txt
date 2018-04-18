@@ -32,8 +32,6 @@
 32#@#algebra#@#Karen is seven times the age of her brother , Zack . In nine years , the sum of their ages will be [M:L:N] . How old are they now , from youngest to oldest ?
 33#@#algebra#@#Jack is twice as old as Lacy . In three years the sum of their ages will be [M:L:N] . How old are they now , from youngest to oldest ?
 34#@#algebra#@#James is twice the age of David . In [M:L:N] years , the sum of their ages will be [M:L:N] . How old are they , from youngest to oldest ?
-35#@#algebra#@#Fred is [M:L:N] years older than Barney . Five years ago the sum of their ages was [M:L:N] . How old are they now , from youngest to oldest ?
-36#@#algebra#@#Kenny is four years older than Eric . The sum of their ages is [M:L:N] . How old are they now , from youngest to oldest ?
 37#@#algebra#@#The sum of Clyde and Wendy 's age is [M:L:N] . In four years , Wendy will be three times as old as Clyde . How old are they now , from youngest to oldest ?
 38#@#algebra#@#Steven is three years older than Gregory . [M:L:N] years ago , Steven was four times Gregory 's age . How old are they now , from youngest to oldest ?
 39#@#algebra#@#Carolyn 's age is triple her daughter 's age . In eight years the sum of their ages will be [M:L:N] . How old are they now , from youngest to oldest ?
@@ -56,7 +54,6 @@
 56#@#algebra#@#Chelsea 's age is double Daniel 's age . Eight years ago the sum of their ages was [M:L:N] . How old are they now , from youngest to oldest ?
 57#@#algebra#@#The sum of Luke 's age and Johnny 's age is [M:L:N] . Luke will be three times Johnny 's age in seven years . How old are they , from youngest to oldest ?
 58#@#algebra#@#The sum of the ages of Elli and Dan is [M:L:N] . Four years ago Elli was [M:L:N] times as old as Dan . How old are they now , from youngest to oldest ?
-59#@#algebra#@#Brandon is [M:L:N] years older than Ronda . In four years the sum of their ages will be [M:L:N] . How old are they now , from youngest to oldest ?
 60#@#algebra#@#Mike is [M:L:N] years older than Ron . In two years , the sum of their ages will be [M:L:N] . How old are they now , from youngest to oldest ?
 61#@#algebra#@#Positive real numbers [M:VAR] , [M:VAR] satisfy the equations [M:EQ] and [M:EQ] . Find [M:EX] .
 62#@#algebra#@#Let [M:EX:FUNC] be the number of times you have to hit the [M:EX] key on a calculator to get a number less than [M:L:N] starting from [M:VAR] . For instance , [M:EQ:FUNC] , [M:EQ:FUNC] . For how many [M:EX:INEQ:C] is [M:EX:FUNC] odd ?
@@ -169,7 +166,6 @@
 171#@#algebra#@#Evaluate [M:EX] .
 172#@#algebra#@#Five students take a test on which any integer score from [M:L:N] to [M:L:N] inclusive is possible . What is the largest possible difference between the median and the mean of the scores ?
 173#@#algebra#@#What is the fewest number of multiplications required to reach [M:EX] from [M:VAR] , using only previous generated powers of [M:VAR] ? For example , [M:EX] uses [M:L:N] multiplications .
-174#@#algebra#@#A jacket was originally priced [M:L:N] . The price was reduced by [M:L:N:P] three times and incresed by [M:L:N:P] four times in some order . To the nearest cent , what was the final price ?
 175#@#algebra#@#Barbara , Edward , Abhinav , and Alex took turns writing this test . Working alone , they could finish it in [M:L:N] , [M:L:N] , [M:L:N] , and [M:L:N] days , respectively . If only one person works on the test per day , and nobody works on it unless everyone else has spent at least as many days working on it , how many days ( an integer ) did it take to write this test ?
 176#@#algebra#@#A number [M:VAR] is called multiplicatively perfect if the product of all the positive divisors of [M:VAR] is [M:EX] . Determine the number of positive multiplicatively perfect numbers less than [M:L:N] .
 177#@#algebra#@#A man has three daughters . The product of their ages is [M:L:N] , and he remembers that the sum of their ages is the number of trees in his yard . He counts the trees but cannot determine any of their ages . What are all possible ages of his oldest daughter ?
@@ -433,14 +429,12 @@
 440#@#algebra#@#Runner [M:VAR] can walk around a race -track in [M:L:N] min. , runner [M:VAR] in [M:L:N] , [M:VAR] in [M:L:N] , and [M:VAR] in [M:L:N] min . If they start from the same place at the same time , and walk in the same direction , when will they all first arrive at the starting point together ?
 441#@#algebra#@#A coal -dealer has five bins whose capacities are respectively [M:L:N] , [M:L:N] , [M:L:N] , [M:L:N] , and [M:L:N] bu . What is the smallest number of bushels that could be measured exactly in each ?
 462#@#algebra#@#A navy general has three types of vehicles that need a specific amount of soldiers from the navy general 's division to operate correctly . An aircraft carrier needs [M:L:N] soldiers , a submarine needs [M:L:N] soldiers , and a battleship needs [M:L:N] soldiers . If the navy general wants to make sure that each vehicle will be able to operate with the correct numbers of soldiers with no soldiers left over , what is the least number of soldiers that can be in the navy general 's division ?
-463#@#algebra#@#Three clocks ring at the same time . The first clock rings every [M:L:N] hours . The second clock rings every [M:L:N] hours . The third clock rings every [M:L:N] hours . What is the least possible amount of hours that can pass until the three clocks ring at the same time again ?
 467#@#algebra#@#An office manager needs to buy additional staplers , boxes of paper clips , and boxes of binder clips for work . The office manager has been instructed to spend an equivalent amount on each of the [M:L:N] items in order to prevent accusations of favoritism or bias on office supply requests . A stapler costs [M:L:N] , a box of paper clips costs [M:L:N] , and a box of binder clips costs [M:L:N] . What is the smallest amount she can spend on staplers to make sure she is able spend an equivalent amount on each on each of the three types of items ? ( Hint: Find the LCM )
 469#@#algebra#@#Three clocks ring at the same time . The first clock rings every [M:L:N] minutes . The second clock rings every [M:L:N] minutes . The third clock rings every [M:L:N] minutes . What is the least possible amount of hours that can pass until the three clocks ring at the same time again ?
 470#@#algebra#@#A professor 's class revolves around [M:L:N] large group projects . Each project requires a specific number of students in order for the project to work as planned . The first project requires [M:L:N] students . The second project requires [M:L:N] students . The third project requires [M:L:N] students . If the professor wants to make sure that each project will be able to make the correct size of groups with no students left over , what is the least number of students that can be in the class ?
 471#@#algebra#@#The Super Sports League has [M:L:N] sports seasons each year : basketball , football , and ba seball . Each team needs to have a specific amount of players on the team during each of the seasons . During basketball season , each team needs [M:L:N] players . During football season , each team needs [M:L:N] players . During baseball season , each team needs [M:L:N] players . Once a new year starts , no new members can be added until the beginning of the next year . What is the smallest amount of members the league can accept if they want to make sure each team will have an equal amount of members during each sports season .
 472#@#algebra#@#If a boy can walk [M:L:N] miles in [M:L:N] hours , how far can he walk in [M:L:N] hours ?
 473#@#algebra#@#If an express train runs [M:L:N] miles in [M:L:N] hours , how many miles would the express train run in [M:L:N] hours ?
-474#@#algebra#@#What is the ratio of [M:L:N] yards to [M:L:N] inches ?
 475#@#algebra#@#If [M:L:N] men can do a piece of work in [M:L:N] days , in how many days can [M:L:N] men do it ?
 476#@#algebra#@#If a boy can ride on a bicycle [M:L:N] miles in [M:L:N] hours , how far can he ride in [M:L:N] hours ?
 477#@#algebra#@#If [M:L:N] sheep cost [M:L:N] , how much will [M:L:N] sheep cost ?
@@ -476,7 +470,6 @@
 508#@#algebra#@#Find [M:L:N] consecutive odd integers whose sum is [M:L:N] .
 509#@#algebra#@#The sum of two numbers is [M:L:N] and the second is [M:L:N] less than the first . What are the numbers ?
 510#@#algebra#@#A farmer has [M:L:N] times as many cows as horses . There are [M:L:N] animals counting both cows and horses . How many of each does he have ?
-511#@#algebra#@#Three times a certain number equals [M:L:N] . What is the number ?
 512#@#algebra#@#Three times a certain number is equal to that number increased by [M:L:N] . What is that number ?
 513#@#algebra#@#The sum of two numbers is [M:L:N] . Their difference is [M:L:N] . What are the numbers ?
 514#@#algebra#@#Divide a line [M:L:N] inches long into two parts , such that one may be three -fourths of the other . State the length of the two parts divided by a comma ( e.g. [M:L:N] , [M:L:N] ).
@@ -485,7 +478,6 @@
 517#@#algebra#@#Find three consecutive odd numbers whose sum is [M:L:N] .
 518#@#algebra#@#What number added to twice itself equals [M:L:N] ?
 519#@#algebra#@#Mount McKinley is [M:L:N] times as high as Mount Mitchell . Mount Everett is [M:L:N] feet higher than Mount McKinley . The total heights of all three mountains is [M:L:N] feet . Find the height of each .
-520#@#algebra#@#The sum of three consecutive numbers is [M:L:N] . Find the numbers .
 521#@#algebra#@#At a family reunion there were [M:L:N] people . The number of children was [M:L:N] times as great as the number of grown people . How many were there of each ? List the two numbers separated by a comma .
 522#@#algebra#@#From [M:L:N] times a certain number [M:L:N] times the same number is subtracted . If the result is [M:L:N] what is the number ?
 523#@#algebra#@#The sum of two consecutive numbers is [M:L:N] . Find the numbers .
@@ -556,7 +548,6 @@
 589#@#algebra#@#A man bought a horse for [M:VAR] dollars , paid [M:L:N] dollars a week for his keeping , and received [M:L:N] dollars a week for his work . At the expiration of a weeks he sold him for [M:VAR] dollars . How much did he gain ?
 590#@#algebra#@#If [M:VAR] represent the number of miles a man can row in an hour in still water , how far can the man row in [M:L:N] hours down a stream which flows [M:VAR] miles an hour ?
 591#@#algebra#@#A merchant sold a lot of wood for [M:VAR] dollars , and received in payment a barrel of flour worth [M:VAR] dollars . How many dollars remain due ?
-1789#@#algebra#@#The function [M:EX:FUNC] is known to be of the form [M:EX:PROD] , where [M:VAR] is a real number and [M:EX:FUNC] is either [M:EX:TRIG] or [M:EX:TRIG] for [M:EQ] , ... , [M:VAR] . Additionally , [M:EX:FUNC] is known to have zeros at every integer between [M:L:N] and [M:L:N] (inclusive) except for one integer [M:VAR] . Find the sum of all possible values of [M:VAR] .
 1790#@#algebra#@#There are [M:L:N] positive numbers with both their sum and their sum of reciprocals equal to [M:L:N] . Let [M:VAR] be one of these numbers . Find the maximum of [M:EX] .
 1791#@#algebra#@#If [M:VAR] , [M:VAR] , [M:VAR] , and [M:VAR] denote the roots of the polynomial [M:EQ:FUNC] , find [M:EX] .
 1792#@#algebra#@#[M:VAR] and [M:VAR] are complex numbers that satisfy the equation [M:EQ] , and [M:EX] is a purely imaginary number , i.e. [M:EQ] . If [M:VAR] , [M:VAR] , and [M:VAR] are points in the complex plane corresponding to [M:VAR] , [M:VAR] , and [M:L:N] , respectively , find the area of [M:EX:T] .

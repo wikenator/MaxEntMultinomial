@@ -271,7 +271,6 @@
 872#@#geometry#@#Pentagon [M:EX] is inscribed in a circle of radius [M:L:N] . If [M:EQ:A:C] , [M:EQ:A] , and [M:EQ] , compute the area of [M:EX] .
 873#@#geometry#@#Let circle [M:VAR] have radius [M:L:N] with diameter [M:EX] . Point [M:VAR] is outside circle [M:VAR] such that lines [M:EX] and [M:EX] intersect circle [M:VAR] at points [M:VAR] and [M:VAR] , respectively . If [M:EQ] and [M:EQ:A] , then the perimeter of quadrilateral [M:EX] can be expressed as [M:EX] , where [M:VAR] , [M:VAR] , [M:VAR] , and [M:VAR] are rational . Find [M:EX] .
 874#@#geometry#@#Let [M:EX:T] be equilateral . Two points [M:VAR] and [M:VAR] are on side [M:EX] ( with order [M:VAR] , [M:VAR] , [M:VAR] , [M:VAR] ), and satisfy [M:EQ:A] . If [M:EQ] and [M:EQ] , what is [M:EX] ?
-875#@#geometry#@#Let [M:EX] be a cyclic quadrilateral with [M:EQ] , [M:EQ] , [M:EQ] , and [M:EQ] . Let [M:VAR] , [M:VAR] be the intersection of lines [M:EX] and [M:EX] , lines [M:EX] and [M:EX] respectively . Find [M:EX] .
 876#@#geometry#@#Two parallel lines [M:VAR] and [M:VAR] lie on a plane , distance [M:VAR] apart . On [M:VAR] there are an infinite number of points [M:VAR] , [M:VAR] , [M:VAR] , ... , in that order , with [M:EQ] for all [M:VAR] . On [M:VAR] there are an infinite number of points [M:VAR] , [M:VAR] , [M:VAR] , ... , in that order and in the same direction , satisfying [M:EQ] for all [M:VAR] . Given that [M:EX] is perpendicular to both [M:VAR] and [M:VAR] , express the sum [M:EX:SUM] in terms of [M:VAR] .
 877#@#geometry#@#In an unit square [M:EX] , find the minimum of [M:EX] where [M:VAR] is a point inside [M:EX] .
 878#@#geometry#@#We have a unit cube [M:EX] where [M:EX] is the top side and [M:EX] is the bottom side with [M:VAR] below [M:VAR] , [M:VAR] below [M:VAR] , and so on . Equilateral triangle [M:EX] cuts out a circle from the cube 's inscribed sphere . Find the area of the circle .
@@ -469,7 +468,6 @@
 1072#@#geometry#@#The longest rod that can be placed flat on the bottom of a certain trunk is [M:L:N] inches . The trunk is [M:L:N] inches longer than it is wide . What are its dimensions ?
 1073#@#geometry#@#A rectangular field is [M:L:N] feet long and [M:L:N] feet wide . What is the length of the diagonal of the field ?
 1074#@#geometry#@#Two trains started from the same station . One train went west [M:L:N] miles , the other north [M:L:N] miles . When the trains reached their destinations , how far apart were they ?
-1075#@#geometry#@#What is the perimeter of a right triangle , the base of which is [M:L:N] feet and the altitude [M:L:N] feet ?
 1076#@#geometry#@#What is the length of the diagonal of a rectangular field which is [M:L:N] rods long and [M:L:N] rods wide ?
 1077#@#geometry#@#How much less is the distance diagonally through a rectangular field [M:L:N] feet by [M:L:N] feet than the distance along the two adjoining sides of the field ?
 1078#@#geometry#@#A room is [M:L:N] feet longer than it is wide , and the length of the diagonal is [M:L:N] feet . Find the dimensions of the room .

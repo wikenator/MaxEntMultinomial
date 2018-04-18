@@ -1,0 +1,349 @@
+3499#@#arithmetic#@#Brenda starts with [M:L:N] Skittles . She buys [M:L:N] more . How many Skittles does Brenda end with ?
+3504#@#arithmetic#@#There are [M:L:N] cards . [M:L:N] cards more are added . How many are there total ?
+3507#@#arithmetic#@#Peter starts with [M:L:N] erasers . Bridget gives Peter [M:L:N] more . How many erasers does Peter end with ?
+3508#@#arithmetic#@#If there are [M:L:N] crayons in a box and Gerald puts [M:L:N] more crayons inside , how many crayons are in the box ?
+3509#@#arithmetic#@#Michelle has [M:L:N] crayons . Janet has [M:L:N] crayons . If Janet gives all of her crayons to Michelle , how many crayons will Michelle have ?
+3511#@#arithmetic#@#Donald has [M:L:N] oranges . He finds another [M:L:N] . How many oranges does Donald have in all ?
+3514#@#arithmetic#@#Bridget has [M:L:N] Skittles . Henry has [M:L:N] Skittles . If Henry gives all of his Skittles to Bridget , how many Skittles will Bridget have ?
+3516#@#arithmetic#@#Martha starts with [M:L:N] cards . She gets [M:L:N] more from Emily . How many cards does Martha end with ?
+3520#@#arithmetic#@#Amy starts with [M:L:N] peanuts . Gerald gives Amy [M:L:N] more . How many peanuts does Amy end with ?
+3522#@#arithmetic#@#Gloria has [M:L:N] pencils . Lisa has [M:L:N] pencils . If Lisa gives all of her pencils to Gloria , how many pencils will Gloria have ?
+3525#@#arithmetic#@#Martha has [M:L:N] peanuts . Joyce has [M:L:N] peanuts . If Joyce gives all of her peanuts to Martha , how many peanuts will Martha have ?
+3527#@#arithmetic#@#Joshua has [M:L:N] bottle caps . He buys [M:L:N] more . How many bottle caps does Joshua have in all ?
+3532#@#arithmetic#@#Harry starts with [M:L:N] apples . He buys [M:L:N] more . How many apples does Harry end with ?
+3534#@#arithmetic#@#Eugene has [M:L:N] pencils . He gets [M:L:N] more from Joyce . How many pencils does Eugene have in all ?
+3544#@#arithmetic#@#Janet has [M:L:N] apples . She finds another [M:L:N] . How many apples does Janet have in all ?
+3548#@#arithmetic#@#Arthur removes [M:L:N] pencils from a jar . There were originally [M:L:N] pencils in the jar . How many pencils are left in the jar ?
+3549#@#arithmetic#@#Joyce starts with [M:L:N] apples . She gives [M:L:N] to Larry . How many apples does Joyce end with ?
+3550#@#arithmetic#@#Rachel removes [M:L:N] bottle caps from a jar . There were originally [M:L:N] bottle caps in the jar . How many bottle caps are left in the jar ?
+3552#@#arithmetic#@#Jessica weighs [M:L:N] pounds . Thomas weighs [M:L:N] pounds . How much heavier is Jessica than Thomas ?
+3554#@#arithmetic#@#Virginia starts with [M:L:N] eggs . Amy takes [M:L:N] away . How many eggs does Virginia end with ?
+3556#@#arithmetic#@#There are [M:L:N] eggs in a box . Harry takes [M:L:N] eggs . How many are left ?
+3558#@#arithmetic#@#David removes [M:L:N] eggs from a jar . There were originally [M:L:N] eggs in the jar . How many eggs are left in the jar ?
+3559#@#arithmetic#@#There are [M:L:N] pencils in a box . Eric takes [M:L:N] pencils . How many are left ?
+3565#@#arithmetic#@#Melissa has [M:L:N] bananas . She shares [M:L:N] with Joshua . How many bananas will Melissa have ?
+3566#@#arithmetic#@#Larry has [M:L:N] cards . Dennis takes [M:L:N] away . How many cards will Larry have ?
+3568#@#arithmetic#@#Larry starts with [M:L:N] stickers . He loses [M:L:N] . How many stickers does Larry end with ?
+3569#@#arithmetic#@#Carlos starts with [M:L:N] bananas . [M:L:N] are eaten by a hippopotamus . How many bananas does Carlos end with ?
+3570#@#arithmetic#@#Patricia starts with [M:L:N] candies . Albert takes [M:L:N] away . How many candies does Patricia end with ?
+3571#@#arithmetic#@#There are [M:L:N] bottle caps in a box . Marvin takes [M:L:N] bottle caps . How many are left ?
+3575#@#arithmetic#@#Ruby has [M:L:N] apples . Emily takes [M:L:N] away . How many apples will Ruby have ?
+3577#@#arithmetic#@#Steve has [M:L:N] oranges . He shares [M:L:N] with Patrick . How many oranges will Steve have ?
+3583#@#arithmetic#@#Melissa has [M:L:N] oranges . John takes [M:L:N] away . How many oranges will Melissa have ?
+3584#@#arithmetic#@#Norma starts with [M:L:N] bananas . She loses [M:L:N] . How many bananas does Norma end with ?
+3585#@#arithmetic#@#Willie starts with [M:L:N] stickers . He gives [M:L:N] to Emily . How many stickers does Willie end with ?
+3588#@#arithmetic#@#Norma has [M:L:N] cards . She loses [M:L:N] . How many cards will Norma have ?
+3592#@#arithmetic#@#Ruth starts with [M:L:N] apples . She shares [M:L:N] with Peter . How many apples does Ruth end with ?
+3599#@#arithmetic#@#Clarence has [M:L:N] tickets . He gives [M:L:N] to Eugene . How many tickets will Clarence have ?
+3601#@#arithmetic#@#Tina has [M:L:N] bananas . She gets [M:L:N] more from Joyce . How many bananas does Tina have in all ?
+3602#@#arithmetic#@#Janet has [M:L:N] stickers . She gets [M:L:N] more from Ruth . How many stickers does Janet have in all ?
+3603#@#arithmetic#@#Jennifer starts with [M:L:N] apples . She finds another [M:L:N] . How many apples does Jennifer end with ?
+3604#@#arithmetic#@#Heather has [M:L:N] oranges . Russell takes [M:L:N] away . How many oranges will Heather have ?
+3605#@#arithmetic#@#Helen starts with [M:L:N] oranges . She gets [M:L:N] more from Ann . How many oranges does Helen end with ?
+3607#@#arithmetic#@#Dorothy has [M:L:N] cards . She gives [M:L:N] to Harold . How many cards will Dorothy have ?
+3608#@#arithmetic#@#Sara has [M:L:N] marbles . She loses [M:L:N] . How many marbles will Sara have ?
+3610#@#arithmetic#@#Wanda has [M:L:N] blocks . Theresa gives Wanda [M:L:N] more . How many blocks does Wanda have in all ?
+3615#@#arithmetic#@#Each bottle cap costs [M:L:N] . How much do [M:L:N] bottle caps cost ?
+3616#@#arithmetic#@#Each child has [M:L:N] oranges . If there are [M:L:N] children , how many oranges are there in total ?
+3618#@#arithmetic#@#Each ticket costs [M:L:N] . How much do [M:L:N] tickets cost ?
+3620#@#arithmetic#@#Michelle has [M:L:N] boxes of crayons . Each box holds [M:L:N] crayons . How many crayons does Michelle have ?
+3633#@#arithmetic#@#There are [M:L:N] marbles in each box . How many marbles are in [M:L:N] boxes ?
+3638#@#arithmetic#@#Kimberly went to the store [M:L:N] times last month . She buys [M:L:N] peanuts each time she goes to the store . How many peanuts did Kimberly buy last month ?
+3640#@#arithmetic#@#Betty has [M:L:N] oranges stored in boxes . If there are [M:L:N] boxes , how many oranges must go in each box ?
+3643#@#arithmetic#@#There are [M:L:N] students in the class and [M:L:N] tickets . If the tickets are divided equally among the students , how many does each student get ?
+3644#@#arithmetic#@#There are [M:L:N] bottle caps in Beverly 's bottle cap collection . If the bottle caps are organized into [M:L:N] groups , how big is each group ?
+3652#@#arithmetic#@#Elizabeth is inviting [M:L:N] friends to a party . She has [M:L:N] cookies . How many cookies will each friend get ?
+3653#@#arithmetic#@#There are [M:L:N] cards in Jean 's card collection . If the cards are organized into [M:L:N] groups , how big is each group ?
+3669#@#arithmetic#@#The school is planning a field trip . There are [M:L:N] students and [M:L:N] seats on each school bus . How many buses are needed to take the trip ?
+3671#@#arithmetic#@#Steven wants to split a collection of cards into groups of [M:L:N] . Steven has [M:L:N] cards . How many groups will be created ?
+3673#@#arithmetic#@#Diana has [M:L:N] erasers . If she shares them among [M:L:N] friends , how many erasers does each friend get ?
+3684#@#arithmetic#@#If Harold split [M:L:N] apples between [M:L:N] people in her class and kept the left overs , how many apples did each classmate get ?
+3687#@#arithmetic#@#Gumballs come in packages of [M:L:N] . Nathan ate [M:L:N] gumballs . How many whole boxes did he eat and how many gumballs does he have left ?
+3694#@#arithmetic#@#Carol starts with [M:L:N] blocks . She loses [M:L:N] . How many blocks does Carol end with ?
+3695#@#arithmetic#@#Lillian collects [M:L:N] candies . Lillian 's father gives Lillian [M:L:N] more . How many candies does Lillian have ?
+3696#@#arithmetic#@#William has [M:L:N] bottle caps . He buys [M:L:N] more . How many bottle caps does William have in all ?
+3698#@#arithmetic#@#Sean has [M:L:N] apples . Susan gives Sean [M:L:N] more . Later , Sean buys [M:L:N] tickets at the store . How many apples does Sean have in all ?
+3704#@#arithmetic#@#Kimberly has [M:L:N] Skittles . She buys [M:L:N] more . Later , Kimberly buys [M:L:N] oranges at the store . How many Skittles does Kimberly have in all ?
+3706#@#arithmetic#@#Joyce has [M:L:N] eggs . Marie gives Joyce [M:L:N] more . Later , Joyce buys [M:L:N] erasers at the store . How many eggs does Joyce have in all ?
+3707#@#arithmetic#@#There are [M:L:N] bananas in a pile on the desk . Each banana comes in a package of [M:L:N] . [M:L:N] bananas are added to the pile . How many bananas are there in the pile ?
+3708#@#arithmetic#@#Kenneth has [M:L:N] marbles . He buys [M:L:N] more . Later , Kenneth buys [M:L:N] apples at the store . How many marbles does Kenneth have in all ?
+3710#@#arithmetic#@#Scott has [M:L:N] tickets . Ernest has with [M:L:N] tickets . Ernest finds another [M:L:N] . How many tickets does Ernest end with ?
+3712#@#arithmetic#@#Adam has [M:L:N] blocks . Ann has with [M:L:N] blocks . Ann finds another [M:L:N] . How many blocks does Ann end with ?
+3713#@#arithmetic#@#Ronald has [M:L:N] blocks . Martha has with [M:L:N] blocks . Martha finds another [M:L:N] . How many blocks does Martha end with ?
+3714#@#arithmetic#@#Albert has [M:L:N] bottle caps . Anne has with [M:L:N] bottle caps . Anne finds another [M:L:N] . How many bottle caps does Anne end with ?
+3715#@#arithmetic#@#Evelyn has [M:L:N] marbles . She gets [M:L:N] more from Henry . Later , Evelyn buys [M:L:N] cards at the store . How many marbles does Evelyn have in all ?
+3718#@#arithmetic#@#Carolyn starts with [M:L:N] marbles and [M:L:N] oranges . She shares [M:L:N] with Diana . How many marbles does Carolyn end with ?
+3719#@#arithmetic#@#Willie has [M:L:N] bananas . Charles has [M:L:N] bananas . He loses [M:L:N] . How many bananas will Willie have ?
+3720#@#arithmetic#@#There are [M:L:N] oranges in a box . Deborah has [M:L:N] oranges in a bag . Susan takes [M:L:N] oranges out of the box . How many oranges are left in the box ?
+3721#@#arithmetic#@#There are [M:L:N] apples in a box . Louise has [M:L:N] apples in a bag . Scott takes [M:L:N] apples out of the box . How many apples are left in the box ?
+3722#@#arithmetic#@#Bruce has [M:L:N] eggs . Kimberly has [M:L:N] eggs . He loses [M:L:N] . How many eggs will Bruce have ?
+3723#@#arithmetic#@#There are [M:L:N] erasers in a box . Jane has [M:L:N] erasers in a bag . Doris takes [M:L:N] erasers out of the box . How many erasers are left in the box ?
+3724#@#arithmetic#@#There are [M:L:N] erasers in a box . Ernest has [M:L:N] erasers in a bag . Mark takes [M:L:N] erasers out of the box . How many erasers are left in the box ?
+3725#@#arithmetic#@#There are [M:L:N] candies in a box . Lisa has [M:L:N] candies in a bag . Diana takes [M:L:N] candies out of the box . How many candies are left in the box ?
+3727#@#arithmetic#@#Theresa has [M:L:N] crayons . Janice has [M:L:N] crayons . She shares [M:L:N] with Nancy . How many crayons will Theresa have ?
+3728#@#arithmetic#@#Craig has [M:L:N] apples . Judy has [M:L:N] apples . He shares [M:L:N] with Eugene . How many apples will Craig have ?
+3733#@#arithmetic#@#George has [M:L:N] boxes of eggs . Each box holds [M:L:N] eggs and there are [M:L:N] boxes in a case . How many eggs does George have ?
+3735#@#arithmetic#@#Marilyn has [M:L:N] bananas that must be put away in boxes . Daniel comes to help and brings [M:L:N] cookies to share with Marilyn . If there are [M:L:N] boxes , how many bananas must go in each box ?
+3736#@#arithmetic#@#Rose has [M:L:N] apples and [M:L:N] erasers . If she shares the apples among [M:L:N] friends , how many apples does each friend get ?
+3745#@#arithmetic#@#Shawn has [M:L:N] blocks . Mildred has with [M:L:N] blocks . Mildred finds another [M:L:N] . How many blocks does Mildred end with ?
+3748#@#arithmetic#@#If Stephanie ran for [M:L:N] hours at [M:L:N] miles per hour . How far did Stephanie go ?
+3753#@#arithmetic#@#If Charles strolled [M:L:N] miles at [M:L:N] miles per hour , how long was Charles traveling ?
+3755#@#arithmetic#@#If Rose strolled for [M:L:N] hours at [M:L:N] miles per hour . How far did Rose go ?
+3758#@#arithmetic#@#It took Amanda [M:L:N] hours to stroll to Kimberly 's house at [M:L:N] miles per hour . How far is it between Amanda 's house and Kimberly 's house ?
+3760#@#arithmetic#@#Emily sprinted to Timothy 's house . It is [M:L:N] miles from Emily 's house to Timothy 's house . It took Emily [M:L:N] hours to get there . How fast did Emily go ?
+3767#@#arithmetic#@#If Benjamin strolled [M:L:N] miles at [M:L:N] miles per hour , how long was Benjamin traveling ?
+3768#@#arithmetic#@#Mark sprinted [M:L:N] miles at [M:L:N] miles per hour . How long did Mark sprint ?
+3776#@#arithmetic#@#Lisa flew [M:L:N] miles at [M:L:N] miles per hour . How long did Lisa fly ?
+3784#@#arithmetic#@#If Benjamin skated [M:L:N] kilometers at [M:L:N] kilometers per hour , how long was Benjamin skating ?
+3788#@#arithmetic#@#You have [M:L:N] balloons and your friend has [M:L:N] balloons . How many more balloons do you have than your friend ?
+3789#@#arithmetic#@#[M:L:N] birds were sitting on the fence . [M:L:N] more birds came to join them . How many birds are sitting on the fence ?
+3790#@#arithmetic#@#You have collected [M:L:N] crickets . How many more crickets do you need to collect to have [M:L:N] crickets ?
+3792#@#arithmetic#@#There are [M:L:N] birds and [M:L:N] nests . How many more birds are there than nests ?
+3794#@#arithmetic#@#[M:L:N] owls were sitting on the fence . [M:L:N] more owls joined them . How many owls are on the fence now ?
+3795#@#arithmetic#@#[M:L:N] beavers were working on their home . [M:L:N] went for a swim . How many beavers are still working on their home ?
+3796#@#arithmetic#@#[M:L:N] toucans are sitting on a tree limb . [M:L:N] more toucan joins them . How many toucans in all ?
+3797#@#arithmetic#@#There are [M:L:N] squirrels in a tree with [M:L:N] nuts . How many more squirrels are there than nuts ?
+3798#@#arithmetic#@#Mrs. Hilt bought a yoyo for [M:L:N] cents and a whistle for [M:L:N] cents . How much did she spend in all for the two toys ?
+3799#@#arithmetic#@#At Mrs. Hilt 's house , there was [M:L:N] inches of snow , and Brecknock Elementary School received [M:L:N] inches of snow . How much more snow did Mrs. Hilt 's house have ?
+3801#@#arithmetic#@#Mrs. Hilt saw [M:L:N] bugs eat [M:L:N] flowers each . How many flowers total did the bugs eat ?
+3802#@#arithmetic#@#Mrs. Hilt had [M:L:N] cents . She bought a pencil for [M:L:N] cents . How much money did she have left ?
+3803#@#arithmetic#@#Mrs. Hilt bought [M:L:N] pizzas . Each pizza had [M:L:N] slices . How many total slices of pizza did she have ?
+3804#@#arithmetic#@#Mrs. Hilt ate [M:L:N] apples every hour . How many apples had she eaten at the end of [M:L:N] hours ?
+3805#@#arithmetic#@#Mary 's mom is getting ready for Mary 's birthday party . She blew up [M:L:N] balloons this morning and [M:L:N] balloons this afternoon . How many balloons did she blow up in all ?
+3806#@#arithmetic#@#Shelby 's teacher gives out gold stars for great math work . Yesterday , Shelby earned [M:L:N] gold stars . Today , she earned [M:L:N] more . How many gold stars did Shelby earn in all ?
+3807#@#arithmetic#@#The Litter Patrol picked up [M:L:N] glass bottles and [M:L:N] aluminum cans on Saturday . How many pieces of litter did they pick up altogether ?
+3808#@#arithmetic#@#Carson 's teacher gives out gold stars for great math work . Yesterday , Carson earned [M:L:N] gold stars . Today , he earned [M:L:N] more . How many gold stars did Carson earn in all ?
+3809#@#arithmetic#@#There were [M:L:N] students riding on the school bus . At the first stop , [M:L:N] students got off of the bus . How many students are left on the bus ?
+3810#@#arithmetic#@#Lucy went to the grocery store . She bought [M:L:N] packs of cookies and [M:L:N] packs of noodles . How many packs of groceries did she buy in all ?
+3811#@#arithmetic#@#Roden went to a pet shop . He bought [M:L:N] gold fish and [M:L:N] blue fish . How many fish did he buy ?
+3812#@#arithmetic#@#I read [M:L:N] pages of my English book yesterday . Today , I read [M:L:N] pages . What is the total number of pages did I read ?
+3813#@#arithmetic#@#In a school , there are [M:L:N] girls and [M:L:N] boys . How many pupils are there in that school ?
+3814#@#arithmetic#@#Linda has [M:L:N] candies . Chloe has [M:L:N] . How many candies do they have in all ?
+3815#@#arithmetic#@#Gino has [M:L:N] popsicle sticks . I have [M:L:N] popsicle sticks . What is the sum of our popsicle sticks ?
+3816#@#arithmetic#@#Lino picked up [M:L:N] shells at the seashore in the morning and [M:L:N] shells in the afternoon . How many shells did he pick up in all ?
+3817#@#arithmetic#@#There were [M:L:N] parents in the program and [M:L:N] pupils , too . How many people were present in the program ?
+3818#@#arithmetic#@#Last Saturday , Marie sold [M:L:N] magazines and [M:L:N] newspapers . What is the total number of reading materials she sold ?
+3819#@#arithmetic#@#There are [M:L:N] birds on the fence . [M:L:N] more birds land on the fence . How many birds are on the fence ?
+3820#@#arithmetic#@#[M:L:N] boys went down the slide . [M:L:N] more boys went down the slide . How many boys went down the slide ?
+3821#@#arithmetic#@#[M:L:N] ducks are swimming in a lake . [M:L:N] more ducks come to join them . How many ducks are swimming in the lake ?
+3822#@#arithmetic#@#[M:L:N] dogs are barking . [M:L:N] more dogs start to bark . How many dogs are barking ?
+3823#@#arithmetic#@#Bobby ate [M:L:N] pieces of candy . Then , he ate [M:L:N] more . How many pieces of candy did Bobby eat ?
+3824#@#arithmetic#@#Sandy had [M:L:N] pet fish . She bought [M:L:N] more fish . How many pet fish does Sandy have now ?
+3825#@#arithmetic#@#The clown blew up [M:L:N] balloons . Then he blew up [M:L:N] more balloons . How many balloons does the clown have now ?
+3826#@#arithmetic#@#Our class got [M:L:N] books from the library . Then we got [M:L:N] more books from the library . How many books did our class get from the library ?
+3827#@#arithmetic#@#Tessa has [M:L:N] apples . Anita gave her [M:L:N] more . She needs [M:L:N] apples to make a pie . Does she have enough to make a pie ?
+3828#@#arithmetic#@#Molly had [M:L:N] candles on her birthday cake . She grew older and got [M:L:N] more on her birthday cake . How old is Molly now ?
+3829#@#arithmetic#@#James ate [M:L:N] carrot sticks before dinner and [M:L:N] more after dinner . How many carrot sticks did he eat ?
+3830#@#arithmetic#@#Jovana filled her bucket with [M:L:N] pounds of shells . If she adds [M:L:N] more pounds of shell to fill her bucket , how many pounds does she have ?
+3831#@#arithmetic#@#Isha 's pencil is [M:L:N] cubes long . If she gets another pencil that is [M:L:N] cubes long , how many cubes long are both pencils ?
+3832#@#arithmetic#@#Isabella 's hair is [M:L:N] cubes long . If her hair grows [M:L:N] more inches , how long will it be ?
+3833#@#arithmetic#@#Mrs. Sheridan has [M:L:N] cats . Mr. Sheridan gave her [M:L:N] more cats . How many cats does Mrs. Sheridan have altogether ?
+3834#@#arithmetic#@#Mrs. Sheridan has [M:L:N] fish . Her sister gave her [M:L:N] more fish . How many fish does she have now ?
+3835#@#arithmetic#@#Mrs. Heine is buying Valentine 's Day treats for her [M:L:N] dogs . If she wants to buy them [M:L:N] heart biscuits each , how many biscuits does she need to buy ?
+3836#@#arithmetic#@#Cade had [M:L:N] marbles . He gave [M:L:N] to Dylan . How many does he have left ?
+3837#@#arithmetic#@#Michael has some fish in his fish tank . Ben gave him [M:L:N] more fish . Now he has [M:L:N] . How many fish did he have to begin with ?
+3838#@#arithmetic#@#Alyssa had [M:L:N] cookies . Aiyanna has [M:L:N] . How many more cookies does Aiyanna have than Alyssa ?
+3839#@#arithmetic#@#Daniel had some noodles . He gave [M:L:N] noodles to William . Now Daniel only has [M:L:N] noodles . How many noodles did Daniel have to begin with ?
+3840#@#arithmetic#@#Hayley had [M:L:N] meatballs on her plate . Kirsten stole some of her meatballs . Now she has [M:L:N] meatballs on her plate . How many meatballs did Kirsten steal ?
+3841#@#arithmetic#@#Isabella 's hair is [M:L:N] inches long . If she gets a haircut and now her hair is [M:L:N] inches long , how much of Isabella 's hair got cut off ?
+3842#@#arithmetic#@#Isabella 's hair is [M:L:N] inches long . By the end of the year her hair is [M:L:N] inches long . How much hair did she grow ?
+3843#@#arithmetic#@#Jovana had [M:L:N] pounds of shells in her bucket . She added some shells and now has [M:L:N] pounds of shells . How many pounds did she add ?
+3844#@#arithmetic#@#Isha 's pencil is [M:L:N] inches long . If she sharpens it , now her pencil is [M:L:N] inches long . How much did she sharpen off of her pencil ?
+3845#@#arithmetic#@#Mrs. Sheridan has [M:L:N] cats . How many more cats does Mrs. Sheridan need to have [M:L:N] cats ?
+3846#@#arithmetic#@#Mrs. Sheridan has [M:L:N] cats . Mrs. Garrett has [M:L:N] cats . How many more cats does Mrs. Garrett have than Mrs. Sheridan ?
+3847#@#arithmetic#@#Mrs. Wong had [M:L:N] Valentines . She gave [M:L:N] Valentines to her children . How many does she have left ?
+3848#@#arithmetic#@#Mrs. Franklin had [M:L:N] Valentines . Mrs. Franklin gave some to her students . Now she has [M:L:N] . How many Valentines did Mrs. Franklin give to her students ?
+3849#@#arithmetic#@#Mrs. Snyder made [M:L:N] heart cookies . She made [M:L:N] red cookies and the rest are pink . How many pink cookies did she make ?
+3850#@#arithmetic#@#Mrs. Santiago has [M:L:N] red roses . Mrs. Garrett has [M:L:N] . How many more red roses does Mrs. Santiago have than Mrs. Garrett ?
+3852#@#arithmetic#@#[M:L:N] birds were sitting in a tree . Some more fly up to the tree . Then there were [M:L:N] birds in the tree . How many more flew up to the tree ?
+3853#@#arithmetic#@#Cindy 's mom baked [M:L:N] cookies . Paul 's dad baked [M:L:N] cookies . They both brought them to school for a party . How many cookies did they have altogether ?
+3856#@#arithmetic#@#There were [M:L:N] girls and [M:L:N] boys on the playground at recess . How many children were there in all ?
+3857#@#arithmetic#@#There were [M:L:N] boys and [M:L:N] girls on the playground at recess . How many children were on the playground in all ?
+3858#@#arithmetic#@#There were [M:L:N] geese and [M:L:N] ducks in the marsh . How many birds were there in all ?
+3860#@#arithmetic#@#Robin had [M:L:N] pieces of gum . Her brother gave her some more pieces . Now Robin has [M:L:N] pieces in all . How many pieces of gum did Robin 's brother give her ?
+3861#@#arithmetic#@#Bobby has [M:L:N] books . Kristi has [M:L:N] books . How many more books does Bobby have than Kristi ?
+3862#@#arithmetic#@#Tommy had some balloons . His mom gave him [M:L:N] more balloons for his birthday . Then , Tommy had [M:L:N] balloons . How many balloons did Tommy have to start with ?
+3863#@#arithmetic#@#There were [M:L:N] kids on the soccer field . [M:L:N] kids decided to join in . Now how many kids are on the soccer field ?
+3864#@#arithmetic#@#Jane has [M:L:N] old , brown sheets of drawing paper and [M:L:N] old , yellow sheets of drawing paper . How many pieces of drawing paper does she have ?
+3865#@#arithmetic#@#Mikey had [M:L:N] leaves . Some of her leaves blew away . Now she has [M:L:N] leaves left . How many of her leaves blew away ?
+3866#@#arithmetic#@#Marcus has [M:L:N] baseball cards . He has [M:L:N] more than Carter . How many baseball cards does Carter have ?
+3867#@#arithmetic#@#Gavin has [M:L:N] shirts . [M:L:N] are blue the rest are green . How many green shirts does Gavin have ?
+3868#@#arithmetic#@#Ethan has [M:L:N] presents . Alissa has [M:L:N] more than Ethan . How many presents does Alissa have ?
+3869#@#arithmetic#@#On the first day of the week Pat had [M:L:N] stickers . Pat earned [M:L:N] more during the week . How many stickers did Pat have at the end of the week ?
+3870#@#arithmetic#@#Kelly had [M:L:N] apples . How many more apples does Kelly need to pick to have [M:L:N] apples altogether ?
+3871#@#arithmetic#@#Todd has some gum . Steve gave him [M:L:N] more pieces of gum . Now Todd has [M:L:N] pieces of gum . How many pieces did Todd have to start with ?
+3872#@#arithmetic#@#Josh had [M:L:N] pencils . He gave [M:L:N] pencils to Dorothy . How many pencils does Josh have left ?
+3873#@#arithmetic#@#Nell collects baseball cards . She had [M:L:N] cards . She gave some of her cards to Jeff and now has [M:L:N] cards left . How many cards did Nell give to Jeff ?
+3874#@#arithmetic#@#Sarah had some trucks . She gave [M:L:N] to Jeff , and now she has [M:L:N] trucks left . How many trucks did Sarah have to start with ?
+3875#@#arithmetic#@#There are [M:L:N] boys and some girls on the playground . There are [M:L:N] children altogether . How many girls are on the playground ?
+3876#@#arithmetic#@#Megan had [M:L:N] markers . Robert gave her [M:L:N] more markers . How many markers does Megan have altogether ?
+3877#@#arithmetic#@#Each CD rack holds [M:L:N] CDs . A shelf can hold [M:L:N] racks . How many total CDs can fit on the shelf ?
+3878#@#arithmetic#@#Carla has some marbles . She bought [M:L:N] marbles . Now she has [M:L:N] marbles . How many did she start with ?
+3881#@#arithmetic#@#Connie has [M:L:N] red markers and [M:L:N] blue markers . How many markers does she have altogether ?
+3883#@#arithmetic#@#James has [M:L:N] balloons . Amy has [M:L:N] balloons . How many more balloons does James have than Amy ?
+3885#@#arithmetic#@#Connie has [M:L:N] marbles . Juan has [M:L:N] more marbles than Connie . How many marbles does Juan have ?
+3886#@#arithmetic#@#Joe had [M:L:N] toy cars . If he gets [M:L:N] more cars , how many cars will he have then ?
+3887#@#arithmetic#@#There are [M:L:N] pigs in the barn . Some more come to join them . Now there are [M:L:N] pigs . How many pigs came to join them ?
+3888#@#arithmetic#@#Rosa had [M:L:N] flowers . Andre gave her some more flowers . Now , Rosa has [M:L:N] flowers . How many flowers did Andre give to Rosa ?
+3889#@#arithmetic#@#Adolfo made a tower with [M:L:N] blocks . He added some more blocks and now he has [M:L:N] blocks . How many did he have to add ?
+3890#@#arithmetic#@#Josh had [M:L:N] marbles in his collection . He lost [M:L:N] marbles . How many marbles does he have now ?
+3891#@#arithmetic#@#Megan has [M:L:N] seashells . How many more seashells does she need to find to have [M:L:N] seashells in her collection ?
+3892#@#arithmetic#@#Brad has [M:L:N] balloons . [M:L:N] balloons are red and the rest are green . How many green balloons does Brad have ?
+3893#@#arithmetic#@#There are [M:L:N] books on the shelf . Marta put [M:L:N] more books on the shelf . How many books are on the shelf now ?
+3894#@#arithmetic#@#A bee has [M:L:N] legs . How many legs do [M:L:N] bees have ?
+3895#@#arithmetic#@#Mrs. Hilt bought an ice cream cone for [M:L:N] cents . How much would [M:L:N] ice cream cones cost ?
+3896#@#arithmetic#@#Mrs. Hilt wants to make a border around her garden . She needs [M:L:N] rocks to complete the border . She has [M:L:N] rocks . How many more rocks does she need to complete the border ?
+3897#@#arithmetic#@#Mrs. Hilt and her sister drove to a concert [M:L:N] miles away . They drove [M:L:N] miles and then stopped for gas . Her sister put [M:L:N] gallons of gas in the car . How many miles did they have left to drive ?
+3898#@#arithmetic#@#Mrs. Hilt bought [M:L:N] hot dogs . Each hot dog cost [M:L:N] cents . How much money did she pay for all of the hot dogs ?
+3899#@#arithmetic#@#Mrs. Hilt has [M:L:N] cents . A pencil costs [M:L:N] cents . How many pencils can she buy with the money she has ?
+3900#@#arithmetic#@#Mrs. Hilt bought [M:L:N] pizzas for [M:L:N] each . What was the total amount she paid for the three pizzas ?
+3901#@#arithmetic#@#The Hawks scored [M:L:N] touchdowns worth [M:L:N] points each . How many points do they have ?
+3902#@#arithmetic#@#Zach scored [M:L:N] points in the football game . Ben scored [M:L:N] points . How many more points did Zach score ?
+3903#@#arithmetic#@#Kate has [M:L:N] pennies . John has [M:L:N] pennies . How many more pennies does John have ?
+3904#@#arithmetic#@#Tim had [M:L:N] cents . He paid [M:L:N] cents for a candy bar . How much change will he get ?
+3905#@#arithmetic#@#Mark has [M:L:N] trees in his backyard . If he plants [M:L:N] more , how many trees will he have ?
+3906#@#arithmetic#@#Kim has [M:L:N] cousins . She wants to give each cousin [M:L:N] pieces of gum . How much gum will she need ?
+3907#@#arithmetic#@#Dan has [M:L:N] . He bought a candy bar for [M:L:N] . How much money is left ?
+3908#@#arithmetic#@#[M:L:N] boats are in the lake . Each boat has [M:L:N] people . How many people are on boats in the lake ?
+3909#@#arithmetic#@#Charlie has [M:L:N] more snowballs than Lucy . She has [M:L:N] snowballs . How many does Charlie have ?
+3910#@#arithmetic#@#Randy has [M:L:N] blocks . He uses [M:L:N] blocks to build a tower . How many blocks are left ?
+3911#@#arithmetic#@#Bryan has [M:L:N] skittles . Ben has [M:L:N] M&M 's . Who has more ? How many more does he have ?
+3912#@#arithmetic#@#Paul got a box of [M:L:N] crayons for his birthday . At the end of the school year , he only had [M:L:N] left . How many crayons had been lost or given away ?
+3913#@#arithmetic#@#[M:L:N] birds were sitting in a tree . [M:L:N] more birds flew up to the tree . How many birds were there altogether in the tree ?
+3916#@#arithmetic#@#[M:L:N] children were riding on the bus . At the bus stop , some more children got on the bus . Then there were [M:L:N] children altogether on the bus . How many children got on the bus at the bus stop ?
+3918#@#arithmetic#@#Elisa has [M:L:N] dollars . How many more dollars does she have to earn to have [M:L:N] dollars ?
+3919#@#arithmetic#@#James had [M:L:N] stickers . He got some more stickers for his birthday . Then he had [M:L:N] stickers . How many stickers did James get for his birthday ?
+3920#@#arithmetic#@#There were [M:L:N] boys and [M:L:N] girls on the playground at recess . How many children were on the playground at recess ?
+3921#@#arithmetic#@#There were [M:L:N] geese and [M:L:N] ducks in the marsh . How many birds were in the marsh ?
+3923#@#arithmetic#@#Gary had [M:L:N] dollars . He spent [M:L:N] dollars on a pet snake . How many dollars did Gary have left ?
+3924#@#arithmetic#@#There are [M:L:N] butterflies . Each butterfly has [M:L:N] black dots and [M:L:N] yellow dots . How many black dots are there in all ?
+3925#@#arithmetic#@#How many cookies would you have if you had [M:L:N] bags of cookies with [M:L:N] cookies in each bag ?
+3926#@#arithmetic#@#How much would [M:L:N] pieces of bubble gum cost if each piece costs [M:L:N] cents ?
+3927#@#arithmetic#@#For the fifth grade play , the chairs have been put into [M:L:N] rows with [M:L:N] chairs in each row . How many chairs have been put out for the play ?
+3928#@#arithmetic#@#The Ferris wheel in Paradise Park has [M:L:N] seats . Each seat can hold [M:L:N] people . How many people can ride the Ferris wheel at the same time ?
+3929#@#arithmetic#@#A garden has [M:L:N] rows and [M:L:N] columns of bean plans . How many plants are there in all ?
+3930#@#arithmetic#@#A sandbox is [M:L:N] centimeters long and [M:L:N] centimeters wide . How many square centimeters of ground does the sandbox cover ?
+3931#@#arithmetic#@#Sarah picked [M:L:N] apples . Her brother picked [M:L:N] apples . How many times as many apples did Sarah pick ?
+3932#@#arithmetic#@#There are [M:L:N] fishbowls . Each fishbowl has [M:L:N] fish . How many fish are there ?
+3933#@#arithmetic#@#We ordered [M:L:N] pizzas . Each pizza has [M:L:N] slices . How many slices of pizza are there altogether ?
+3934#@#arithmetic#@#Emily collected eggs from the hen and put them into [M:L:N] baskets . She put [M:L:N] eggs into each basket . How many eggs did Emily collect ?
+3935#@#arithmetic#@#There were [M:L:N] book shelves . Each book shelf had [M:L:N] books . How many books were on the shelves ?
+3936#@#arithmetic#@#There are [M:L:N] leaves . There are [M:L:N] ladybugs on each leaf . How many ladybugs are there in all ?
+3937#@#arithmetic#@#There are [M:L:N] baskets . There are [M:L:N] apples in each basket . How many apples are there in all ?
+3938#@#arithmetic#@#There are [M:L:N] pots . Each pot has [M:L:N] flowers in it . How many flowers are there in all ?
+3939#@#arithmetic#@#Your class is having a pizza party . You buy [M:L:N] pizzas . Each pizza has [M:L:N] slices . How many slices is that altogether ?
+3940#@#arithmetic#@#Beth has [M:L:N] packs of crayons . Each pack has [M:L:N] crayons in it . She also has [M:L:N] extra crayons . How many crayons does Beth have altogether ?
+3941#@#arithmetic#@#Ted has [M:L:N] candy bars . He wants to put them into [M:L:N] bags so there are the same number of candy bars in each bag . How many candy bars should go in each bag ?
+3942#@#arithmetic#@#A candy store has [M:L:N] boxes of chocolates . Each box has [M:L:N] pieces . How many pieces are there altogether in the boxes ?
+3943#@#arithmetic#@#Martha bought [M:L:N] small cakes . She has [M:L:N] children . She would like to divide the cakes among her children so that each child gets the same amount . How many cakes would each child get ?
+3944#@#arithmetic#@#Julian is writing a comic book . His story has [M:L:N] frames in all . If he wants to put exactly [M:L:N] frames on each page , how many pages would he have ?
+3945#@#arithmetic#@#Jesse 's room is [M:L:N] feet long and [M:L:N] feet wide . How much carpet does she need to cover the whole floor ?
+3946#@#arithmetic#@#There are [M:L:N] people on the Green Bay High track team . If a relay race is [M:L:N] meters long , how far will each team member have to run ?
+3947#@#arithmetic#@#It takes [M:L:N] feet of cotton to make a tee-shirt . How many tee-shirts can be made with [M:L:N] feet of material ?
+3948#@#arithmetic#@#Lukas averages [M:L:N] points per game in basketball . How many points would he score in [M:L:N] games ?
+3949#@#arithmetic#@#My car gets [M:L:N] miles per gallon . How many miles can I drive on [M:L:N] gallons of gas ?
+3950#@#arithmetic#@#It takes [M:L:N] minutes to bake one pan of cookies . How long will it take to bake [M:L:N] pans of cookies ?
+3951#@#arithmetic#@#My car gets [M:L:N] miles per gallon of gas . If Grandma 's house is [M:L:N] miles away , how many gallons of gas would it take to get to her house ?
+3952#@#arithmetic#@#Melissa scored [M:L:N] points in each game . How many points did she score in [M:L:N] games ?
+3953#@#arithmetic#@#Johnny practiced for the track team and ran [M:L:N] laps per minute . How many minutes did it take Johnny to run [M:L:N] laps ?
+3954#@#arithmetic#@#Our watermelons have [M:L:N] seeds each . If we have [M:L:N] watermelons , how many seeds should there be when all seeds are taken out of the watermelons ?
+3956#@#arithmetic#@#[M:L:N] people are going to the zoo . There are [M:L:N] cars to take people to the zoo . How many will go in each car if the same number go in each car ?
+3957#@#arithmetic#@#I have [M:L:N] cents to buy candy . If each gumdrop costs [M:L:N] cents , how many gumdrops can I buy ?
+3958#@#arithmetic#@#Maggi had [M:L:N] packages of cupcakes . There are [M:L:N] cupcakes in each package . She ate [M:L:N] cupcakes . How many are left ?
+3959#@#arithmetic#@#[M:L:N] children are taking a bus to the zoo . They sit [M:L:N] children in every seat . How many seats will the children need in all ?
+3960#@#arithmetic#@#Marlee has [M:L:N] guests coming to her Halloween party . Each table will hold [M:L:N] guests . How many tables will she need ?
+3961#@#arithmetic#@#Warren has [M:L:N] guests coming to his party . Each table will hold [M:L:N] guests . How many tables will he need ?
+3962#@#arithmetic#@#Arthur baked [M:L:N] muffins . How many more muffins does Arthur have to bake to have [M:L:N] muffins ?
+3963#@#arithmetic#@#There are [M:L:N] stickers on a page . If you have [M:L:N] pages of stickers , how many stickers do you have ?
+3964#@#arithmetic#@#There are [M:L:N] cupcakes for [M:L:N] children to share . How much will each person get if they share the cupcakes equally ?
+3965#@#arithmetic#@#Jose has [M:L:N] peanuts . Kenya has [M:L:N] more than Jose . How many peanuts does Kenya have ?
+3966#@#arithmetic#@#White t-shirts can be purchased in packages of [M:L:N] . If Mom buys [M:L:N] packages , how many white t-shirts will she have ?
+3967#@#arithmetic#@#I have [M:L:N] pencils . If I put [M:L:N] pencils in each pencil box , how many pencil boxes will I fill ?
+3968#@#arithmetic#@#Uncle Dave bought [M:L:N] ice cream sandwiches . If he wants to give them to his [M:L:N] hungry nieces , how many can each niece get ?
+3970#@#arithmetic#@#A DVD book holds [M:L:N] DVDs . There are [M:L:N] DVDs already in the book . How many more DVDs can be put in the book ?
+3971#@#arithmetic#@#Carla has some marbles . She bought [M:L:N] marbles . Now she has [M:L:N] marbles all together . How many did she start with ?
+3972#@#arithmetic#@#Kelly has [M:L:N] Nintendo games . How many does she need to give away so that she will have [M:L:N] games left ?
+3973#@#arithmetic#@#Connie had some marbles . She gave [M:L:N] to Juan . Now she has [M:L:N] marbles left . How many did she have to start with ?
+3975#@#arithmetic#@#Iesha has [M:L:N] books . [M:L:N] are about school and the rest are about sports . How many books about sports does Iesha have ?
+3976#@#arithmetic#@#Sean has [M:L:N] whistles . He has [M:L:N] more whistles that Charles . How many whistles does Charles have ?
+3977#@#arithmetic#@#Robin has [M:L:N] packages of gum . There are [M:L:N] pieces in each package . How many pieces of gum does Robin have ?
+3978#@#arithmetic#@#Adam has [M:L:N:D] to buy an airplane that costs [M:L:N:D] . How much change will he get ?
+3979#@#arithmetic#@#If each ball costs [M:L:N:D] , how much must Kyoko pay for [M:L:N] balls ?
+3980#@#arithmetic#@#Mr. Guzman bought [M:L:N] doughnuts packed equally into [M:L:N] boxes . How many doughnuts were in each box ?
+3981#@#arithmetic#@#The Sumata family took a [M:L:N] -day vacation by car . Each day they drove [M:L:N] miles . How many total miles did they drive ?
+3982#@#arithmetic#@#The town of Milburg has [M:L:N] grown-ups and [M:L:N] children . How many people live in Milburg ?
+3983#@#arithmetic#@#Lisa rented [M:L:N] DVDs for [M:L:N:D] . How much did each DVD cost to rent ?
+3984#@#arithmetic#@#There were [M:L:N] pieces of candy in a jar . If [M:L:N] pieces were red and the rest were blue , how many were blue ?
+3985#@#arithmetic#@#Third-grade students went to a concert in [M:L:N] buses . Each bus took [M:L:N] students . How many students went to the concert ?
+3986#@#arithmetic#@#There are [M:L:N] students making [M:L:N] stars each for the school wall . How many stars will they make all together ?
+3987#@#arithmetic#@#[M:L:N] students were sitting at each table in the lunchroom . There are [M:L:N] tables . How many students were sitting in the lunchroom ?
+3988#@#arithmetic#@#Tyler had [M:L:N] dogs . Each dog had [M:L:N] puppies . How many puppies does Tyler now have ?
+3989#@#arithmetic#@#The farmer had [M:L:N] apples . He gave [M:L:N] apples to his neighbor . How many apples does he have now ?
+3990#@#arithmetic#@#Jill invited [M:L:N] people to her birthday party . They each ate [M:L:N] pieces of pizza . How many pieces of pizza did they eat ?
+3991#@#arithmetic#@#Mrs. Hilt uses [M:L:N] ounces of detergent to wash a pound of clothes . How many ounces of soap will she use to wash [M:L:N] pounds of clothes ?
+3992#@#arithmetic#@#Mrs. Hilt went to a concert . A total of [M:L:N] people attended the concert . The next week , she went to a second concert , which had [M:L:N] more people in attendance . How many people were at the second concert ?
+3993#@#arithmetic#@#Mrs. Hilt baked pies last weekend for a holiday dinner . She baked [M:L:N] pecan pies and [M:L:N] apples pies . If she wants to arrange all of the pies in rows of [M:L:N] pies each , how many rows will she have ?
+3994#@#arithmetic#@#Mrs. Hilt needs to share [M:L:N:D] equally among [M:L:N] total people . How much money will each person get ?
+3995#@#arithmetic#@#Mrs. Hilt read [M:L:N] books . Each book had [M:L:N] chapters in it . How many chapters did Mrs. Hilt read ?
+3996#@#arithmetic#@#Mrs. Hilt saw [M:L:N] bees in the hive . The next day she saw [M:L:N] times that many . How many bees did she see on the second day ?
+3997#@#arithmetic#@#Mrs. Hilt measured the distance from her desk to the water fountain . It was [M:L:N] feet . How many feet will Mrs. Hilt walk on her trips to the fountain if she goes to the water fountain [M:L:N] times today ?
+3998#@#arithmetic#@#Lucy has an aquarium with [M:L:N] fish . She wants to buy [M:L:N] more fish . How many fish would Lucy have then ?
+3999#@#arithmetic#@#Lucy has [M:L:N] fish . How many more fish does she need to buy to have [M:L:N] fish ?
+4000#@#arithmetic#@#Rupert and Ronald aced their math test . So their mother bought for them a wonderful trampoline yesterday . Ronald jumped [M:L:N] times on the trampoline . Rupert jumped [M:L:N] more times than Ronald . How many times did they jump altogether ?
+4001#@#arithmetic#@#Harry Hound had a terrible earache yesterday . When I peered into his ears yesterday , I found [M:L:N] frisky fleas having a party in his right ear and [M:L:N] baby fleas sleeping peacefully in his left ear . I cleaned out Harry Hound 's ears . How many fleas perished ?
+4002#@#arithmetic#@#A pet supply store has [M:L:N] bags of dog food and [M:L:N] bags of cat food . How many more bags of dog food are there than cat food ?
+4003#@#arithmetic#@#[M:L:N] people are watching a movie in a theater . The theater has [M:L:N] seats . How many seats are empty in the theater ?
+4004#@#arithmetic#@#Each bag contains [M:L:N] pounds of oranges . How many pounds of oranges are in [M:L:N] bags ?
+4005#@#arithmetic#@#Ellen went to a garage sale to buy chairs . Each chair cost [M:L:N] dollars . How much money did Ellen spend for the [M:L:N] chairs she bought ?
+4006#@#arithmetic#@#Albert has two snakes . The garden snake is [M:L:N] inches long . The boa constrictor is [M:L:N] times longer than the garden snake . How long is the boa constrictor ?
+4007#@#arithmetic#@#Albert 's cabbage patch has [M:L:N] rows of cabbage . In each row , there are [M:L:N] heads of cabbage . How many heads of cabbage does Albert have in all ?
+4008#@#arithmetic#@#Marie can bike at a speed of [M:L:N] miles an hour . How far can she bike in [M:L:N] hours ?
+4009#@#arithmetic#@#Tammy drove [M:L:N] miles in one hour . At that rate , how far can she drive in [M:L:N] hours ?
+4010#@#arithmetic#@#It takes [M:L:N] apples to make [M:L:N] pie . How many apples does it take to make [M:L:N] pies ?
+4011#@#arithmetic#@#You have [M:L:N] cookies and want to share them equally with [M:L:N] people . How many cookies would each person get ?
+4012#@#arithmetic#@#You are reading a book with [M:L:N] pages . If you want to read the same number of pages each night , how many would you have to read each night to finish in [M:L:N] days ?
+4013#@#arithmetic#@#A cereal box holds [M:L:N] cups of cereal . Each serving is [M:L:N] cups . How many servings are in the whole box ?
+4014#@#arithmetic#@#A box of books weighs [M:L:N] pounds . Each book weighs [M:L:N] pounds . How many books are there in the box ?
+4015#@#arithmetic#@#Sue 's mother made [M:L:N] cookies . She put the cookies in bags , with [M:L:N] cookies in each bag . How many bags could she fill up ?
+4016#@#arithmetic#@#Frank worked [M:L:N] hours on the first [M:L:N] days of the week . How many hours did he work in all ?
+4017#@#arithmetic#@#Sue 's family went on vacation . Her mom drove the car at [M:L:N] mph . They camped at a campground after traveling for [M:L:N] hours . How far was the campground from their home ?
+4018#@#arithmetic#@#Brett drove [M:L:N] miles every hour . How many miles would he drive in [M:L:N] hours ?
+4019#@#arithmetic#@#A perfect score is [M:L:N] points . How many points would you have after [M:L:N] perfect games in a row ?
+4020#@#arithmetic#@#Brian 's car gets [M:L:N] miles per gallon . On his last trip , he used [M:L:N] gallons of gas . How many miles did he travel on his last trip ?
+4021#@#arithmetic#@#Bob 's car gets [M:L:N] kilometers per gallon . How far can he drive on [M:L:N] gallons of gas ?
+4022#@#arithmetic#@#Each cup contains [M:L:N] ounces . How many ounces are in [M:L:N] cups ?
+4023#@#arithmetic#@#A chocolate chip cookie recipe calls for [M:L:N] cups of chocolate chips . You want to make [M:L:N] recipes for a bake sale . How many cups of chocolate chips will be needed to make all the cookie recipes ?
+4024#@#arithmetic#@#I have a pet golden retriever . Each year he gains [M:L:N] pounds . He is [M:L:N] years old . How many pounds does he weigh ?
+4025#@#arithmetic#@#Mary 's car gets [M:L:N] miles per gallon of gas . How far can she drive on [M:L:N] gallons of gas ?
+4026#@#arithmetic#@#I walked [M:L:N] miles in [M:L:N] hour for Relay for Life . If I maintained this pace for the [M:L:N] hours I walk , how many miles total will I walk ?
+4027#@#arithmetic#@#I walk [M:L:N] mile every [M:L:N] minutes . I walked [M:L:N] miles . How many minutes did it take me ?
+4028#@#arithmetic#@#Lansing has [M:L:N] elementary schools . There are [M:L:N] students in each school . How many elementary students are there altogether in Lansing ?
+4029#@#arithmetic#@#[M:L:N] students are going to the zoo . They have to be divided into groups so that each teacher has one group . There are [M:L:N] teachers . How many students will be in each group ?
+4030#@#arithmetic#@#A fruit farm packs oranges in boxes that hold [M:L:N] each . One day it packs [M:L:N] oranges . How many boxes did they use ?
+4031#@#arithmetic#@#You want to give your baseball cards to your [M:L:N] best friends . You have [M:L:N] baseball cards . How many would each get , if you share them equally ?
+4032#@#arithmetic#@#Ellen had [M:L:N] Legos , but she lost [M:L:N] Legos . How many Legos does she have now ?
+4033#@#arithmetic#@#Arthur baked [M:L:N] muffins . James baked [M:L:N] times as many . How many muffins did James bake ?
+4034#@#arithmetic#@#There are [M:L:N] books in a library . They are arranged on shelves that hold [M:L:N] books each . How many shelves are in the library ?
+4035#@#arithmetic#@#[M:L:N] people are going to the zoo , and there are [M:L:N] buses to take people . How many will go in each bus if the same number go in each one and all of the people go to the zoo ?
+4036#@#arithmetic#@#I have [M:L:N] cents to buy candy . If each piece of bulk candy costs [M:L:N] cents , how many gumdrops can I buy ?
+4037#@#arithmetic#@#My dog had some bones . Then , he dug up [M:L:N] bones . Now he has [M:L:N] bones . How many bones did he start with ?
+4038#@#arithmetic#@#Jazmin had [M:L:N] dolls and Geraldine had [M:L:N] dolls . If they put their dolls together , how many would they have ?
+4039#@#arithmetic#@#Mariela was in the hospital and she got [M:L:N] get well cards from around the country . When she got home she got [M:L:N] more cards from friends and family . How many get well cards did Mariela get ?
+4040#@#arithmetic#@#Cody is [M:L:N] years old . His grandmother is [M:L:N] times as old as he is . How old is Cody 's grandmother ?
+4041#@#arithmetic#@#Jorge scored [M:L:N] goals playing soccer last season . This season he scored [M:L:N] goals . What is the total number of goals Jorge scored ?
+4042#@#arithmetic#@#Ceasar needs to read a [M:L:N] page book for school . He has already read [M:L:N] pages . How many pages does he have left to read ?
+4043#@#arithmetic#@#Omar and Karen made egg rolls to share at the school potluck . Omar rolled [M:L:N] egg rolls . Karen rolled [M:L:N] egg rolls . What is the total number of egg rolls Omar and Karen rolled ?
+4044#@#arithmetic#@#Beka flew [M:L:N] miles to visit her aunt . Jackson flew [M:L:N] miles to visit his aunt . How many more miles did Beka fly than Jackson ?
+4045#@#arithmetic#@#Darius drove [M:L:N] miles to visit his grandmother . Julia drove [M:L:N] miles to visit her grandmother . What is the total number of miles Darius and Julia drove ?
+4046#@#arithmetic#@#Isabel bought [M:L:N] pieces of paper . She used [M:L:N] pieces of the paper . How many pieces of paper does she have left ?
+4047#@#arithmetic#@#Mrs. Hilt looked at her car 's odometer before a trip . The odometer showed that she had traveled [M:L:N:D] miles . When she stopped for lunch , the odometer read [M:L:N] . How many miles had she traveled ?
+4048#@#arithmetic#@#Mrs. Hilt impressed [M:L:N] fans at the basketball game on Friday . If the fans were seated in equal groups on [M:L:N] sets of bleachers , how many fans were on each set ?
+4049#@#arithmetic#@#Your class had a pizza party . [M:L:N:D] of a pizza was left over , and [M:L:N:D] of another pizza was left over . You put them both into one box . How much pizza do you have altogether ?
+4050#@#arithmetic#@#A cake recipe requires [M:L:N:D] cup of sugar for the frosting and [M:L:N:D] cup of sugar for the cake . How much sugar is that altogether ?
+4051#@#arithmetic#@#After a party , [M:L:N:D] of the cake is left over . That night , big brother eats [M:L:N:D] of the cake . How much is left over after that ?
+4052#@#arithmetic#@#You go out for a long walk . You walk [M:L:N:D] mile and then sit down to take a rest . Then you walk [M:L:N:D] of a mile . How far did you walk altogether ?
+4053#@#arithmetic#@#John needs [M:L:N:D] . He has [M:L:N:D] . How much more money does he need ?
+4054#@#arithmetic#@#Jane buys an apple for [M:L:N:D] and pays with a [M:L:N:D] bill . How much change will she get ?
+4055#@#arithmetic#@#John walks [M:L:N:D] miles to school and Nina walks [M:L:N:D] miles to school . How much farther does John walk than Nina ?
+4056#@#arithmetic#@#One pencil weighs [M:L:N:D] grams . How much do [M:L:N] pencils weigh ?
+4057#@#arithmetic#@#Andrew spent [M:L:N] day working on his Science report . He worked for [M:L:N:D] hours each day . How many hours did he work ?
