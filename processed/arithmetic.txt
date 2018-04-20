@@ -558,7 +558,7 @@
 1761#@#arithmetic#@#Where is the minute hand at a quarter before the hour ?
 1762#@#arithmetic#@#When the hour hand is between II and III and minute hand is at V , what is the time ?
 1763#@#arithmetic#@#When the hour hand is between X and XI and the minute hand is [M:L:N] spaces beyond II , what time is it ?
-1764#@#arithmetic#@#John went to play with Walter for a half hour . He reached Walter 's house at [M:L:N] minutes past [M:L:N] o ' clock . When was it time for him to leave ?
+1764#@#arithmetic#@#John went to play with Walter for a half hour . He reached Walter 's house at [M:L:N] minutes past [M:L:T] o ' clock . When was it time for him to leave ?
 1765#@#arithmetic#@#How long ( in minutes ) does it take the minute hand to pass from I to II ?
 1766#@#arithmetic#@#Another day at quarter to five , Dick 's mother told him , ``You must come in [M:L:N] minutes .'' At what time did he have to come ?
 1767#@#arithmetic#@#At [M:L:N] minutes past [M:L:N] , Dick 's mother told him , ``You may stay just three quarters of an hour .'' At what time did he have to come in on that day ?
@@ -567,9 +567,9 @@
 1770#@#arithmetic#@#What time is it when the hour hand is between [M:L:N] and [M:L:N] and the minute hand is at the third dot beyond [M:L:N] ?
 1771#@#arithmetic#@#Nellie reached Carrie 's house at [M:L:N] minutes past [M:L:N] , for a visit of [M:L:N] minutes . When was it time for her to go ?
 1772#@#arithmetic#@#When the minute hand is [M:L:N] spaces beyond IX and the hour hand is between II and III , what time is it ?
-1773#@#arithmetic#@#Kate played with her dolls from [M:L:N] minutes past [M:L:N] o 'clock until [M:L:N] minutes past [M:L:N] . She played __ minutes .
-1774#@#arithmetic#@#Frank was to play with Robert an hour and a quarter . When was his time up , if he reached Robert 's house at [M:L:N] o ' clock ?
-1775#@#arithmetic#@#It was quarter past [M:L:N] . ``You can play till [M:L:N] o 'clock'', said Will 's mother . ``How long is that ?'' asked Will . How long was it , in minutes ?
+1773#@#arithmetic#@#Kate played with her dolls from [M:L:N] minutes past [M:L:T] o 'clock until [M:L:N] minutes past [M:L:T] . She played _ minutes .
+1774#@#arithmetic#@#Frank was to play with Robert an hour and a quarter . When was his time up , if he reached Robert 's house at [M:L:T] o ' clock ?
+1775#@#arithmetic#@#It was quarter past [M:L:N] . ``You can play till [M:L:T] o 'clock'', said Will 's mother . ``How long is that ?'' asked Will . How long was it , in minutes ?
 1776#@#arithmetic#@#When the hour hand is between XII and I and the minute hand is at VIII , what time is it ?
 1777#@#arithmetic#@#Place the big hand of a clock face at [M:L:N] , and the small hand at [M:L:N] . What time is it ?
 1778#@#arithmetic#@#When the hour hand is a little beyond V and the minute hand is [M:L:N] spaces beyond I , what time is it ?
@@ -580,5 +580,5 @@
 1784#@#arithmetic#@#How many minutes past the hour is it when the minute hand is at [M:L:N] on a numbered clock face ?
 1785#@#arithmetic#@#When the minute hand is [M:L:N] minute spaces beyond VI and the hour hand is between IX and X , what time is it ?
 1786#@#arithmetic#@#I have been waiting for you for [M:L:F] hour . It is now [M:L:N] minutes to [M:L:N] . What time did I come here ?
-1787#@#arithmetic#@#Fred played ball from [M:L:N] minutes past [M:L:N] o ' clock until half past [M:L:N] o ' clock . How many minutes did Fred play ball ?
+1787#@#arithmetic#@#Fred played ball from [M:L:N] minutes past [M:L:T] o ' clock until half past [M:L:T] o ' clock . How many minutes did Fred play ball ?
 1788#@#arithmetic#@#When the hour hand is a little beyond VIII and the minute hand is [M:L:N] space beyond II , what time is it ?

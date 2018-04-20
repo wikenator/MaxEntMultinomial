@@ -484,7 +484,7 @@
 3430#@#geometry#@#Mars travels around the sun once about every [M:L:N] Earth days . During one Martian year , how many degrees around the sun will the Earth travel ?
 3431#@#geometry#@#The earth turns on its axis once in [M:L:N] hours . How many degrees of longitude correspond to [M:L:N] hour ?
 3433#@#geometry#@#If turning a certain volume dial [M:L:N] increases the volume by [M:L:N] , how far should the dial be turned to increase the volume by [M:L:N] ?
-3434#@#geometry#@#How many degrees are there in the smaller angle formed by the hands of a clock at [M:L:N] o 'clock?
+3434#@#geometry#@#How many degrees are there in the smaller angle formed by the hands of a clock at [M:L:T] o 'clock?
 3435#@#geometry#@#Ordinary scales for weighing small objects are often made with a circular face like a clock face ; the divisions of the scale indicate pounds ; if the entire face represents [M:L:N] pounds , what is the angle between two successive pound marks ? Give your answer in degrees .
 3436#@#geometry#@#If a wheel makes ten revolutions per minute , through how many degrees does it turn in one second ?
 3437#@#geometry#@#If a certain wheel makes eight and a half revolutions in one day , how many degreees will it turn every hour ?
@@ -493,8 +493,8 @@
 3440#@#geometry#@#If a star makes a complete circuit of the heavens in [M:L:N] hours [M:L:N] minutes , through what arc will it go between [M:EX] P.M. and [M:EX] A.M. ?
 3441#@#geometry#@#At what rate , in degrees per minute , does the minute -hand of a watch overtake the hour -hand?
 3442#@#geometry#@#Two gears on a bicycle are chained together so that when the larger gear makes two revolutions , the smaller one makes three . If the larger gear is turned [M:L:N] degrees , how far in degrees will the smaller one turn ?
-3443#@#geometry#@#When the hour hand on a [M:L:N] -hour clock has turned [M:L:N] , how many hours have passed ?
-3444#@#geometry#@#At what time between [M:L:N] and [M:L:N] o 'clock is the minute -hand of a watch [M:L:N] ahead of the hour -hand?
+3443#@#geometry#@#When the hour hand on a [M:L:N] -hour clock has turned [M:EX:A] , how many hours have passed ?
+3444#@#geometry#@#At what time between [M:L:T] and [M:L:T] o 'clock is the minute -hand of a watch [M:EX:A] ahead of the hour -hand?
 3445#@#geometry#@#How far , in degrees , will the minute hand of a clock travel in [M:L:N] minutes ?
 3446#@#geometry#@#Through how many degrees does the hour hand of a clock turn in one hour ?
 3447#@#geometry#@#Through how many degrees does the minute hand of a clock turn in fifteen minutes ?
@@ -502,11 +502,11 @@
 3449#@#geometry#@#A [M:L:N] -hour clock has [M:L:N] hours marked around its edge instead of [M:L:N] . How many minutes after [M:EX] will it take for the minute hand to pass the hour hand ?
 3450#@#geometry#@#A [M:L:N] -hour clock has [M:L:N] hours marked around its edge instead of [M:L:N] . How far does the hour hand on this clock travel over a period of [M:L:N] hours ?
 3451#@#geometry#@#If the north direction on a compass is placed at a bearing of [M:L:N] degrees , what is the bearing , in degrees , of due southwest ?
-3452#@#geometry#@#As the hands of a clock move from [M:EX] pm to [M:EX] pm , how much farther , in degrees , will the minute hand travel than the hour hand ?
+3452#@#geometry#@#As the hands of a clock move from [M:L:T] pm to [M:L:T] pm , how much farther , in degrees , will the minute hand travel than the hour hand ?
 3453#@#geometry#@#If one wheel is rotating through [M:L:N] revolutions per minute , and another through [M:L:N] per second , which is rotating the more rapidly ?
 3454#@#geometry#@#If Wheel [M:VAR] turns at [M:L:N] degrees per minute , and Wheel [M:VAR] turns at [M:L:N] revolutions per hour , which one is rotating faster ?
-3455#@#geometry#@#At what time between [M:L:N] and [M:L:N] o 'clock are the hands of a watch together ?
-3456#@#geometry#@#How many degrees does the minute hand of a clock travel between [M:EX] am and [M:EX] am ?
+3455#@#geometry#@#At what time between [M:L:T] and [M:L:T] o 'clock are the hands of a watch together ?
+3456#@#geometry#@#How many degrees does the minute hand of a clock travel between [M:L:T] am and [M:L:T] am ?
 3457#@#geometry#@#If a pie is cut into [M:L:N] slices , how many degrees wide is each slice ?
 3458#@#geometry#@#What is the area of a spherical triangle whose angles are [M:L:N] , [M:L:N] , and [M:L:N] , if the radius of the sphere is [M:L:N] m ?
 3459#@#geometry#@#Compute the area of the triangle on a sphere of the given diameter , the angles being as follows : [M:L:N] , [M:L:N] , [M:L:N] , [M:EQ] in .

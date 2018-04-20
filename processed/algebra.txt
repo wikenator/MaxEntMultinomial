@@ -1,4 +1,4 @@
-1#@#algebra#@#A train that reached Chicago at [M:L:F:M] o 'clock A. M. left Detroit [M:L:F:M] hours earlier . What time did it leave Detroit ?
+1#@#algebra#@#A train that reached Chicago at [M:L:T] o 'clock A. M. left Detroit [M:L:F:M] hours earlier . What time did it leave Detroit ?
 2#@#algebra#@#From a cask of wine containing [M:L:F:M] gallons , [M:L:F:M] gallons were drawn . How much remained ?
 3#@#algebra#@#A man spent [M:L:F] of his income for rent , [M:L:F] for food , and [M:L:F] for sundries . What part of his income was left ?
 4#@#algebra#@#The three sides of a triangle are [M:L:F:M] inches , [M:L:F:M] inches , and [M:L:F:M] inches . What is the perimeter ?
@@ -77,7 +77,7 @@
 81#@#algebra#@#Suppose that [M:VAR] and [M:VAR] are positive reals such that [M:EQ] , [M:EQ] . Find [M:VAR] .
 82#@#algebra#@#The rank of a rational number [M:VAR] is the unique [M:VAR] for which [M:EQ] , where each [M:VAR] is the smallest positive integer such that [M:INEQ] . Let [M:VAR] be the largest rational number less than [M:L:F] with rank [M:L:N] , and suppose the expression for [M:VAR] is [M:EX] . Find the ordered triple [M:VAR:COORD] .
 83#@#algebra#@#Let [M:EQ:FUNC] and let [M:EX:FUNC] equal [M:EX] for [M:INEQ] . Define [M:VAR] to be [M:L:N] if [M:INEQ:FUNC] and [M:L:N] if [M:INEQ:FUNC] . What is the largest [M:INEQ] such that [M:EQ:FUNC] ?
-84#@#algebra#@#Suppose that there exist nonzero complex numbers [M:VAR] , [M:VAR] , [M:VAR] , and [M:VAR] such that [M:VAR] is a root of both the equations [M:EQ] and [M:EQ] . Find all possible values of [M:VAR] ( including complex values ).
+84#@#algebra#@#Suppose that there exist nonzero complex numbers [M:VAR] , [M:VAR] , [M:VAR] , and [M:VAR] such that [M:VAR] is a root of both the equations [M:EQ] and [M:EQ] . Find all possible values of [M:VAR] ( including complex values ) .
 85#@#algebra#@#Suppose that [M:VAR] and [M:VAR] are complex numbers such that [M:EQ] and that [M:EQ] . Find the sum of all possible values of [M:EX] .
 86#@#algebra#@#Suppose that a polynomial of the form [M:EQ:FUNC] has no real roots . What is the maximum possible number of coefficients of [M:L:N] in [M:VAR] ?
 87#@#algebra#@#Let [M:VAR] , [M:VAR] , [M:VAR] , [M:VAR] , [M:VAR] , and [M:VAR] be complex numbers such that [M:EQ] , [M:EQ] , [M:EQ] . If [M:EQ] and [M:EQ] , find the value of [M:EX] .
@@ -128,26 +128,26 @@
 133#@#algebra#@#Let A denote the set of all integers [M:VAR] such that [M:INEQ:C] , and moreover the sum of the decimal digits of [M:VAR] is [M:L:N] . Find the sum of the squares of the elements of [M:VAR] .
 134#@#algebra#@#Determine the remainder when [M:EX:SUM] is divided by [M:L:N] , where [M:EX] denotes the largest integer not greater than [M:VAR] .
 135#@#algebra#@#An infinite sequence of real numbers [M:VAR] , [M:VAR] , ... satisfies the recurrence [M:EQ] for every positive integer [M:VAR] . Given that [M:EQ] and [M:EQ] , compute [M:EX] .
-136#@#algebra#@#Call a positive integer [M:INEQ] ``special'' if for every [M:VAR] such that [M:INEQ:C] , [M:VAR] can be expressed as a sum of [M:VAR] positive integers that are relatively prime to [M:VAR] ( although not necessarily relatively prime to each other ). How many special integers are there less than [M:L:N] ?
-137#@#algebra#@#Determine the smallest positive integer [M:INEQ] for which [M:EQ:MOD] where [M:VAR] denotes the result when the numbers [M:L:POW] , [M:L:POW] , ... , [M:EX] are written in decimal notation and concatenated ( for example , if [M:EQ] we have [M:EQ] ).
+136#@#algebra#@#Call a positive integer [M:INEQ] ``special'' if for every [M:VAR] such that [M:INEQ:C] , [M:VAR] can be expressed as a sum of [M:VAR] positive integers that are relatively prime to [M:VAR] ( although not necessarily relatively prime to each other ) . How many special integers are there less than [M:L:N] ?
+137#@#algebra#@#Determine the smallest positive integer [M:INEQ] for which [M:EQ:MOD] where [M:VAR] denotes the result when the numbers [M:L:POW] , [M:L:POW] , ... , [M:EX] are written in decimal notation and concatenated ( for example , if [M:EQ] we have [M:EQ] ) .
 138#@#algebra#@#Define [M:EX] as the product of all positive integers less than or equal to [M:VAR] and relatively prime to [M:VAR] . Compute the number of integers [M:INEQ:C] such that [M:VAR] divides [M:EX] .
 139#@#algebra#@#For any positive integer [M:VAR] , let [M:VAR] be the set of all permutations of [M:L:N] , [M:L:N] , [M:L:N] , ... , [M:VAR] . For each permutation [M:VAR:SET] , let [M:EX:FUNC] be the number of ordered pairs [M:VAR:COORD] for which [M:INEQ:FUNC] and [M:INEQ:C] . Further define [M:EX:FUNC] to be the number of positive integers [M:INEQ] such that [M:EQ:MOD] . Compute [M:EX:SUM] .
 140#@#algebra#@#Let [M:VAR] , [M:VAR] , and [M:VAR] be real numbers such that [M:EQ] , [M:EQ] , [M:EQ] . Compute the value of [M:EX] .
 141#@#algebra#@#Let [M:EQ:FUNC] be a polynomial with integer coefficients , and [M:INEQ:C] for all [M:INEQ:C] . Given that [M:EQ:FUNC] , compute [M:EX:FUNC] .
-142#@#algebra#@#Find the value of [M:EX:SUM] ( i.e. the sum of [M:EX] over all triples of positive integers [M:VAR:COORD] satisfying [M:INEQ:C] ).
+142#@#algebra#@#Find the value of [M:EX:SUM] ( i.e. the sum of [M:EX] over all triples of positive integers [M:VAR:COORD] satisfying [M:INEQ:C] ) .
 143#@#algebra#@#Let [M:EX:FUNC] be a function satisfying [M:EQ:FUNC] . Find all possible values of [M:EX:FUNC] .
 144#@#algebra#@#Find all pairs [M:VAR:COORD] of positive integers such that [M:EX] is a multiple of [M:EX] .
 145#@#algebra#@#Kelvin the Frog was bored in math class one day , so he wrote all ordered triples [M:VAR:COORD] of positive integers such that [M:EQ] on a sheet of paper . Find the sum of all the integers he wrote down . In other words , compute [M:EX:SUM] where [M:VAR:SET] denotes the positive integers .
 146#@#algebra#@#A polynomial [M:VAR] of degree [M:L:N] satisfies the equation [M:EQ:FUNC] for [M:EQ] , [M:L:N] , ... , [M:L:N] . Find [M:EX:FUNC] .
 147#@#algebra#@#Determine the largest real number [M:VAR] such that for any [M:L:N] real numbers [M:VAR] , [M:VAR] , ... , [M:VAR] , the inequality [M:INEQ:SUM] holds .
-148#@#algebra#@#Consider all ordered pairs of integers [M:VAR:COORD] such that [M:INEQ:C] and [M:EX] is an integer . Among these pairs , find the one with largest value of [M:VAR] . If multiple pairs have this maximal value of [M:VAR] , choose the one with largest [M:VAR] . For example , choose [M:L:COORD] over [M:L:COORD] over [M:L:COORD] . Note that your answer should be an ordered pair .
+148#@#algebra#@#Consider all ordered pairs of integers [M:VAR:COORD] such that [M:INEQ:C] and [M:EX] is an integer . Among these pairs , find the one with largest value of [M:VAR] . If multiple pairs have this maximal value of [M:VAR] , choose the one with largest [M:VAR] . For example , choose [M:L:COORD] over [M:L:COORD] over [M:L:COORD] .
 149#@#algebra#@#The Fibonacci sequence is defined as follows : [M:EQ] , [M:EQ] , and [M:EQ] for all integers [M:INEQ] . Find the smallest positive integer [M:VAR] such that [M:EQ:MOD] and [M:EQ:MOD] .
 150#@#algebra#@#Let [M:VAR:SET] denote the natural numbers . Compute the number of functions [M:EX:FUNC] such that [M:EQ:FUNC] and [M:EQ:MOD] for all integers [M:INEQ] .
 151#@#algebra#@#The cost of [M:L:N] hamburgers , [M:L:N] milk shakes , and [M:L:N] order of fries at a certain fast food restaurant is [M:L:N:D] . At the same restaurant , the cost of [M:L:N] hamburgers , [M:L:N] milk shakes , and [M:L:N] order of fries is [M:L:N:D] . What is the cost of [M:L:N] hamburgers , [M:L:N] milk shakes , and [M:L:N] orders of fries at this restaurant ?
 152#@#algebra#@#Bobbo starts swimming at [M:L:N] feet /s across a [M:L:N] foot wide river with a current of [M:L:N] feet /s. Bobbo doesn 't know that there is a waterfall [M:L:N] feet from where he entered the river . He realizes his predicament midway across the river . What is the minimum speed that Bobbo must increase to make it to the other side of the river safely ?
 153#@#algebra#@#Find the sum of every even positive integer less than [M:L:N] not divisible by [M:L:N] .
 154#@#algebra#@#Given that [M:VAR] and [M:VAR] are relatively prime positive integers such that [M:EQ] , find [M:VAR] and [M:VAR] .
-155#@#algebra#@#A man named Juan has three rectangular solids , each having volume [M:L:N] . Two of the faces of one solid have areas [M:L:N] and [M:L:N] . Two faces of another solid have areas [M:L:N] and [M:L:N] . Finally , two faces of the last solid have areas [M:L:N] and [M:L:N] . What is the minimum possible exposed surface area of the tallest tower Juan can construct by stacking his solids one on top of the other , face to face ? ( Assume that the base of the tower is not exposed ).
+155#@#algebra#@#A man named Juan has three rectangular solids , each having volume [M:L:N] . Two of the faces of one solid have areas [M:L:N] and [M:L:N] . Two faces of another solid have areas [M:L:N] and [M:L:N] . Finally , two faces of the last solid have areas [M:L:N] and [M:L:N] . What is the minimum possible exposed surface area of the tallest tower Juan can construct by stacking his solids one on top of the other , face to face ? ( Assume that the base of the tower is not exposed ) .
 156#@#algebra#@#How many pairs of positive integers [M:VAR:COORD] with [M:INEQ] satisfy [M:EQ] ?
 157#@#algebra#@#Given that three roots of [M:EQ:FUNC] are [M:L:N] , [M:L:N] , and [M:L:N] , what is the value of [M:EX] ?
 158#@#algebra#@#Find the set of solutions for [M:VAR] in the inequality [M:INEQ] when [M:INEQ] , [M:INEQ] .
@@ -161,7 +161,7 @@
 166#@#algebra#@#Carl and Bob can demolish a building in [M:L:N] days , Anne and Bob can do it in [M:L:N] , Anne and Carl in [M:L:N] . How many days does it take all of them working together if Carl gets injured at the end of the first day and can 't come back ?
 167#@#algebra#@#If [M:EX:FUNC] is a monic quartic polynomial such that [M:EQ:FUNC] , [M:EQ:FUNC] , [M:EQ:FUNC] , and [M:EQ:FUNC] , find [M:EX:FUNC] .
 168#@#algebra#@#How many ways are there to cover a [M:EX] rectangle with [M:L:N] identical dominoes ?
-169#@#algebra#@#Pyramid EARLY is placed in [M:VAR:COORD] coordinates so that [M:EQ:COORD] , [M:EQ:COORD] , [M:EQ:COORD] , [M:EQ:COORD], and [M:EQ:COORD] . Tunnels are drilled through the pyramid in such a way that one can move from [M:VAR:COORD] to any of the [M:L:N] points [M:VAR:COORD] , [M:VAR:COORD] , [M:VAR:COORD] , [M:VAR:COORD] . Sean starts at [M:VAR] and moves randomly down to the base of the pyramid , choosing each of the possible paths with probability [M:L:F] each time . What is the probability that he ends up at the point [M:L:COORD] ?
+169#@#algebra#@#Pyramid [M:EX] is placed in [M:VAR:COORD] coordinates so that [M:EQ:COORD] , [M:EQ:COORD] , [M:EQ:COORD] , [M:EQ:COORD], and [M:EQ:COORD] . Tunnels are drilled through the pyramid in such a way that one can move from [M:VAR:COORD] to any of the [M:L:N] points [M:VAR:COORD] , [M:VAR:COORD] , [M:VAR:COORD] , [M:VAR:COORD] . Sean starts at [M:VAR] and moves randomly down to the base of the pyramid , choosing each of the possible paths with probability [M:L:F] each time . What is the probability that he ends up at the point [M:L:COORD] ?
 170#@#algebra#@#How many integers [M:VAR] satisfy [M:INEQ] and [M:INEQ] ?
 171#@#algebra#@#Evaluate [M:EX] .
 172#@#algebra#@#Five students take a test on which any integer score from [M:L:N] to [M:L:N] inclusive is possible . What is the largest possible difference between the median and the mean of the scores ?
@@ -220,7 +220,7 @@
 227#@#algebra#@#Find all real solutions [M:VAR:COORD] of the system [M:EQ] .
 228#@#algebra#@#The train schedule in Hummut is hopelessly unreliable . Train [M:VAR] will enter Intersection [M:VAR] from the west at a random time between [M:L:T] am and [M:L:T] pm ; each moment in that interval is equally likely . Train [M:VAR] will enter the same intersection from the north at a random time between [M:L:T] am and [M:L:T] pm , independent of Train [M:VAR] ; again , each moment in the interval is equally likely . If each train take [M:L:N] minutes to clear the intersection , what is the probability of a collision today ?
 229#@#algebra#@#Let [M:VAR] , [M:VAR] , ... be a sequence defined by [M:EQ] and [M:EQ] for [M:INEQ] . Find [M:EX:SUM]
-230#@#algebra#@#Tim has a working analog [M:L:N] -hour clock with two hands that run continuously ( instead of , say , jumping on the minute ). He also has a clock that runs really slow - at half the correct rate , to be exact . At noon one day , both clocks happen to show the exact time . At any given instant , the hands on each clock form an angle between [M:L:N] and [M:L:N] inclusive . At how many times during the day are the angles on the two clocks equal ?
+230#@#algebra#@#Tim has a working analog [M:L:N] -hour clock with two hands that run continuously ( instead of , say , jumping on the minute ) . He also has a clock that runs really slow - at half the correct rate , to be exact . At noon one day , both clocks happen to show the exact time . At any given instant , the hands on each clock form an angle between [M:L:N] and [M:L:N] inclusive . At how many times during the day are the angles on the two clocks equal ?
 231#@#algebra#@#Let [M:VAR] , [M:VAR] , [M:VAR] be the roots of [M:EQ] , and let [M:EQ] . Find [M:EX] .
 232#@#algebra#@#Let [M:EQ:FUNC] . Let the roots of [M:EX:FUNC] be [M:EX] for [M:EQ] , [M:L:N] , [M:L:N] , [M:L:N] . Given that the [M:VAR] , [M:VAR] are all integers , find [M:EX] .
 233#@#algebra#@#Solve for all complex numbers [M:VAR] such that [M:EQ] .
@@ -251,7 +251,7 @@
 260#@#algebra#@#Given that the number [M:EX] is a prime for at least one digit [M:VAR] , find all such [M:VAR] .
 261#@#algebra#@#A circular disk of gradually decreasing radius slides down a pit defined by the equation [M:EQ] , maintaining two points of contact with the pit . What is its radius when the two points of contact coalesce into one ?
 262#@#algebra#@#Between which two consecutive integers does [M:EX:FUNC] lie ? [M:EQ:FUNC]
-263#@#algebra#@#If the range of [M:EQ:FUNC] for positive [M:VAR] , [M:VAR] , and [M:VAR] is [M:VAR:COORD] exclusive , find [M:EX] .
+263#@#algebra#@#If the range of [M:EQ:FUNC] for positive [M:VAR] , [M:VAR] , and [M:VAR] is [M:VAR:INT] exclusive , find [M:EX] .
 264#@#algebra#@#Find the sum [M:EX]
 265#@#algebra#@#Let [M:VAR] be any integer in the set [M:L:N] , [M:L:N] , ... , [M:L:N] . For how many [M:VAR] is the number [M:EX] divisible by [M:L:N] and only [M:L:N] ?
 266#@#algebra#@#Determine the number of consecutive zeroes at the right end of the decimal expansion of [M:EX] where [M:EQ] .
@@ -305,7 +305,7 @@
 315#@#algebra#@#The dollar is now worth [M:L:F] ounce of gold . After the [M:VAR] -th [M:L:N] billion `` No Bank Left Behind '' bailout package passed by Congress , the dollar gains [M:EX] of its [M:EX] -th value in gold . After four bank bailouts , the dollar is worth [M:EX] in gold , where [M:VAR] , [M:VAR] are positive integers . Find [M:EX] .
 316#@#algebra#@#Evaluate [M:EX:SUM]
 317#@#algebra#@#All the roots of [M:EX] are positive integers greater than [M:L:N] , and the coefficients satisfy [M:EQ] . Find [M:VAR] .
-318#@#algebra#@#Let [M:EX:FUNC] be the number of [M:L:N] [M:VAR] in the binary expansion of [M:VAR] ( e.g. [M:EQ:FUNC] , [M:EQ:FUNC] , [M:EQ:FUNC] , [M:EQ:FUNC] ). Evaluate : [M:EX:SUM]
+318#@#algebra#@#Let [M:EX:FUNC] be the number of [M:L:N] [M:VAR] in the binary expansion of [M:VAR] ( e.g. [M:EQ:FUNC] , [M:EQ:FUNC] , [M:EQ:FUNC] , [M:EQ:FUNC] ) . Evaluate : [M:EX:SUM]
 319#@#algebra#@#Find [M:EX:TRIG] .
 320#@#algebra#@#Given two regions described by the inequalities [M:INEQ] and [M:INEQ] , respectively , find the area of the intersection of the two regions .
 321#@#algebra#@#Find all pairs of positive integers [M:VAR:COORD] such that [M:EQ] , and [M:VAR] is not divisible by [M:L:N] .
@@ -463,7 +463,7 @@
 500#@#algebra#@#What is the ratio of [M:L:N] feet to [M:L:N] inches ?
 501#@#algebra#@#What is the ratio of [M:L:N] in. to [M:L:N] in. ?
 502#@#algebra#@#A publishing house gained [M:L:N] by printing [M:L:N] books . On the first , the gain was [M:L:N] . On the second the loss was [M:L:N] . On the third the gain was [M:L:N] . How much was the gain or loss on the fourth ?
-503#@#algebra#@#Divide [M:L:N] dollars between [M:VAR] , [M:VAR] , and [M:VAR] so that [M:VAR] may have [M:L:N] dollars more than [M:VAR] and [M:VAR] have [M:L:N] dollars more than [M:VAR] . Place your answer in [M:VAR:COORD] format .
+503#@#algebra#@#Divide [M:L:N] dollars between [M:VAR] , [M:VAR] , and [M:VAR] so that [M:VAR] may have [M:L:N] dollars more than [M:VAR] and [M:VAR] have [M:L:N] dollars more than [M:VAR] .
 505#@#algebra#@#John has three times as many oranges and James , and they together have [M:L:N] . How many does each have ?
 506#@#algebra#@#Find two numbers whose sum is [M:L:N] , if double the first equals the negative of the second .
 507#@#algebra#@#If [M:EX] stands for the same number as [M:EX] , what does [M:VAR] stand for ?
@@ -472,7 +472,7 @@
 510#@#algebra#@#A farmer has [M:L:N] times as many cows as horses . There are [M:L:N] animals counting both cows and horses . How many of each does he have ?
 512#@#algebra#@#Three times a certain number is equal to that number increased by [M:L:N] . What is that number ?
 513#@#algebra#@#The sum of two numbers is [M:L:N] . Their difference is [M:L:N] . What are the numbers ?
-514#@#algebra#@#Divide a line [M:L:N] inches long into two parts , such that one may be three -fourths of the other . State the length of the two parts divided by a comma ( e.g. [M:L:N] , [M:L:N] ).
+514#@#algebra#@#Divide a line [M:L:N] inches long into two parts , such that one may be three -fourths of the other . State the length of the two parts divided by a comma ( e.g. [M:L:N] , [M:L:N] ) .
 515#@#algebra#@#A father is [M:L:N] times as old as his son . He was [M:L:N] years old when his son was born . How old is the son ?
 516#@#algebra#@#James and John together have [M:L:N] dollars . James has [M:L:N] more dollars than John . How many dollars does each have ?
 517#@#algebra#@#Find three consecutive odd numbers whose sum is [M:L:N] .
