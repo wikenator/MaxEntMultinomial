@@ -1,5 +1,11 @@
 #!/usr/bin/python
 
+'''
+Author: Arnold Wikey
+Date: 2018
+Description: class containing functions used across all other classes (NaiveClassifier, MaxEntClassifier, and FeatureBuilder).
+'''
+
 import sys, re
 import pickle, argparse
 import numpy

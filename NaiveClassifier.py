@@ -1,5 +1,11 @@
 #!/usr/bin/python
 
+'''
+Author: Arnold Wikey
+Date: 2018
+Description: class containing Naive Bayes classifier functions.
+'''
+
 import sys, re
 import pickle, glob
 import math, numpy
@@ -25,6 +31,7 @@ class NaiveClassifier:
 		self.arith_problems = []
 		self.geo_problems = []
 		
+	# read data either from raw text files or from previously saved pickle files
 	def read_files(self, load_pkl):
 		self.reset_vars()
 
