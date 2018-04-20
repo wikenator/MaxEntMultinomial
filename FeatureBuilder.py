@@ -1,5 +1,11 @@
 #!/usr/bin/python
 
+'''
+Author: Arnold Wikey
+Date: 2018
+Description: class containing functions for building feature sets for MaxEnt classification. Feature sets include unigrams, bigrams, trigrams, and dependency parses.
+'''
+
 import sys, re
 import math, numpy
 import spacy
@@ -21,7 +27,6 @@ class FeatureBuilder():
 	def get_vocabulary(self, use_bigrams, use_trigrams):
 		sys.stderr.write("Compiling vocabulary.\n")
 
-#		vocab = [w for p in all_problems for w in word_tokenize(p[0].lower()) if (not w in self.stop_words) and (len(w) > 2)]
 		vocab = [w for p in self.mec.train_problems for w in self.mec.util.regex_tokenizer(p[0].lower())]
 
 		if use_bigrams:
@@ -140,6 +145,7 @@ class FeatureBuilder():
 						# append dependency triple to dependency features list
 						dep_feats.append(dep)
 
+		# restrict dependency triples to single occurrences
 ##		for i, (sym_t, spec_t) in enumerate(dep_trigrams.iteritems()):
 ##			tri_cat_sum = {c: len([k for k in spec_t.keys() if k[0] == c]) for c in self.mec.util.categories}
 ##			dep_cats = [k for k, v in tri_cat_sum.iteritems() if v]
@@ -149,27 +155,6 @@ class FeatureBuilder():
 ##				deps = [d for k, v in spec_t.iteritems() for d in v['deps'] if k[0] == c]
 
 ##				for d in deps: dep_feats.append(d)
-
-#			else:
-#				min_cat_feats = {}
-
-#				min_cat = min(k for k, v in tri_cat_sum.iteritems() if v)
-#				other_cats = [k for k in tri_cat_sum if k != min_cat]
-#				min_cat_deps = [d for k, v in spec_t.iteritems() for d in v['deps'] if k[0] == min_cat]
-#				other_cat_deps = [d for k, v in spec_t.iteritems() for d in v['deps'] if k[0] != min_cat]
-
-#				for d_min in min_cat_deps:
-#					min_cat_feats[d_min] = True
-
-#					for oc in other_cats:
-#						other_cat_deps = [d for k, v in spec_t.iteritems() for d in v['deps'] if k[0] == oc]
-
-#						for d_other in other_cat_deps:
-#							min_cat_feats[d_min] = (min_cat_feats[d_min] and d_min != d_other)
-
-#				for d_min in min_cat_feats:
-#					if min_cat_feats[d_min]:
-#						feats[d_min] = 1
 
 		alg_counts[('<UNK>', '<UNK>', '<UNK>')] = 1.0
 		arith_counts[('<UNK>', '<UNK>', '<UNK>')] = 1.0
