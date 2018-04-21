@@ -2,6 +2,7 @@
 
 import os, sys, pickle
 import numpy
+from copy import deepcopy
 from MaxEntClassifier import MaxEntClassifier as MEC
 from FeatureBuilder import FeatureBuilder as FB
 from Utils import Utils as Util
@@ -9,7 +10,7 @@ from Utils import Utils as Util
 # Naive Bayes classification
 def NB_Test(m, pkl, b, t):
 	for i in xrange(mec.iters):
-		m.split_sets(0.8, pkl)
+		m.split_sets(0.9, pkl)
 		m.compute_base_probs(b, t)
 		prec, recall = m.calculate_probs(b, t)
 
@@ -58,7 +59,7 @@ if __name__ == '__main__':
 
 	# calculate train/test set split percentages
 	if args.folds > 1: pct_split = 1 - (1.0 / args.folds)
-	else: pct_split = 0.85
+	else: pct_split = 0.9
 
 	# run Naive Bayes classifier
 	if args.naive:
@@ -139,16 +140,58 @@ if __name__ == '__main__':
 			best_learn_rate = 0
 
 		else:
-			weights, min_cost, best_learn_rate = mec.maxent(
-				train_features, 
-				validate_features,
-				weights, 
-				train_labels, 
-				validate_labels, 
-				args.steps,
-				args.learn_rate,
-				args.reg_coeff
-			)
+			lr = [5e-4, 4e-4, 3e-4, 2e-4, 1e-4]
+			rc = [.0005, .0001, .005, .002, .001, .05, .02, .01]
+			max_acc = 0.0
+			max_v_acc = 0.0
+			best_lr = 0.0
+			best_rc = 0.0
+			init_weights = deepcopy(weights)
+
+			for l in lr:
+				for r in rc:
+					weights, min_cost, best_learn_rate = mec.maxent(
+						train_features, 
+						validate_features,
+						deepcopy(init_weights), 
+						train_labels, 
+						validate_labels, 
+						args.steps,
+						l,
+						r
+					)
+
+					class_prob_train = numpy.dot(weights, train_features)
+					class_bin_train = mec.hard_classify(class_prob_train)
+
+					t_acc = ((class_bin_train == train_labels[0]).sum().astype(float)/len(class_bin_train))
+
+					class_val_train = numpy.dot(weights, validate_features)
+					class_bin_val = mec.hard_classify(class_val_train)
+
+					v_acc = ((class_bin_val == validate_labels[0]).sum().astype(float)/len(class_bin_val))
+
+					if t_acc >= max_acc:
+						max_acc = t_acc
+
+						if v_acc > max_v_acc:
+							max_v_acc = v_acc
+							best_lr = l
+							best_rc = r
+
+			print "acc: %.6f\nval: %.6f\nlr: %.5f\nrc: %.5f" % (max_acc, max_v_acc, best_lr, best_rc)
+
+			sys.exit()
+			#weights, min_cost, best_learn_rate = mec.maxent(
+			#	train_features, 
+			#	validate_features,
+			#	weights, 
+			#	train_labels, 
+			#	validate_labels, 
+			#	args.steps,
+			#	args.learn_rate,
+			#	args.reg_coeff
+			#)
 
 			if args.save_pickle:
 				mec.util.pickle_objs('./data/', fold, {'train_weights': weights})

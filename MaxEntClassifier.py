@@ -137,6 +137,8 @@ class MaxEntClassifier(NBC):
 					else:
 						astop += 1
 			
+				else:
+					astop = 0
 #				if gc > 1 and new_gc > 1 and abs(gc-new_gc) < 0.01:
 #					if gstop == 5:
 #						sys.stdout.write("\nGeneral cost improvement no longer significant.")
@@ -157,7 +159,7 @@ class MaxEntClassifier(NBC):
 
 				# increase learning rate if converging
 				elif c-new_cost > 0:
-					learn_rate *= 1.03
+					learn_rate *= 1.05
 
 			c = new_cost
 			gc = new_gc
