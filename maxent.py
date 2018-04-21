@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-import os, sys, pickle#, argparse
+import os, sys, pickle
 import numpy
 from MaxEntClassifier import MaxEntClassifier as MEC
 from FeatureBuilder import FeatureBuilder as FB
@@ -22,6 +22,7 @@ def NB_Test(m, pkl, b, t):
 		m.avg_recall/mec.iters
 	)
 
+# print statistics for training and test data
 def report(m, f, r, min_cost, best_learn_rate):
 	print "\nTraining accuracies:", m.train_acc
 	print "Test accuracies:", m.test_acc
@@ -50,12 +51,14 @@ if __name__ == '__main__':
 	args = util.cmdline_argparse()
 	prefix = './pickles/'
 
+	# create MaxEnt Classifier object
 	mec = MEC(args.load_pickle)
+	# create FeatureBuilder object
 	fb = FB(mec)
 
 	# calculate train/test set split percentages
 	if args.folds > 1: pct_split = 1 - (1.0 / args.folds)
-	else: pct_split = 0.8
+	else: pct_split = 0.85
 
 	# run Naive Bayes classifier
 	if args.naive:
@@ -63,7 +66,7 @@ if __name__ == '__main__':
 		NB_Test(mec, args.load_pickle, args.use_bigrams, args.use_trigrams)
 
 	# perform k-fold cross-validation
-	for fold in xrange(args.folds):
+	for fold in range(args.folds):
 		sys.stderr.write("\nRunning fold " + str(fold+1) + "\n")
 
 		mec.fold = fold
@@ -118,6 +121,13 @@ if __name__ == '__main__':
 
 			mec.util.pickle_objs(prefix, fold, to_pickle)
 
+		# train/validation set split
+		validate_count = int(train_features.shape[1] / pct_split * (1 - pct_split))#int(0.15 * train_features.shape[1])
+		validate_features = train_features[:,:validate_count]
+		validate_labels = train_labels[:,:validate_count]
+		train_features = train_features[:,validate_count:]
+		train_labels = train_labels[:,validate_count:]
+
 		# run maxent classifier
 		# default values: steps=1000
 		#		  learn_rate=5e-4
@@ -131,8 +141,10 @@ if __name__ == '__main__':
 		else:
 			weights, min_cost, best_learn_rate = mec.maxent(
 				train_features, 
+				validate_features,
 				weights, 
 				train_labels, 
+				validate_labels, 
 				args.steps,
 				args.learn_rate,
 				args.reg_coeff
@@ -147,20 +159,21 @@ if __name__ == '__main__':
 
 		mec.train_acc.append(((class_bin_train == train_labels[0]).sum().astype(float)/len(class_bin_train)))
 
-		err_report = open('train_misclassify.txt', 'a')
-		err_report.write('FOLD ' + str(fold) + '\n')
+#		err_report = open('train_misclassify.txt', 'a')
+#		err_report.write('FOLD ' + str(fold) + '\n')
 
-		for i, l in enumerate(train_labels[0]):
-			if class_bin_train[i] != l:
-				err_report.write("%s#@#%s#@#%s\n" % (mec.util.categories[class_bin_train[i]], mec.train_problems[i][1], mec.train_problems[i][0]))
+#		for i, l in enumerate(train_labels[0]):
+#			if class_bin_train[i] != l:
+#				err_report.write("%s#@#%s#@#%s\n" % (mec.util.categories[class_bin_train[i]], mec.train_problems[i][1], mec.train_problems[i][0]))
 
-		err_report.close()
+#		err_report.close()
 
 		# find testing accuracy
 		test_features, test_labels = fb.get_test_features(all_words, args.use_bigrams, args.use_trigrams, args.dep_parse)
 		class_prob_test = numpy.dot(weights, test_features)
 		class_bin_test = mec.hard_classify(class_prob_test)
 
+		# create confusion matrix for precision and recall calculations
 		confusion_matrix = mec.maxent_confusion_matrix(test_labels[0], class_bin_test)
 		prec, rec = mec.precision_recall(confusion_matrix)
 		mec.precision.append(prec)
@@ -168,14 +181,14 @@ if __name__ == '__main__':
 
 		mec.test_acc.append(((class_bin_test == test_labels[0]).sum().astype(float)/len(class_bin_test)))
 
-		err_report = open('test_misclassify.txt', 'a')
-		err_report.write('FOLD ' + str(fold) + '\n')
+#		err_report = open('test_misclassify.txt', 'a')
+#		err_report.write('FOLD ' + str(fold) + '\n')
 
-		for i, l in enumerate(test_labels[0]):
-			if class_bin_test[i] != l:
-				err_report.write("%s#@#%s#@#%s\n" % (mec.util.categories[class_bin_test[i]], mec.test_problems[i][1], mec.test_problems[i][0]))
+#		for i, l in enumerate(test_labels[0]):
+#			if class_bin_test[i] != l:
+#				err_report.write("%s#@#%s#@#%s\n" % (mec.util.categories[class_bin_test[i]], mec.test_problems[i][1], mec.test_problems[i][0]))
 
-		err_report.close()
+#		err_report.close()
 
 		# free up memory for next iteration
 		del all_words

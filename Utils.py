@@ -42,7 +42,7 @@ class Utils():
 		cmd_line_parser.add_argument('-R', '--no_retrain', action='store_true', help='Do not retrain weights from loaded data.')
 		#pkl_group.add_argument('-s', '--save_pickle', action='store_true', help='Save data to pickle files after calculation.')
 		cmd_line_parser.add_argument('-s', '--steps', nargs=1, default=1000, help='Number of iterations for maxent gradient descent calculated during learning. Default: %(default)s')
-		cmd_line_parser.add_argument('-r', '--learn_rate', nargs=1, default=5e-4, help='Learning rate to use during maxent learning. Default: %(default)s')
+		cmd_line_parser.add_argument('-r', '--learn_rate', nargs=1, default=1e-4, help='Learning rate to use during maxent learning. Default: %(default)s')
 		cmd_line_parser.add_argument('-c', '--reg_coeff', nargs=1, default=0.001, help='Regularization coefficient to normalize maxent gradient descent during learning. Default: %(default)s')
 		cmd_line_parser.add_argument('-f', '--folds', nargs=1, default=1, help='Perform k-fold cross-validation. Larger k = less bias, more variance. Smaller k = more bias, less variance. Accuracy from each cross-validation will be averaged over all folds. Default: %(default)s')
 		args = cmd_line_parser.parse_args()
