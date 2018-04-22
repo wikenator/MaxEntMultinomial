@@ -90,7 +90,7 @@ class MaxEntClassifier(NBC):
 
 			costs.append(c)
 
-			sys.stderr.write("iter: "+str(i+1)+" cost: "+str(c)+" acc: "+str(accuracy)+" gen: "+str(gc)+"\n")
+			sys.stderr.write("iter: %d cost: %.9f acc: %.9f gen: %.9f\r" % (i+1, c, accuracy, gc))
 
 			# check stopping criteria every 10 epochs
 #			if (i+1) % 10 == 0:
@@ -125,7 +125,6 @@ class MaxEntClassifier(NBC):
 			acc_diff = new_acc-old_acc
 
 			if math.isnan(new_cost):
-#				sys.exit("\nGradient descent has diverged. Last learn rate: "+str(learn_rate)+"\n")
 				return 'div', 'div', 'div'
 
 			if nostop == False:
@@ -139,6 +138,7 @@ class MaxEntClassifier(NBC):
 			
 				else:
 					astop = 0
+
 #				if gc > 1 and new_gc > 1 and abs(gc-new_gc) < 0.01:
 #					if gstop == 5:
 #						sys.stdout.write("\nGeneral cost improvement no longer significant.")
@@ -153,7 +153,6 @@ class MaxEntClassifier(NBC):
 
 				# lower learning rate if diverging
 				elif c-new_cost < 0:
-					sys.stdout.write('Lowering learn rate.\n')
 					w += learn_rate * grad
 					learn_rate *= 0.5
 
@@ -164,6 +163,8 @@ class MaxEntClassifier(NBC):
 			c = new_cost
 			gc = new_gc
 			vc = new_vc
+
+		sys.stdout.write('\n')
 
 		f_train.close()
 		f_val.close()

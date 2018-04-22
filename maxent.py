@@ -123,7 +123,7 @@ if __name__ == '__main__':
 			mec.util.pickle_objs(prefix, fold, to_pickle)
 
 		# train/validation set split
-		validate_count = int(train_features.shape[1] / pct_split * (1 - pct_split))#int(0.15 * train_features.shape[1])
+		validate_count = int(train_features.shape[1] / pct_split * (1 - pct_split))
 		validate_features = train_features[:,:validate_count]
 		validate_labels = train_labels[:,:validate_count]
 		train_features = train_features[:,validate_count:]
@@ -139,17 +139,32 @@ if __name__ == '__main__':
 			min_cost = 0
 			best_learn_rate = 0
 
-		else:
-			lr = [5e-4, 4e-4, 3e-4, 2e-4, 1e-4]
-			rc = [.0005, .0001, .005, .002, .001, .05, .02, .01]
+		elif args.grid_search:
+			lr = [
+				.9, .8, .7, .6, .5, .4, .3, .2, .1,
+				.09, .08, .07, .06, .05, .04, .03, .02, .01,
+				.009, .008, .007, .006, .005, .004, .003, .002, .001,
+				9e-4, 8e-4, 7e-4, 6e-4, 5e-4, 4e-4, 3e-4, 2e-4, 1e-4,
+				9e-5, 8e-5, 7e-5, 6e-5, 5e-5, 4e-5, 3e-5, 2e-5, 1e-5
+			]
+			rc = [
+				.9, .8, .7, .6, .5, .4, .3, .2, .1,
+				.09, .08, .07, .06, .05, .04, .03, .02, .01,
+				.009, .008, .007, .006, .005, .004, .003, .002, .001,
+				9e-4, 8e-4, 7e-4, 6e-4, 5e-4, 4e-4, 3e-4, 2e-4, 1e-4,
+				9e-5, 8e-5, 7e-5, 6e-5, 5e-5, 4e-5, 3e-5, 2e-5, 1e-5
+			]
 			max_acc = 0.0
 			max_v_acc = 0.0
 			best_lr = 0.0
 			best_rc = 0.0
 			init_weights = deepcopy(weights)
+			best_wts = deepcopy(init_weights)
 
 			for l in lr:
 				for r in rc:
+					sys.stdout.write("Learn Rate: %.5f, Reg Coeff: %.5f\n" % (l, r))
+
 					weights, min_cost, best_learn_rate = mec.maxent(
 						train_features, 
 						validate_features,
@@ -160,6 +175,8 @@ if __name__ == '__main__':
 						l,
 						r
 					)
+
+					if weights == 'div': continue
 
 					class_prob_train = numpy.dot(weights, train_features)
 					class_bin_train = mec.hard_classify(class_prob_train)
@@ -178,20 +195,23 @@ if __name__ == '__main__':
 							max_v_acc = v_acc
 							best_lr = l
 							best_rc = r
+							best_wts = deepcopy(weights)
 
-			print "acc: %.6f\nval: %.6f\nlr: %.5f\nrc: %.5f" % (max_acc, max_v_acc, best_lr, best_rc)
+			weights = best_wts
 
-			sys.exit()
-			#weights, min_cost, best_learn_rate = mec.maxent(
-			#	train_features, 
-			#	validate_features,
-			#	weights, 
-			#	train_labels, 
-			#	validate_labels, 
-			#	args.steps,
-			#	args.learn_rate,
-			#	args.reg_coeff
-			#)
+			print "best learn rate: %.5f, best reg coeff: %.5f" % (best_lr, best_rc)
+
+		else:
+			weights, min_cost, best_learn_rate = mec.maxent(
+				train_features, 
+				validate_features,
+				weights, 
+				train_labels, 
+				validate_labels, 
+				args.steps,
+				args.learn_rate,
+				args.reg_coeff
+			)
 
 			if args.save_pickle:
 				mec.util.pickle_objs('./data/', fold, {'train_weights': weights})
