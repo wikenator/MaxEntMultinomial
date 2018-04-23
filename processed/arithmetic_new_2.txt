@@ -1,6 +1,5 @@
 3499#@#arithmetic#@#Brenda starts with [M:L:N] Skittles . She buys [M:L:N] more . How many Skittles does Brenda end with ?
 3504#@#arithmetic#@#There are [M:L:N] cards . [M:L:N] cards more are added . How many are there total ?
-3507#@#arithmetic#@#Peter starts with [M:L:N] erasers . Bridget gives Peter [M:L:N] more . How many erasers does Peter end with ?
 3508#@#arithmetic#@#If there are [M:L:N] crayons in a box and Gerald puts [M:L:N] more crayons inside , how many crayons are in the box ?
 3509#@#arithmetic#@#Michelle has [M:L:N] crayons . Janet has [M:L:N] crayons . If Janet gives all of her crayons to Michelle , how many crayons will Michelle have ?
 3511#@#arithmetic#@#Donald has [M:L:N] oranges . He finds another [M:L:N] . How many oranges does Donald have in all ?
@@ -12,9 +11,7 @@
 3527#@#arithmetic#@#Joshua has [M:L:N] bottle caps . He buys [M:L:N] more . How many bottle caps does Joshua have in all ?
 3532#@#arithmetic#@#Harry starts with [M:L:N] apples . He buys [M:L:N] more . How many apples does Harry end with ?
 3534#@#arithmetic#@#Eugene has [M:L:N] pencils . He gets [M:L:N] more from Joyce . How many pencils does Eugene have in all ?
-3544#@#arithmetic#@#Janet has [M:L:N] apples . She finds another [M:L:N] . How many apples does Janet have in all ?
 3548#@#arithmetic#@#Arthur removes [M:L:N] pencils from a jar . There were originally [M:L:N] pencils in the jar . How many pencils are left in the jar ?
-3549#@#arithmetic#@#Joyce starts with [M:L:N] apples . She gives [M:L:N] to Larry . How many apples does Joyce end with ?
 3550#@#arithmetic#@#Rachel removes [M:L:N] bottle caps from a jar . There were originally [M:L:N] bottle caps in the jar . How many bottle caps are left in the jar ?
 3552#@#arithmetic#@#Jessica weighs [M:L:N] pounds . Thomas weighs [M:L:N] pounds . How much heavier is Jessica than Thomas ?
 3554#@#arithmetic#@#Virginia starts with [M:L:N] eggs . Amy takes [M:L:N] away . How many eggs does Virginia end with ?
@@ -22,26 +19,13 @@
 3558#@#arithmetic#@#David removes [M:L:N] eggs from a jar . There were originally [M:L:N] eggs in the jar . How many eggs are left in the jar ?
 3559#@#arithmetic#@#There are [M:L:N] pencils in a box . Eric takes [M:L:N] pencils . How many are left ?
 3565#@#arithmetic#@#Melissa has [M:L:N] bananas . She shares [M:L:N] with Joshua . How many bananas will Melissa have ?
-3566#@#arithmetic#@#Larry has [M:L:N] cards . Dennis takes [M:L:N] away . How many cards will Larry have ?
 3568#@#arithmetic#@#Larry starts with [M:L:N] stickers . He loses [M:L:N] . How many stickers does Larry end with ?
 3569#@#arithmetic#@#Carlos starts with [M:L:N] bananas . [M:L:N] are eaten by a hippopotamus . How many bananas does Carlos end with ?
 3570#@#arithmetic#@#Patricia starts with [M:L:N] candies . Albert takes [M:L:N] away . How many candies does Patricia end with ?
-3571#@#arithmetic#@#There are [M:L:N] bottle caps in a box . Marvin takes [M:L:N] bottle caps . How many are left ?
-3575#@#arithmetic#@#Ruby has [M:L:N] apples . Emily takes [M:L:N] away . How many apples will Ruby have ?
-3577#@#arithmetic#@#Steve has [M:L:N] oranges . He shares [M:L:N] with Patrick . How many oranges will Steve have ?
-3583#@#arithmetic#@#Melissa has [M:L:N] oranges . John takes [M:L:N] away . How many oranges will Melissa have ?
-3584#@#arithmetic#@#Norma starts with [M:L:N] bananas . She loses [M:L:N] . How many bananas does Norma end with ?
-3585#@#arithmetic#@#Willie starts with [M:L:N] stickers . He gives [M:L:N] to Emily . How many stickers does Willie end with ?
-3588#@#arithmetic#@#Norma has [M:L:N] cards . She loses [M:L:N] . How many cards will Norma have ?
-3592#@#arithmetic#@#Ruth starts with [M:L:N] apples . She shares [M:L:N] with Peter . How many apples does Ruth end with ?
 3599#@#arithmetic#@#Clarence has [M:L:N] tickets . He gives [M:L:N] to Eugene . How many tickets will Clarence have ?
 3601#@#arithmetic#@#Tina has [M:L:N] bananas . She gets [M:L:N] more from Joyce . How many bananas does Tina have in all ?
-3602#@#arithmetic#@#Janet has [M:L:N] stickers . She gets [M:L:N] more from Ruth . How many stickers does Janet have in all ?
 3603#@#arithmetic#@#Jennifer starts with [M:L:N] apples . She finds another [M:L:N] . How many apples does Jennifer end with ?
 3604#@#arithmetic#@#Heather has [M:L:N] oranges . Russell takes [M:L:N] away . How many oranges will Heather have ?
-3605#@#arithmetic#@#Helen starts with [M:L:N] oranges . She gets [M:L:N] more from Ann . How many oranges does Helen end with ?
-3607#@#arithmetic#@#Dorothy has [M:L:N] cards . She gives [M:L:N] to Harold . How many cards will Dorothy have ?
-3608#@#arithmetic#@#Sara has [M:L:N] marbles . She loses [M:L:N] . How many marbles will Sara have ?
 3610#@#arithmetic#@#Wanda has [M:L:N] blocks . Theresa gives Wanda [M:L:N] more . How many blocks does Wanda have in all ?
 3615#@#arithmetic#@#Each bottle cap costs [M:L:N] . How much do [M:L:N] bottle caps cost ?
 3616#@#arithmetic#@#Each child has [M:L:N] oranges . If there are [M:L:N] children , how many oranges are there in total ?
@@ -88,10 +72,8 @@
 3745#@#arithmetic#@#Shawn has [M:L:N] blocks . Mildred has with [M:L:N] blocks . Mildred finds another [M:L:N] . How many blocks does Mildred end with ?
 3748#@#arithmetic#@#If Stephanie ran for [M:L:N] hours at [M:L:N] miles per hour . How far did Stephanie go ?
 3753#@#arithmetic#@#If Charles strolled [M:L:N] miles at [M:L:N] miles per hour , how long was Charles traveling ?
-3755#@#arithmetic#@#If Rose strolled for [M:L:N] hours at [M:L:N] miles per hour . How far did Rose go ?
 3758#@#arithmetic#@#It took Amanda [M:L:N] hours to stroll to Kimberly 's house at [M:L:N] miles per hour . How far is it between Amanda 's house and Kimberly 's house ?
 3760#@#arithmetic#@#Emily sprinted to Timothy 's house . It is [M:L:N] miles from Emily 's house to Timothy 's house . It took Emily [M:L:N] hours to get there . How fast did Emily go ?
-3767#@#arithmetic#@#If Benjamin strolled [M:L:N] miles at [M:L:N] miles per hour , how long was Benjamin traveling ?
 3768#@#arithmetic#@#Mark sprinted [M:L:N] miles at [M:L:N] miles per hour . How long did Mark sprint ?
 3776#@#arithmetic#@#Lisa flew [M:L:N] miles at [M:L:N] miles per hour . How long did Lisa fly ?
 3784#@#arithmetic#@#If Benjamin skated [M:L:N] kilometers at [M:L:N] kilometers per hour , how long was Benjamin skating ?

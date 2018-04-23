@@ -51,7 +51,6 @@
 1857#@#algebra#@#[M:L:N:D] of a certain number is [M:L:N] more than [M:L:F:M] of a number . Find the number .
 1858#@#algebra#@#One gallon container is full of a [M:L:N:P] alcohol solution . How much must be drained off and replaced by a [M:L:N:P] alcohol solution to produce one gallon of [M:L:N:P] alcohol solution ?
 1859#@#algebra#@#An investor will invest a total of [M:L:N] dollars in [M:L:N] accounts , one paying [M:L:N:P] annual simple interest and the other [M:L:N:P] . If he wants to earn [M:L:N] dollars annual interest , how much should he invest at [M:L:N:P] ? How much at [M:L:N:P] ? 
-1860#@#algebra#@#Stan invested [M:L:N] dollars , part at [M:L:N:P] and part at [M:L:N:P] . If the total interest at the end of the year is [M:L:N] dollars , how much did he invest at [M:L:N:P] ? How much at [M:L:N:P] ? 
 1861#@#algebra#@#Red cards are worth [M:L:N] credits , while blue cards are worth [M:L:N] credits . You need any combination of [M:L:N] cards to play a game . With [M:L:N] credits to buy cards , how many blue cards will you have when you play ? how many red cards will you have when you play ? 
 1862#@#algebra#@#Ron and Kathy are ticket-sellers , Ron handling student tickets that sell for [M:L:N] dollars each and Kathy selling adult tickets for [M:L:N] dollars each . If their total income for [M:L:N] tickets was [M:L:N] dollars , how many did Ron sell ? 
 1863#@#algebra#@#Juan and Peter both leave a shopping center at the same time going in opposite directions . Juan is on his bike and travels [M:L:N] miles per hour faster than Peter who is on his skateboard . After [M:L:N] hours they are [M:L:N] miles apart . How fast does Peter travel ?
@@ -71,7 +70,7 @@
 1878#@#algebra#@#Tony planted a [M:L:N] foot tree . The tree grows at a rate of [M:L:N] feet every year . How many years will it take to be [M:L:N] feet ?
 1879#@#algebra#@#Safety Rent A Truck costs [M:L:N] dollars plus [M:L:N] dollars per mile . City Rentals rents the truck for [M:L:N] dollars plus [M:L:N] dollars per mile . For what mileage are the costs the same ?
 1880#@#algebra#@#A plane travels due East at [M:L:N] miles per hour and another plane travels due west at [M:L:N] miles per hour . If they leave at the same time , and from the same place , in how many hours will they be [M:L:N] miles apart ? 
-1881#@#algebra#@#The difference between [M:L:N] times a number and -8 is -12 . Find the number .
+1881#@#algebra#@#The difference between [M:L:N] times a number and [M:L:N] is [M:L:N] . Find the number .
 1882#@#algebra#@#A painting is [M:L:N] inches tall and [M:L:N] inches wide . A print of the painting is [M:L:N] inches tall , how wide is the print in inches ? 
 1883#@#algebra#@#Colored copies cost [M:L:N] cents per copy and white copies cost [M:L:N] cents per copy . Sandy made [M:L:N] copies , some of which were colored and the rest white . Her total bill was [M:L:N] dollars . How many colored copies and white copies did she make ? 
 1884#@#algebra#@#In college there are [M:L:N] times as many students as professors . If together the students and professors number [M:L:N] , how many students are there in college ? 
@@ -132,7 +131,6 @@
 1939#@#algebra#@#A [M:L:N] ounce can of cranberry juice sells for [M:L:N] cents . Give the unit cost in cents per ounce .
 1940#@#algebra#@#Pencils cost [M:L:N] cents a piece . Pens cost [M:L:N] cents a piece . Susan spent [M:L:N] dollars for a total of [M:L:N] pens and pencils . How many pencils did she buy ?
 1941#@#algebra#@#Safety Rent-a-Car rents an intermediate-size car at a daily rate of [M:L:N] dollars plus [M:L:N] per mile . City Rentals rent an intermediate-size car for [M:L:N] dollars plus [M:L:N] per mile . For what milage is the cost the same ? 
-1942#@#algebra#@#Angus invested [M:L:N] dollars , part at [M:L:N:P] and part at [M:L:N:P] . If the total interest at the end of the year is [M:L:N] dollars , how much did he invest at [M:L:N:P] ? At [M:L:N:P] ? 
 1943#@#algebra#@#Together , Jane and Jill have [M:L:N] dolls . Jill has [M:L:N] more dolls than Jane does . How many dolls does Jane have ? How many does Jill have ? 
 1944#@#algebra#@#Two airplanes left the same airport traveling in opposite directions . If one airplane averages [M:L:N] miles per hour and the other [M:L:N] miles per hour , how many hours will it take for the distance between them be [M:L:N] miles ? 
 1945#@#algebra#@#In a basketball game , Will scored [M:L:N] points , consisting only of [M:L:N] -point shots and [M:L:N] -point shots . He made a total of [M:L:N] shots . How many [M:L:N] -point shots did he make ? How many [M:L:N] -point shots did he make ? 
@@ -180,7 +178,7 @@
 1987#@#algebra#@#Best Rentals charges a daily fee plus a mileage fee for renting its cars . Barney was charged [M:L:N] dollars for [M:L:N] days and [M:L:N] miles , while Mary was charged [M:L:N] dollars for [M:L:N] days and [M:L:N] miles . Find the daily fee and find the mileage charge ? 
 1988#@#algebra#@#A chemist has one solution that is [M:L:N:P] acid and a second that is [M:L:N:P] acid . How many liters of each should be mixed together to get [M:L:N] liters that is [M:L:N:P] acid ?
 1989#@#algebra#@#There are [M:L:N] students in an Algebra [M:L:N] class . There are [M:L:N] fewer girls than boys . How many girls are in the class ?
-1990#@#algebra#@#During the 19[M:L:N] -1999 Little League season , the Tigers played [M:L:N] games . They lost [M:L:N] more games than they won . They did n't tie any . How many games did they win that season ? 
+1990#@#algebra#@#During the [M:L:N] - [M:L:N] Little League season , the Tigers played [M:L:N] games . They lost [M:L:N] more games than they won . They did n't tie any . How many games did they win that season ? 
 1991#@#algebra#@#One number exceeds another by [M:L:N] and their sum is [M:L:N] . Find the larger number .
 1992#@#algebra#@#A chemistry lab can be used by [M:L:N] students at one time . The lab has [M:L:N] work-stations .  Some set up for [M:L:N] students and the others set up for [M:L:N] students . How many work-stations accommodate [M:L:N] students ? 
 1993#@#algebra#@#A dealer has some hard candy worth [M:L:N] dollars a pound and some worth [M:L:N] dollars a pound . He wishes to make a mixture of [M:L:N] pounds that he can sell for [M:L:N] dollars per pound . How many pounds of each kind should he use ?
@@ -202,7 +200,6 @@
 2009#@#algebra#@#Matthew has two different stocks . One of the stocks is worth twice as much per share as the other . He has [M:L:N] shares of the more valuable stock and [M:L:N] shares of the other stock . His total assets in stocks is [M:L:N] dollars . How much is the more expensive stock per share ?
 2010#@#algebra#@#On a certain hot summer 's day , [M:L:N] people used the public swimming pool . The daily prices are [M:L:N] dollars for children and [M:L:N] dollars for adults . The receipts for admission totaled [M:L:N] dollars . How many children and adults swam at the public pool that day ? 
 2011#@#algebra#@#For Monday morning 's staff meeting , Jim bought [M:L:N] bags of bagels and [M:L:N] packages of cream cheese and paid [M:L:N] dollars . For Friday 's meeting , he bought [M:L:N] bags of bagels and [M:L:N] packages of cream cheese and paid [M:L:N] dollars . How much does a bag of bagels and a package of cream cheese cost , in dollars ? 
-2012#@#algebra#@#Jill has [M:L:N] dollars in nickels and dimes . If she has [M:L:N] coins , how many nickels does she have ? How many dimes ? 
 2013#@#algebra#@#There are [M:L:N] more girls than boys in Tom 's class , and the sum of girls and boys is [M:L:N] . How many boys are in the class ? How many girls are in the class ? 
 2014#@#algebra#@#[M:L:N] automobiles start out from two points [M:L:N] kilometers apart and travel toward each other .The automobile from the east travels at [M:L:N] kilometers faster than the automobile from the west . If they meet after [M:L:N] hours , what is the average speed of each automobile ? 
 2015#@#algebra#@#A garage owner wants to fill a [M:L:N] gallon drum with a [M:L:N] percent winter mixture of antifreeze for his customers . How many gallons of [M:L:N] percent antifreeze should he mix with some [M:L:N] percent antifreeze mixture in order to fill the drum ?
@@ -229,7 +226,6 @@
 2036#@#algebra#@#Twice a number equals [M:L:N] less than triple the same number . What is the number ?
 2037#@#algebra#@#You are taking a test in which multiple choice questions are worth [M:L:N] points and essay questions are worth [M:L:N] points . You answer [M:L:N] questions correctly , and your score was [M:L:N] points . Find how many multiple choice questions you got right . How many essay questions did you get right ? 
 2038#@#algebra#@#Two cars leave the same point , traveling in opposite directions . If one travels at a constant speed of [M:L:N] miles per hour and the other travels at a constant speed of [M:L:N] miles per hour . In how many hours will they be [M:L:N] miles apart ? 
-2039#@#algebra#@#Lane invested [M:L:N] dollars , part at [M:L:N:P] and part at [M:L:N:P] . If the total interest at the end of the year is [M:L:N] dollars , how much did she invest at [M:L:N:P] ? 
 2040#@#algebra#@#[M:L:N] number is [M:L:N] less than twice another , and their sum is [M:L:N] . Find the two numbers . 
 2041#@#algebra#@#Think of a number , half it and the result is [M:L:N] . Find the number . 
 2042#@#algebra#@#The sum of [M:L:N] numbers is [M:L:N] and their difference is [M:L:N] . What is the first number ? What is the second number ?
@@ -239,7 +235,6 @@
 2046#@#algebra#@#[M:L:N] ducks and [M:L:N] pigs cost [M:L:N] dollars , while [M:L:N] ducks and [M:L:N] pigs cost [M:L:N] dollars . Find the cost of a duck and a pig . 
 2047#@#algebra#@#[M:L:N] snails are [M:L:N] centimeters apart . They craw toward each other at rates that differ by [M:L:N] centimeters per minute . After [M:L:N] minutes they meet . How fast is each snail crawling ?
 2048#@#algebra#@#The manager of a discount clothing store received [M:L:N] shipments of Fall clothing . The cost of the first shipment which contained [M:L:N] identical sweaters and [M:L:N] identical jackets was [M:L:N] dollars . The second shipment at the same prices , contained [M:L:N] of the same sweaters and [M:L:N] of the same jackets . The second shipment was [M:L:N] dollars . Find the cost of [M:L:N] jacket , in dollars . 
-2049#@#algebra#@#High school graduating class is made up of [M:L:N] students . There are [M:L:N] more girls than boys . How many boys are in the class ? 
 2050#@#algebra#@#Student Council wants to rent a banquet hall for the prom . Caesar 's charges [M:L:N] dollars to rent the room and [M:L:N] dollars for each meal . Venus Hall charges [M:L:N] dollars to rent the room and [M:L:N] dollars for each meal . How many guests must attend the prom for the costs of the two halls to be the same ?
 2051#@#algebra#@#When [M:L:N] times the number is added to [M:L:N] times the number the result is [M:L:N] . What is the number ?
 2052#@#algebra#@#[M:L:N] investments are made totaling [M:L:N] dollars . For a certain year , these investments yield [M:L:N] dollars in simple interest . Part of the [M:L:N] dollars is invested at [M:L:N:P] and part at [M:L:N:P] . Find the amount invested at [M:L:N:P] and [M:L:N:P] . 
@@ -376,7 +371,7 @@
 2183#@#algebra#@#A [M:L:N] inch board is cut into [M:L:N] pieces . One piece is [M:L:N] times the length of the other . What is the length of the shorter piece , in inches ? What is the length of the longer piece ? 
 2184#@#algebra#@#An athlete can burn [M:L:N] calories per minute while running and [M:L:N] calories per minute while walking . If the athlete burns [M:L:N] calories in [M:L:N] minutes , how many minutes are spent running ? How many minutes are spent walking ? 
 2185#@#algebra#@#Janet invested [M:L:N] dollars , part at [M:L:N:P] and part at [M:L:N:P] . If the total interest at the end of the year is [M:L:N] dollars , how much did she invest at [M:L:N:P] ? 
-2186#@#algebra#@#Two times the first number is one more than the second number . If their sum is -64 , what are the two numbers ? 
+2186#@#algebra#@#Two times the first number is one more than the second number . If their sum is [M:L:N] , what are the two numbers ? 
 2187#@#algebra#@#During [M:L:N] major league baseball season , the Chicago White Sox played [M:L:N] games . They won [M:L:N] more than they lost . How many games did they win , and how many did they lose ? 
 2188#@#algebra#@#The difference between [M:L:N] of a line and [M:L:N] of the same line is [M:L:N] centimeters . Find the length of the line .
 2189#@#algebra#@#The sum of two numbers is [M:L:N] . The second is [M:L:N] more than [M:L:N] times the first . What is the first number and what is the second one ?

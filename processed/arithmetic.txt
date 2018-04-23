@@ -153,7 +153,6 @@
 1309#@#arithmetic#@#What will [M:L:N] two -cent stamps cost ( in cents ) ?
 1310#@#arithmetic#@#Find the cost of [M:L:N] tons of hay when [M:L:N] ton costs [M:L:N] .
 1311#@#arithmetic#@#There are two pints in a quart . How many pints in [M:L:N] quarts ?
-1312#@#arithmetic#@#What will [M:L:N] two -cent pencils cost ( in cents ) ?
 1313#@#arithmetic#@#There are [M:L:N] cents in one dollar . How many cents are there in [M:L:N] dollars ?
 1314#@#arithmetic#@#A boy has [M:L:N] recitations a day . How many recitations does he have in [M:L:N] weeks of [M:L:N] school days each ?
 1315#@#arithmetic#@#Edward had [M:L:N] nuts , and George [M:L:N] times more than Edward . How many had George ?
@@ -205,36 +204,27 @@
 1361#@#arithmetic#@#A dealer sells [M:L:N] notebooks at [M:L:F:M] cents each . How much does he receive ( in cents ) ?
 1362#@#arithmetic#@#At [M:L:N] a cord , what will [M:L:F] of a cord of wood cost ?
 1363#@#arithmetic#@#If [M:L:N] tons of coal cost [M:L:F:M] , what will [M:L:N] ton cost ?
-1364#@#arithmetic#@#Joan found [M:L:N] seashells on the beach . she gave Sam some of her seashells . She has [M:L:N] seashell . How many seashells did she give to Sam ?
-1365#@#arithmetic#@#There were [M:L:N] bales of hay in the barn . Tim stacked bales in the barn today . There are now [M:L:N] bales of hay in the barn . How many bales did he store in the barn ?
 1366#@#arithmetic#@#Mary is baking a cake . The recipe wants [M:L:N] cups of flour . She already put in [M:L:N] cups . How many cups does she need to add ?
 1367#@#arithmetic#@#Sara 's high school played [M:L:N] basketball games this year . The team won most of their games . They were defeated during [M:L:N] games . How many games did they win ?
 1368#@#arithmetic#@#There are [M:L:N] walnut trees currently in the park . Park workers will plant walnut trees today . When the workers are finished there will be [M:L:N] walnut trees in the park . How many walnut trees did the workers plant today ?
 1369#@#arithmetic#@#Mike had [M:L:N] peaches at his roadside fruit dish . He went to the orchard and picked peaches to stock up . There are now [M:L:N] peaches . how many did he pick ?
 1371#@#arithmetic#@#Joan went to [M:L:N] football games this year . She went to [M:L:N] games last year . How many football games did Joan go to in all ?
-1372#@#arithmetic#@#Tom has [M:L:N] yellow balloons Sara has [M:L:N] yellow balloons . How many yellow balloons do they have in total ?
 1374#@#arithmetic#@#Sam had [M:L:N] dimes in his bank . His dad gave him [M:L:N] dimes . How many dimes does Sam have now ?
 1375#@#arithmetic#@#Alyssa 's dog had puppies . She gave [M:L:N] to her friends . She now has [M:L:N] puppies . How many puppies did she have to start with ?
 1376#@#arithmetic#@#A restaurant served [M:L:N] pizzas during lunch and [M:L:N] during dinner today . How many pizzas were served today ?
-1379#@#arithmetic#@#Sandy grew [M:L:N] carrots . Sam grew [M:L:N] carrots . How many carrots did they grow in total ?
 1380#@#arithmetic#@#Benny picked [M:L:N] apples and Dan picked [M:L:N] apples from the apple tree . How many apples were picked in total ?
 1381#@#arithmetic#@#Sally found [M:L:N] seashells , Tom found [M:L:N] seashells , and Jessica found [M:L:N] seashells on the beach . How many seashells did they find together ?
 1382#@#arithmetic#@#Tim 's cat had kittens . He gave [M:L:N] to Jessica and [M:L:N] to Sara . He now has [M:L:N] kittens . How many kittens did he have to start with ?
-1383#@#arithmetic#@#Joan has [M:L:N] blue balloons , Sally has [M:L:N] blue balloons , and Jessica has [M:L:N] blue balloons . How many blue balloons do they have in total ?
 1385#@#arithmetic#@#A restaurant served [M:L:N] cakes during lunch and [M:L:N] during dinner today . The restaurant served [M:L:N] cakes yesterday . How many cakes were served in total ?
 1386#@#arithmetic#@#Melanie picked [M:L:N] plums , Dan picked [M:L:N] plums , and Sally picked [M:L:N] plums from the plum tree . How many plums were picked in total ?
 1388#@#arithmetic#@#Sara grew [M:L:N] onions , Sally grew [M:L:N] onions , and Fred grew [M:L:N] onions . How many onions did they grow in all ?
 1389#@#arithmetic#@#Jason has [M:L:N] blue and [M:L:N] red marbles . Tom has [M:L:N] blue marbles . How many blue marbles do they have in all ?
-1392#@#arithmetic#@#There are [M:L:N] rulers and [M:L:N] crayons in the drawer . Tim placed [M:L:N] rulers in the drawer . How many rulers are now there in all ?
-1394#@#arithmetic#@#Keith has [M:L:N] books . Jason has [M:L:N] books . How many books do they have together ?
 1397#@#arithmetic#@#Sara has [M:L:N] red and [M:L:N] green balloons . Sandy has [M:L:N] red balloons . How many red balloons do they have in total ?
 1399#@#arithmetic#@#Fred went to [M:L:N] basketball games this year , but missed [M:L:N] . He went to [M:L:N] games last year . How many basketball games did Fred go to in total ?
 1400#@#arithmetic#@#There are [M:L:N] pencils and [M:L:N] crayons in the drawer . Joan placed [M:L:N] pencils in the drawer . How many pencils are now there in total ?
 1401#@#arithmetic#@#Sam had [M:L:N] pennies and [M:L:N] nickels in his bank . His dad gave him [M:L:N] nickels and [M:L:N] quarters . How many nickels does he have now ?
 1404#@#arithmetic#@#Sara had [M:L:N] quarters in her bank . Her dad gave her [M:L:N] quarters . How many quarters does she have now ?
-1406#@#arithmetic#@#Joan has [M:L:N] books . Tom has [M:L:N] books . How many books do they have together ?
 1407#@#arithmetic#@#Joan has [M:L:N] blue balloons Melanie has [M:L:N] blue balloons . How many blue balloons do they have in total ?
-1408#@#arithmetic#@#Fred grew [M:L:N] cantelopes . Tim grew [M:L:N] cantelopes . How many cantelopes did they grow in total ?
 1409#@#arithmetic#@#Sam went to [M:L:N] football games this year . He went to [M:L:N] games last year . How many football games did Sam go to in all ?
 1410#@#arithmetic#@#Mary found [M:L:N] seashells and Jessica found [M:L:N] seashells on the beach . How many seashells did they find together ?
 1411#@#arithmetic#@#There are [M:L:N] dogwood trees currently in the park . Park workers will plant [M:L:N] dogwood trees today and [M:L:N] dogwood trees tomorrow . How many dogwood trees will the park have when the workers are finished ?
@@ -242,10 +232,8 @@
 1413#@#arithmetic#@#Jason picked [M:L:N] pears , Keith picked [M:L:N] pears , and Mike picked [M:L:N] pears from the pear tree . How many pears were picked in total ?
 1414#@#arithmetic#@#Keith grew [M:L:N] cantelopes , Fred grew [M:L:N] cantelopes , and Jason grew [M:L:N] cantelopes . How many cantelopes did they grow in total ?
 1415#@#arithmetic#@#Melanie had [M:L:N] dimes in her bank . Her dad gave her [M:L:N] dimes and her mother gave her [M:L:N] dimes . How many dimes does Melanie have now ?
-1416#@#arithmetic#@#Alyssa has [M:L:N] blue balloons , Sandy has [M:L:N] blue balloons , and Sally has [M:L:N] blue balloons . How many blue balloons do they have in all ?
 1417#@#arithmetic#@#Sally had [M:L:N] Pokemon cards . Dan gave her [M:L:N] new Pokemon cards . Sally bought [M:L:N] Pokemon cards . How many Pokemon cards does Sally have now ?
 1418#@#arithmetic#@#Jason went to [M:L:N] football games this month . He went to [M:L:N] games last month , and plans to go to [M:L:N] games next month . How many games will he attend in all ?
-1419#@#arithmetic#@#There are [M:L:N] pencils in the drawer and [M:L:N] pencils on the desk . Dan placed [M:L:N] pencils on the desk . How many pencils are now there in total ?
 1420#@#arithmetic#@#Mike has [M:L:N] books in his library . He bought several books at a yard sale over the weekend . He now has [M:L:N] books in his library . How many books did he buy at the yard sale ?
 1421#@#arithmetic#@#There are [M:L:N] maple trees currently in the park . Park workers will plant maple trees today . When the workers are finished there will be [M:L:N] maple trees in the park . How many maple trees did the workers plant today ?
 1422#@#arithmetic#@#Dan found [M:L:N] seashells on the beach , he gave Jessica some of his seashells . He has [M:L:N] seashell . How many seashells did he give to Jessica ?
@@ -254,44 +242,30 @@
 1425#@#arithmetic#@#There were [M:L:N] roses in the vase . Alyssa cut some roses from her flower garden . There are now [M:L:N] roses in the vase . How many roses did she cut ?
 1426#@#arithmetic#@#Last week Tom had [M:L:N] dollars . He washed cars over the weekend and now has [M:L:N] dollars . How much money did he make washing cars ?
 1427#@#arithmetic#@#There were [M:L:N] bales of hay in the barn . Jason stacked bales in the barn today . There are now [M:L:N] bales of hay in the barn . How many bales did he store in the barn ?
-1428#@#arithmetic#@#Nancy grew [M:L:N] potatoes . Sandy grew [M:L:N] potatoes . How many potatoes did they grow in total ?
 1430#@#arithmetic#@#There are [M:L:N] oak trees currently in the park . Park workers will plant [M:L:N] oak trees today . How many oak trees will the park have when the workers are finished ?
 1431#@#arithmetic#@#Tom found [M:L:N] seashells but [M:L:N] were broken . How many unbroken seashells did Tom find ?
 1432#@#arithmetic#@#Sally picked [M:L:N] lemons and Mary picked [M:L:N] lemons from the lemon tree . How many lemons were picked in total ?
 1433#@#arithmetic#@#A restaurant served [M:L:N] cakes during lunch and [M:L:N] during dinner today . How many cakes were served today ?
-1434#@#arithmetic#@#Joan has [M:L:N] orange balloons but lost [M:L:N] of them . How many orange balloons does Joan have now ?
 1435#@#arithmetic#@#Fred had [M:L:N] dimes in his bank . His sister borrowed [M:L:N] of his dimes . How many dimes does Fred have now ?
 1436#@#arithmetic#@#Joan 's cat had [M:L:N] kittens . She gave [M:L:N] to her friends . How many kittens does she have now ?
-1437#@#arithmetic#@#There are [M:L:N] dogwood trees currently in the park . Park workers will plant [M:L:N] dogwood trees today . How many dogwood trees will the park have when the workers are finished ?
-1438#@#arithmetic#@#There are [M:L:N] pencils in the drawer . Nancy placed [M:L:N] pencils in the drawer . How many pencils are now there in total ?
-1439#@#arithmetic#@#Sam found [M:L:N] seashells on the beach , he gave Joan [M:L:N] of the seashells . How many seashells does he now have ?
-1440#@#arithmetic#@#Tim has [M:L:N] books . Mike has [M:L:N] books . How many books do they have together ?
 1441#@#arithmetic#@#Mike has [M:L:N] baseball cards . Sam bought [M:L:N] of Mike 's baseball cards . How many baseball cards does Mike have now ?
 1442#@#arithmetic#@#Sandy grew [M:L:N] pumpkins . Mike grew [M:L:N] pumpkins . How many pumpkins did they grow in total ?
-1443#@#arithmetic#@#Tim has [M:L:N] books . Sam has [M:L:N] books . How many books do they have together ?
-1445#@#arithmetic#@#There are [M:L:N] popular trees currently in the park . Park workers will plant [M:L:N] popular trees today . How many popular trees will the park have when the workers are finished ?
 1446#@#arithmetic#@#There are [M:L:N] scissors in the drawer . Keith placed [M:L:N] scissors in the drawer . How many scissors are now there in all ?
 1448#@#arithmetic#@#Sam had [M:L:N] pennies in his bank . He spent [M:L:N] of his pennies . How many pennies does he have now ?
-1449#@#arithmetic#@#Joan found [M:L:N] seashells on the beach , she gave Mike [M:L:N] of the seashells . How many seashells does she now have ?
 1450#@#arithmetic#@#Sam has [M:L:N] books . Joan has [M:L:N] books . How many books do they have together ?
 1452#@#arithmetic#@#Sally had [M:L:N] quarters in her bank . She spent [M:L:N] of her quarters . How many quarters does she have now ?
-1454#@#arithmetic#@#Jason has [M:L:N] Pokemon cards . Alyssa bought [M:L:N] of Jason 's Pokemon cards . How many Pokemon cards does Jason have now ?
-1455#@#arithmetic#@#There are [M:L:N] walnut trees currently in the park . Park workers will plant [M:L:N] walnut trees today . How many walnut trees will the park have when the workers are finished ?
 1456#@#arithmetic#@#Fred has [M:L:N] green balloons , he gave Sandy [M:L:N] of the balloons . How many green balloons does he now have ?
 1458#@#arithmetic#@#Jason has [M:L:N] Pokemon cards . Benny bought [M:L:N] of Jason 's Pokemon cards . How many Pokemon cards does Jason have now ?
 1459#@#arithmetic#@#Mike has [M:L:N] orange marbles , he gave Sam [M:L:N] of the marbles . How many orange marbles does he now have ?
 1460#@#arithmetic#@#Joan had [M:L:N] dimes in her bank . She spent [M:L:N] of her dimes . How many dimes does she have now ?
-1461#@#arithmetic#@#There are [M:L:N] orchid bushes currently in the park . Park workers will plant [M:L:N] orchid bushes today . How many orchid bushes will the park have when the workers are finished ?
 1464#@#arithmetic#@#Jason had Pokemon cards . He gave [M:L:N] to his friends . He now has [M:L:N] Pokemon cards . How many Pokemon cards did he have to start with ?
 1465#@#arithmetic#@#Mary had [M:L:N] nickels in her bank . Her dad gave her [M:L:N] nickels . How many nickels does Mary have now ?
 1466#@#arithmetic#@#Keith grew [M:L:N] turnips . Alyssa grew [M:L:N] turnips . How many turnips did they grow in all ?
 1467#@#arithmetic#@#Mary has [M:L:N] yellow marbles Joan has [M:L:N] yellow marbles . How many yellow marbles do they have in all ?
 1468#@#arithmetic#@#Sally grew [M:L:N] carrots . Fred grew [M:L:N] carrots . How many carrots did they grow in all ?
-1469#@#arithmetic#@#Tom found [M:L:N] seashells on the beach . he gave Jessica [M:L:N] of the seashells . How many seashells does he now have ?
 1471#@#arithmetic#@#Mary had [M:L:N] potatoes in the garden . The rabbits ate [M:L:N] of the potatoes . How many potatoes does Mary now have ?
 1473#@#arithmetic#@#Jessica had [M:L:N] quarters in her bank . Her sister borrowed [M:L:N] of her quarters . How many quarters does Jessica have now ?
 1474#@#arithmetic#@#A restaurant made [M:L:N] hamburgers to serve during lunch . Only [M:L:N] were actually served . How many hamburgers were over from lunch ?
-1475#@#arithmetic#@#There are [M:L:N] crayons in the drawer . Mary took [M:L:N] crayons out of the drawer . How many crayons are there now ?
 1476#@#arithmetic#@#Dan picked [M:L:N] limes and gave Sara [M:L:N] of the limes . How many limes does Dan have now ?
 1477#@#arithmetic#@#Joan has [M:L:N] blue balloons but lost [M:L:N] of them . How many blue balloons does Joan have now ?
 1478#@#arithmetic#@#Joan picked [M:L:N] apples from the orchard , and gave [M:L:N] apples to Melanie . How many apples does Joan have now ?
@@ -352,7 +326,6 @@
 1534#@#arithmetic#@#While playing a video game , Paul scored [M:L:N] points . He and his cousin together have a total of [M:L:N] points . How many points does Paul 's cousin have ?
 1535#@#arithmetic#@#A construction company is repaving a damaged road . So far , they have repaved a total of [M:L:N] inches of the road . Today , they repaved [M:L:N] inches of the road . How many inches of the road had they repaved before today ?
 1536#@#arithmetic#@#Milford Lake was originally blue because it only had [M:L:N] algae plants . Now there are [M:L:N] algae plants , and the lake has turned green . How many more algae plants are in Milford Lake now ?
-1537#@#arithmetic#@#Oscar 's bus ride to school is [M:L:N:D] mile and Charlie 's bus ride is [M:L:N:D] mile . How much longer is Oscar 's bus ride than Charlie 's ?
 1538#@#arithmetic#@#Karen added [M:L:N:D] cup of walnuts to a batch of trail mix . Later , she added [M:L:N:D] cup of almonds . How many cups of nuts did Karen put in the trail mix in all ?
 1539#@#arithmetic#@#Kendall is learning to drive , so this weekend she practiced driving [M:L:F] mile with her mother and another [M:L:N:D] mile with her father . How far did Kendall drive in all ?
 1540#@#arithmetic#@#At a pie-eating contest , Erik got through [M:L:F] pie before time was called ; Frank finished just [M:L:F] pie . How much more pie did Erik eat than Frank ?
@@ -360,7 +333,6 @@
 1542#@#arithmetic#@#At Lindsey 's Vacation Wear , [M:L:N:D] the garments are bikinis and [M:L:N:D] are trunks . What fraction of the garments are either bikinis or trunks ?
 1543#@#arithmetic#@#Darnel sprinted [M:L:N:D] lap and then took a break by jogging [M:L:N:D] lap . How much farther did Darnel sprint than jog ?
 1544#@#arithmetic#@#A marine biologist measured [M:L:N] fish that was [M:L:N:D] foot long and a second fish that was [M:L:N:D] foot long . How much longer was the first fish ?
-1545#@#arithmetic#@#Hannah 's Vegetarian Restaurant bought [M:L:F] pound of green peppers and [M:L:F] pound of red peppers . How many pounds of peppers did Hannah 's Vegetarian Restaurant buy in all ?
 1546#@#arithmetic#@#Ella owns [M:L:N] dogs . Each day , [M:L:N] dog eats [M:L:N:D] scoop of dog food and the other dog eats [M:L:N:D] scoop . Together , how much dog food do the [M:L:N] dogs eat each day ?
 1547#@#arithmetic#@#Blake filled a bucket with [M:L:N:D] gallon of water . Later , he poured out [M:L:N:D] gallon of the water . How much water is in the bucket ?
 1548#@#arithmetic#@#Mandy made an apple pie . She used [M:L:F] tablespoon of cinnamon and [M:L:N:D] tablespoon of nutmeg . How much more cinnamon than nutmeg did Mandy use ?
@@ -454,22 +426,16 @@
 1639#@#arithmetic#@#Joan grew [M:L:N] carrots and [M:L:N] watermelons . Jessica grew [M:L:N] carrots . How many carrots did they grow in all ?
 1641#@#arithmetic#@#Dan has [M:L:N] green and [M:L:N] violet marbles . Mike took [M:L:N] of Dan 's green marbles . How many green marbles does Dan now have ?
 1642#@#arithmetic#@#Jason has [M:L:N] books and he has read [M:L:N] of them . Mary has [M:L:N] books . How many books do they have together ?
-1643#@#arithmetic#@#Jason grew [M:L:N] watermelons and [M:L:N] cantelopes . Dan grew [M:L:N] watermelons . How many watermelons did they grow in total ?
-1645#@#arithmetic#@#There are [M:L:N] crayons and [M:L:N] pencils in the drawer . Sam placed [M:L:N] crayons in the drawer . How many crayons are now there in total ?
 1646#@#arithmetic#@#Mike had [M:L:N] quarters and [M:L:N] nickels in his bank . His dad borrowed [M:L:N] nickels from Mike . How many nickels does he have now ?
 1647#@#arithmetic#@#Sam has [M:L:N] yellow and [M:L:N] green marbles . Joan took [M:L:N] of Sam 's yellow marbles . How many yellow marbles does Sam now have ?
-1651#@#arithmetic#@#Tim found [M:L:N] seashells and [M:L:N] starfish on the beach . He gave [M:L:N] of the seashells to Sara . How many seashells does Tim now have ?
 1652#@#arithmetic#@#There are [M:L:N] erasers and [M:L:N] scissors in the drawer . Jason placed [M:L:N] erasers in the drawer . How many erasers are now there in total ?
-1653#@#arithmetic#@#Mike picked [M:L:N] oranges and Melanie picked [M:L:N] oranges . Fred picked [M:L:N] apples . How many oranges were picked in total ?
 1654#@#arithmetic#@#Joan had [M:L:N] Pokemon cards , and [M:L:N] were torn . Sara bought [M:L:N] of Joan 's Pokemon cards . How many Pokemon cards does Joan have now ?
-1655#@#arithmetic#@#Sally grew [M:L:N] turnips and [M:L:N] pumpkins . Mary grew [M:L:N] turnips . How many turnips did they grow in total ?
 1656#@#arithmetic#@#Sara has [M:L:N] black and [M:L:N] red marbles . Fred took [M:L:N] of Sara 's black marbles . How many black marbles does Sara now have ?
 1657#@#arithmetic#@#Joan 's high school played [M:L:N] baseball games this year , [M:L:N] of the games were played at night . She attended [M:L:N] games . How many baseball games did Joan miss ?
 1659#@#arithmetic#@#Sara had [M:L:N] pennies and [M:L:N] quarters in her bank . Her dad borrowed [M:L:N] quarters from Sara . How many quarters does she have now ?
 1660#@#arithmetic#@#A restaurant made [M:L:N] hamburgers and [M:L:N] hot dogs to serve during lunch . Only [M:L:N] hamburgers were actually served . How many hamburgers were over ?
 1661#@#arithmetic#@#Melanie picked [M:L:N] plums and [M:L:N] oranges from the orchard . She gave [M:L:N] plums to Sam . How many plums does she have now ?
 1663#@#arithmetic#@#There were a total of [M:L:N] football games this year , [M:L:N] are played at night . Keith missed [M:L:N] of the games . How many football games did Keith go to in total ?
-1664#@#arithmetic#@#There are [M:L:N] pencils and [M:L:N] rulers in the drawer . Sally took [M:L:N] pencils out of the drawer . How many pencils are there now ?
 1665#@#arithmetic#@#Jason has [M:L:N] violet balloons and [M:L:N] red balloons . He lost [M:L:N] of the violet balloons . How many violet balloons does Jason have now ?
 1666#@#arithmetic#@#Dan had [M:L:N] potatoes and [M:L:N] cantelopes in the garden . The rabbits ate [M:L:N] of the potatoes . How many potatoes does Dan now have ?
 1668#@#arithmetic#@#Sandy 's dog had [M:L:N] puppies and [M:L:N] had spots . She gave [M:L:N] to her friends . How many puppies does she now have ?
@@ -481,7 +447,6 @@
 1674#@#arithmetic#@#Joan has [M:L:N] green and [M:L:N] red marbles . Fred took [M:L:N] of Joan 's green marbles . How many green marbles does Joan now have ?
 1675#@#arithmetic#@#There are [M:L:N] walnut trees and [M:L:N] orange trees currently in the park . Park workers had to cut down [M:L:N] walnut trees that were damaged . How many walnut trees will be in the park when the workers are finished ?
 1676#@#arithmetic#@#Sandy had [M:L:N] pennies and [M:L:N] nickels in her bank . Her dad borrowed [M:L:N] nickels from Sandy . How many nickels does she have now ?
-1677#@#arithmetic#@#There are [M:L:N] pencils and [M:L:N] crayons in the drawer . Dan took [M:L:N] pencils from the drawer . How many pencils are now in the drawer ?
 1678#@#arithmetic#@#Sally paid [M:L:N:D] total for peaches , after a [M:L:N] dollar coupon , and [M:L:N:D] for cherries . In total , how much money did Sally spend ?
 1679#@#arithmetic#@#Dan spent [M:L:N:D] on a snake toy , and a cage cost him [M:L:N:D] . Dan also found a dollar bill on the ground . What was the total cost of Dan 's purchases ?
 1680#@#arithmetic#@#Mary went to the mall . She spent [M:L:N:D] on a shirt and [M:L:N:D] on a jacket . She went to [M:L:N] shops . In total , how much money did Mary spend on clothing ?
@@ -497,31 +462,22 @@
 1690#@#arithmetic#@#Keith spent [M:L:N:D] on speakers , [M:L:N:D] on a CD player , and [M:L:N:D] on new tires . He wanted [M:L:N] CD 's for [M:L:N:D] , but did n't buy them . In total , how much did he spend ?
 1691#@#arithmetic#@#Joan bought toy cars for [M:L:N:D] , a skateboard for [M:L:N:D] , and got toy trucks for [M:L:N:D] . She spent [M:L:N:D] on pants . In total , how much did Joan spend on toys ?
 1692#@#arithmetic#@#After paying [M:L:N] dollars for the pie , Mary has [M:L:N] dollars , her friend has [M:L:N] dollars . How much money did she have before buying the pie ?
-1693#@#arithmetic#@#There were [M:L:N] bales of hay in the barn and [M:L:N] bales in the shed . Tom stacked bales in the barn today . There are now [M:L:N] bales of hay in the barn . How many bales did he store in the barn ?
 1694#@#arithmetic#@#Mary is baking a cake . The recipe calls for [M:L:N] cups of flour and [M:L:N] cups of sugar . She already put in [M:L:N] cups of flour . How many cups of flour does she need to add ?
 1695#@#arithmetic#@#Last week Fred had [M:L:N] dollars and Jason had [M:L:N] dollars . Fred washed cars over the weekend and now has [M:L:N] dollars . How much money did Fred make washing cars ?
-1697#@#arithmetic#@#There were [M:L:N] red orchids and [M:L:N] white orchids in the vase . Sally cut some red orchids from her flower garden . There are now [M:L:N] red orchids in the vase . How many red orchids did she cut ?
 1698#@#arithmetic#@#Sara had [M:L:N] peaches and [M:L:N] pears at her fruit dish . She went to the orchard and picked peaches . There are now [M:L:N] peaches . how many did she pick ?
-1699#@#arithmetic#@#Joan found [M:L:N] seashells and [M:L:N] starfishes on the beach . She gave Alyssa some of her seashells . She has [M:L:N] seashell . How many seashells did she give to Alyssa ?
 1701#@#arithmetic#@#Sara has [M:L:N] green and [M:L:N] red marbles . Tom has [M:L:N] green marbles . How many green marbles do they have in total ?
-1703#@#arithmetic#@#There are [M:L:N] maple trees and [M:L:N] popular trees currently in the park . Park workers will plant [M:L:N] maple trees today . How many maple trees will the park have when the workers are finished ?
 1705#@#arithmetic#@#Mike picked [M:L:N] pears and Jason picked [M:L:N] pears from the pear tree . Fred picked [M:L:N] apples from the apple tree . How many pears were picked in total ?
 1706#@#arithmetic#@#Tim had [M:L:N] quarters and [M:L:N] nickels in his bank . His dad gave him [M:L:N] nickels and [M:L:N] pennies . How many nickels does Tim have now ?
 1707#@#arithmetic#@#A restaurant served [M:L:N] slices of pie during lunch and [M:L:N] during dinner today . It served [M:L:N] of them yesterday . How many slices of pie were served today ?
 1708#@#arithmetic#@#Tom went to [M:L:N] hockey games this year , but missed [M:L:N] . He went to [M:L:N] games last year . How many hockey games did Tom go to in all ?
 1709#@#arithmetic#@#Sam 's dog had puppies and [M:L:N] had spots . He gave [M:L:N] to his friends . He now has [M:L:N] puppies . How many puppies did he have to start with ?
-1711#@#arithmetic#@#There are [M:L:N] dogwood trees currently in the park . Park workers will plant [M:L:N] dogwood trees today and [M:L:N] dogwood trees tomorrow . It took [M:L:N] workers to finish the work . How many dogwood trees will the park have when the workers are finished ?
 1712#@#arithmetic#@#Dan 's cat had kittens and [M:L:N] had spots . He gave [M:L:N] to Tim and [M:L:N] to Jason . He now has [M:L:N] kittens . How many kittens did he have to start with ?
-1713#@#arithmetic#@#There are [M:L:N] crayons in the drawer and [M:L:N] crayons on the desk . Sam placed [M:L:N] crayons and [M:L:N] scissors on the desk . How many crayons are now there in total ?
 1714#@#arithmetic#@#Sally had [M:L:N] pennies and [M:L:N] nickels in her bank . Her dad gave her [M:L:N] nickels and her mother gave her [M:L:N] nickels . How many nickels does Sally have now ?
 1715#@#arithmetic#@#Nancy went to [M:L:N] football games this month . She went to [M:L:N] games last month , and plans to go to [M:L:N] games next month . She paid [M:L:N] dollars for the tickets . How many games will she attend in all ?
-1717#@#arithmetic#@#Nancy grew [M:L:N] onions , Dan grew [M:L:N] onions , and Mike grew [M:L:N] onions . They worked for [M:L:N] days on the farm . How many onions did they grow in total ?
-1718#@#arithmetic#@#Fred has [M:L:N] yellow balloons , Sam has [M:L:N] yellow balloons , and Mary has [M:L:N] yellow balloons . The balloons cost [M:L:N] dollars . How many yellow balloons do they have in total ?
 1719#@#arithmetic#@#A restaurant served [M:L:N] pies during lunch and [M:L:N] during dinner today . The restaurant served [M:L:N] pies and [M:L:N] pizzas yesterday . How many pies were served in total ?
 1720#@#arithmetic#@#Tim found [M:L:N] seashells and Sally found [M:L:N] seashells on the beach . When they cleaned them , they discovered that [M:L:N] were cracked . How many seashells did they find together ?
 1721#@#arithmetic#@#Tom had [M:L:N] pennies and [M:L:N] dimes in his bank . His dad gave him [M:L:N] dimes and [M:L:N] nickels . How many dimes does he have now ?
 1722#@#arithmetic#@#There are [M:L:N] scissors and [M:L:N] pencils in the drawer . Dan placed [M:L:N] scissors in the drawer . How many scissors are now there in total ?
-1723#@#arithmetic#@#Sam has [M:L:N] blue and [M:L:N] green balloons . Alyssa has [M:L:N] blue balloons . How many blue balloons do they have in all ?
 1724#@#arithmetic#@#There are [M:L:N] orchid bushes and [M:L:N] orange trees currently in the park . Park workers will plant [M:L:N] orchid bushes today . How many orchid bushes will the park have when the workers are finished ?
 1725#@#arithmetic#@#Mary had [M:L:N] Pokemon cards , and [M:L:N] were torn . Sam gave Mary [M:L:N] new Pokemon cards . How many Pokemon cards does Mary have now ?
 1726#@#arithmetic#@#Mary picked [M:L:N] oranges and Jason picked [M:L:N] oranges . Keith picked [M:L:N] apples . How many oranges were picked in all ?
@@ -532,8 +488,6 @@
 1731#@#arithmetic#@#Mary had [M:L:N] baseball cards , and [M:L:N] were torn . Fred gave Mary [M:L:N] new baseball cards . Mary bought [M:L:N] baseball cards . How many baseball cards does Mary have now ?
 1732#@#arithmetic#@#Alyssa went to [M:L:N] soccer games this year , but missed [M:L:N] . She went to [M:L:N] games last year and plans to go to [M:L:N] games next year . How many soccer games will Alyssa go to in all ?
 1733#@#arithmetic#@#There are [M:L:N] erasers in the drawer and [M:L:N] erasers on the desk . Alyssa placed [M:L:N] erasers and [M:L:N] rulers on the desk . How many erasers are now there in total ?
-1734#@#arithmetic#@#There are [M:L:N] orchid bushes currently in the park . Park workers will plant [M:L:N] orchid bushes today and [M:L:N] orchid bushes tomorrow . It took [M:L:N] workers to finish the work . How many orchid bushes will the park have when the workers are finished ?
-1736#@#arithmetic#@#Mary found [M:L:N] seashells , Melanie found [M:L:N] seashells , and Jason found [M:L:N] seashells on the beach . When they cleaned them , they discovered that [M:L:N] were cracked . How many seashells did they find together ?
 1737#@#arithmetic#@#Fred picked [M:L:N] limes , Alyssa picked [M:L:N] limes , and Nancy picked [M:L:N] limes and [M:L:N] pears , at the farm . How many limes were picked in total ?
 1738#@#arithmetic#@#Benny received [M:L:N] dollars and [M:L:N] movie tickets for his birthday . He went to a sporting goods store and bought a baseball glove , baseball , and bat . He had [M:L:N] dollars over , how much did he spent on the baseball gear ?
 1739#@#arithmetic#@#There are [M:L:N] maple trees and [M:L:N] orange trees currently in the park . Park workers will plant maple trees today . When the workers are finished there will be [M:L:N] maple trees in the park . How many maple trees did the workers plant today ?
@@ -550,7 +504,6 @@
 1751#@#arithmetic#@#Alyssa 's cat had [M:L:N] kittens and [M:L:N] had spots . She gave [M:L:N] to her friends . How many kittens does she now have ?
 1752#@#arithmetic#@#Sam had [M:L:N] pennies and [M:L:N] dimes in his bank . His sister borrowed [M:L:N] dimes . How many dimes does Sam have now ?
 1753#@#arithmetic#@#A restaurant served [M:L:N] hot dogs during lunch and [M:L:N] during dinner today . It served [M:L:N] of them yesterday . How many hot dogs were served today ?
-1754#@#arithmetic#@#There are [M:L:N] short trees and [M:L:N] tall trees currently in the park . Park workers will plant [M:L:N] short trees today . How many short trees will the park have when the workers are finished ?
 1755#@#arithmetic#@#Mary had [M:L:N] dimes and [M:L:N] pennies in her bank . Her dad borrowed [M:L:N] pennies from Mary . How many pennies does she have now ?
 1756#@#arithmetic#@#Alyssa picked [M:L:N] plums and Jason picked [M:L:N] plums . Melanie picked [M:L:N] pears . How many plums were picked in all ?
 1759#@#arithmetic#@#At [M:L:N] minutes past [M:L:N] , Dick 's mother told him , ``You must come in in a quarter of an hour .'' At what time must Dick come in ?
