@@ -60,14 +60,14 @@ class Utils():
 		if type(args.folds) == list: args.folds = int(args.folds[0])
 		else: args.folds = int(args.folds)
 
-		sys.stderr.write("MaxEnt parameters:\n")
+		sys.stdout.write("MaxEnt parameters:\n")
 		print('\t' + str(args) + '\n')
 
 		return args
 
 	# save data as pickle object
 	def pickle_objs(self, prefix, i, data):
-		sys.stderr.write('\nPickling objects.\n')
+		sys.stdout.write('\nPickling objects.\n')
 
 		for k, v in data.iteritems():
 			pkl_fh = open(prefix + k + str(i) + '.pkl', 'wb')

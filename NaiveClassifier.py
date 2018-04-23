@@ -74,7 +74,7 @@ class NaiveClassifier:
 	# split data into training and test sets
 	def split_sets(self, pct, load_pkl):
 		if not load_pkl:
-			sys.stderr.write('Shuffling problem sets.\n')
+			sys.stdout.write('Shuffling problem sets.\n')
 
 			shuffle(self.alg_problems)
 			shuffle(self.arith_problems)

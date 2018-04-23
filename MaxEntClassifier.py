@@ -7,6 +7,7 @@ Description: class containing maximum entropy (logisitic regression) functions. 
 '''
 
 import sys, math
+import warnings
 import numpy
 from nltk.util import ngrams
 from NaiveClassifier import NaiveClassifier as NBC
@@ -54,6 +55,9 @@ class MaxEntClassifier(NBC):
 	# returns optimized weights, minimum cost value, and final learning rate
 #	def maxent(self, f, w, l, n_steps=1000, learn_rate=5e-4, reg_coeff=0.001, threshold=1e-5):
 	def maxent(self, f, v, w, l, vl, n_steps=1000, learn_rate=5e-4, reg_coeff=0.001, threshold=1e-6):
+		warnings.filterwarnings('error')
+		numpy.seterr(all='raise')
+
 		gstop = 0
 		astop = 0
 		nostop = False
@@ -61,12 +65,12 @@ class MaxEntClassifier(NBC):
 		costs = []
 		v_costs = []
 
-		f_train = open('terr.csv', 'w')
-		f_val = open('verr.csv', 'w')
-		f_gen = open('gerr.csv', 'w')
-		f_acc = open('acc.csv', 'w')
+#		f_train = open('terr.csv', 'w')
+#		f_val = open('verr.csv', 'w')
+#		f_gen = open('gerr.csv', 'w')
+#		f_acc = open('acc.csv', 'w')
 
-		sys.stderr.write("\nRunning MaxEnt classification.\n")
+		sys.stdout.write("\nRunning MaxEnt classification.\n")
 
 		probabilities = numpy.dot(w, f)
 		predictions = self.softmax(probabilities)
@@ -75,46 +79,36 @@ class MaxEntClassifier(NBC):
 		validate_prob = numpy.dot(w, v)
 		validate_pred = self.softmax(validate_prob)
 		vc = self.cost(validate_pred, vl)
-		v_costs.append(vc)
-		gc = vc / min(v_costs)
 		
 		class_bin = self.hard_classify(predictions)
 		accuracy = ((class_bin == l).sum().astype(float)/len(class_bin))
 		accuracies.append(accuracy)
 
 		for i in xrange(n_steps):
-			f_train.write('%d,%.9f\n' % (i, c))
-			f_val.write('%d,%.9f\n' % (i, vc))
-			f_gen.write('%d,%.9f\n' % (i, gc))
-			f_acc.write('%d,%.9f\n' % (i, accuracy))
+#			f_train.write('%d,%.9f\n' % (i, c))
+#			f_val.write('%d,%.9f\n' % (i, vc))
+#			f_gen.write('%d,%.9f\n' % (i, gc))
+#			f_acc.write('%d,%.9f\n' % (i, accuracy))
 
 			costs.append(c)
+			v_costs.append(vc)
+			gc = vc / min(v_costs)
 
 			sys.stderr.write("iter: %d cost: %.9f acc: %.9f gen: %.9f\r" % (i+1, c, accuracy, gc))
-
-			# check stopping criteria every 10 epochs
-#			if (i+1) % 10 == 0:
-#				min_cost = min(costs[i-10+1:])
-#				progress = 1000 * (sum(costs[i-10+1:]) / (10 * min_cost) - 1)
-
-#				sys.stderr.write("iter: "+str(i+1)+" cost: "+str(c)+" acc: "+str(accuracy)+"\n\tgen: "+str(gen_cost)+"\n\tprog: "+str(progress)+"\n\tsc: "+str(gen_cost/progress)+"\n")
-
-#				if gen_cost / progress > 1.5:
-#					sys.stdout.write("\nProgress slowing down.")
-#					break
 
 			grad = self.gradient_reg(f, l, probabilities, w, reg_coeff)
 			w -= learn_rate * grad
 
 			probabilities = numpy.dot(w, f)
-			predictions = self.softmax(probabilities)
-			new_cost = self.cost(predictions, l)
 
-			validate_prob = numpy.dot(w, v)
-			validate_pred = self.softmax(validate_prob)
-			new_vc = self.cost(validate_pred, vl)
-			v_costs.append(new_vc)
-			new_gc = new_vc / min(v_costs)
+			try:
+				predictions = self.softmax(probabilities)
+
+			except FloatingPointError:
+				sys.stdout.write('\nBad numbers used.\n')
+				return 'no', 'no', 'no'
+
+			new_cost = self.cost(predictions, l)
 
 			old_acc = float(sum(accuracies))/len(accuracies)
 			class_bin = self.hard_classify(predictions)
@@ -122,7 +116,23 @@ class MaxEntClassifier(NBC):
 			accuracies.append(accuracy)
 #			acc_diff = float(sum(accuracies))/len(accuracies)-accuracy
 			new_acc = float(sum(accuracies))/len(accuracies)
-			acc_diff = new_acc-old_acc
+			acc_diff = abs(new_acc-old_acc)
+
+			# check stopping criteria every 5 epochs
+#			if (i+1) % 5 == 0:
+				#min_cost = min(costs[i-10+1:])
+				#progress = 1000 * (sum(costs[i-10+1:]) / (10 * min_cost) - 1)
+
+				#sys.stderr.write("iter: "+str(i+1)+" cost: "+str(c)+" acc: "+str(accuracy)+"\n\tgen: "+str(gen_cost)+"\n\tprog: "+str(progress)+"\n\tsc: "+str(gen_cost/progress)+"\n")
+
+#				if gen_cost / progress > 1.5:
+#				if gc > 1.6:
+#					sys.stdout.write("\nProgress slowing down.")
+#					break
+
+#				if acc_diff < 0.001:
+#					sys.stdout.write("\nAccuracy improvement no longer significant.")
+#					break
 
 			if math.isnan(new_cost):
 				return 'div', 'div', 'div'
@@ -139,13 +149,16 @@ class MaxEntClassifier(NBC):
 				else:
 					astop = 0
 
-#				if gc > 1 and new_gc > 1 and abs(gc-new_gc) < 0.01:
-#					if gstop == 5:
-#						sys.stdout.write("\nGeneral cost improvement no longer significant.")
-#						break
+				if gc > 1.6:
+					if gstop == 5:
+						sys.stdout.write("\nGeneral cost improvement no longer significant.")
+						break
 
-#					else:
-#						gstop += 1
+					else:
+						gstop += 1
+
+				else:
+					gstop = 0
 
 				# stop gradient descent if new cost is not much better
 				if abs(c-new_cost) < threshold:
@@ -160,15 +173,22 @@ class MaxEntClassifier(NBC):
 				elif c-new_cost > 0:
 					learn_rate *= 1.05
 
+			validate_prob = numpy.dot(w, v)
+			validate_pred = self.softmax(validate_prob)
+			vc = self.cost(validate_pred, vl)
+		#	v_costs.append(vc)
+		#	gc = vc / min(v_costs)
+
 			c = new_cost
-			gc = new_gc
-			vc = new_vc
+		#	gc = new_gc
+		#	vc = new_vc
 
 		sys.stdout.write('\n')
 
-		f_train.close()
-		f_val.close()
-		f_gen.close()
+#		f_train.close()
+#		f_val.close()
+#		f_gen.close()
+#		f_acc.close()
 
 		print
 

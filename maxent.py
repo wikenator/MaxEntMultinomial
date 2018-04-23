@@ -61,6 +61,8 @@ if __name__ == '__main__':
 	if args.folds > 1: pct_split = 1 - (1.0 / args.folds)
 	else: pct_split = 0.9
 
+	pct_split = 0.85
+
 	# run Naive Bayes classifier
 	if args.naive:
 		mec.iters = 5
@@ -68,7 +70,7 @@ if __name__ == '__main__':
 
 	# perform k-fold cross-validation
 	for fold in range(args.folds):
-		sys.stderr.write("\nRunning fold " + str(fold+1) + "\n")
+		sys.stdout.write("\nRunning fold " + str(fold+1) + "\n")
 
 		mec.fold = fold
 		mec.split_sets(pct_split, args.load_pickle)
@@ -77,7 +79,7 @@ if __name__ == '__main__':
 
 		# load previously saved data
 		if args.load_pickle:
-			sys.stderr.write("Reading pickle files.\n")
+			sys.stdout.write("Reading pickle files.\n")
 
 			words_pkl = open(prefix+'all_words'+str(fold)+'.pkl', 'rb')
 			all_words = pickle.load(words_pkl)
@@ -176,7 +178,7 @@ if __name__ == '__main__':
 						r
 					)
 
-					if weights == 'div': continue
+					if min_cost == 'div' or min_cost == 'no': continue
 
 					class_prob_train = numpy.dot(weights, train_features)
 					class_bin_train = mec.hard_classify(class_prob_train)
