@@ -141,7 +141,6 @@
 732#@#geometry#@#Squares [M:EX] , [M:EX] , [M:EX] are drawn externally on the sides of a triangle [M:EX] . The line segments [M:EX] , [M:EX] , [M:EX] , when extended , form a triangle [M:EX] . Find the area of [M:EX] if [M:EX] is an equilateral triangle of side length [M:L:N] .
 733#@#geometry#@#A regular tetrahedron has two vertices on the body diagonal of a cube with side length [M:L:N] . The other two vertices lie on one of the face diagonals not intersecting that body diagonal . Find the side length of the tetrahedron .
 734#@#geometry#@#In the figure below , [M:EQ] , [M:EQ] , [M:EQ] , [M:EQ] , [M:EQ] , and [M:EQ] . Find [M:EX] .
-735#@#geometry#@#In a triangle the sum of squares of the sides of [M:L:N] . What is the maximum possible value of the sum of the medians ?
 736#@#geometry#@#Find [M:EX] , given that [M:EQ] , [M:EQ] , [M:EQ] , and [M:EX] is a square .
 739#@#geometry#@#Let [M:EX] be a triangle inscribed in the ellipse [M:EQ] . If its centroid is the origin [M:L:COORD] , find its area .
 741#@#geometry#@#Square [M:EX] is drawn . Isosceles triangle [M:EX] is drawn with [M:VAR] a right angle . Square [M:EX] is drawn . Isosceles triangle [M:EX] is drawn with [M:VAR] a right angle . This process is repeated infinitely so that no two figures overlap each other . If square [M:EX] has area [M:L:N] , compute the area of the entire figure .
@@ -315,7 +314,6 @@
 919#@#geometry#@#A parallelogram has [M:L:N] of its vertices at [M:L:COORD] , [M:L:COORD] , and [M:L:COORD] . Compute the sum of the possible [M:VAR] -coordinates for the [M:L:N] th vertex .
 920#@#geometry#@#[M:EX] is [M:L:N] . [M:EX] bisects angle [M:VAR] . If the perimeter of [M:EX] is [M:L:N] , find [M:EX] .
 921#@#geometry#@#[M:VAR] is inside rectangle [M:EX] . [M:EQ] , [M:EQ] , and [M:EQ] . Find [M:EX] .
-922#@#geometry#@#Find the area of the region of the [M:EX] -plane defined by the inequality [M:EX] .
 923#@#geometry#@#We inscribe a square in a circle of radius [M:L:N] and shade the region between them . Then we incribe another circle in the square and another square in the new circle and shade the region between the new circle and square . After we have repeated this process infinitely many times , what is the area of the shaded region ?
 924#@#geometry#@#Yet another trapezoid [M:EX] has [M:EX] parallel to [M:EX] . [M:EX] and [M:EX] intersect at [M:VAR] . If [M:EQ] , find [M:EX] .
 925#@#geometry#@#A triangle has side lengths [M:L:N] , [M:L:N] , and [M:L:N] . Find the area of the triangle whose vertices are the incenter , circumcenter , and centroid of the original triangle .

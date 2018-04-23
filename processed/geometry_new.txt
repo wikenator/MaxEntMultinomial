@@ -119,7 +119,6 @@
 3038#@#geometry#@#Find the length of the circumference of a circle of radius [M:L:N] ft .
 3039#@#geometry#@#The area of a circle is [M:L:N] sq. in . Find its radius .
 3040#@#geometry#@#The circumference of a circle is [M:L:N] feet . Find its radius and area .
-3041#@#geometry#@#Find the area of a circle whose radius is [M:L:N] inches .
 3042#@#geometry#@#Find the circumference and the area of a circle whose diameter is [M:L:N] feet . (Please separate your answers with a comma .)
 3043#@#geometry#@#The areas of two circles are in the ratio of [M:L:F:M] . If the radius of the larger is [M:L:N] feet [M:L:N] inch , what is the radius of the smaller ?
 3044#@#geometry#@#Find the radius of a circle with an area three times as large as a circle whose radius is [M:L:N] feet .
@@ -155,17 +154,14 @@
 3074#@#geometry#@#Find the ratio between the area of a circle and its regular circumscribed hexagon .
 3075#@#geometry#@#Find the difference between the radii of the regular dodecagons inscribed in and circumscribed about a circle of radius [M:L:N] inches .
 3076#@#geometry#@#The perimeter of a regular inscribed hexagon is [M:L:N] in . Find the perimeter of a regular hexagon circumscribed about a circle of twice the diameter .
-3077#@#geometry#@#Find the radius of a circle if the difference between the areas of the inscribed and circumscribed regular triangles is [M:L:N] square inches .
 3078#@#geometry#@#Find the radius of a circle if the difference of the perimeters of the regular inscribed and circumscribed triangles is [M:L:N] inches .
 3079#@#geometry#@#Find the area of a regular hexagon circumscribed about a circle whose radius is [M:L:N] inches.
 3080#@#geometry#@#Find the area of a triangle if the perimeter is [M:L:N] feet and the radius of the inscribed circle [M:L:N:D] feet .
 3081#@#geometry#@#Find the area of a pentagon whose perimeter is [M:L:N:D] 5.18 m, circumscribed about a circle whose diameter is [M:L:N:D] m .
 3082#@#geometry#@#The sides of a triangle are : [M:EQ] m , [M:EQ] m , [M:EQ] m ; find the area of the triangle and the radii of the circumscribed and inscribed circles .
 3083#@#geometry#@#The apothem of an inscribed square is [M:EX] feet ; find the area of an equilateral triangle circumscribed about the same circle .
-3084#@#geometry#@#What is the radius of a circle if the difference between the areas of the inscribed and circumscribed regular dodecagons is [M:L:N] square inches ?
 3085#@#geometry#@#If a triangle whose angles are [M:L:N] , [M:L:N] , and [M:L:N] is circumscribed about a circle , find the number of degrees in the arcs into which the points of tangency divide the circle .
 3086#@#geometry#@#The sides of a triangle are : [M:L:N] m , [M:L:N] m , [M:L:N] m ; find the radii of the inscribed and circumscribed circles .
-3087#@#geometry#@#Find the radius of a circle if the difference of the perimeters of the regular inscribed and circumscribed hexagons is [M:L:N] inches .
 3088#@#geometry#@#If the area of a circumscribed square is [M:L:N] square inches greater than that of an inscribed square , what is the diameter of the circle ?
 3089#@#geometry#@#Find a side of the circumscribed equilateral triangle , the radius of the circle being [M:L:N:POW] .
 3090#@#geometry#@#Find the length of a side of an equilateral triangle circumscribed about a circle of radius [M:L:N] in .
@@ -218,7 +214,6 @@
 3150#@#geometry#@#In a certain triangle [M:EX] the interior angle at [M:VAR] is [M:L:N] . What is the exterior angle at the same vertex ?
 3151#@#geometry#@#The angle at the vertex of an isosceles triangle is one -third the exterior angle at the vertex , how many degrees in each angle , exterior and interior , at the base ?
 3152#@#geometry#@#In the triangle [M:EX] , [M:VAR] lacks [M:L:N] of being equal to the sum of [M:VAR] and [M:VAR] , and [M:VAR] lacks [M:L:N] of being equal to the sum of [M:VAR] and [M:VAR] ; find [M:VAR] , [M:VAR] , and [M:VAR] .
-3153#@#geometry#@#Find the angles of an isosceles triangle in which the exterior angle at the base is [M:L:N] .
 3154#@#geometry#@#Find the angles of an isoscoles triangle when one of the angles at the base is equal to one -half the angle at the vertex .
 3155#@#geometry#@#The angles of a triangle are in the ratio [M:EX] . How many degrees in each angle ?
 3156#@#geometry#@#In a certain right triangle one angle is [M:L:N] . What is the size of the other acute angle ?
@@ -541,7 +536,6 @@
 3488#@#geometry#@#Find the volume of the triangular prism whose base and altitude are as follows : [M:L:N] sq. in. , [M:L:N] in .
 3489#@#geometry#@#What is the volume of a triangular prism , each side of the base being [M:L:N] inches and length [M:L:N] inches ?
 3490#@#geometry#@#What is the entire surface of a regular hexagonal prism , each side of the base being [M:L:N] centimeters and the altitude [M:L:N] centimeters .
-3491#@#geometry#@#What is the volume of a triangular prism , each side of the base being [M:L:N] inches and length [M:L:N] feet ?
 3492#@#geometry#@#Two rectangular parallelepipeds with equal altitudes have bases containing [M:L:N] sq. in. and [M:L:N] sq. in. , respectively . The volume of the first is [M:L:N] cu. ft . Find the volume of the second .
 3493#@#geometry#@#Find the entire surface of a right triangular prism the sides of whose base are [M:L:N] , [M:L:N] , and [M:L:N] inches and altitude [M:L:N] inches .
 3494#@#geometry#@#The base of a right prism is a rhombus of which one side is [M:L:N] in. , and the shorter diagonal [M:L:N] in . The height of the prism is [M:L:N] in . Find the entire surface and volume .
