@@ -61,7 +61,7 @@ if __name__ == '__main__':
 	if args.folds > 1: pct_split = 1 - (1.0 / args.folds)
 	else: pct_split = 0.9
 
-	pct_split = 0.85
+	pct_split = 0.9
 
 	# run Naive Bayes classifier
 	if args.naive:
@@ -124,13 +124,6 @@ if __name__ == '__main__':
 
 			mec.util.pickle_objs(prefix, fold, to_pickle)
 
-		# train/validation set split
-		validate_count = int(train_features.shape[1] / pct_split * (1 - pct_split))
-		validate_features = train_features[:,:validate_count]
-		validate_labels = train_labels[:,:validate_count]
-		train_features = train_features[:,validate_count:]
-		train_labels = train_labels[:,validate_count:]
-
 		# run maxent classifier
 		# default values: steps=1000
 		#		  learn_rate=5e-4
@@ -142,6 +135,13 @@ if __name__ == '__main__':
 			best_learn_rate = 0
 
 		elif args.grid_search:
+			# train/validation set split
+			validate_count = int(train_features.shape[1] / pct_split * (1 - pct_split))
+			validate_features = train_features[:,:validate_count]
+			validate_labels = train_labels[:,:validate_count]
+			train_features = train_features[:,validate_count:]
+			train_labels = train_labels[:,validate_count:]
+
 			lr = [
 				.9, .8, .7, .6, .5, .4, .3, .2, .1,
 				.09, .08, .07, .06, .05, .04, .03, .02, .01,
@@ -167,7 +167,7 @@ if __name__ == '__main__':
 				for r in rc:
 					sys.stdout.write("Learn Rate: %.5f, Reg Coeff: %.5f\n" % (l, r))
 
-					weights, min_cost, best_learn_rate = mec.maxent(
+					weights, min_cost, best_learn_rate = mec.maxent_grid_search(
 						train_features, 
 						validate_features,
 						deepcopy(init_weights), 
@@ -206,10 +206,8 @@ if __name__ == '__main__':
 		else:
 			weights, min_cost, best_learn_rate = mec.maxent(
 				train_features, 
-				validate_features,
 				weights, 
 				train_labels, 
-				validate_labels, 
 				args.steps,
 				args.learn_rate,
 				args.reg_coeff

@@ -51,10 +51,9 @@ class MaxEntClassifier(NBC):
 			numpy.linalg.norm(w)
 		).T
 
-	# training for maxent classification
+	# training for maxent classification during grid search
 	# returns optimized weights, minimum cost value, and final learning rate
-#	def maxent(self, f, w, l, n_steps=1000, learn_rate=5e-4, reg_coeff=0.001, threshold=1e-5):
-	def maxent(self, f, v, w, l, vl, n_steps=1000, learn_rate=5e-4, reg_coeff=0.001, threshold=1e-6):
+	def maxent_grid_search(self, f, v, w, l, vl, n_steps=1000, learn_rate=5e-4, reg_coeff=0.001, threshold=1e-6):
 		warnings.filterwarnings('error')
 		numpy.seterr(all='raise')
 
@@ -65,19 +64,28 @@ class MaxEntClassifier(NBC):
 		costs = []
 		v_costs = []
 
-#		f_train = open('terr.csv', 'w')
-#		f_val = open('verr.csv', 'w')
-#		f_gen = open('gerr.csv', 'w')
-#		f_acc = open('acc.csv', 'w')
-
 		sys.stdout.write("\nRunning MaxEnt classification.\n")
 
 		probabilities = numpy.dot(w, f)
-		predictions = self.softmax(probabilities)
+
+		try:
+			predictions = self.softmax(probabilities)
+
+		except FloatingPointError:
+			sys.stdout.write('\nBad numbers used.\n')
+			return 'no', 'no', 'no'
+
 		c = self.cost(predictions, l)
 
 		validate_prob = numpy.dot(w, v)
-		validate_pred = self.softmax(validate_prob)
+
+		try:
+			validate_pred = self.softmax(validate_prob)
+
+		except FloatingPointError:
+			sys.stdout.write('\nBad numbers used.\n')
+			return 'no', 'no', 'no'
+
 		vc = self.cost(validate_pred, vl)
 		
 		class_bin = self.hard_classify(predictions)
@@ -85,11 +93,6 @@ class MaxEntClassifier(NBC):
 		accuracies.append(accuracy)
 
 		for i in xrange(n_steps):
-#			f_train.write('%d,%.9f\n' % (i, c))
-#			f_val.write('%d,%.9f\n' % (i, vc))
-#			f_gen.write('%d,%.9f\n' % (i, gc))
-#			f_acc.write('%d,%.9f\n' % (i, accuracy))
-
 			costs.append(c)
 			v_costs.append(vc)
 			gc = vc / min(v_costs)
@@ -114,25 +117,8 @@ class MaxEntClassifier(NBC):
 			class_bin = self.hard_classify(predictions)
 			accuracy = ((class_bin == l).sum().astype(float)/len(class_bin))
 			accuracies.append(accuracy)
-#			acc_diff = float(sum(accuracies))/len(accuracies)-accuracy
 			new_acc = float(sum(accuracies))/len(accuracies)
 			acc_diff = abs(new_acc-old_acc)
-
-			# check stopping criteria every 5 epochs
-#			if (i+1) % 5 == 0:
-				#min_cost = min(costs[i-10+1:])
-				#progress = 1000 * (sum(costs[i-10+1:]) / (10 * min_cost) - 1)
-
-				#sys.stderr.write("iter: "+str(i+1)+" cost: "+str(c)+" acc: "+str(accuracy)+"\n\tgen: "+str(gen_cost)+"\n\tprog: "+str(progress)+"\n\tsc: "+str(gen_cost/progress)+"\n")
-
-#				if gen_cost / progress > 1.5:
-#				if gc > 1.6:
-#					sys.stdout.write("\nProgress slowing down.")
-#					break
-
-#				if acc_diff < 0.001:
-#					sys.stdout.write("\nAccuracy improvement no longer significant.")
-#					break
 
 			if math.isnan(new_cost):
 				return 'div', 'div', 'div'
@@ -174,26 +160,113 @@ class MaxEntClassifier(NBC):
 					learn_rate *= 1.05
 
 			validate_prob = numpy.dot(w, v)
-			validate_pred = self.softmax(validate_prob)
+
+			try:
+				validate_pred = self.softmax(validate_prob)
+
+			except FloatingPointError:
+				sys.stdout.write('\nBad numbers used.\n')
+				return 'no', 'no', 'no'
+
 			vc = self.cost(validate_pred, vl)
-		#	v_costs.append(vc)
-		#	gc = vc / min(v_costs)
+			c = new_cost
+
+		sys.stdout.write('\n')
+		print
+
+		return w, c, learn_rate
+		
+	# training for maxent classification
+	# returns optimized weights, minimum cost value, and final learning rate
+	def maxent(self, f, w, l, n_steps=1000, learn_rate=5e-4, reg_coeff=0.001, threshold=1e-6):
+		warnings.filterwarnings('error')
+		numpy.seterr(all='raise')
+
+		astop = 0
+		accuracies = []
+		costs = []
+
+		f_train = open('terr.csv', 'w')
+		f_val = open('verr.csv', 'w')
+		f_acc = open('acc.csv', 'w')
+
+		sys.stdout.write("\nRunning MaxEnt classification.\n")
+
+		probabilities = numpy.dot(w, f)
+		predictions = self.softmax(probabilities)
+		c = self.cost(predictions, l)
+
+		class_bin = self.hard_classify(predictions)
+		accuracy = ((class_bin == l).sum().astype(float)/len(class_bin))
+		accuracies.append(accuracy)
+
+		for i in xrange(n_steps):
+			f_train.write('%d,%.9f\n' % (i, c))
+			f_val.write('%d,%.9f\n' % (i, vc))
+			f_acc.write('%d,%.9f\n' % (i, accuracy))
+
+			costs.append(c)
+
+			grad = self.gradient_reg(f, l, probabilities, w, reg_coeff)
+			w -= learn_rate * grad
+			probabilities = numpy.dot(w, f)
+			predictions = self.softmax(probabilities)
+			new_cost = self.cost(predictions, l)
+
+			old_acc = float(sum(accuracies))/len(accuracies)
+			class_bin = self.hard_classify(predictions)
+			accuracy = ((class_bin == l).sum().astype(float)/len(class_bin))
+			accuracies.append(accuracy)
+			new_acc = float(sum(accuracies))/len(accuracies)
+			acc_diff = abs(new_acc-old_acc)
+
+			if math.isnan(new_cost):
+				return 'div', 'div', 'div'
+
+			if acc_diff >= 0 and acc_diff < 0.001:
+				if astop == 5:
+					sys.stdout.write("\nAccuracy improvement no longer significant.")
+					break
+
+				else:
+					astop += 1
+			
+			else:
+				astop = 0
+
+			# stop gradient descent if new cost is not much better
+			if abs(c-new_cost) < threshold:
+				break
+
+			# lower learning rate if diverging
+			elif c-new_cost < 0:
+				w += learn_rate * grad
+				learn_rate *= 0.5
+
+			# increase learning rate if converging
+			elif c-new_cost > 0:
+				learn_rate *= 1.05
 
 			c = new_cost
-		#	gc = new_gc
-		#	vc = new_vc
 
 		sys.stdout.write('\n')
 
-#		f_train.close()
-#		f_val.close()
-#		f_gen.close()
-#		f_acc.close()
+		f_train.close()
+		f_val.close()
+		f_acc.close()
 
 		print
 
 		return w, c, learn_rate
 		
+	# used for future precision and recall calculations
+	def maxent_confusion_matrix(self, actual, predicted):
+		confusion_matrix = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
+
+		for i, a in enumerate(actual):
+			confusion_matrix[a][predicted[i]] += 1
+
+		return confusion_matrix
 	# used for future precision and recall calculations
 	def maxent_confusion_matrix(self, actual, predicted):
 		confusion_matrix = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
