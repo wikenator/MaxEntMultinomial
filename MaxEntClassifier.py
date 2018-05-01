@@ -187,7 +187,6 @@ class MaxEntClassifier(NBC):
 		costs = []
 
 		f_train = open('terr.csv', 'w')
-		f_val = open('verr.csv', 'w')
 		f_acc = open('acc.csv', 'w')
 
 		sys.stdout.write("\nRunning MaxEnt classification.\n")
@@ -202,8 +201,9 @@ class MaxEntClassifier(NBC):
 
 		for i in xrange(n_steps):
 			f_train.write('%d,%.9f\n' % (i, c))
-			f_val.write('%d,%.9f\n' % (i, vc))
 			f_acc.write('%d,%.9f\n' % (i, accuracy))
+
+			sys.stderr.write("iter: %d cost: %.9f acc: %.9f\r" % (i+1, c, accuracy))
 
 			costs.append(c)
 
@@ -252,21 +252,12 @@ class MaxEntClassifier(NBC):
 		sys.stdout.write('\n')
 
 		f_train.close()
-		f_val.close()
 		f_acc.close()
 
 		print
 
 		return w, c, learn_rate
 		
-	# used for future precision and recall calculations
-	def maxent_confusion_matrix(self, actual, predicted):
-		confusion_matrix = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
-
-		for i, a in enumerate(actual):
-			confusion_matrix[a][predicted[i]] += 1
-
-		return confusion_matrix
 	# used for future precision and recall calculations
 	def maxent_confusion_matrix(self, actual, predicted):
 		confusion_matrix = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]

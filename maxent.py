@@ -61,8 +61,6 @@ if __name__ == '__main__':
 	if args.folds > 1: pct_split = 1 - (1.0 / args.folds)
 	else: pct_split = 0.9
 
-	pct_split = 0.9
-
 	# run Naive Bayes classifier
 	if args.naive:
 		mec.iters = 5
