@@ -74,7 +74,7 @@ class NaiveClassifier:
 	# split data into training and test sets
 	def split_sets(self, pct, load_pkl):
 		if not load_pkl:
-			sys.stderr.write('Shuffling problem sets.\n')
+			sys.stdout.write('Shuffling problem sets.\n')
 
 			shuffle(self.alg_problems)
 			shuffle(self.arith_problems)
@@ -92,6 +92,10 @@ class NaiveClassifier:
 		alg_fold_end = int((self.fold+1)*(self.alg_count*(1-pct))+1)
 		arith_fold_end = int((self.fold+1)*(self.arith_count*(1-pct))+1)
 		geo_fold_end = int((self.fold+1)*(self.geo_count*(1-pct))+1)
+
+		if alg_fold_end > self.alg_count: alg_fold_end = self.alg_count
+		if arith_fold_end > self.arith_count: arith_fold_end = self.arith_count
+		if geo_fold_end > self.geo_count: geo_fold_end = self.geo_count
 		
 		if self.fold == 0:
 			alg_fold_start = 0

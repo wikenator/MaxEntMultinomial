@@ -4,8 +4,12 @@ Multinomial Logistic Regression (Maximum Entropy) Classifier for classifying mat
 ## Usage
 ```
 maxent.py [-h] [-b] [-t] [-d] [-p | -l] [-n] [-R]
-          [ [-s | --steps] STEPS] [ [-r | --learn_rate] LEARN_RATE]
-          [ [-c | --reg_coeff] REG_COEFF] [-f FOLDS]
+          [ [-s | --steps] STEPS] [-f FOLDS]
+	  [
+            [ [-r | --learn_rate] LEARN_RATE]
+	    [ [-c | --reg_coeff] REG_COEFF]
+	    | [-g | --grid_search]
+	  ]
 ```
 
 `-h, --help` shows this help message and exits the program.
@@ -29,6 +33,8 @@ maxent.py [-h] [-b] [-t] [-d] [-p | -l] [-n] [-R]
 `-r LEARN_RATE, --learn_rate LEARN_RATE` Learning rate to use during maxent learning. Default: 0.0005
 
 `-c REG_COEFF, --reg_coeff REG_COEFF` Regularization coefficient to normalize maxent gradient descent during learning. Default: 0.001
+
+`-g, --grid_search` Searches 2,025 learning rate and regulation coefficient combinations to find the best values during maxent learning. Uses the best trained values for the provided test set.
 
 `-f FOLDS, --folds FOLDS` Perform k-fold cross-validation. Larger k = less bias, more variance. Smaller k = more bias, less variance. Accuracy from each cross-validation will be averaged over all folds. Default: 1
 

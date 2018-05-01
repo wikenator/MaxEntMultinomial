@@ -25,7 +25,7 @@ class FeatureBuilder():
 
 	# add all word tokens into a set and sort tokens alphabetically
 	def get_vocabulary(self, use_bigrams, use_trigrams):
-		sys.stderr.write("Compiling vocabulary.\n")
+		sys.stdout.write("Compiling vocabulary.\n")
 
 		vocab = [w for p in self.mec.train_problems for w in self.mec.util.regex_tokenizer(p[0].lower())]
 
@@ -65,7 +65,7 @@ class FeatureBuilder():
 
 	# gather all dependency triples to be used in feature space
 	def get_dependencies(self, sets):
-		sys.stderr.write('Compiling dependencies.\n')
+		sys.stdout.write('Compiling dependencies.\n')
 
 		dep_trigrams = {}
 		dep_feats = []
@@ -181,7 +181,7 @@ class FeatureBuilder():
 
 	# abstract for get_weights
 	def get_init_weights(self, V, use_bigrams, use_trigrams, dep_parse):
-		sys.stderr.write("Initializing weights.\n")
+		sys.stdout.write("Initializing weights.\n")
 
 		# set weights with dependency parse features
 		if dep_parse:
@@ -287,7 +287,7 @@ class FeatureBuilder():
 
 	# abstract for get_features
 	def get_train_features(self, V, use_bigrams, use_trigrams, dep_parse):
-		sys.stderr.write("\nVectorizing training features.\n")
+		sys.stdout.write("\nVectorizing training features.\n")
 
 		sets = self.mec.train_problems
 
@@ -309,7 +309,7 @@ class FeatureBuilder():
 
 	# abstract for get_features
 	def get_test_features(self, V, use_bigrams, use_trigrams, dep_parse):
-		sys.stderr.write("\nVectorizing test features.\n")
+		sys.stdout.write("\nVectorizing test features.\n")
 
 		sets = self.mec.test_problems
 
