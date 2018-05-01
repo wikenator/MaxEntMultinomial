@@ -19,9 +19,8 @@ def vecs(csvf):
 
 if __name__ == '__main__':
 	x1, y1 = vecs('terr.csv')
-	x2, y2 = vecs('verr.csv')
-	x3, y3 = vecs('acc.csv')
-	plt.plot(x1, y1, 'b-', x2, y2, 'r-', x3, y3, 'g-')
-	plt.axis([0, len(x1), 0.6, 1.4])
-	plt.legend(['Training Error', 'Validation Error', 'Training Accuracy'])
+	x2, y2 = vecs('acc.csv')
+	plt.plot(x1, y1, 'b-', x2, y2, 'r-')
+	plt.axis([0, len(x1), 0.5, 1.2])
+	plt.legend(['Training Error', 'Training Accuracy'])
 	plt.savefig('err.png')
