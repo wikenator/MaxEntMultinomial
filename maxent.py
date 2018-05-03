@@ -12,15 +12,17 @@ def NB_Test(m, pkl, b, t):
 	for i in xrange(mec.iters):
 		m.split_sets(0.9, pkl)
 		m.compute_base_probs(b, t)
-		prec, recall = m.calculate_probs(b, t)
+		prec, recall, acc = m.calculate_probs(b, t)
 
 		print "Pass %d\n\tPrecision: %.4f\n\tRecall: %.4f" % (i+1, prec, recall)
 		m.avg_prec += prec
 		m.avg_recall += recall
+		m.avg_acc += acc
 
-	print "Precision: %.4f\nRecall: %.4f" % (
+	print "Precision: %.4f\nRecall: %.4f\nAccuracy: %.4f" % (
 		m.avg_prec/mec.iters, 
-		m.avg_recall/mec.iters
+		m.avg_recall/mec.iters,
+		m.avg_acc/mec.iters
 	)
 
 # print statistics for training and test data

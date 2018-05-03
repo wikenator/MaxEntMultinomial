@@ -27,6 +27,7 @@ class NaiveClassifier:
 		self.geo_count = 0.0
 		self.avg_prec = 0.0
 		self.avg_recall = 0.0
+		self.avg_acc = 0.0
 		self.alg_problems = []
 		self.arith_problems = []
 		self.geo_problems = []
@@ -323,7 +324,8 @@ class NaiveClassifier:
 		tp = cm[0][0] + cm[1][1] + cm[2][2]
 		fp = cm[0][1] + cm[2][1]
 		fn = cm[1][0] + cm[1][2]
+		tn = cm[2][0] + cm[0][2]
 
 		print "\nTP: %d, FP: %d, FN: %d" % (tp, fp, fn)
 
-		return list([float(tp)/(tp+fp), float(tp)/(tp+fn)])
+		return list([float(tp)/(tp+fp), float(tp)/(tp+fn), float(tp+tn)/(tp+tn+fp+fn)])
