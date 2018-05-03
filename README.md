@@ -30,9 +30,9 @@ maxent.py [-h] [-b] [-t] [-d] [-p | -l] [-n] [-R]
 
 `-s STEPS, --steps STEPS` Number of iterations for maxent gradient descent calculated during learning. Default: 1000
 
-`-r LEARN_RATE, --learn_rate LEARN_RATE` Learning rate to use during maxent learning. Default: 0.0005
+`-r LEARN_RATE, --learn_rate LEARN_RATE` Learning rate to use during maxent learning. Default: 0.00007
 
-`-c REG_COEFF, --reg_coeff REG_COEFF` Regularization coefficient to normalize maxent gradient descent during learning. Default: 0.001
+`-c REG_COEFF, --reg_coeff REG_COEFF` Regularization coefficient to normalize maxent gradient descent during learning. Default: 0.5
 
 `-g, --grid_search` Searches 2,025 learning rate and regulation coefficient combinations to find the best values during maxent learning. Uses the best trained values for the provided test set.
 
