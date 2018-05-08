@@ -238,7 +238,7 @@ if __name__ == '__main__':
 
 		# create confusion matrix for precision and recall calculations
 		confusion_matrix = mec.maxent_confusion_matrix(test_labels[0], class_bin_test)
-		prec, rec = mec.precision_recall(confusion_matrix)
+		prec, rec, _ = mec.precision_recall(confusion_matrix)
 		mec.precision.append(prec)
 		mec.recall.append(rec)
 
