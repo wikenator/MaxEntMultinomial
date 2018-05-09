@@ -67,6 +67,7 @@ if __name__ == '__main__':
 	if args.naive:
 		mec.iters = 5
 		NB_Test(mec, args.load_pickle, args.use_bigrams, args.use_trigrams)
+		sys.exit()
 
 	# perform k-fold cross-validation
 	for fold in range(args.folds):

@@ -9,7 +9,7 @@ Description: class containing Naive Bayes classifier functions.
 import sys, re
 import pickle, glob
 import math, numpy
-from random import shuffle
+from random import shuffle, seed
 from nltk.util import ngrams
 from Utils import Utils as Util
 
@@ -77,6 +77,7 @@ class NaiveClassifier:
 		if not load_pkl:
 			sys.stdout.write('Shuffling problem sets.\n')
 
+		#	seed(1)
 			shuffle(self.alg_problems)
 			shuffle(self.arith_problems)
 			shuffle(self.geo_problems)
@@ -217,17 +218,20 @@ class NaiveClassifier:
 	# calculate probabilities, precision, and recall for test set
 	def calculate_probs(self, use_bigrams, use_trigrams):
 		confusion_matrix = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
+		alg_prob = math.log(self.p_alg)
+		arith_prob = math.log(self.p_arith)
+		geo_prob = math.log(self.p_geo)
 
 		for p, c in self.test_problems:
 			if use_bigrams:
-				alg_prob = math.log(self.p_alg+self.p_alg_bigram)
-				arith_prob = math.log(self.p_arith+self.p_arith_bigram)
-				geo_prob = math.log(self.p_geo+self.p_geo_bigram)
+				alg_prob += math.log(self.p_alg_bigram)
+				arith_prob += math.log(self.p_arith_bigram)
+				geo_prob += math.log(self.p_geo_bigram)
 
-			else:
-				alg_prob = math.log(self.p_alg)
-				arith_prob = math.log(self.p_arith)
-				geo_prob = math.log(self.p_geo)
+			if use_trigrams:
+				alg_prob += math.log(self.p_alg_trigram)
+				arith_prob += math.log(self.p_arith_trigram)
+				geo_prob += math.log(self.p_geo_trigram)
 
 			tokens = self.util.regex_tokenizer(p.lower())
 
