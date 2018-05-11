@@ -8,13 +8,13 @@ from FeatureBuilder import FeatureBuilder as FB
 from Utils import Utils as Util
 
 # Naive Bayes classification
-def NB_Test(m, pkl, b, t):
+def NB_Test(m, s, pkl, u, b, t):
 	for i in xrange(mec.iters):
-		m.split_sets(0.9, pkl)
-		m.compute_base_probs(b, t)
-		prec, recall, acc = m.calculate_probs(b, t)
+		m.split_sets(0.9, s, pkl)
+		m.compute_base_probs(u, b, t)
+		prec, recall, acc = m.calculate_probs(u, b, t)
 
-		print "Pass %d\n\tPrecision: %.4f\n\tRecall: %.4f" % (i+1, prec, recall)
+		sys.stdout.write("Pass %d\n\tPrecision: %.4f\n\tRecall: %.4f\n" % (i+1, prec, recall))
 		m.avg_prec += prec
 		m.avg_recall += recall
 		m.avg_acc += acc
@@ -66,7 +66,7 @@ if __name__ == '__main__':
 	# run Naive Bayes classifier
 	if args.naive:
 		mec.iters = 5
-		NB_Test(mec, args.load_pickle, args.use_bigrams, args.use_trigrams)
+		NB_Test(mec, args.seed, args.load_pickle, args.use_unigrams, args.use_bigrams, args.use_trigrams)
 		sys.exit()
 
 	# perform k-fold cross-validation
@@ -74,8 +74,8 @@ if __name__ == '__main__':
 		sys.stdout.write("\nRunning fold " + str(fold+1) + "\n")
 
 		mec.fold = fold
-		mec.split_sets(pct_split, args.load_pickle)
-		mec.compute_base_probs(args.use_bigrams, args.use_trigrams)
+		mec.split_sets(pct_split, args.seed, args.load_pickle)
+		mec.compute_base_probs(args.use_unigrams, args.use_bigrams, args.use_trigrams)
 		mec.set_stats()
 
 		# load previously saved data
@@ -103,21 +103,21 @@ if __name__ == '__main__':
 			label_pkl.close()
 
 		else:
-			all_words = fb.get_vocabulary(args.use_bigrams, args.use_trigrams)
+			all_words = fb.get_vocabulary(args.use_unigrams, args.use_bigrams, args.use_trigrams)
 
 			if args.dep_parse:
 				mec.all_deps = fb.get_dependencies(fb.all_problems)
 
-			weights = fb.get_init_weights(all_words, args.use_bigrams, args.use_trigrams, args.dep_parse)
-			train_features, train_labels = fb.get_train_features(all_words, args.use_bigrams, args.use_trigrams, args.dep_parse)
+			weights = fb.get_init_weights(all_words, args.use_unigrams, args.use_bigrams, args.use_trigrams, args.dep_parse)
+			train_features, train_labels = fb.get_train_features(all_words, args.use_unigrams, args.use_bigrams, args.use_trigrams, args.dep_parse)
 
 		if args.save_pickle:
 			to_pickle = {
 				'all_words': all_words,
-#				'all_deps': all_deps,
+				'all_deps': all_deps,
 				'init_weights': weights,
-#				'train_features': train_features,
-#				'train_labels': train_labels,
+				'train_features': train_features,
+				'train_labels': train_labels,
 				'alg_problems': mec.alg_problems,
 				'arith_problems': mec.arith_problems,
 				'geo_problems': mec.geo_problems
@@ -148,14 +148,16 @@ if __name__ == '__main__':
 				.09, .08, .07, .06, .05, .04, .03, .02, .01,
 				.009, .008, .007, .006, .005, .004, .003, .002, .001,
 				9e-4, 8e-4, 7e-4, 6e-4, 5e-4, 4e-4, 3e-4, 2e-4, 1e-4,
-				9e-5, 8e-5, 7e-5, 6e-5, 5e-5, 4e-5, 3e-5, 2e-5, 1e-5
+				9e-5, 8e-5, 7e-5, 6e-5, 5e-5, 4e-5, 3e-5, 2e-5, 1e-5,
+				9e-6, 8e-6, 7e-6, 6e-6, 5e-6, 4e-6, 3e-6, 2e-6, 1e-6
 			]
 			rc = [
 				.9, .8, .7, .6, .5, .4, .3, .2, .1,
 				.09, .08, .07, .06, .05, .04, .03, .02, .01,
 				.009, .008, .007, .006, .005, .004, .003, .002, .001,
 				9e-4, 8e-4, 7e-4, 6e-4, 5e-4, 4e-4, 3e-4, 2e-4, 1e-4,
-				9e-5, 8e-5, 7e-5, 6e-5, 5e-5, 4e-5, 3e-5, 2e-5, 1e-5
+				9e-5, 8e-5, 7e-5, 6e-5, 5e-5, 4e-5, 3e-5, 2e-5, 1e-5,
+				9e-6, 8e-6, 7e-6, 6e-6, 5e-6, 4e-6, 3e-6, 2e-6, 1e-6
 			]
 			max_acc = 0.0
 			max_v_acc = 0.0
@@ -166,7 +168,7 @@ if __name__ == '__main__':
 
 			for l in lr:
 				for r in rc:
-					sys.stdout.write("Learn Rate: %.5f, Reg Coeff: %.5f\n" % (l, r))
+					sys.stdout.write("Learn Rate: %.6f, Reg Coeff: %.6f\n" % (l, r))
 
 					weights, min_cost, best_learn_rate = mec.maxent_grid_search(
 						train_features, 
@@ -202,7 +204,8 @@ if __name__ == '__main__':
 
 			weights = best_wts
 
-			print "best learn rate: %.5f, best reg coeff: %.5f" % (best_lr, best_rc)
+			# print best meta values
+			print "%.6f,%.6f" % (best_lr, best_rc)
 
 		else:
 			weights, min_cost, best_learn_rate = mec.maxent(
@@ -233,7 +236,7 @@ if __name__ == '__main__':
 #		err_report.close()
 
 		# find testing accuracy
-		test_features, test_labels = fb.get_test_features(all_words, args.use_bigrams, args.use_trigrams, args.dep_parse)
+		test_features, test_labels = fb.get_test_features(all_words, args.use_unigrams, args.use_bigrams, args.use_trigrams, args.dep_parse)
 		class_prob_test = numpy.dot(weights, test_features)
 		class_bin_test = mec.hard_classify(class_prob_test)
 

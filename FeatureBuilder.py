@@ -24,10 +24,13 @@ class FeatureBuilder():
 		self.all_problems = self.mec.alg_problems + self.mec.arith_problems + self.mec.geo_problems
 
 	# add all word tokens into a set and sort tokens alphabetically
-	def get_vocabulary(self, use_bigrams, use_trigrams):
+	def get_vocabulary(self, use_unigrams, use_bigrams, use_trigrams):
 		sys.stdout.write("Compiling vocabulary.\n")
 
-		vocab = [w for p in self.mec.train_problems for w in self.mec.util.regex_tokenizer(p[0].lower())]
+		vocab = []
+
+		if use_unigrams:
+			vocab += [w for p in self.mec.train_problems for w in self.mec.util.regex_tokenizer(p[0].lower())]
 
 		if use_bigrams:
 			vocab += [b for p in self.mec.train_problems for b in ngrams(self.mec.util.regex_tokenizer(p[0].lower()), 2)]
@@ -180,7 +183,7 @@ class FeatureBuilder():
 		return dep_feats
 
 	# abstract for get_weights
-	def get_init_weights(self, V, use_bigrams, use_trigrams, dep_parse):
+	def get_init_weights(self, V, use_unigrams, use_bigrams, use_trigrams, dep_parse):
 		sys.stdout.write("Initializing weights.\n")
 
 		# set weights with dependency parse features
@@ -192,7 +195,7 @@ class FeatureBuilder():
 			wts = self.get_weights(
 				self.mec.alg_train_set, self.mec.alg,
 				V, wts, 0, 
-				use_bigrams, use_trigrams,
+				use_unigrams, use_bigrams, use_trigrams,
 				dep_parse, D, self.mec.alg_dep
 			)
 
@@ -200,7 +203,7 @@ class FeatureBuilder():
 			wts = self.get_weights(
 				self.mec.arith_train_set, self.mec.arith,
 				V, wts, 1, 
-				use_bigrams, use_trigrams, 
+				use_unigrams, use_bigrams, use_trigrams, 
 				dep_parse, D, self.mec.arith_dep
 			)
 
@@ -208,7 +211,7 @@ class FeatureBuilder():
 			wts = self.get_weights(
 				self.mec.geo_train_set, self.mec.geo,
 				V, wts, 2, 
-				use_bigrams, use_trigrams, 
+				use_unigrams, use_bigrams, use_trigrams, 
 				dep_parse, D, self.mec.geo_dep
 			)
 
@@ -220,32 +223,33 @@ class FeatureBuilder():
 			wts = self.get_weights(
 				self.mec.alg_train_set, self.mec.alg,
 				V, wts, 0, 
-				use_bigrams, use_trigrams
+				use_unigrams, use_bigrams, use_trigrams
 			)
 
 			# process arithmetic problem set
 			wts = self.get_weights(
 				self.mec.arith_train_set, self.mec.arith,
 				V, wts, 1, 
-				use_bigrams, use_trigrams
+				use_unigrams, use_bigrams, use_trigrams
 			)
 
 			# process geometry problem set
 			wts = self.get_weights(
 				self.mec.geo_train_set, self.mec.geo,
 				V, wts, 2, 
-				use_bigrams, use_trigrams
+				use_unigrams, use_bigrams, use_trigrams
 			)
 
 		return wts
 		
 	# set initial weights to raw count probabilities
-	def get_weights(self, t_set, probs, V, wts, idx, b, t, d = False, D = None, dep_probs = None):
+	def get_weights(self, t_set, probs, V, wts, idx, u, b, t, d = False, D = None, dep_probs = None):
 		for p, c in t_set:
 			tokens = self.mec.util.regex_tokenizer(p.lower())
 
-			for w in tokens:
-				if w in V: wts[idx][V.index(w)] = probs[w]
+			if u:
+				for w in tokens:
+					if w in V: wts[idx][V.index(w)] = probs[w]
 
 			if b:
 				bigrams = ngrams(tokens, 2)
@@ -286,7 +290,7 @@ class FeatureBuilder():
 		return wts	
 
 	# abstract for get_features
-	def get_train_features(self, V, use_bigrams, use_trigrams, dep_parse):
+	def get_train_features(self, V, use_unigrams, use_bigrams, use_trigrams, dep_parse):
 		sys.stdout.write("\nVectorizing training features.\n")
 
 		sets = self.mec.train_problems
@@ -299,7 +303,7 @@ class FeatureBuilder():
 		for i, (p, c) in enumerate(sets):
 			sys.stderr.write("Getting features for item "+str(i+1)+'\r')
 
-			feats = self.get_word_features(i, feats, V, p, use_bigrams, use_trigrams)
+			feats = self.get_word_features(i, feats, V, p, use_unigrams, use_bigrams, use_trigrams)
 
 			if dep_parse: feats = self.get_dependency_features(i, feats, self.mec.all_deps, p)
 
@@ -308,7 +312,7 @@ class FeatureBuilder():
 		return feats, numpy.array(labels)
 
 	# abstract for get_features
-	def get_test_features(self, V, use_bigrams, use_trigrams, dep_parse):
+	def get_test_features(self, V, use_unigrams, use_bigrams, use_trigrams, dep_parse):
 		sys.stdout.write("\nVectorizing test features.\n")
 
 		sets = self.mec.test_problems
@@ -321,7 +325,7 @@ class FeatureBuilder():
 		for i, (p, c) in enumerate(sets):
 			sys.stderr.write("Getting features for item "+str(i+1)+'\r')
 
-			feats = self.get_word_features(i, feats, V, p, use_bigrams, use_trigrams)
+			feats = self.get_word_features(i, feats, V, p, use_unigrams, use_bigrams, use_trigrams)
 
 			if dep_parse: feats = self.get_dependency_features(i, feats, self.mec.all_deps, p)
 
@@ -330,11 +334,12 @@ class FeatureBuilder():
 		return feats, numpy.array(labels)
 
 	# convert word tokens into 0-1 features
-	def get_word_features(self, i, feats, V, p, use_bigrams, use_trigrams):
+	def get_word_features(self, i, feats, V, p, use_unigrams, use_bigrams, use_trigrams):
 		tokens = self.mec.util.regex_tokenizer(p.lower())
 
-		for w in tokens:
-			if w in V: feats[V.index(w)][i] = 1
+		if use_unigrams:
+			for w in tokens:
+				if w in V: feats[V.index(w)][i] = 1
 
 		if use_bigrams:
 			bigrams = ngrams(tokens, 2)

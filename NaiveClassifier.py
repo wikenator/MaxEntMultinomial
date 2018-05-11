@@ -73,11 +73,11 @@ class NaiveClassifier:
 						self.geo_problems.append((p, c))
 
 	# split data into training and test sets
-	def split_sets(self, pct, load_pkl):
+	def split_sets(self, pct, s, load_pkl):
 		if not load_pkl:
 			sys.stdout.write('Shuffling problem sets.\n')
 
-		#	seed(1)
+			seed(s)
 			shuffle(self.alg_problems)
 			shuffle(self.arith_problems)
 			shuffle(self.geo_problems)
@@ -135,14 +135,15 @@ class NaiveClassifier:
 		self.geo_test_set = self.geo_problems[geo_fold_start:geo_fold_end]
 
 	# compute base probabilities for vocabulary features
-	def compute_base_probs(self, use_bigrams, use_trigrams):
-		self.alg, alg_bigram_count, alg_trigram_count = self.generate_counts(self.alg_train_set, use_bigrams, use_trigrams)
-		self.arith, arith_bigram_count, arith_trigram_count = self.generate_counts(self.arith_train_set, use_bigrams, use_trigrams)
-		self.geo, geo_bigram_count, geo_trigram_count = self.generate_counts(self.geo_train_set, use_bigrams, use_trigrams)
+	def compute_base_probs(self, use_unigrams, use_bigrams, use_trigrams):
+		self.alg, alg_bigram_count, alg_trigram_count = self.generate_counts(self.alg_train_set, use_unigrams, use_bigrams, use_trigrams)
+		self.arith, arith_bigram_count, arith_trigram_count = self.generate_counts(self.arith_train_set, use_unigrams, use_bigrams, use_trigrams)
+		self.geo, geo_bigram_count, geo_trigram_count = self.generate_counts(self.geo_train_set, use_unigrams, use_bigrams, use_trigrams)
 
-		self.p_alg = float(self.alg_train_count)/(self.alg_train_count+self.arith_train_count+self.geo_train_count)
-		self.p_arith = float(self.arith_train_count)/(self.alg_train_count+self.arith_train_count+self.geo_train_count)
-		self.p_geo = float(self.geo_train_count)/(self.alg_train_count+self.arith_train_count+self.geo_train_count)
+		if use_unigrams:
+			self.p_alg = float(self.alg_train_count)/(self.alg_train_count+self.arith_train_count+self.geo_train_count)
+			self.p_arith = float(self.arith_train_count)/(self.alg_train_count+self.arith_train_count+self.geo_train_count)
+			self.p_geo = float(self.geo_train_count)/(self.alg_train_count+self.arith_train_count+self.geo_train_count)
 
 		if use_bigrams:
 			self.p_alg_bigram = float(alg_bigram_count)/(alg_bigram_count+arith_bigram_count+geo_bigram_count)
@@ -163,7 +164,7 @@ class NaiveClassifier:
 		for w in self.geo: self.geo[w] /= total_geo
 
 	# count all tokens in a given training set
-	def generate_counts(self, t_set, b, t):
+	def generate_counts(self, t_set, u, b, t):
 		counts = {}
 		b_count = 0
 		t_count = 0
@@ -171,10 +172,11 @@ class NaiveClassifier:
 		for p, c in t_set:
 			tokens = self.util.regex_tokenizer(p.lower())
 
-			for w in tokens:
-				if w not in counts: counts[w] = 1
+			if u:
+				for w in tokens:
+					if w not in counts: counts[w] = 1
 
-				counts[w] += 1
+					counts[w] += 1
 
 			if b:
 				bigrams = ngrams(tokens, 2)
@@ -196,7 +198,7 @@ class NaiveClassifier:
 
 					counts[t] += 1
 
-		counts['<UNK>'] = 1.0
+		if u: counts['<UNK>'] = 1.0
 		if b: counts[('<UNK>', '<UNK>')] = 1.0
 		if t: counts[('<UNK>', '<UNK>', '<UNK>')] = 1.0
 
@@ -216,11 +218,16 @@ class NaiveClassifier:
 		)
 
 	# calculate probabilities, precision, and recall for test set
-	def calculate_probs(self, use_bigrams, use_trigrams):
+	def calculate_probs(self, use_unigrams, use_bigrams, use_trigrams):
 		confusion_matrix = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
-		alg_prob = math.log(self.p_alg)
-		arith_prob = math.log(self.p_arith)
-		geo_prob = math.log(self.p_geo)
+		alg_prob = 0.0
+		arith_prob = 0.0
+		geo_prob = 0.0
+
+		if use_unigrams:
+			alg_prob = math.log(self.p_alg)
+			arith_prob = math.log(self.p_arith)
+			geo_prob = math.log(self.p_geo)
 
 		for p, c in self.test_problems:
 			if use_bigrams:
@@ -235,15 +242,16 @@ class NaiveClassifier:
 
 			tokens = self.util.regex_tokenizer(p.lower())
 
-			for w in tokens:
-				if w in self.alg: alg_prob += math.log(self.alg[w])
-				else: alg_prob += math.log(self.alg['<UNK>'])
+			if use_unigrams:
+				for w in tokens:
+					if w in self.alg: alg_prob += math.log(self.alg[w])
+					else: alg_prob += math.log(self.alg['<UNK>'])
 
-				if w in self.arith: arith_prob += math.log(self.arith[w])
-				else: arith_prob += math.log(self.arith['<UNK>'])
+					if w in self.arith: arith_prob += math.log(self.arith[w])
+					else: arith_prob += math.log(self.arith['<UNK>'])
 
-				if w in self.geo: geo_prob += math.log(self.geo[w])
-				else: geo_prob += math.log(self.geo['<UNK>'])
+					if w in self.geo: geo_prob += math.log(self.geo[w])
+					else: geo_prob += math.log(self.geo['<UNK>'])
 
 			if use_bigrams:
 				bigrams = ngrams(tokens, 2)

@@ -32,6 +32,7 @@ class Utils():
 	# parse command line arguments
 	def cmdline_argparse(self):
 		cmd_line_parser = argparse.ArgumentParser(description='Train MaxEnt classifier to classify math word problems.')
+		cmd_line_parser.add_argument('-u', '--use_unigrams', action='store_true', help='Add unigram features to maxent learning.')
 		cmd_line_parser.add_argument('-b', '--use_bigrams', action='store_true', help='Add bigram features to maxent learning.')
 		cmd_line_parser.add_argument('-t', '--use_trigrams', action='store_true', help='Add trigram features to maxent learning.')
 		cmd_line_parser.add_argument('-d', '--dep_parse', action='store_true', help='Add dependency parsing features to maxent learning.')
@@ -46,6 +47,7 @@ class Utils():
 		cmd_line_parser.add_argument('-c', '--reg_coeff', nargs=1, default=0.5, help='Regularization coefficient to normalize maxent gradient descent during learning. Default: %(default)s')
 		cmd_line_parser.add_argument('-g', '--grid_search', action='store_true', help='Searches 2,025 learning rate and regulation coefficient combinations to find the best values during maxent learning. Uses the best trained values for the provided test set.')
 		cmd_line_parser.add_argument('-f', '--folds', nargs=1, default=1, help='Perform k-fold cross-validation. Larger k = less bias, more variance. Smaller k = more bias, less variance. Accuracy from each cross-validation will be averaged over all folds. Default: %(default)s')
+		cmd_line_parser.add_argument('--seed', nargs=1, default=1, help='Set seed for random data shuffle. Use same seed when saving and loading pickle files. Default: %(default)s')
 		args = cmd_line_parser.parse_args()
 
 		if type(args.steps) == list: args.steps = int(args.steps[0])
@@ -59,6 +61,11 @@ class Utils():
 
 		if type(args.folds) == list: args.folds = int(args.folds[0])
 		else: args.folds = int(args.folds)
+
+		if type(args.seed) == list: args.seed = int(args.seed[0])
+		else: args.seed = int(args.seed)
+
+		if not(args.use_unigrams or args.use_bigrams or args.use_trigrams or args.dep_parse): args.use_unigrams = True
 
 		sys.stdout.write("MaxEnt parameters:\n")
 		print('\t' + str(args) + '\n')

@@ -172,7 +172,6 @@ class MaxEntClassifier(NBC):
 			c = new_cost
 
 		sys.stdout.write('\n')
-		print
 
 		return w, c, learn_rate
 		
@@ -186,8 +185,8 @@ class MaxEntClassifier(NBC):
 		accuracies = []
 		costs = []
 
-		f_train = open('terr.csv', 'w')
-		f_acc = open('acc.csv', 'w')
+		#f_train = open('terr.csv', 'w')
+		#f_acc = open('acc.csv', 'w')
 
 		sys.stdout.write("\nRunning MaxEnt classification.\n")
 
@@ -200,8 +199,8 @@ class MaxEntClassifier(NBC):
 		accuracies.append(accuracy)
 
 		for i in xrange(n_steps):
-			f_train.write('%d,%.9f\n' % (i, c))
-			f_acc.write('%d,%.9f\n' % (i, accuracy))
+			#f_train.write('%d,%.9f\n' % (i, c))
+			#f_acc.write('%d,%.9f\n' % (i, accuracy))
 
 			sys.stderr.write("iter: %d cost: %.9f acc: %.9f\r" % (i+1, c, accuracy))
 
@@ -251,10 +250,8 @@ class MaxEntClassifier(NBC):
 
 		sys.stdout.write('\n')
 
-		f_train.close()
-		f_acc.close()
-
-		print
+		#f_train.close()
+		#f_acc.close()
 
 		return w, c, learn_rate
 		
