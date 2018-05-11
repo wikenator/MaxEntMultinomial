@@ -4,6 +4,8 @@ import os, sys, re, glob
 import numpy
 import nltk
 import spacy
+
+sys.path.append('../classes')
 from Utils import Utils as Util
 
 vocab = {}
@@ -15,7 +17,7 @@ arith_count = 0
 geo_count = 0
 ques_count = 0
 u = Util()
-files = glob.glob('./processed/*.txt')
+files = glob.glob('../processed/*.txt')
 files.sort()
 
 nlp = spacy.load('en_core_web_lg', disable=['vectors', 'ner'])

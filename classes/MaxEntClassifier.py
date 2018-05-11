@@ -185,8 +185,8 @@ class MaxEntClassifier(NBC):
 		accuracies = []
 		costs = []
 
-		#f_train = open('terr.csv', 'w')
-		#f_acc = open('acc.csv', 'w')
+		#f_train = open('./reports/terr.csv', 'w')
+		#f_acc = open('./reports/acc.csv', 'w')
 
 		sys.stdout.write("\nRunning MaxEnt classification.\n")
 

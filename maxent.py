@@ -3,6 +3,8 @@
 import os, sys, pickle
 import numpy
 from copy import deepcopy
+
+sys.path.append('./classes')
 from MaxEntClassifier import MaxEntClassifier as MEC
 from FeatureBuilder import FeatureBuilder as FB
 from Utils import Utils as Util
@@ -226,7 +228,7 @@ if __name__ == '__main__':
 
 		mec.train_acc.append(((class_bin_train == train_labels[0]).sum().astype(float)/len(class_bin_train)))
 
-#		err_report = open('train_misclassify.txt', 'a')
+#		err_report = open('./reports/train_misclassify.txt', 'a')
 #		err_report.write('FOLD ' + str(fold) + '\n')
 
 #		for i, l in enumerate(train_labels[0]):
@@ -248,7 +250,7 @@ if __name__ == '__main__':
 
 		mec.test_acc.append(((class_bin_test == test_labels[0]).sum().astype(float)/len(class_bin_test)))
 
-#		err_report = open('test_misclassify.txt', 'a')
+#		err_report = open('./reports/test_misclassify.txt', 'a')
 #		err_report.write('FOLD ' + str(fold) + '\n')
 
 #		for i, l in enumerate(test_labels[0]):
