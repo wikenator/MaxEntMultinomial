@@ -3,8 +3,8 @@ Multinomial Logistic Regression (Maximum Entropy) Classifier for classifying mat
 
 ## Usage
 ```
-maxent.py [-h] [-b] [-t] [-d] [-p | -l] [-n] [-R]
-          [ [-s | --steps] STEPS] [-f FOLDS]
+maxent.py [-h] [-u] [-b] [-t] [-d] [-p | -l] [-n] [-R]
+          [ [-s | --steps] STEPS] [-f FOLDS] [--seed SEED]
 	  [
             [ [-r | --learn_rate] LEARN_RATE]
 	    [ [-c | --reg_coeff] REG_COEFF]
@@ -13,6 +13,8 @@ maxent.py [-h] [-b] [-t] [-d] [-p | -l] [-n] [-R]
 ```
 
 `-h, --help` shows this help message and exits the program.
+
+`-u, --use_unigrams` adds unigram features during maxent classifier training.
 
 `-b, --use_bigrams` adds bigram features during maxent classifier training.
 
@@ -38,48 +40,54 @@ maxent.py [-h] [-b] [-t] [-d] [-p | -l] [-n] [-R]
 
 `-f FOLDS, --folds FOLDS` Perform k-fold cross-validation. Larger k = less bias, more variance. Smaller k = more bias, less variance. Accuracy from each cross-validation will be averaged over all folds. Default: 1
 
+`--seed SEED` Set seed for random data shuffle. Use the same seed when saving and then subsequently loading pickle files. Default: 1
+
 ## Example Commands
 
 MaxEnt iterations, learning rate, and regularization coefficient can be modified in any maxent command.
 
-### Run MaxEnt with no options
-- unigram only
+### Run MaxEnt with unigrams
 - use `-p` switch to save probabilities and weights to pickle files, otherwise defaults to standard output
-- defaults to one fold using 80/20 train/test set split
+- defaults to one fold using 90/10 train/test set split
 
 `./maxent.py [-p]`
 
-### Incorporate bigrams 
-- uses unigrams and bigrams
-- defaults to one fold using 80/20 train/test set split
+### Run MaxEnt with bigrams 
+- defaults to one fold using 90/10 train/test set split
 
 `./maxent.py -b`
 
-### Incorporate dependency parse 
-- use `-b` switch to use bigrams, otherwise defaults to unigram only
+### Run MaxEnt with dependency parse 
+- use `-u` switch to use unigrams or `-b` switch to use bigrams
 - defaults to one fold using 80/20 train/test set split
 
-`./maxent.py [-b] -d`
+`./maxent.py [-u] [-b] -d`
 
 ### Perform k-fold cross-validation
-- use `-b` switch for bigram, otherwise defaults to unigram only
+- use `-u` switch for unigrams
+- use `-b` switch for bigrams
 - use `-d` switch for dependency parse
+- use `--seed` switch to choose seed value for random training data
 - train/test split is calculated as `(set size)/(# of folds)`
 - below example calculates 10-fold cross-validation:
 
-`./maxent.py [-b] [-d] -f 10`
+`./maxent.py [-u] [-b] [-d] [--seed #] -f 10`
 
 ### Read previously saved data
+- use `-u` switch to use previously saved unigram data
 - use `-b` switch to use previously saved bigram data
 - use `-d` switch to use previously saved dependency parse data
 - will retrain weights during MaxEnt classification
 - if k-fold cross-validation was used to save data, use `-f #` switch again
+- if a unique seed was used during data save, use `--seed #` switch with same seed again
 
-`./maxent.py [-b] [-d] -l [-f #]`
+`./maxent.py [-u] [-b] [-d] -l [--seed #] [-f #]`
 
 ### Read previously saved data and MaxEnt weights
+- use `-u` switch to use previously saved unigram data
 - use `-b` switch to use previously saved bigram data
 - use `-d` switch to use previously saved dependency parse data
 - if k-fold cross-validation was used to save data, use `-f #` switch again
+- if a unique seed was used during data save, use `--seed #` switch with same seed again
 
-`./maxent.py [-b] [-d] -l -R [-f #]`
+`./maxent.py [-u] [-b] [-d] -l -R [--seed #] [-f #]`
