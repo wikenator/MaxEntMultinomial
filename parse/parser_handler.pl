@@ -6,13 +6,12 @@
 
 use Cwd qw(cwd);
 use lib ('/home/arnold/git_repos/detexify');
-#use lib ('/home/hemath/secure_html/test_math/res/site/pl/detexify');
 
 use strict;
 use warnings;
 use Switch;
 use IPC::Open2;
-use PerlAPI qw(detex);
+use PerlAPI qw(detex abstract);
 #use PerlAPIold qw(verify expand_expr);
 
 my %probInfo;
@@ -36,6 +35,11 @@ switch ($probInfo{'parser'}) {
 		my @meta = split('@#@', $probInfo{'problem'});
 		$probInfo{'problem'} = $meta[0];
 		$probInfo{'problem'} = &detex($probInfo{'problem'}, $meta[1]);
+	}
+	case 'abstract' {
+		my @meta = split('@#@', $probInfo{'problem'});
+		$probInfo{'problem'} = $meta[0];
+		$probInfo{'problem'} = &abstract($probInfo{'problem'}, $meta[1]);
 	}
 	case 'expand_expr' { $probInfo{'problem'} = &expand_expr($probInfo{'problem'}); }
 #	case 'verify' {
